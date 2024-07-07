@@ -1,0 +1,91 @@
+{
+  "flex-layout.col#footer__links-selos": {
+    "children": [
+      "rich-text#footer__titulo--selo",
+      "flex-layout.row#footer__links-selos--row-01",
+      "rich-text#footer__titulo--selo",
+      "flex-layout.row#footer__links-selos--row-02"
+    ],
+    "props": {
+      "blockClass": "footer__column--images"
+    }
+  },
+  "flex-layout.row#footer__links-selos--row-01": {
+    "props": {
+      "colGap":6,
+      "horizontalAlign":"left",
+      "marginBottom":9,
+      "blockClass": "footer__links-selos--row",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#social-01",
+      "image#social-02",
+      "image#social-03",
+      "image#social-04"
+    ]
+  },
+  "flex-layout.row#footer__links-selos--row-02": {
+    "props": {
+      "colGap":5,
+      "blockClass": "footer__links-selos--row",
+      "colSizing": "auto"
+    },
+    "children": ["image#selo-01","image#selo-02","image#selo-03"]
+  },
+  "rich-text#footer__titulo--selo": {
+    "props": {
+      "text": "NOSSAS REDES SOCIAIS",
+      "blockClass": "footer__column--title"
+    }
+  },
+  "image#social-01": {
+    "title": "icone de rede social",
+    "props": {
+      "src": "assets/icons/footer/icon-facebook.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#social-02": {
+    "title": "icone de rede social",
+    "props": {
+      "src": "assets/icons/footer/icon-instagram.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#social-03": {
+    "title": "icone de rede social",
+    "props": {
+      "src": "assets/icons/footer/icon-youtube.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#social-04": {
+    "title": "icone de rede social",
+    "props": {
+      "src": "assets/icons/footer/icon-tiktok.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-01": {
+    "props": {
+      "maxWidth":"50px",
+      "src": "assets/icons/footer/encrypt.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-02": {
+    "props": {
+      "maxWidth":"70px",
+      "src": "assets/images/footer/vtex.png",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-03": {
+    "props": {
+      "maxWidth":"145px",
+      "src": "assets/images/footer/cleasale.png",
+      "blockClass": "selo"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "header.full": {
+    "title": "HEADER",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "title": "Desktop",
+    "children": [
+      "slider-layout#header__tipbar",
+      "sticky-layout#header__content",
+      "flex-layout.row#category-menu"
+    ]
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "slider-layout#header__tipbar",
+      "sticky-layout#header__content-mobile",
+      "search-bar#header__search"
+    ]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

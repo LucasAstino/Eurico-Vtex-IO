@@ -1,0 +1,263 @@
+{
+  "flex-layout.row#category-menu": {
+    "title": "Menu - principal",
+    "props": {
+      "blockClass": "menu__category"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass":"main__menu"
+    },
+    "children": [
+      "menu-item#category-feminino",
+      "menu-item#category-masculino",
+      "menu-item#category-acessorios",
+      "menu-item#category-outlet"
+      // "menu-item#more"
+    ],
+    "title": "menu categorias"
+  },
+  "menu-item#category-feminino": {
+    "props": {
+      "blockClass":"menu__item",
+      "id": "menu-item-category-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "feminino",
+        "text": "feminino"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-feminino"]
+  },
+  "vtex.menu@2.x:submenu#category-feminino": {
+    "props": {
+      "width": "100%",
+      "blockClass": "submenu__container"
+    },
+    "children": ["flex-layout.row#submenu__container"]
+  },
+  "vtex.menu@2.x:menu#category-feminino": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "wrapper"
+    },
+    "children": []
+  },
+  "menu-item#category-masculino": {
+    "props": {
+      "blockClass":"menu__item",
+      "id": "menu-item-category-masculino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "masculino",
+        "text": "masculino"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-masculino"]
+  },
+  "vtex.menu@2.x:submenu#category-masculino": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#submenu__container"]
+  },
+  "vtex.menu@2.x:menu#category-masculino": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+  "menu-item#category-acessorios": {
+    "props": {
+      "blockClass":"menu__item",
+      "id": "menu-item-category-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "acessórios",
+        "text": "acessórios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-acessorios"]
+  },
+  "vtex.menu@2.x:submenu#category-acessorios": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#submenu__container"]
+  },
+  "vtex.menu@2.x:menu#category-acessorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+    ]
+  },
+  "flex-layout.row#submenu__container": {
+    "props": {
+      "blockClass": "submenu__container",
+      "horizontalAlign": "between",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#submenu__container-left",
+      "flex-layout.row#submenu__container-right"
+    ]
+  },
+  "flex-layout.row#submenu__container-left": {
+    "props": {
+      "horizontalAlign": "between",
+      "blockClass": "submenu__container-left",
+      "colGap":"30px"
+    },
+    "children": [
+      "flex-layout.col#submenu__container--item-01",
+      "flex-layout.col#submenu__container--item-02",
+      "flex-layout.col#submenu__container--item-03"
+    ]
+  },
+  "flex-layout.row#submenu__container-right": {
+    "props": {
+      "blockClass": "submenu__container-right"
+    },
+    "children": ["flex-layout.col#submenu__container--item-04"]
+  },
+  "flex-layout.col#submenu__container--item-01": {
+    "props":{
+      "width":"25%"
+    },
+    "children": [
+      "rich-text#submenu__title",
+      "vtex.menu@2.x:menu#category-feminino",
+      "rich-text#seeMore"
+    ]
+  },
+  "flex-layout.col#submenu__container--item-02": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width":"25%"
+    },
+    "children": [
+      "rich-text#submenu__title",
+      "vtex.menu@2.x:menu#category-feminino"
+    ]
+  },
+  "flex-layout.col#submenu__container--item-03": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width":"25%"
+    },
+    "children": ["rich-text#submenu__title", "flex-layout.row#submenu__forSize"]
+  },
+  "flex-layout.col#submenu__container--item-04": {
+    "children": ["image#category__menu"]
+  },
+  "image#category__menu": {
+    "props": {
+      "blockClass": "banner-categoria",
+      "src": "assets/images/banner_menu_fem.webp",
+      "maxHeight": "",
+      "maxWidth": "",
+      "link": {
+        "url": "/",
+        "attributeTitle": "",
+        "newTab": true
+      }
+    }
+  },
+  "rich-text#seeMore": {
+    "title": "ver todos",
+    "props": {
+      "text": "ver mais",
+      "blockClass": "seeMore"
+    }
+  },
+  "flex-layout.row#submenu__forSize": {
+    "props": {
+      "blockClass": "submenu__forSize",
+      "fullWidth":true
+    },
+    "children": [
+      "rich-text#submenu__forSize--item-1",
+      "rich-text#submenu__forSize--item-2",
+      "rich-text#submenu__forSize--item-3",
+      "rich-text#submenu__forSize--item-4",
+      "rich-text#submenu__forSize--item-5"
+    ]
+  },
+  "rich-text#submenu__forSize--item-1": {
+    "title": "Medidas do submenu",
+    "props": {
+      "text": "40",
+      "blockClass": "submenu__forSize--item"
+    }
+  },
+  "rich-text#submenu__forSize--item-2": {
+    "title": "Medidas do submenu",
+    "props": {
+      "text": "41",
+      "blockClass": "submenu__forSize--item"
+    }
+  },
+  "rich-text#submenu__forSize--item-3": {
+    "title": "Medidas do submenu",
+    "props": {
+      "text": "42",
+      "blockClass": "submenu__forSize--item"
+    }
+  },
+  "rich-text#submenu__forSize--item-4": {
+    "title": "Medidas do submenu",
+    "props": {
+      "text": "43",
+      "blockClass": "submenu__forSize--item"
+    }
+  },
+  "rich-text#submenu__forSize--item-5": {
+    "title": "Medidas do submenu",
+    "props": {
+      "text": "44",
+      "blockClass": "submenu__forSize--item"
+    }
+  },
+  "rich-text#submenu__title": {
+    "title": "Titulo - submenu",
+    "props": {
+      "text": "Categorias",
+      "blockClass": "submenu__title"
+    }
+  },
+  "menu-item#category-outlet": {
+    "props": {
+      "blockClass":"menu__item",
+      "id": "menu-item-category-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    }
+  }
+}

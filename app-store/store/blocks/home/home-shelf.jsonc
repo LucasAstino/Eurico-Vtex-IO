@@ -1,0 +1,101 @@
+{
+  "flex-layout.row#home__shelf": {
+    "children": ["tab-layout#home__shelf-tab"]
+  },
+  "rich-text#home__shelf-title": {
+    "title":"Titulo vitrine home",
+    "props": {
+      "text": "## DESTAQUES DA COLEÇÃO",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf__feminine": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home__shelf"],
+    "props": {
+      "blockClass":"shelf__feminine",
+      "category":"26",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#shelf__masculine": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home__shelf"],
+    "props": {
+      "category":"25",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#home__shelf": {
+    "props": {
+      "showPaginationDots":"never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": ["shelf","carrossel"]
+      }
+  },
+  "tab-layout#home__shelf-tab": {
+    "children": [
+      "tab-list#home__shelf-tab--list",
+      "tab-content#home__shelf-tab--content"
+    ],
+    "props": {
+      "blockClass": "home__shelf-tab",
+      "defaultActiveTabId": "feminine"
+    }
+  },
+  "tab-list#home__shelf-tab--list": {
+    "props":{
+      "blockClass":"home__shelf-tab--list"
+    },
+    "children": [
+      "tab-list.item#home__shelf-tab--list-feminine",
+      "tab-list.item#home__shelf-tab--list-masculine"
+    ]
+  },
+  "tab-list.item#home__shelf-tab--list-feminine": {
+    "title":"categoria da primeira vitrine",
+    "props": {
+      "blockClass":"home__shelf-tab--list-feminine",
+      "tabId": "feminine",
+      "label": "Feminino",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home__shelf-tab--list-masculine": {
+    "title":"categoria da segunda vitrine",
+    "props": {
+      "blockClass":"home__shelf-tab--list-masculine",
+
+      "tabId": "masculine",
+      "label": "Masculino"
+    }
+  },
+  "tab-content#home__shelf-tab--content": {
+    "children": [
+      "tab-content.item#home__shelf-tab--content-feminine",
+      "tab-content.item#home__shelf-tab--content-masculine"
+    ]
+  },
+  "tab-content.item#home__shelf-tab--content-feminine": {
+    "children": [
+      "list-context.product-list#shelf__feminine"
+    ],
+    "props": {
+      "tabId": "feminine"
+    }
+  },
+  "tab-content.item#home__shelf-tab--content-masculine": {
+    "children": [
+      "list-context.product-list#shelf__masculine"
+    ],
+    "props": {
+      "tabId": "masculine"
+    }
+  }
+}

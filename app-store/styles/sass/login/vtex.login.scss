@@ -1,0 +1,15 @@
+.container{
+  :global(.vtex-button){
+    padding: 0;
+        margin: 0;
+        width: 19px;
+        height: 25px;
+        background: url(assets/icons/login.svg) no-repeat;
+        background-size: contain;
+        min-height: unset;
+        border: 0;
+    :nth-child(n+1) {
+      display: none;
+  }
+  }
+}

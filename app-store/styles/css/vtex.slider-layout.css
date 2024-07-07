@@ -1,0 +1,125 @@
+@media (min-width: 768px) {
+  .slideChildrenContainer--header__tipbar {
+    width: fit-content;
+  }
+}
+.slideChildrenContainer--shelf {
+  padding-top: 90px;
+}
+
+@media (min-width: 1025px) {
+  .slide--header__tipbar:nth-child(n+5) {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .slide--header__tipbar {
+    width: fit-content !important;
+    width: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .sliderTrack--header__tipbar {
+    transform: unset !important;
+  }
+}
+@media (min-width: 768px) {
+  .sliderTrack--header__tipbar {
+    max-width: 945px;
+    margin: auto;
+  }
+}
+
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carrossel {
+  background-color: transparent;
+  min-height: 450px;
+}
+@media (max-width: 768px) {
+  .sliderLayoutContainer--carrossel {
+    max-height: 450px;
+  }
+}
+.sliderLayoutContainer--carrossel .sliderArrows .caretIcon {
+  display: none;
+}
+.sliderLayoutContainer--carrossel .sliderArrows::after {
+  content: "";
+  width: 40px;
+  height: 50px;
+  background: url(/arquivos/slick--arrow-right.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  filter: invert(1);
+}
+.sliderLayoutContainer--carrossel .sliderLeftArrow::after {
+  rotate: 180deg;
+}
+.sliderLayoutContainer--header__tipbar {
+  -webkit-box-shadow: 5px 5px 5px #f7f7f7;
+  box-shadow: 5px 5px 5px #f7f7f7;
+  margin-bottom: 10px;
+  height: 50px;
+}
+@media (min-width: 768px) {
+  .sliderLayoutContainer--header__tipbar {
+    height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .sliderLayoutContainer--shelf {
+    min-height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .sliderLayoutContainer--shelf .sliderArrows {
+    top: 20%;
+  }
+}
+.sliderLayoutContainer--shelf .sliderArrows::after {
+  filter: invert(0);
+}
+@media (max-width: 768px) {
+  .sliderLayoutContainer--shelf .sliderArrows::after {
+    scale: 0.6;
+  }
+}
+
+.paginationDotsContainer {
+  bottom: 25px;
+  margin: 0;
+}
+.paginationDotsContainer .paginationDot--carousel {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  font-size: 0;
+  width: 12px !important;
+  height: 12px !important;
+  background: transparent;
+  margin: 0 5px;
+}
+.paginationDotsContainer .paginationDot--carousel--isActive {
+  background-color: #fff;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  min-height: 550px;
+}
+@media (max-width: 768px) {
+  .slide--shelf {
+    min-height: auto;
+  }
+}

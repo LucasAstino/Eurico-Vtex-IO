@@ -1,0 +1,33 @@
+{
+  "minicart.v2": {
+    "title": "Minicart",
+    "props": {
+      "customPixelEventId": "add-to-cart-button",
+      "blockClass":"minicart"
+    },
+    "children": ["minicart-base-content"]
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
+    }
+  },
+
+  "minicart-base-content":{
+   "blocks": ["minicart-empty-state"],
+    "children":["flex-layout.row#minicart"]
+  },
+
+  "flex-layout.row#minicart":{
+  "children":["image#cart"]
+  },
+
+  "image#cart":{
+    "props":{
+      "src":"assest/icons/cart.svg"
+    }
+  }
+
+}

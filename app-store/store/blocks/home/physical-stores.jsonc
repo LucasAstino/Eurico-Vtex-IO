@@ -1,0 +1,71 @@
+{
+   "flex-layout.row#physical__stories": {
+    "props":{
+      "blockClass":"physical__stories",
+      "horizontalAlign":"CENTER"
+    },
+    "children":["flex-layout.col#physical__stories-one","flex-layout.col#physical__stories-two"]
+
+},
+"rich-text#physical__stories-title":{
+"title":"Titulo das lojas fisicas",
+    "props": {
+      "textPosition":"CENTER",
+      "text": "### NOSSAS LOJAS FÍSICAS",
+      "blockClass": "physical__stories-title"
+    }
+},
+"flex-layout.col#physical__stories-one":{
+  "props":{
+
+  },
+  "children":["flex-layout.row#physical__stories-row"]
+
+},
+"flex-layout.col#physical__stories-two":{
+  "props":{
+
+  },
+  "children":["flex-layout.row#physical__stories-row"]
+
+},
+"flex-layout.col#physical__stories-col":{
+  "props":{
+    "blockClass":"physical__stories-col",
+    "paddingLeft":"8",
+    "preventVerticalStretch":true,
+    "verticalAlign":"middle"
+  },
+  "children":["rich-text#physical__stories-store--name","rich-text#physical__stories-address"]
+
+},
+"flex-layout.row#physical__stories-row":{
+  "props":{
+    "blockClass":"physical__stories-row"
+  },
+  "children":["image#physical__stories-img","flex-layout.col#physical__stories-col"]
+
+},
+"image#physical__stories-img":{
+  "props": {
+    "src": "assets/images/img_loja.webp",
+    "blockClass": "physical__stories-img"
+  }
+},
+"rich-text#physical__stories-store--name":{
+"title":"Titulo das lojas fisicas",
+    "props": {
+      "textAlignment":"LEFT",
+      "text": "### LOJA **EURICO**",
+      "blockClass": "store__title"
+    }
+},
+"rich-text#physical__stories-address":{
+"title":"Titulo das lojas fisicas",
+    "props": {
+      "textAlignment":"LEFT",
+      "text": "Av. Jandira, 49 \n Moema - São Paulo/SP\nCEP: 04080-000\nFone:(11) 5054-8877\nEstacionamento conveniado",
+      "blockClass": "store__address"
+    }
+}
+ }

@@ -1,0 +1,98 @@
+{
+  "flex-layout.row#secund-area-banners--responsive": {
+    "title": "Segunda area de banners",
+    "props": {
+    },
+    "children": [
+      "flex-layout.col#secund-area-banners--responsive"
+    ]
+  },
+  "flex-layout.col#secund-area-banners--responsive": {
+    "props": {
+    },
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children":["flex-layout.row#secund-area-banners"]
+  },
+  "responsive-layout.phone": {
+    "children":["flex-layout.row#secund-area-banners--mobile"]
+  },
+  "flex-layout.row#secund-area-banners": {
+    "title": "Segunda area de banners desktop",
+    "props": {
+      "blockClass": "secund__area-banners",
+      "horizontalAlign": "between"
+    },
+    "children": [
+      "flex-layout.col#secund-area-banners-col-1",
+      "flex-layout.col#secund-area-banners-col-2"
+    ]
+  },
+  "flex-layout.row#secund-area-banners--mobile": {
+    "title": "Segunda area de banners mobile",
+    "props": {
+      "blockClass": "secund__area-banners",
+      "horizontalAlign": "between"
+    },
+    "children": [
+      "flex-layout.col#secund-area-banners-col-1",
+      "flex-layout.col#secund-area-banners-col-2"
+    ]
+  },
+  "flex-layout.col#secund-area-banners-col-1": {
+    "props": {
+      "width": "49%",
+      "blockClass": "col-left"
+    },
+    "children": [
+      "image#secund-area-banners-banner-1",
+      "image#secund-area-banners-banner-2"
+    ]
+  },
+  "flex-layout.col#secund-area-banners-col-2": {
+    "props": {
+      "width": "49%",
+      "blockClass": "col-right"
+    },
+    "children": [
+      "image#secund-area-banners-banner-3",
+      "image#secund-area-banners-banner-4"
+    ]
+  },
+
+  "image#secund-area-banners-banner-1": {
+    "props": {
+      "src": "assets/images/baixodesk-1.webp",
+      "maxHeight": "",
+      "blockClass": "secund__area-banners--img"
+    }
+  },
+
+  "image#secund-area-banners-banner-2": {
+    "props": {
+      "src": "assets/images/baixodesk-2.webp",
+      "maxHeight": "",
+      "blockClass": "secund__area-banners--img"
+    }
+  },
+
+  "image#secund-area-banners-banner-3": {
+    "props": {
+      "src": "assets/images/baixodesk-3.webp",
+      "maxHeight": "",
+      "blockClass": "secund__area-banners--img"
+    }
+  },
+
+  "image#secund-area-banners-banner-4": {
+    "props": {
+      "src": "assets/images/baixodesk-4.webp",
+      "maxHeight": "",
+      "blockClass": "secund__area-banners--img"
+    }
+  }
+}

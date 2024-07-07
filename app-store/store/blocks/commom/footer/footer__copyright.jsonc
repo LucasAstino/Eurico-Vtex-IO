@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#footer__copyright": {
+    "props": {
+      "blockClass": "footer__copyright",
+      "colSizing": "auto",
+      "fullWidth": false,
+      "horizontalAlign": "between"
+    },
+    "children": ["flex-layout.col#footer__copyright-left","flex-layout.col#footer__copyright-right"]
+  },
+  "flex-layout.col#footer__copyright-left": {
+    "props": {
+      "blockClass": "",
+      "colSizing": "auto",
+      "fullWidth": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false
+    },
+    "children": ["rich-text#footer__copyright-text"]
+  },
+  "flex-layout.col#footer__copyright-right": {
+    "props": {
+      "blockClass": "",
+      "colSizing": "auto",
+      "fullWidth": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false
+    },
+    "children": ["flex-layout.row#footer__copyright-right--row"]
+  },
+  "flex-layout.row#footer__copyright-right--row": {
+    "props": {
+      "colGap":6,
+      "blockClass": "footer__copyright-right--row",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#footer__copyright-img-01","image#footer__copyright-img-02"
+    ]
+  },
+
+  "image#footer__copyright-img-01":{
+    "props":{
+      "maxWidth":"140px",
+      "src":"assets/images/footer/logo-agencia.png"
+    }
+
+  },
+  "image#footer__copyright-img-02":{
+    "props":{
+      "src":"assets/icons/footer/vtex.svg"
+    }
+  },
+
+  "rich-text#footer__copyright-text": {
+    "props": {
+      "text": "Copyright © 2020 - Todos os direitos reservados | EURICO WEB CALÇADOS LTDA-EPP\nCNPJ: 12.579.806/0001-65 | Av. Jandira, 59 - Indianópolis - São Paulo/SP - (11) 5054 8878",
+      "blockClass": "footer__copyright-text"
+    }
+  }
+}
