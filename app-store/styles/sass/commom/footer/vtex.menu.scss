@@ -1,0 +1,24 @@
+.menuContainerNav {
+  &--footer__menu {
+    .menuContainer {
+      display: block;
+      .styledLinkContainer {
+        &--footer__menu {
+          margin: 0 0 5px 0;
+          padding: 0;
+
+          .styledLinkContent {
+            font-weight: 400;
+            color: #000000;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #000000;
+            line-height: 1.8;
+            -webkit-text-stroke: 0.2px;
+          }
+        }
+      }
+    }
+  }
+}

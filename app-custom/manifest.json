@@ -1,0 +1,18 @@
+{
+  "vendor": "eurico",
+  "name": "agenciafg-custom",
+  "version": "0.0.8",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.native-types": "0.x",
+    "vtex.css-handles": "1.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,18 @@
+%maxcontainer {
+  width: 90%;
+  max-width: 1800px;
+  margin: 0 auto;
+
+  @media all and (max-width: 1024px) {
+    width: calc(100% - 30px);
+  }
+}
+
+@mixin mobile{
+  @media(max-width:768px){
+    @content
+  }
+}
+
+
+

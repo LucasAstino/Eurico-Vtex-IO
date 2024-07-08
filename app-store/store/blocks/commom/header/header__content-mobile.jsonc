@@ -1,0 +1,58 @@
+{
+  "sticky-layout#header__content-mobile": {
+  "children": ["flex-layout.row#header__content-mobile"]
+},
+"flex-layout.row#header__content-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__content-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logo.svg",
+      "width": "115",
+      "height": "48"
+    }
+  },
+  "search-bar#header__search": {
+    "title": "busca",
+    // "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "header__search-mobile",
+      "hideTitles": true,
+      "placeholder": "DIGITE AQUI",
+      "compactMode": false,
+      "containerMode": "overlay"
+    }
+  },
+  "drawer": {
+    "props":{
+      "blockClass":"menu__drawer"
+    },
+    "children": ["menu#drawer"]
+  },
+   "menu#drawer": {
+    "children": [
+      // "menu-item#category-masculino",
+      // "menu-item#category-outlet",
+      // "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

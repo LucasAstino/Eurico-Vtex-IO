@@ -1,0 +1,26 @@
+.installments--summary {
+  width: fit-content;
+  margin: 0 auto;
+}
+.installments--summary .installmentsNumber--summary {
+  font-weight: 800;
+  color: black;
+  letter-spacing: 0.3px;
+}
+.installments--summary .installmentsNumber--summary::after {
+  content: "X";
+  margin-left: 2px;
+}
+.installments--summary .installmentValue--summary {
+  font-weight: 800;
+  color: black;
+  letter-spacing: 0.3px;
+}
+
+.sellingPrice--summary .sellingPriceValue {
+  font-weight: 700;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  -webkit-text-stroke: 0.2px;
+}

@@ -1,0 +1,32 @@
+{
+  "menu#header__institucional--menuinstitucional": {
+    "title": "Links institucional header",
+    "props": {
+      "blockClass": "header__institucional--link",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/sobre-nos",
+            "noFollow": false,
+            "tagTitle": "A Eurico",
+            "text": "A Eurico"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/contato",
+            "noFollow": false,
+            "tagTitle": "Contato/Lojas",
+            "text": "Contato/Lojas"
+          }
+        }
+      ]
+    }
+  }
+}

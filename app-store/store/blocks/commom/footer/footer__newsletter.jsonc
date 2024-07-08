@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#footer__newsletter": {
+    "title": "FOOTER - newsletter",
+    "children": [
+      "fg-Newsletter"
+    ],
+    "props": {
+      "blockClass": "footer__newsletter"
+    }
+  }
+//   "flex-layout.col#footer__newsletter-col":{
+// "children": [
+//       "rich-text#footer__newsletter--title",
+//       "newsletter-form#footer__newsletter--form"
+//     ]
+//   },
+//   "rich-text#footer__newsletter--title": {
+//     "props": {
+//       "text": "FIQUE POR DENTRO DAS **NOVIDADES**",
+//       "blockClass": "footer__newsletter--title"
+//     }
+//   },
+//   "newsletter-form#footer__newsletter--form": {
+//     "children": [
+//       "newsletter-input-name#input-name",
+//       "newsletter-input-email#input-email",
+//       "newsletter-submit#submit-feminine",
+//       "newsletter-submit#submit-masculine"
+//     ],
+//     "props": {
+//       "blockClass": "footer__newsletter--form"
+//     }
+//   },
+//   "newsletter-input-email#input-email": {
+//     "props": {
+//       "placeholderText": "seu e-mail"
+//     }
+//   },
+//   "newsletter-input-name#input-name": {
+//     "props": {
+//       "placeholderText": "seu nome"
+//     }
+//   },
+//   "newsletter-submit#submit-feminine": {
+//     "props": {
+//       "submitButtonLabel": "feminino"
+//     }
+//   },
+//   "newsletter-submit#submit-masculine": {
+//     "props": {
+//       "submitButtonLabel": "masculino"
+//     }
+//   }
+}

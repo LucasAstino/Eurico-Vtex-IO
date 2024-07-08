@@ -1,0 +1,66 @@
+.menuContainerNav--footer__menu .menuContainer {
+  display: block;
+}
+.menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+.menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu .styledLinkContent {
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #000000;
+  line-height: 1.8;
+  -webkit-text-stroke: 0.2px;
+}
+
+.menuItem .styledLinkContent--header__institucional--link {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+  -webkit-text-stroke: 0.2px;
+}
+.menuItem .styledLinkContent--wrapper {
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "lato";
+}
+.menuItem .styledLinkContent--menu__item {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  -webkit-text-stroke: 0.2px;
+}
+.menuItem--menu__item:hover .styledLinkContent--menu__item {
+  border-bottom: 1px solid #c00018;
+}
+
+.menuContainer--header__institucional--link {
+  gap: 35px;
+}
+.menuContainer .submenuWrapper--submenu__container {
+  padding: 0;
+}
+.menuContainer--main__menu {
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.styledLinkContainer--header__institucional--link {
+  margin: 0;
+}
+.styledLinkContainer--wrapper {
+  margin: 0;
+  padding: 0;
+}

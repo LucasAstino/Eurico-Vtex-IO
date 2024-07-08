@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#footer__links": {
+    "title": "FOOTER - Links",
+    "children": [
+      "disclosure-layout#footer__institucional",
+      "disclosure-layout#footer__atendimento",
+      "flex-layout.col#footer__links-payments",
+      "flex-layout.col#footer__links-selos",
+      "flex-layout.col#footer__address"
+    ],
+    "props": {
+      "blockClass": "footer__links",
+      "colSizing": "auto"
+    }
+  }
+}

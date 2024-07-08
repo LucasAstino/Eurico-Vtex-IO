@@ -1,0 +1,100 @@
+{
+  "disclosure-layout#footer__atendimento": {
+    "children": [
+      "disclosure-trigger#footer__trigger--atendimento-title",
+      "disclosure-content#footer__trigger--atendimento-content",
+      "image#footer__atendimento-easy--exchange"
+    ],
+    "props": {
+      "animated": true,
+      "initialVisibility": "visible"
+    }
+  },
+  "disclosure-trigger#footer__trigger--atendimento-title": {
+    "children": ["rich-text#footer__atendimento--title"],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "disclosure-content#footer__trigger--atendimento-content": {
+    "children": ["menu#footer__atendimento--menuatendimento"],
+    "props": {
+      "blockClass": "footer__content"
+    }
+  },
+  "rich-text#footer__atendimento--title": {
+    "props": {
+      "text": "AJUDA E SUPORTE",
+      "blockClass": "footer__column--title"
+    }
+  },
+  "image#footer__atendimento-easy--exchange":{
+    "props":{
+      "blockClass":"footer__atendimento-img",
+      "src":"assets/images/footer/new-aftersale.webp"
+    }
+  },
+  "menu#footer__atendimento--menuatendimento": {
+    "title": "MENU",
+    "props": {
+      "blockClass": ["footer__atendimento--link","footer__menu"],
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/contato",
+            "noFollow": false,
+            "tagTitle": "Contato",
+            "text": "Contato"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/prazo-de-entregas-e-frete",
+            "noFollow": false,
+            "tagTitle": "Entrega",
+            "text": "Entrega"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account",
+            "noFollow": false,
+            "tagTitle": "Trocas e devoluções",
+            "text": "Minha conta"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/perguntas-frequentes",
+            "noFollow": false,
+            "tagTitle": "Perguntas frequentes",
+            "text": "Perguntas frequentes"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/politicas-de-trocas",
+            "noFollow": false,
+            "tagTitle": "Trocas e devoluções",
+            "text": "Trocas e devoluções"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.searchBarContainer {
+  display: none;
+  @media(max-width:768px){
+    display: block;
+  }
+
+  :global(.vtex-input-prefix__group) {
+    border: none;
+  }
+  :global(.vtex-input__suffix) {
+    padding: 0;
+  }
+  :global(.vtex-store-components-3-x-searchIcon) {
+    display: none;
+  }
+  :global(.vtex-store-components-3-x-searchBarIcon) {
+    padding: 0;
+
+    &::before {
+      content: "";
+      width: 21px;
+      height: 21px;
+      background: url(assets/icons/search.svg) no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin: 1px;
+    }
+  }
+
+  @media(max-width:768px){
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .6);
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+  }
+
+  .autoCompleteOuterContainer{
+    &--header__search-mobile{
+      :global(.vtex-input-prefix__group){
+        justify-content: center;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+
+.imageElement{
+  &--banner-categoria{
+    margin-top: 20px;
+  }
+}

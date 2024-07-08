@@ -1,0 +1,13 @@
+.openIconContainer{
+  padding: 0;
+  &::after{
+    content: '';
+    background-image: url('assets/icons/header/drawer.svg');
+    width: 35px;
+    height: 35px;
+    display: block;
+  }
+  .menuIcon{
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "flex-layout.col#footer__address": {
+    "props": {
+      "blockClass": "footer__address",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#footer__address-item","rich-text#footer__address-item"
+    ]
+  },
+
+  "rich-text#footer__address-item": {
+    "props": {
+      "blockClass": "footer__address-item",
+      "text": "###### EURICO \n Oscar Freire, 550\nJardins - São Paulo/SP\nCEP:01426-000\nFone:(11) 3061-3050"
+    }
+  }
+
+}

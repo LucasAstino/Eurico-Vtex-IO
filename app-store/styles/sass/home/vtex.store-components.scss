@@ -1,0 +1,17 @@
+.imageElement{
+  &--third__banner-area--img{
+    @media(max-width:768px){
+      width: 300px;
+    }
+  }
+    &--secund__area-banners--img{
+      margin-bottom: 20px;
+    }
+    &--physical__stories-img{
+      height: 410px;
+      @include mobile{
+        height: 204px;
+      }
+    }
+
+}

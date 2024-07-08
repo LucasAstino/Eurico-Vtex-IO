@@ -1,0 +1,130 @@
+.slideChildrenContainer {
+  &--header__tipbar {
+    @media (min-width: 768px) {
+      width: fit-content;
+    }
+  }
+
+  &--shelf {
+    padding-top: 90px;
+  }
+}
+
+.slide {
+  &--header__tipbar {
+    @media(min-width:1025px){
+      &:nth-child(n+5){
+        display: none;
+      }
+    }
+    @media (min-width: 768px) {
+      width: fit-content !important;
+      width: auto;
+    }
+  }
+}
+
+.sliderTrack {
+  &--header__tipbar {
+    @media(min-width:1025px){
+      transform: unset !important;
+    }
+    @media (min-width: 768px) {
+      max-width: 945px;
+      margin: auto;
+    }
+  }
+}
+
+.sliderLayoutContainer {
+  justify-content: center;
+
+  &--carrossel {
+    background-color: transparent;
+    min-height: 450px;
+    @media (max-width: 768px) {
+      max-height: 450px;
+    }
+    .sliderArrows {
+      .caretIcon {
+        display: none;
+      }
+      &::after {
+        content: "";
+        width: 40px;
+        height: 50px;
+        background: url(/arquivos/slick--arrow-right.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        filter: invert(1);
+      }
+    }
+    .sliderLeftArrow {
+      &::after {
+        rotate: 180deg;
+      }
+    }
+  }
+  &--header__tipbar {
+    -webkit-box-shadow: 5px 5px 5px #f7f7f7;
+    box-shadow: 5px 5px 5px #f7f7f7;
+    margin-bottom: 10px;
+    height: 50px;
+    @media (min-width: 768px) {
+      height: 40px;
+    }
+  }
+
+  &--shelf {
+    @media (max-width: 768px) {
+      min-height: auto;
+    }
+    .sliderArrows {
+      @media (max-width: 768px) {
+        top: 20%;
+      }
+      &::after {
+        filter: invert(0);
+        @media (max-width: 768px) {
+          scale: 0.6;
+        }
+      }
+    }
+  }
+}
+
+.paginationDotsContainer {
+  bottom: 25px;
+  margin: 0;
+  .paginationDot {
+    &--carousel {
+      border: 1px solid #fff;
+      border-radius: 100%;
+      font-size: 0;
+      width: 12px !important;
+      height: 12px !important;
+      background: transparent;
+      margin: 0 5px;
+      &--isActive {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  min-height: 550px;
+  @media (max-width: 768px) {
+    min-height: auto;
+  }
+}

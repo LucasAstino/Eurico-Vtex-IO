@@ -1,0 +1,51 @@
+{
+  "sticky-layout#header__content": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#header__content"]
+  },
+  "flex-layout.row#header__content": {
+    "props": {
+      "blockClass": "header__content",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "fullWidth": true
+    },
+    "children": [
+      // "flex-layout.col#category-menu",
+      "menu#header__institucional--menuinstitucional",
+      "flex-layout.col#spacer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.row#header__icons"
+    ]
+  },
+  "flex-layout.row#header__icons": {
+    "props": {
+      "blockClass": "header__icons",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": ["login", "minicart.v2"]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logo.svg",
+      "width": "164",
+      "height": "47"
+    }
+  }
+}

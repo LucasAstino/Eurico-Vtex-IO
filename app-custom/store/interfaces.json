@@ -1,0 +1,8 @@
+{
+  "Helmet":{
+    "component":"Helmet"
+  },
+  "fg-Newsletter":{
+    "component":"Newsletter"
+  }
+}

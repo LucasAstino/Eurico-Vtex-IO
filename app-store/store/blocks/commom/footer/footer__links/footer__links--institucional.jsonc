@@ -1,0 +1,126 @@
+{
+  "disclosure-layout#footer__institucional": {
+    "children": [
+      "disclosure-trigger#footer__trigger--institucional-title",
+      "disclosure-content#footer__trigger--intitucional-content"
+    ],
+    "props": {
+      "animated": true,
+      "initialVisibility": "visible"
+    }
+  },
+  "disclosure-trigger#footer__trigger--institucional-title": {
+    "children": ["rich-text#footer__institucional--title"],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "disclosure-content#footer__trigger--intitucional-content": {
+    "children": ["menu#footer__institucional--menuinstitucional"],
+    "props": {
+      "blockClass": "footer__content"
+    }
+  },
+  "rich-text#footer__institucional--title": {
+    "props": {
+      "text": "institucional",
+      "blockClass": "footer__column--title"
+    }
+  },
+  "menu#footer__institucional--menuinstitucional": {
+    "title": "MENU",
+    "props": {
+      "blockClass": ["footer__institucional--link","footer__menu"],
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/sobre-nos",
+            "noFollow": false,
+            "tagTitle": "QUEM SOMOS",
+            "text": "QUEM SOMOS"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/historia",
+            "noFollow": false,
+            "tagTitle": "A história",
+            "text": "A história"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/nossas-politicas",
+            "noFollow": false,
+            "tagTitle": "Nossas políticas",
+            "text": "Nossas políticas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fidelidade",
+            "noFollow": false,
+            "tagTitle": "Fidelidade",
+            "text": "Fidelidade"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/guia-de-medidas",
+            "noFollow": false,
+            "tagTitle": "Guia de medidas",
+            "text": "Guia de medidas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/depoimentos",
+            "noFollow": false,
+            "tagTitle": "Depoimentos",
+            "text": "Depoimentos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/dicas",
+            "noFollow": false,
+            "tagTitle": "Dicas",
+            "text": "Dicas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/trabalhe-conosco",
+            "noFollow": false,
+            "tagTitle": "Trabalhe conosco",
+            "text": "Trabalhe conosco"
+          }
+        }
+      ]
+    }
+  }
+}
