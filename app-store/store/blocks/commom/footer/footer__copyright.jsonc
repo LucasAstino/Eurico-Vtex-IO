@@ -46,13 +46,15 @@
   "image#footer__copyright-img-01":{
     "props":{
       "maxWidth":"140px",
-      "src":"assets/images/footer/logo-agencia.png"
+      "src":"assets/images/footer/logo-agencia.png",
+      "blockClass":"agencia"
     }
 
   },
   "image#footer__copyright-img-02":{
     "props":{
-      "src":"assets/icons/footer/vtex.svg"
+      "src":"assets/icons/footer/vtex.svg",
+       "blockClass":"vtex-copyright"
     }
   },
 

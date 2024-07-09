@@ -15,8 +15,7 @@
       "fullWidth": true
     },
     "children": [
-      // "flex-layout.col#category-menu",
-      "menu#header__institucional--menuinstitucional",
+      "menu#header__institucional--menu-institucional",
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",

@@ -25,6 +25,7 @@
 @media (max-width: 768px) {
   .newsletterform__formTitle {
     text-align: center;
+    width: 100%;
   }
 }
 .newsletterform__formSubmit {

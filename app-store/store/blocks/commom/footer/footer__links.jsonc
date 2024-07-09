@@ -12,5 +12,19 @@
       "blockClass": "footer__links",
       "colSizing": "auto"
     }
+  },
+  "flex-layout.row#footer__links-mobile": {
+    "title": "FOOTER - Links",
+    "children": [
+      "disclosure-layout#footer__institucional",
+      "disclosure-layout#footer__atendimento",
+      "flex-layout.col#footer__address",
+      "flex-layout.col#footer__links-payments-mobile",
+      "flex-layout.col#footer__links-selos"
+    ],
+    "props": {
+      "blockClass": "footer__links",
+      "colSizing": "auto"
+    }
   }
 }

@@ -26,8 +26,9 @@
           display: -webkit-box;
           font-size: 12px;
           -webkit-text-stroke: 0.2px;
-          @media(max-width:768px){
+          @include mobile{
             height: auto;
+            text-align: center;
           }
         }
       }

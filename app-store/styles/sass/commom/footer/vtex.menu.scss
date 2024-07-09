@@ -16,6 +16,9 @@
             color: #000000;
             line-height: 1.8;
             -webkit-text-stroke: 0.2px;
+            @include mobile{
+              line-height: 30px;
+            }
           }
         }
       }

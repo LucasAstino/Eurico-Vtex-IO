@@ -6,7 +6,7 @@
       "image#payments"
     ],
     "props": {
-      "blockClass": "footer__column--images"
+      "blockClass": "footer__column--peyments"
     }
   },
   "rich-text#footer__titulo--payments": {

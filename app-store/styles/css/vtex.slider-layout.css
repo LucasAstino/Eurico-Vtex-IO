@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .slideChildrenContainer--header__tipbar {
     width: fit-content;
   }
@@ -12,7 +12,7 @@
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .slide--header__tipbar {
     width: fit-content !important;
     width: auto;
@@ -24,7 +24,7 @@
     transform: unset !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .sliderTrack--header__tipbar {
     max-width: 945px;
     margin: auto;
@@ -37,11 +37,6 @@
 .sliderLayoutContainer--carrossel {
   background-color: transparent;
   min-height: 450px;
-}
-@media (max-width: 768px) {
-  .sliderLayoutContainer--carrossel {
-    max-height: 450px;
-  }
 }
 .sliderLayoutContainer--carrossel .sliderArrows .caretIcon {
   display: none;

@@ -1,5 +1,5 @@
 {
-  "menu#header__institucional--menuinstitucional": {
+  "menu#header__institucional--menu-institucional": {
     "title": "Links institucional header",
     "props": {
       "blockClass": "header__institucional--link",

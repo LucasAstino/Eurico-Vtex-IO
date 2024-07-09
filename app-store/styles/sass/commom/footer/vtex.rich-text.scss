@@ -8,6 +8,9 @@
       margin-bottom: 20px;
       font-weight: 300;
       -webkit-text-stroke: 0.2px;
+      @include mobile{
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -29,6 +32,9 @@
       color: #000000;
       margin-bottom: 35px;
       -webkit-text-stroke: 0.2px;
+      @include mobile{
+        line-height: 30px;
+      }
     }
   }
 
@@ -40,6 +46,11 @@
       font-family: 'Lato', sans-serif;
       font-weight: 300;
       -webkit-text-stroke: 0.2px;
+      @include mobile{
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px;
+      }
     }
   }
 }

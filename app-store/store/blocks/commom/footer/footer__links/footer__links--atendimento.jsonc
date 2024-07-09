@@ -7,7 +7,7 @@
     ],
     "props": {
       "animated": true,
-      "initialVisibility": "visible"
+      "initialVisibility": "hidden"
     }
   },
   "disclosure-trigger#footer__trigger--atendimento-title": {

@@ -6,9 +6,9 @@
   letter-spacing: 1.5px;
   width: 148px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .input {
-    max-width: 300px !important;
+    max-width: 100% !important;
     width: 75%;
     padding: 15px 20px 0;
     border: none;

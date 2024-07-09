@@ -1,6 +1,6 @@
 .searchBarContainer {
   display: none;
-  @media(max-width:768px){
+  @include tablet{
     display: block;
   }
 
@@ -27,11 +27,12 @@
     }
   }
 
-  @media(max-width:768px){
+  @include tablet{
     box-shadow: 0 1px 8px rgba(0, 0, 0, .6);
     position: relative;
     width: 100%;
     z-index: 999;
+    max-width: 100%;
     background-color: white;
   }
 

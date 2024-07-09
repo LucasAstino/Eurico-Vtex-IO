@@ -71,21 +71,21 @@
     "props": {
       "maxWidth":"50px",
       "src": "assets/icons/footer/encrypt.svg",
-      "blockClass": "selo"
+      "blockClass": ["selo","icon-encrypt"]
     }
   },
   "image#selo-02": {
     "props": {
       "maxWidth":"70px",
       "src": "assets/images/footer/vtex.png",
-      "blockClass": "selo"
+      "blockClass": ["selo","icon-vtex"]
     }
   },
   "image#selo-03": {
     "props": {
       "maxWidth":"145px",
       "src": "assets/images/footer/cleasale.png",
-      "blockClass": "selo"
+      "blockClass": ["selo","icon-clearSale"]
     }
   }
 }

@@ -1,21 +1,3 @@
-.menuContainerNav--footer__menu .menuContainer {
-  display: block;
-}
-.menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu {
-  margin: 0 0 5px 0;
-  padding: 0;
-}
-.menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu .styledLinkContent {
-  font-weight: 400;
-  color: #000000;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: #000000;
-  line-height: 1.8;
-  -webkit-text-stroke: 0.2px;
-}
-
 .menuItem .styledLinkContent--header__institucional--link {
   font-size: 12px;
   text-transform: uppercase;
@@ -63,4 +45,27 @@
 .styledLinkContainer--wrapper {
   margin: 0;
   padding: 0;
+}
+
+.menuContainerNav--footer__menu .menuContainer {
+  display: block;
+}
+.menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+.menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu .styledLinkContent {
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #000000;
+  line-height: 1.8;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .menuContainerNav--footer__menu .menuContainer .styledLinkContainer--footer__menu .styledLinkContent {
+    line-height: 30px;
+  }
 }

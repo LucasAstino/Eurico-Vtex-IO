@@ -12,10 +12,14 @@
     },
     "children": [
       "responsive-layout.desktop",
+      "responsive-layout.tablet",
       "responsive-layout.phone"
     ]
   },
   "responsive-layout.desktop": {
+    "children":["flex-layout.row#secund-area-banners"]
+  },
+  "responsive-layout.tablet": {
     "children":["flex-layout.row#secund-area-banners"]
   },
   "responsive-layout.phone": {

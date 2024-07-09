@@ -17,24 +17,34 @@
     @media (min-width: 768px) {
       padding-bottom: 75px;
     }
+    .flexCol{
+      width: fit-content;
+      .flexColChild{
+        width: fit-content;
+      }
+    }
   }
 
   &--third__banner-area {
     margin: 80px auto 100px auto;
     width: 90%;
-    @media (max-width: 768px) {
+    @include mobile {
       margin-top: 10px;
       width: fit-content;
       display: flex;
       flex-direction: column;
       gap: 10px;
+      .stretchChildrenWidth{
+        width: 100% !important;
+      }
     }
     .flexCol {
       &--translateToTop {
-        @media (min-width: 768px) {
+        @media (min-width: 769px) {
           margin-top: -50px;
         }
       }
+
     }
   }
 
@@ -43,8 +53,23 @@
     margin: auto;
     gap: 50px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
     &-row {
       align-items: center;
+      @include tablet{
+        flex-direction: column;
+        align-items: center;
+      }
+      .stretchChildrenWidth{
+      }
+    }
+
+    .stretchChildrenWidth{
+      max-width: 800px;
+      @media(max-width: 1440px){
+        width: 100% !important;
+      }
     }
   }
 
@@ -160,6 +185,7 @@
     margin: 2% 0;
     height: 385px;
     background: #f2f2f2;
+    padding: 0 5rem 0 5rem;
    @include mobile{
     width: 90% !important;
     padding: 0;

@@ -2,5 +2,32 @@
   &--footer__atendimento-img{
     max-width: 177px;
     margin-top: 15px;
+    @include mobile{
+      display: none;
+    }
+  }
+  &--selo{
+    @include tablet{
+      width: fit-content;
+      height: auto;
+    }
+  }
+  &--icon-encrypt{
+    @include mobile{
+      max-width: 80px  !important;
+    }
+  }
+  &--icon-vtex{
+    @include mobile{
+      max-width: 90px  !important;
+    }
+  }
+  &--icon-clearSale{
+    @include mobile{
+      max-width: 160px  !important;
+    }
+  }
+  &--agencia{
+    height: fit-content;
   }
 }

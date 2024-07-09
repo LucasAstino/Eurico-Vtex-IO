@@ -1,5 +1,5 @@
 .container{
-  @media(max-width:768px){
+  @include tablet{
     margin-right: 25px
   }
 }

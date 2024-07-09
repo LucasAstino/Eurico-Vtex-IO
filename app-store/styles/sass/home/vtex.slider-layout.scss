@@ -1,6 +1,6 @@
 .slideChildrenContainer {
   &--header__tipbar {
-    @media (min-width: 768px) {
+    @include desktop {
       width: fit-content;
     }
   }
@@ -17,7 +17,7 @@
         display: none;
       }
     }
-    @media (min-width: 768px) {
+    @include desktop {
       width: fit-content !important;
       width: auto;
     }
@@ -26,10 +26,10 @@
 
 .sliderTrack {
   &--header__tipbar {
-    @media(min-width:1025px){
+    @include desktop{
       transform: unset !important;
     }
-    @media (min-width: 768px) {
+    @include desktop {
       max-width: 945px;
       margin: auto;
     }
@@ -42,9 +42,9 @@
   &--carrossel {
     background-color: transparent;
     min-height: 450px;
-    @media (max-width: 768px) {
-      max-height: 450px;
-    }
+    // @media (max-width: 768px) {
+    //   max-height: 450px;
+    // }
     .sliderArrows {
       .caretIcon {
         display: none;

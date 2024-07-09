@@ -1,0 +1,24 @@
+
+{
+  "flex-layout.col#footer__links-payments-mobile": {
+    "children": [
+       "rich-text#footer__titulo--payments-mobile",
+      "image#payments-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__column--payments"
+    }
+  },
+  "rich-text#footer__titulo--payments-mobile": {
+    "props": {
+      "text": "FORMAS DE PAGAMENTO",
+      "blockClass": "footer__column--title"
+    }
+  },
+  "image#payments-mobile": {
+    "props": {
+      "src": "assets/images/footer/payments-mobile.svg",
+      "blockClass": "selo"
+    }
+  }
+}
