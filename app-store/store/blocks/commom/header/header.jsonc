@@ -13,6 +13,7 @@
   },
 
   "header-layout.mobile": {
+    "title": "Mobile",
     "children": [
       "slider-layout#header__tipbar",
       "sticky-layout#header__content-mobile",

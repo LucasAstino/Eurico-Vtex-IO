@@ -1,0 +1,20 @@
+
+{
+  "menu-item#category__menu-mobile--item-eurico": {
+    "props": {
+      "blockClass": ["category__menu-mobile--item"],
+      "id": "menu-item-category__menu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "a eurico",
+        "text": "a eurico"
+      }
+    }
+  }
+
+}
+

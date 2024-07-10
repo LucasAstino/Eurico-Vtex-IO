@@ -1,0 +1,16 @@
+{
+  "vtex.menu@2.x:menu#category__menu-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category__menu-mobile"
+    },
+    "children": [
+      "menu-item#category__menu-mobile--item-feminine",
+      "menu-item#category__menu-mobile--item-masculine",
+      "menu-item#category__menu-mobile--item-acessories",
+      "menu-item#category__menu-mobile--item-outlet",
+      "menu-item#category__menu-mobile--item-eurico",
+      "menu-item#category__menu-mobile--item-contact"
+    ]
+  }
+}

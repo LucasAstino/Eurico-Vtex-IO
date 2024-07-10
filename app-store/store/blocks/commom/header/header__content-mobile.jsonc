@@ -29,7 +29,6 @@
   },
   "search-bar#header__search": {
     "title": "busca",
-    // "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
       "blockClass": "header__search-mobile",
@@ -43,14 +42,6 @@
     "props":{
       "blockClass":"menu__drawer"
     },
-    "children": ["menu#drawer"]
-  },
-   "menu#drawer": {
-    "children": [
-     "menu-item#category-feminino"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
+    "children": [ "vtex.menu@2.x:menu#category__menu-mobile"]
   }
 }

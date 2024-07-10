@@ -17,7 +17,6 @@
       "menu-item#category-masculino",
       "menu-item#category-acessorios",
       "menu-item#category-outlet"
-      // "menu-item#more"
     ],
     "title": "menu categorias"
   },
@@ -44,7 +43,7 @@
     },
     "children": ["flex-layout.row#submenu__container"]
   },
-  "vtex.menu@2.x:menu#category-feminino": {
+  "vtex.menu@2.x:menu#category-wrapper": {
     "props": {
       "orientation": "vertical",
       "blockClass": "wrapper"
@@ -145,7 +144,7 @@
     },
     "children": [
       "rich-text#submenu__title",
-      "vtex.menu@2.x:menu#category-feminino",
+      "vtex.menu@2.x:menu#category-wrapper",
       "rich-text#seeMore"
     ]
   },
@@ -156,7 +155,7 @@
     },
     "children": [
       "rich-text#submenu__title",
-      "vtex.menu@2.x:menu#category-feminino"
+      "vtex.menu@2.x:menu#category-wrapper"
     ]
   },
   "flex-layout.col#submenu__container--item-03": {
