@@ -1,8 +1,7 @@
-
 {
-  "menu-item#category__menu-mobile--item-masculine": {
+  "menu-item#category__menu-drawer--masculine": {
     "props": {
-      "blockClass": ["has-children","category__menu-mobile--item"],
+      "blockClass": ["has-children","category__menu-drawer--item"],
       "id": "menu-item-category__menu",
       "type": "custom",
       "iconId": null,
@@ -15,30 +14,31 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category__menu"
+      "vtex.menu@2.x:submenu#category__menu-drawer--masculine-submenu"
     ]
   },
-  "vtex.menu@2.x:submenu#category__menu": {
+  "vtex.menu@2.x:submenu#category__menu-drawer--masculine-submenu": {
     "props": {
       "width": "100%",
-      "blockClass":"category__menu-mobile--submenu"
+      "blockClass":"category__menu-drawer--submenu"
     },
     "children": [
-      "vtex.menu@2.x:menu#category__menu-submenu"
+      "vtex.menu@2.x:menu#category__menu-drawer--masculine-submenu"
     ]
   },
-  "vtex.menu@2.x:menu#category__menu-submenu": {
+  "vtex.menu@2.x:menu#category__menu-drawer--masculine-submenu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--masculine-submenu"
     },
     "children": [
-      "menu-item#subcategory1"
+      "menu-item#category__menu-drawer--masculine-submenu__title"
     ]
   },
-  "menu-item#subcategory1": {
+  "menu-item#category__menu-drawer--masculine-submenu__title": {
     "props": {
       "blockClass": "menu__item",
-      "id": "menu-item-subcategory1",
+      "id": "menu-item-category__menu-drawer--masculine-submenu__title",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,27 +50,29 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#subcategory1"
+      "vtex.menu@2.x:submenu#category__menu-drawer--masculine-subSubmenu"
     ]
   },
-  "vtex.menu@2.x:submenu#subcategory1": {
+  "vtex.menu@2.x:submenu#category__menu-drawer--masculine-subSubmenu": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass":"category__menu-drawer--masculine-subSubmenu"
     },
     "children": [
-      "vtex.menu@2.x:menu#subcategory1-submenu"
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-masculine"
     ]
   },
-  "vtex.menu@2.x:menu#subcategory1-submenu": {
+  "vtex.menu@2.x:menu#subcategory-subSubmenu-masculine": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--masculine-subSubmenu"
     },
     "children": [
-      "menu-item#item1",
-      "menu-item#item2"
+      "menu-item#item1-masculine",
+      "menu-item#item2-masculine"
     ]
   },
-  "menu-item#item1": {
+  "menu-item#item1-masculine": {
     "props": {
       "blockClass": "menu__item",
       "id": "menu-item-item1",
@@ -86,7 +88,7 @@
       }
     }
   },
-  "menu-item#item2": {
+  "menu-item#item2-masculine": {
     "props": {
       "blockClass": "menu__item",
       "id": "menu-item-item2",
@@ -103,4 +105,3 @@
     }
   }
 }
-

@@ -73,14 +73,20 @@
 .menuContainerNav--category__menu-mobile {
   width: 100%;
 }
-.menuContainerNav--category__menu-mobile .menuItem--category__menu-mobile--item {
+.menuContainerNav--category__menu-mobile .menuItem--category__menu-drawer--item {
   padding: 20px;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
 }
-.menuContainerNav--category__menu-mobile .menuItem--category__menu-mobile--item:first-child {
+.menuContainerNav--category__menu-mobile .menuItem--category__menu-drawer--item:first-child {
   border-top: 0.5px solid rgba(0, 0, 0, 0.34);
 }
-.menuContainerNav--category__menu-mobile .menuItem--category__menu-mobile--item .styledLinkContent--category__menu-mobile--item {
+.menuContainerNav--category__menu-mobile .menuItem--category__menu-drawer--item .styledLinkContent--category__menu-drawer--item {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.menuContainerNav--category__menu-mobile .menuItem--category__menu-drawer--submenu__title .styledLinkContent {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.15em;
@@ -101,7 +107,29 @@
   width: 20px;
 }
 
-.submenuContainer .submenuWrapper--category__menu-mobile--submenu {
+.submenuContainer .submenuWrapper--category__menu-drawer--submenu {
+  margin-top: 30px;
   position: static;
-  border: 0;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.34);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+}
+.submenuContainer .submenuWrapper--category__menu-drawer--submenu .menuContainerNav {
+  width: 100%;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer--submenu .menuContainerNav .styledLinkContainer--category__menu-drawer--submenu__title::after {
+  content: "";
+  background-image: url(assets/icons/header/arrowDrawer.svg);
+  background-repeat: no-repeat;
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 18px;
+  top: 40%;
+  width: 20px;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer-subSubmenu {
+  margin-top: 30px;
+  position: static;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.34);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
 }

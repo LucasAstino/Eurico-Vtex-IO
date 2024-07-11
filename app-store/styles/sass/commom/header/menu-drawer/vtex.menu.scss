@@ -1,0 +1,89 @@
+.menuContainerNav {
+  &--category__menu-mobile {
+    width: 100%;
+
+    .menuItem {
+      &--category__menu-drawer--item {
+        padding: 20px;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+
+        &:first-child {
+          border-top: 0.5px solid rgba(0, 0, 0, 0.34);
+        }
+
+        .styledLinkContent {
+          &--category__menu-drawer--item {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      &--category__menu-drawer--submenu__title {
+        .styledLinkContent {
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 0.15em;
+          text-transform: uppercase;
+        }
+      }
+
+      .styledLinkContainer {
+        position: relative;
+        &--has-children {
+          &::after {
+            content: "";
+            background-image: url(assets/icons/header/arrowDrawer.svg);
+            background-repeat: no-repeat;
+            display: block;
+            height: 20px;
+            position: absolute;
+            right: 18px;
+            top: 40%;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.submenuContainer {
+  .submenuWrapper {
+    &--category__menu-drawer--submenu {
+      margin-top: 30px;
+      position: static;
+      border-top: 0.5px solid rgba(0, 0, 0, 0.34);
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+
+      .menuContainerNav {
+        width: 100%;
+
+        .styledLinkContainer {
+          &--category__menu-drawer--submenu__title {
+            &::after {
+              content: "";
+              background-image: url(assets/icons/header/arrowDrawer.svg);
+              background-repeat: no-repeat;
+              display: block;
+              height: 20px;
+              position: absolute;
+              right: 18px;
+              top: 40%;
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &--category__menu-drawer-subSubmenu {
+      margin-top: 30px;
+      position: static;
+      border-top: 0.5px solid rgba(0, 0, 0, 0.34);
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+    }
+  }
+}

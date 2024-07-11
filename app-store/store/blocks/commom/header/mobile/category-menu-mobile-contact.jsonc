@@ -1,8 +1,8 @@
 
 {
-  "menu-item#category__menu-mobile--item-contact": {
+  "menu-item#category__menu-drawer--contact": {
     "props": {
-      "blockClass": ["category__menu-mobile--item"],
+      "blockClass": ["category__menu-drawer--item"],
       "id": "menu-item-category__menu",
       "type": "custom",
       "iconId": null,

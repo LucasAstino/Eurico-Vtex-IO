@@ -1,8 +1,8 @@
 {
   "sticky-layout#header__content-mobile": {
-  "children": ["flex-layout.row#header__content-mobile"]
-},
-"flex-layout.row#header__content-mobile": {
+    "children": ["flex-layout.row#header__content-mobile"]
+  },
+  "flex-layout.row#header__content-mobile": {
     "children": [
       "drawer",
       "flex-layout.col#spacer",
@@ -39,9 +39,32 @@
     }
   },
   "drawer": {
-    "props":{
-      "blockClass":"menu__drawer"
+    "props": {
+      "blockClass": "menu__drawer",
+      "isFullWidth": true
     },
-    "children": [ "vtex.menu@2.x:menu#category__menu-mobile"]
+    "children": ["flex-layout.col#content-drawer"],
+    "blocks": ["drawer-header#drawer-header"]
+  },
+  "flex-layout.col#content-drawer": {
+    "props": {
+      "blockClass": "content-drawer"
+    },
+    "children": ["vtex.menu@2.x:menu#category__menu-mobile", "login#drawer"]
+  },
+
+  "login#drawer": {
+    "props": {
+      "blockClass":"login__drawer",
+      "iconLabel":"login",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "drawer-header#drawer-header": {
+    "props": {
+      "blockClass": "header-drawer"
+    },
+    "children": ["flex-layout.col#logo-desktop", "drawer-close-button"]
   }
 }

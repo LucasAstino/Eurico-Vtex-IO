@@ -5,12 +5,12 @@
       "blockClass": "category__menu-mobile"
     },
     "children": [
-      "menu-item#category__menu-mobile--item-feminine",
-      "menu-item#category__menu-mobile--item-masculine",
-      "menu-item#category__menu-mobile--item-acessories",
-      "menu-item#category__menu-mobile--item-outlet",
-      "menu-item#category__menu-mobile--item-eurico",
-      "menu-item#category__menu-mobile--item-contact"
+      "menu-item#category__menu-drawer--feminine",
+      "menu-item#category__menu-drawer--masculine",
+      "menu-item#category__menu-drawer--acessories",
+      "menu-item#category__menu-drawer--outlet",
+      "menu-item#category__menu-drawer--eurico",
+      "menu-item#category__menu-drawer--contact"
     ]
   }
 }
