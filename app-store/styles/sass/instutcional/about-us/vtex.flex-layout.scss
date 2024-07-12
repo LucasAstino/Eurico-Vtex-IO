@@ -1,0 +1,10 @@
+.flexRow {
+  &--about-us-row {
+    max-width: 1208px;
+    padding: 0 10px;
+    margin: auto;
+    @include tablet{
+      padding: 0 30px;
+    }
+  }
+}

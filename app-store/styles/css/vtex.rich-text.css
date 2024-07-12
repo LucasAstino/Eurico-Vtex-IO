@@ -171,6 +171,10 @@
     line-height: 1.3em;
   }
 }
+.container {
+  -webkit-text-stroke: 0.2px;
+}
+
 .paragraph,
 .headingLevel1 {
   margin: 0;
@@ -321,6 +325,86 @@
   }
 }
 
+.container--about-us__title .heading {
+  font-size: 33px;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 33px;
+  margin-top: 35px;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us__title {
+    text-align: center;
+    display: inline;
+  }
+}
+.container--about-us-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #000;
+  text-align: left;
+}
+.container--about-us-text .paragraph {
+  padding: 15px 35px 15px 0;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text .paragraph {
+    padding: 15px 0;
+  }
+}
+.container--about-us-text .heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+.container--fidelity__text {
+  max-width: 1208px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 40px auto 50px;
+}
+.container--fidelity__text .headingLevel1 {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+.container--fidelity__text .headingLevel2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.container--fidelity__text .paragraph {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.container--fidelity__text .list {
+  list-style: none;
+  padding: 0;
+}
+.container--fidelity__text .list .listItem {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.container--fidelity__text .list .listItem::before {
+  content: "-";
+}
+
 .container--history__title .heading {
   padding: 30px 0 15px;
   font-size: 33px;
@@ -329,11 +413,6 @@
   text-transform: uppercase;
   color: #000;
   font-weight: 400;
-}
-@media (max-width: 1025px) {
-  .container--history__title .heading {
-    font-size: 23px;
-  }
 }
 .container--history__subTitle .heading {
   margin: 15px 0;

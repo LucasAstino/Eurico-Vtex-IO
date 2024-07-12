@@ -1,0 +1,8 @@
+.imageElement{
+  &--about-us__fullbanner{
+    width: 100%;
+    @include tablet{
+      aspect-ratio: 375 / 180;
+    }
+  }
+}

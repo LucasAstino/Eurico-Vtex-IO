@@ -1,12 +1,18 @@
 {
   "store.custom#about-us": {
-    "path": "/about-us"
+    "path": "/institucional/sobre-nos"
   },
   "store.custom#faq": {
     "path": "/faq"
   },
+  "store.custom#fidelity": {
+    "path": "/fidelidade"
+  },
   "store.custom#history": {
     "path": "/institucional/historia"
+  },
+  "store.custom#tips": {
+    "path": "/institucional/dicas"
   },
   "store.custom#contact-us": {
     "path": "/contact-us"

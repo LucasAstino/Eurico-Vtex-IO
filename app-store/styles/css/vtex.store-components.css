@@ -102,6 +102,15 @@
   margin-top: 20px;
 }
 
+.imageElement--about-us__fullbanner {
+  width: 100%;
+}
+@media (max-width: 1025px) {
+  .imageElement--about-us__fullbanner {
+    aspect-ratio: 375/180;
+  }
+}
+
 @media (min-width: 1025px) {
   .imageElement--history__content-img {
     width: 25%;

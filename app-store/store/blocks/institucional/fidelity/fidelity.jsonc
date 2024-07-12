@@ -1,0 +1,17 @@
+{
+  "store.custom#fidelity":{
+    "children":["rich-text#fidelity__text"]
+
+  },
+  "flex-layout.row#fidelity__content":{
+    "children":["rich-text#fidelity__text"]
+
+  },
+  "rich-text#fidelity__text": {
+    "title": "Conteudo de texto",
+    "props": {
+      "text":"# Bem-vindo ao Programa de Fidelidade Eu Sou EuricoA partir de agora, todas as compras realizadas em nossas lojas físicas geram um bônus de 10% do valor pago para ser utilizado em sua próxima compra conosco!## REGULAMENTO- Ao efetuar uma compra em uma das lojas físicas Eurico, você recebe um SMS com um bônus de 10% do valor pago.- O bônus deve ser utilizado na compra seguinte à que gerou o crédito, no limite de até 30% do valor total desta compra.- O bônus deve ser utilizado integralmente em uma única compra. Não computamos o saldo residual.- O prazo para utilização do bônus é de 7 a 120 dias após a compra que gerou o crédito. Confira a validade no SMS recebido após a compra. Este prazo não é prorrogável.- O benefício não é cumulativo com outras promoções como Black Friday e períodos de liquidação, bem como outras promoções que estejam vigentes nas lojas físicas. O bônus será “congelado” nestes períodos.- O bônus pode ser utilizado nas lojas físicas Eurico e Eurico Max, independente da loja onde foi feita a compra. O benefício não se aplica a compras feitas pelo site.- As regras deste programa podem sofrer alterações a qualquer momento, sem aviso prévio e sem prejuízo aos participantes com bônus vigentes.",
+      "blockClass": "fidelity__text"
+    }
+  }
+}

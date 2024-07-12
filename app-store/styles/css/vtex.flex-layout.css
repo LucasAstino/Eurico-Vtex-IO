@@ -301,7 +301,17 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 40px;
+}
+
+.flexRow--about-us-row {
+  max-width: 1208px;
+  padding: 0 10px;
+  margin: auto;
+}
+@media (max-width: 1025px) {
+  .flexRow--about-us-row {
+    padding: 0 30px;
+  }
 }
 
 .flexRow--history__content-row {
