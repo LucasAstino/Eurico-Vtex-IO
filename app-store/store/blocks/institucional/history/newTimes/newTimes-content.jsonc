@@ -1,0 +1,32 @@
+{
+  "rich-text#history__content-newTimes": {
+    "props": {
+      "text": "## NOVOS TEMPOS",
+      "blockClass": ["history__content-newTimes","history__subTitle"]
+    }
+  },
+  "flex-layout.row#history__content-newTimes--content": {
+    "props": {
+      "blockClass": "history__content-newTimes--content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#history__content-newTimes--content-img",
+      "rich-text#history__content-newTimes--content-text"
+    ]
+  },
+
+  "rich-text#history__content-newTimes--content-text": {
+    "props": {
+      "text": "Em 1990, ainda muito lúcida mas já com 90 anos, Dona Leonie resolveu passar o bastão da direção a seu filho Hans, assessorado pelas filhas e o Sr. Guimarães. Na virada para os anos 2000, mais uma reforma fez com que a Casa Eurico se tornasse muito mais ampla, bonita e moderna.\n\nE após comemorar os 65 anos de existência da empresa, a diretoria, já com a participação dos bisnetos do casal fundados, decidiu efetivar a ampliação do negócio, com a criação da Eurico Max e a inauguração, em dezembro de 2003 sua loja, na charmosa Rua Oscar Freire, em São Paulo. Espaço que após sete anos de funcionamento ganhou uma ambientação exclusiva e um novo mix de produtos para abrigar a nova marca do grupo. Com a proposta de atender um público mais jovem e ligado a tendências de moda, a Eurico Max foi criada para dar ao cliente Eurico uma nova opção de compra.\n\nAinda, a Eurico Web consolidou-se como plataforma eletrônica de vendas dos produtos da Eurico e da Eurico Max, levando para a internet a mesma experiência acolhedora da compra de produtos nas lojas físicas.\n\nMas nada temam os antigos clientes da Casa Eurico acostumados aos mimos e paparicos dos donos e vendedores. Pois apesar de tantas mudanças, nosso DNA continua o mesmo, assim como aquela mania tão fora de moda de agradar os clientes, ajudando-os a calçar os sapatos, e se for preciso, pondo a loja abaixo até encontrar o par desejado.",
+      "blockClass": ["history__content-newTimes--content-text","history__content-text"]
+    }
+  },
+
+  "image#history__content-newTimes--content-img": {
+    "props": {
+      "src": "assets/images/institucional/history/eurico-moderna.webp",
+      "blockClass": "history__content-img"
+    }
+  }
+}

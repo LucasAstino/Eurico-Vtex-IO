@@ -1,0 +1,16 @@
+.imageElement{
+  &--history__content-img{
+    @include desktop{
+      width: 25%;
+      height: fit-content;
+      margin-right: 30px;
+    }
+  }
+  &--history__content-neighborhood--content-img-large{
+    @include desktop{
+    width: 50%;
+    display: block;
+    margin: 40px auto 50px;
+    }
+  }
+}

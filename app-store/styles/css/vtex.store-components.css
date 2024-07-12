@@ -101,3 +101,18 @@
 .imageElement--banner-categoria {
   margin-top: 20px;
 }
+
+@media (min-width: 1025px) {
+  .imageElement--history__content-img {
+    width: 25%;
+    height: fit-content;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .imageElement--history__content-neighborhood--content-img-large {
+    width: 50%;
+    display: block;
+    margin: 40px auto 50px;
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "rich-text#history__content-endOfTheWord": {
+    "props": {
+      "text": "## A LOJA NO FIM DO MUNDO",
+      "blockClass": ["history__content-endOfTheWord","history__subTitle"]
+    }
+  },
+  "flex-layout.row#history__content-endOfTheWord--content": {
+    "props": {
+      "blockClass": "history__content-endOfTheWord--content",
+      "colSizing": "auto"
+    },
+    "children":["image#history__content-endOfTheWord--content-img","rich-text#history__content-endOfTheWord--content-text"]
+  },
+  "flex-layout.row#history__content-endOfTheWord--content-2": {
+    "props": {
+      "blockClass": "history__content-endOfTheWord--content",
+      "colSizing": "auto"
+    },
+    "children":["rich-text#history__content-endOfTheWord--content-text-3","image#history__content-endOfTheWord--content-img-2"]
+  },
+  "rich-text#history__content-endOfTheWord--content-text": {
+    "props": {
+      "text": "Eram meados de 1938. Herr Erich Rosenthal, que nesta época já era chamado de Senhor Eurico, tinha encontrado o lugar ideal para desenvolver seu negócio. Um bairro misto, afastado do centro, tal e qual era sua loja na Alemanha. Só que na verdade, a Avenida Jandira pouco ou nada tinha a ver com a Dusseldorfer Strasse.\n\nEra uma rua de terra, que virava rio em dia de chuva, para alegria da meninada com seus barquinhos de papel. O comércio era mínimo: uma padaria na esquina, um barbeiro, um relojoeiro, uma loja de móveis, uma de uniformes escolares e alguns bazares.\n\nComo disse um pedestre bem-humorado, era preciso ter coragem para abrir uma loja naquele fim de mundo. Mas o senhor Eurico acreditou",
+      "blockClass": ["history__content-endOfTheWord--content-text","history__content-text"]
+    }
+  },
+  "rich-text#history__content-endOfTheWord--content-text-2": {
+    "props": {
+      "text": "O bairro era bom. Os funcionários das fábricas e indústrias da redondeza eram uma clientela em potencial. Na época, tinha a Metalúrgica Barbará, a Reiche, fabricante de parafusos, a Junker, de fogões, a Sherwin Williams, de tintas, e poucas outras.\n\nA colônia alemã, atraída pela indústria em crescimento, era bastante expressiva.\n\nA linha de bonde Centro-Indianópolis fazia seu balão de retorno praticamente na porta, o que era garantia de movimento. E o que era mais importante: não havia na região nenhuma loja de calçados. Mas tudo isto não significava, de modo algum, que os negócios seriam fáceis.\n\nNo Brasil, as coisas funcionavam de forma um pouco estranha aos modos germânicos do senhor Eurico. A pontualidade não era prática muito difundida no país, qualidade não era a principal preocupação dos fabricantes de calçados, e a pechincha era uma mania nacional.\n\nAos poucos, com o apoio da família, e a vivência do amigo e funcionário Jacob no ramo de calçados, o senhor Eurico foi descobrindo as manhas do negócio made in Brasil.\n\nSeguindo os palpites de Jacob, o senhor Eurico aprendia a comprar a crédito de bons fornecedores, dona Leonie fazia clientes respondendo à pechincha com pequenos descontos, e os filhos divulgavam a imagem da loja distribuindo folhetos de propaganda.\n\nNo dia 24 de dezembro de 1938, absolutamente contagiado pelo jeitinho brasileiro, o casal esticou o expediente das seis e meia da tarde até altas horas da noite, para atender os retardatários do Natal.",
+      "blockClass": ["history__content-endOfTheWord--content-text-2","history__content-text"]
+    }
+  },
+  "rich-text#history__content-endOfTheWord--content-text-3": {
+    "props": {
+      "text": "Resultado: antes da Missa do Galo, a Casa Eurico cantava seu primeiro recorde de vendas: um conto de réis num único dia. A façanha se repetiu no carnaval, registrando a maior venda de tênis do ano.\n\nE assim, sempre atento às oportunidades, o senhor Eurico começou a praticar o marketing numa época em que a palavra não existia, nem mesmo no dicionário.\n\nArrematou um lote de calçados masculinos número nos tamanhos 43 e 44, anunciou no jornal alemão e vendeu tudo em poucos dias.\n\nEle tinha acabado de descobrir um segmento novo e inexplorado no ramo de calçados: o dos sapatos de números grandes, que o grupo Eurico lidera até hoje",
+      "blockClass": ["history__content-endOfTheWord--content-text-3","history__content-text"]
+    }
+  },
+
+  "image#history__content-endOfTheWord--content-img": {
+    "props": {
+      "src": "assets/images/institucional/history/enchente.jpg",
+      "blockClass": "history__content-img"
+    }
+  },
+  "image#history__content-endOfTheWord--content-img-2": {
+    "props": {
+      "src": "assets/images/institucional/history/fachada.webp",
+      "blockClass": "history__content-img"
+    }
+  }
+}

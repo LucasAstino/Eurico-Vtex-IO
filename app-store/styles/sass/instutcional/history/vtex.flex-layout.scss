@@ -1,0 +1,30 @@
+.flexRow {
+  &--history__content-row {
+    max-width: 1208px;
+    padding: 0 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    @include tablet{
+      padding: 0 30px;
+    }
+    .flexRowContent {
+      .stretchChildrenWidth {
+        display: contents;
+      }
+    }
+  }
+}
+
+.flexCol{
+  &--history__content{
+    @include tablet{
+      align-items: center;
+
+      .flexRow{
+        .flexRowContent{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

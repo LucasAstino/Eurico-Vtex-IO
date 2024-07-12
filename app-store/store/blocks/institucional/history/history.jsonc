@@ -1,0 +1,40 @@
+{
+  "store.custom#history": {
+    "blocks": ["flex-layout.row#history__content"]
+  },
+  "flex-layout.row#history__content":{
+    "props": {
+      "blockClass": "history__content-row"
+    },
+    "children":["flex-layout.col#history__content"]
+},
+  "flex-layout.col#history__content":{
+    "props": {
+      "blockClass": "history__content"
+    },
+    "children":[
+      "rich-text#history__title",
+      "rich-text#history__content-firstTime",
+      "flex-layout.row#history__content-firstTime--content",
+      "rich-text#history__content-endOfTheWord",
+      "flex-layout.row#history__content-endOfTheWord--content",
+      "rich-text#history__content-endOfTheWord--content-text-2",
+      "flex-layout.row#history__content-endOfTheWord--content-2",
+      "rich-text#history__content-neighborhood",
+      "flex-layout.row#history__content-neighborhood--content",
+      "image#history__content-neighborhood--content-img-large",
+      "rich-text#history__content-metropolis",
+      "flex-layout.row#history__content-metropolis--content",
+      "flex-layout.row#history__content-metropolis--content-2",
+      "rich-text#history__content-newTimes",
+      "flex-layout.row#history__content-newTimes--content"
+    ]
+  },
+  "rich-text#history__title": {
+    "props": {
+      "text": "# NOSSA HISTÓRIA",
+      "blockClass": "history__title"
+    }
+  }
+
+}

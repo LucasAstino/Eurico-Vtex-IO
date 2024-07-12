@@ -320,3 +320,78 @@
     opacity: 0.2;
   }
 }
+
+.container--history__title .heading {
+  padding: 30px 0 15px;
+  font-size: 33px;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 400;
+}
+@media (max-width: 1025px) {
+  .container--history__title .heading {
+    font-size: 23px;
+  }
+}
+.container--history__subTitle .heading {
+  margin: 15px 0;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+@media (max-width: 1025px) {
+  .container--history__subTitle .heading:not(:global(.vtex-rich-text-0-x-heading--history__content-firstTime)) {
+    margin-top: 50px;
+  }
+}
+.container--history__content-firstTime--content-text .paragraph {
+  padding: 15px 35px 15px 0;
+}
+.container--history__content-endOfTheWord--content-text .paragraph {
+  padding: 5px 35px 5px 0;
+}
+.container--history__content-endOfTheWord--content-text-2 .paragraph {
+  padding: 5px 35px 5px 0;
+}
+.container--history__content-endOfTheWord--content-text-3 .paragraph {
+  padding: 15px 35px 15px 0;
+}
+.container--history__content-neighborhood--content-text .paragraph {
+  padding: 5px 35px 5px 0;
+}
+.container--history__content-metropolis--content-text .paragraph {
+  padding: 5px 35px 5px 0;
+}
+.container--history__content-metropolis--content-text-2 .paragraph {
+  padding: 15px 35px 15px 0;
+}
+.container--history__content-newTimes--content-text .paragraph {
+  padding: 5px 35px 5px 0;
+}
+.container--history__content-text .paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #000;
+  text-align: left;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--history__content-text .paragraph {
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+@media (min-width: 1025px) {
+  .container--history__content-text {
+    width: 70% !important;
+  }
+}

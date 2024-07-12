@@ -1,0 +1,32 @@
+{
+  "rich-text#history__content-firstTime": {
+    "props": {
+      "text": "## PRIMEIROS TEMPOS",
+      "blockClass": ["history__content-firstTime","history__subTitle"]
+    }
+  },
+  "flex-layout.row#history__content-firstTime--content": {
+    "props": {
+      "blockClass": "history__content-firstTime--content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#history__content-firstTime--content-text",
+      "image#history__content-firstTime--content-img"
+    ]
+  },
+
+  "rich-text#history__content-firstTime--content-text": {
+    "props": {
+      "text": "Terminava o ano de 1936. E com ele, a vida tranquila de uma família burguesa de um dos maiores centros culturais da Alemanha: Dusseldorf. A guerra trouxe-a para o Brasil, mais exatamente para uma fazenda de café e algodão próxima a Marília, no interior de São Paulo. \n \n Dona Leonie, contadora formada, assumiu funções compatíveis no escritório da fazenda, e o senhor Erich recebeu o cargo de almoxarife. Os filhos do casal, Gert, de 9 anos e Hans, de 7, frequentavam a escola da fazenda, que se resumia a uma classe para todas as idades. E cuidavam da limpeza e arrumação da casa.\n\nEm princípios de 1938, a família Rosenthal parte novamente. Desta vez para São Paulo, Capital.\n\nDona Leonie logo começou a trabalhar em um banco, enquanto o senhor Erich procurava um local para montar seu próprio negócio.\n\nUm dia tomou um bonde na Praça da Sé. O bonde ia até Santo Amaro, mas o senhor Erich resolveu descer em Indianópolis.",
+      "blockClass": ["history__content-firstTime--content-text","history__content-text"]
+    }
+  },
+
+  "image#history__content-firstTime--content-img": {
+    "props": {
+      "src": "assets/images/institucional/history/rosenthal.jpg",
+      "blockClass": "history__content-img"
+    }
+  }
+}

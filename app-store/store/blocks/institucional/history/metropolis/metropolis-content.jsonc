@@ -1,0 +1,47 @@
+{
+  "rich-text#history__content-metropolis": {
+    "props": {
+      "text": "## A LOJA NA METRÓPOLE",
+      "blockClass": ["history__content-metropolis","history__subTitle"]
+    }
+  },
+  "flex-layout.row#history__content-metropolis--content": {
+    "props": {
+      "blockClass": "history__content-metropolis--content",
+      "colSizing": "auto"
+    },
+    "children":["image#history__content-metropolis--content-img","rich-text#history__content-metropolis--content-text"]
+  },
+  "flex-layout.row#history__content-metropolis--content-2": {
+    "props": {
+      "blockClass": "history__content-metropolis--content",
+      "colSizing": "auto"
+    },
+    "children":["rich-text#history__content-metropolis--content-text-2","image#history__content-metropolis--content-img-2"]
+  },
+  "rich-text#history__content-metropolis--content-text": {
+    "props": {
+      "text": "Com a construção do Shopping Center Ibirapuera, Moema perdeu sua dimensão regional para se tornar um bairro metropolitano. As casas foram cedendo seu lugar a lojas e edifícios. Aumentou a população local, e gente de toda a cidade passou a frequentar e comprar no bairro. Uma oportunidade de crescimento que infelizmente o senhor Eurico teve pouco tempo para saborear.\n\nCom sua morte em 1976, o senhor Guimarães, gerente da loja desde 1964, passou a ser o braço direito de dona Leonie, ajudando-a em todas as transações com fornecedores. Numa ousada jogada comercial, tratou de convencê-la a abrir mão dos calçados de tamanhos ditos “normais” para fazer da Casa Eurico a loja dos Pés Grandes.",
+      "blockClass": ["history__content-metropolis--content-text","history__content-text"]
+    }
+  },
+  "rich-text#history__content-metropolis--content-text-2": {
+    "props": {
+      "text": "A aposta deu certo: aos sábados, a loja ficava tão cheia que as pessoas se aglomeravam à porta. O próximo passo foi modernizar a imagem da Casa Eurico. Com um belo banho de boutique, a loja abriu suas portas para uma nova clientela, ávida por ter finalmente o privilégio de poder escolher um calçado que servisse nos seus pés.\n\nEntre 1980 e os primeiros anos da década de 1990, a terceira geração passou a figurar nos negócios – Nidia, formada em administração, Vera em arquitetura e Claudia em publicidade – época na qual a Casa Eurico ganhou maior área de vitrine e estocagem para dar conta da crescente diversidade de produtos à venda, até então espalhados por várias sobrelojas da redondeza. Gente de toda a cidade e até do país passou a frequentar a loja, principalmente os representantes da nova geração de esportistas brasileiros, com seus metro e noventa ou mais de altura.",
+      "blockClass": ["history__content-metropolis--content-text-2","history__content-text"]
+    }
+  },
+
+  "image#history__content-metropolis--content-img": {
+    "props": {
+      "src": "assets/images/institucional/history/natal-70.webp",
+      "blockClass": "history__content-img"
+    }
+  },
+  "image#history__content-metropolis--content-img-2": {
+    "props": {
+      "src": "assets/images/institucional/history/familia-eurico.jpg",
+      "blockClass": "history__content-img"
+    }
+  }
+}

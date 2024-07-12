@@ -1,0 +1,38 @@
+{
+  "rich-text#history__content-neighborhood": {
+    "props": {
+      "text": "## A LOJA NO BAIRRO",
+      "blockClass": ["history__content-neighborhood","history__subTitle"]
+    }
+  },
+  "flex-layout.row#history__content-neighborhood--content": {
+    "props": {
+      "blockClass": "history__content-neighborhood--content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#history__content-neighborhood--content-img",
+      "rich-text#history__content-neighborhood--content-text"
+    ]
+  },
+
+  "rich-text#history__content-neighborhood--content-text": {
+    "props": {
+      "text": "No fim dos anos 40, São Paulo já era o maior centro industrial da América Latina. Para ter sucesso no comércio era preciso oferecer produtos diferenciados, vender status e fazer propaganda.\n\nA Casa Eurico aumentou suas vitrines e ganhou uma bela marquise na entrada, sinal da arquitetura dos novos tempos.\n\nOs anúncios veiculados no jornal alemão e no rádio se incumbiam de trazer a clientela selecionada.\n\nO carrossel infantil instalado bem no meio da loja trazia crianças com suas mamães a tiracolo.\n\nMas, segundo o senhor Eurico, a alma do negócio continuava sendo dona Leonie.\n\nGert e Hans, os filhos do casal, já não trabalhavam na loja: Gert emigrou para os Estados Unidos, e Hans se formou Engenheiro Civil e seguiu sua carreira em São Paulo.\n\nNesta época, o casal Eurico e Leonie dividiam a responsabilidade e o trabalho com alguns funcionários competentes e dedicados.",
+      "blockClass": ["history__content-neighborhood--content-text","history__content-text"]
+    }
+  },
+
+  "image#history__content-neighborhood--content-img": {
+    "props": {
+      "src": "assets/images/institucional/history/eurico-50.webp",
+      "blockClass": "history__content-img"
+    }
+  },
+  "image#history__content-neighborhood--content-img-large": {
+    "props": {
+      "src": "assets/images/institucional/history/leoni.webp",
+      "blockClass": "history__content-neighborhood--content-img-large"
+    }
+  }
+}
