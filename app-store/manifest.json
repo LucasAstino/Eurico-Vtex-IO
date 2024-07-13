@@ -1,7 +1,7 @@
 {
   "vendor": "eurico",
   "name": "fg-store",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
