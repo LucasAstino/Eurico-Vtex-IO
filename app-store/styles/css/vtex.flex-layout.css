@@ -338,6 +338,16 @@
   }
 }
 
+.flexRow--tips__content-row {
+  max-width: 1208px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+.flexRow--tips__content-row .stretchChildrenWidth {
+  display: contents;
+}
+
 .flexRow--header-drawer {
   width: 100%;
   height: 128px;

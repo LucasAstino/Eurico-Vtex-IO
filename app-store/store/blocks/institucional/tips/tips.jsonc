@@ -1,17 +1,132 @@
 {
-  "store.custom#tips":{
-    "children":["rich-text#fidelity__text"]
-
+  "store.custom#tips": {
+    "children": ["flex-layout.row#tips__content-row"]
   },
-  "flex-layout.row#fidelity__content":{
-    "children":["rich-text#fidelity__text"]
 
-  },
-  "rich-text#fidelity__text": {
-    "title": "Conteudo de texto",
+  "flex-layout.row#tips__content-row": {
     "props": {
-      "text":"# Bem-vindo ao Programa de Fidelidade Eu Sou EuricoA partir de agora, todas as compras realizadas em nossas lojas físicas geram um bônus de 10% do valor pago para ser utilizado em sua próxima compra conosco!## REGULAMENTO- Ao efetuar uma compra em uma das lojas físicas Eurico, você recebe um SMS com um bônus de 10% do valor pago.- O bônus deve ser utilizado na compra seguinte à que gerou o crédito, no limite de até 30% do valor total desta compra.- O bônus deve ser utilizado integralmente em uma única compra. Não computamos o saldo residual.- O prazo para utilização do bônus é de 7 a 120 dias após a compra que gerou o crédito. Confira a validade no SMS recebido após a compra. Este prazo não é prorrogável.- O benefício não é cumulativo com outras promoções como Black Friday e períodos de liquidação, bem como outras promoções que estejam vigentes nas lojas físicas. O bônus será “congelado” nestes períodos.- O bônus pode ser utilizado nas lojas físicas Eurico e Eurico Max, independente da loja onde foi feita a compra. O benefício não se aplica a compras feitas pelo site.- As regras deste programa podem sofrer alterações a qualquer momento, sem aviso prévio e sem prejuízo aos participantes com bônus vigentes.",
-      "blockClass": "fidelity__text"
+      "blockClass": "tips__content-row"
+    },
+    "children": ["flex-layout.col#tips__content"]
+  },
+  "flex-layout.col#tips__content": {
+    "props": {
+      "blockClass": "tips__content"
+    },
+    "children": [
+      "rich-text#tips__title",
+      "rich-text#tips__subTitle",
+      "flex-layout.row#tips__article-1",
+      "flex-layout.row#tips__article-2"
+    ]
+  },
+
+  "rich-text#tips__title": {
+    "title": "Titulo da pagina",
+    "props": {
+      "text": "DICAS",
+      "blockClass": "tips__title"
+    }
+  },
+  "rich-text#tips__subTitle": {
+    "title": "Sub-titulo da pagina",
+    "props": {
+      "text": "CUIDADOS COM OS PÉS E SAPATOS",
+      "blockClass": "tips__subTitle"
+    }
+  },
+  "flex-layout.row#tips__article-1": {
+    "title": "Artigo",
+    "props": {
+      "blockClass": "tips__article-1"
+    },
+    "children": [
+      "flex-layout.col#tips__article-1-left",
+      "flex-layout.col#tips__article-1-right"
+    ]
+  },
+  "flex-layout.col#tips__article-1-left": {
+    "title": "Artigo",
+    "props": {
+      "blockClass": "tips__article-1-left"
+    },
+    "children": [
+      "rich-text#tips__article-1--title",
+      "rich-text#tips__article-1--text"
+    ]
+  },
+  "flex-layout.col#tips__article-1-right": {
+    "title": "Artigo",
+    "props": {
+      "blockClass": "tips__article-1-right"
+    },
+    "children": ["image#tips__article-1-img"]
+  },
+  "image#tips__article-1-img": {
+    "props": {
+      "src": "assets/images/institucional/tips/pe-dica.png",
+      "blockClass": "tips__article-1-img"
+    }
+  },
+  "rich-text#tips__article-1--title": {
+    "title": "Titulo do primeiro artigo",
+    "props": {
+      "text": "### PÉS:",
+      "blockClass": "tips__article-1--title"
+    }
+  },
+  "rich-text#tips__article-1--text": {
+    "title": "texto do primeiro artigo",
+    "props": {
+      "text": "Todos nós temos uma rotina de cuidados com o nosso corpo, que vai desde o que comemos e bebemos, a prática de exercícios físicos, até o tipo de produto que aplicamos nos cabelos e na pele. Mas muitas vezes nos esquecemos de cuidar dos pés, que sustentam nosso corpo ao longo do dia. Os pés merecem cuidados básicos que não requerem muito tempo ou dedicação, mas que fazem toda a diferença!\n 1. Mantenha as unhas sempre aparadas e, para evitar que encravem, nunca arredonde as laterais.\n 2. Após o banho, dê atenção especial à secagem dos pés, principalmente entre os dedos, pois a umidade pode causar micoses. Utilize uma toalha de papel ou papel higiênico, pois absorvem a umidade melhor que a toalha de pano.\n 3. Ainda para evitar a umidade excessiva dos pés, evite o uso de sapatos e tênis sem meias. Estas devem ser preferencialmente de algodão. E sempre que possível, ande descalço dentro de casa.\n 4. Se a pele dos seus pés é seca, nunca se esqueça de usar um creme hidratante após o banho. Aproveite para fazer uma massagem - após um dia inteiro sustentando seu corpo, seus pés merecem esse carinho!\n 5. Poucas coisas deixam a mulher mais sensual do que um par de saltos altos. Porém, seu uso constante pode causar danos aos pés e à coluna. Assim, procure alternar o uso de calçados de saltos altos com outros mais baixos. E depois de algumas horas usando saltos altos, alongue por alguns minutos a panturrilha (mais conhecida por 'batata da perna').",
+      "blockClass": "tips__article-1--text"
+    }
+  },
+  "flex-layout.row#tips__article-2": {
+    "title": "Artigo",
+    "props": {
+      "blockClass": "tips__article-2"
+    },
+    "children": [
+      "flex-layout.col#tips__article-2-left",
+      "flex-layout.col#tips__article-2-right"
+    ]
+  },
+  "flex-layout.col#tips__article-2-right": {
+    "title": "Artigo",
+    "props": {
+      "blockClass": "tips__article-2-right"
+    },
+    "children": ["rich-text#tips__article-2--text"]
+  },
+  "flex-layout.col#tips__article-2-left": {
+    "title": "Artigo",
+    "props": {
+      "blockClass": "tips__article-2-left"
+    },
+    "children": [
+      "rich-text#tips__article-2--title",
+      "image#tips__article-2-img"
+    ]
+  },
+  "image#tips__article-2-img": {
+    "props": {
+      "src": "assets/images/institucional/tips/sapato-dica.png",
+      "blockClass": "tips__article-2-img"
+    }
+  },
+  "rich-text#tips__article-2--title": {
+    "title": "Titulo do primeiro artigo",
+    "props": {
+      "text": "### PÉS:",
+      "blockClass": "tips__article-2--title"
+    }
+  },
+  "rich-text#tips__article-2--text": {
+    "title": "texto do primeiro artigo",
+    "props": {
+      "text": "Grande parte dos problemas nos pés são causados por calçados inadequados. Antes de fazer a sua compra, é muito importante conhecer algumas de suas características. E para que o produto tenha vida longa, alguns cuidados na manutenção são fundamentais.\n- 1. Segundo especialistas, a altura do salto ideal é o tamanho em centímetros do comprimento do dedão do pé. Se você é do tipo que não abre mão de um salto alto, prefira modelos de plataforma, que diminuem a curvatura dos pés. Para as adeptas de rasteiras, é sempre bom intercalar seu uso com outros modelos que tenham um pouco de salto. E para os homens, a melhor pedida em relação ao conforto são os modelos com solados grossos, preferencialmente com algum tipo de amortecimento.\n- 2. Apesar dos materiais sintéticos serem os mais tentadores no que se refere a preço, prefira os calçados de materiais naturais - eles absorvem o suor, evitando fungos e mau cheiro.\n- 3. Nunca guarde calçados úmidos, pois eles podem embolorar. O bolor, além de estragar o calçado, causa danos à pele dos seus pés. Com um pano seco, seque o calçado por dentro e por fora e deixe-o em um ambiente arejado por um dia.\n- 4. Nunca deixe calçados guardados por muito tempo. Dependendo das condições climáticas e do tipo de material empregado no cabedal e solado do produto, ele pode sofrer danos irreparáveis com a armazenagem prolongada, especialmente em ambientes quentes e úmidos.\n- 5. Para pés sensíveis, calçados de couro de cabra - pelica, camurça e mestiço - são ideais.\n- 6. Para os dias de chuva, escolha um modelo com solado de borracha - de preferência, antiderrapante - que vai manter seus pés mais secos por ser impermeável.\n- 7. Calçados apertados podem comprometer a saúde dos seus pés, prejudicando a sua coluna, a circulação sanguínea e a superfície dos pés. Porém, calçados grandes demais também causam problemas: se o calçado não se ajusta perfeitamente aos pés, a fricção de um com o outro pode causar bolhas e calos.\n- 8. Atualmente, há uma grande oferta de modelos de tênis, adequados para os mais variados tipos de esporte. O que pode parecer apenas um detalhe aos olhos de um leigo pode fazer toda a diferença na sua performance. Portanto, na hora da escolha, não leve em conta unicamente o aspecto visual, é essencial saber para qual modalidade de esporte o modelo foi concebido.",
+      "blockClass": "tips__article-2--text"
     }
   }
 }

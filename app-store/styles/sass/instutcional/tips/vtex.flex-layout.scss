@@ -1,0 +1,12 @@
+.flexRow {
+  &--tips__content-row {
+    max-width: 1208px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+
+    .stretchChildrenWidth{
+      display: contents;
+    }
+  }
+}

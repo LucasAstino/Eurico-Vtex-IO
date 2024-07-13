@@ -1,0 +1,22 @@
+.container {
+  &--tips__title,
+  &--tips__subTitle {
+    margin: 15px 0;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  &--tips__article-1--title,&--tips__article-2--title {
+    .heading {
+      margin: 15px 0;
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 22px;
+    }
+  }
+}
