@@ -11,7 +11,7 @@
   },
 
   "flex-layout.col#contact-us": {
-    "children": ["rich-text#contact-us__telesales", "flex-layout.row#contact-us__store-1","flex-layout.row#contact-us__store-1"]
+    "children": ["rich-text#contact-us__telesales", "flex-layout.row#contact-us__store","flex-layout.row#contact-us__store"]
   },
   "rich-text#contact-us__telesales": {
     "props": {
@@ -28,25 +28,20 @@
     }
   },
 
-  "flex-layout.row#contact-us__store-1": {
+  "flex-layout.row#contact-us__store": {
     "props": {
       "blockClass": "contact-us__store"
     },
-    "children": ["flex-layout.col#contact-us__store-1-left","flex-layout.col#contact-us__store-2-right"]
+    "children": ["flex-layout.col#contact-us__store-left","flex-layout.col#contact-us__store-right"]
   },
-  "flex-layout.row#contact-us__store-2": {},
 
-  "flex-layout.col#contact-us__store-1-left": {
+  "flex-layout.col#contact-us__store-left": {
     "props": {
       "blockClass":"contact-us__store-left"
     },
     "children": ["image#contact-us__store-img"]
   },
-  "flex-layout.col#contact-us__store-1-right": {},
-  "flex-layout.col#contact-us__store-2-left": {
-    "children": ["image#contact-us__store-img"]
-  },
-  "flex-layout.col#contact-us__store-2-right": {
+  "flex-layout.col#contact-us__store-right": {
     "props": {
       "blockClass":"contact-us__store-right"
     },
