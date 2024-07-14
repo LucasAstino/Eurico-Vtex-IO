@@ -4,6 +4,7 @@
   },
 
   "flex-layout.row#contact-us": {
+    "title": "Lojas",
     "props": {
       "blockClass": "contact-us"
     },
@@ -11,9 +12,10 @@
   },
 
   "flex-layout.col#contact-us": {
-    "children": ["rich-text#contact-us__telesales", "flex-layout.row#contact-us__store","flex-layout.row#contact-us__store"]
+    "children": ["rich-text#contact-us__telesales", "flex-layout.row#contact-us__store-1","flex-layout.row#contact-us__store-2"]
   },
   "rich-text#contact-us__telesales": {
+    "title": "Texto televendas",
     "props": {
       "blockClass":"contact-us__telesales",
       "text": "**Horários de funcionamento do e-commerce:** 2ª a 6ª das 9:00 às 18:00 | Sábados das 9:00 às 13:00\n **Televendas:** (11) 5054-8878\n **Dúvidas sobre pedidos:** pedido@eurico.com.br\n **Informações gerais:** sac@eurico.com.br"
@@ -28,7 +30,15 @@
     }
   },
 
-  "flex-layout.row#contact-us__store": {
+  "flex-layout.row#contact-us__store-1": {
+    "title": "Loja 1",
+    "props": {
+      "blockClass": "contact-us__store"
+    },
+    "children": ["flex-layout.col#contact-us__store-left","flex-layout.col#contact-us__store-right"]
+  },
+  "flex-layout.row#contact-us__store-2": {
+    "title": "Loja 2",
     "props": {
       "blockClass": "contact-us__store"
     },
