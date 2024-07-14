@@ -1,0 +1,9 @@
+.imageElement {
+  &--tips__article-1-img,
+  &--tips__article-2-img {
+    @include tablet {
+      display: block;
+      margin: auto;
+    }
+  }
+}

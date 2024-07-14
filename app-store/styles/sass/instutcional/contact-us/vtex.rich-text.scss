@@ -1,0 +1,118 @@
+.container {
+  &--contact-us__telesales {
+    padding: 100px 0px 80px;
+
+    .paragraph {
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 31px;
+    }
+  }
+
+  &--contact-us__store-info {
+
+    .heading {
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 20px;
+      letter-spacing: 1.5px;
+      margin: 10px 0;
+      &::after {
+        content: "";
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 60px;
+        height: 2px;
+        margin-top: 10px;
+        background-color: #d82532;
+
+        @include mobile{
+          display: block;
+          margin: auto;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .paragraph {
+      font-size: 17px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: 31px;
+      margin-bottom: 20px;
+    }
+
+    @include mobile{
+      text-align: center;
+    }
+  }
+
+  &--contact-us__store-map {
+    .paragraph {
+      font-size: 17px;
+      letter-spacing: 1px;
+      line-height: 26px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      &::before {
+        content: "";
+        width: 13px;
+        height: 18px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 10px;
+        background: url('data:image/svg+xml,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 width%3D%2213.436%22 height%3D%2218.648%22 viewBox%3D%220 0 13.436 18.648%22%3E%3Cpath id%3D%22Icon_ionic-md-pin%22 data-name%3D%22Icon ionic-md-pin%22 d%3D%22M12.968%2C2.25A6.174%2C6.174%2C0%2C0%2C0%2C6.75%2C8.343c0%2C4.57%2C6.218%2C11.316%2C6.218%2C11.316s6.218-6.746%2C6.218-11.316A6.174%2C6.174%2C0%2C0%2C0%2C12.968%2C2.25Zm0%2C8.27a2.177%2C2.177%2C0%2C1%2C1%2C2.221-2.176A2.178%2C2.178%2C0%2C0%2C1%2C12.968%2C10.52Z%22 transform%3D%22translate(-6.25 -1.75)%22 stroke%3D%22%23fff%22 stroke-width%3D%221%22/%3E%3C/svg%3E') no-repeat !important;
+
+      }
+      .link {
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+
+    @include mobile{
+      justify-content: center;
+    }
+  }
+
+  &--contact-us__store-phone{
+    .paragraph{
+      letter-spacing: .3px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+
+      &::before{
+        content: "";
+        width: 50px;
+        height: 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 10px;
+        background: url(assets/icons/whatsapp.svg)
+      }
+
+      .link{
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+    @include mobile{
+      justify-content: center;
+    }
+  }
+
+
+
+}

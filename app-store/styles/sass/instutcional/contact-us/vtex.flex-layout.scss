@@ -1,0 +1,34 @@
+.flexRow {
+  &--contact-us {
+    max-width: 1208px;
+    padding: 0 10px;
+    margin: auto;
+  }
+
+  &--contact-us__store{
+    margin-bottom:100px;
+    .stretchChildrenWidth{
+      display: contents;
+    }
+
+    .flexRowContent{
+      @include mobile{
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .flexCol{
+      &--contact-us__store-left{
+        width: 50%;
+        @include mobile{
+          width: 100%;
+          align-items: center;
+        }
+      }
+      &--contact-us__store-right{
+        padding-left: 30px;
+      }
+    }
+  }
+}

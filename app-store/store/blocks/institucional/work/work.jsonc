@@ -1,0 +1,17 @@
+{
+  "store.custom#work":{
+    "children":["rich-text#work__text"]
+
+  },
+  "flex-layout.row#work__content":{
+    "children":["rich-text#work__text"]
+
+  },
+  "rich-text#work__text": {
+    "title": "Conteudo de texto",
+    "props": {
+      "text":"# QUER TRABALHAR CONOSCO? \n Envie seu currículo para sac@eurico.com.br :)",
+       "blockClass": "work__text"
+    }
+  }
+}

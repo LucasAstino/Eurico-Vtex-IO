@@ -5,8 +5,35 @@
     padding-right: 10px;
     margin: auto;
 
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       display: contents;
+    }
+  }
+
+  &--tips__article-1,
+  &--tips__article-2 {
+    margin-bottom: 60px;
+    .flexRowContent {
+      @include tablet {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .flexCol {
+    &--tips__article-1-left {
+      width: 70% !important;
+    }
+    &--tips__article-1-right {
+      width: 30% !important;
+    }
+    &--tips__article-2-left {
+      width: 30% !important;
+    }
+    &--tips__article-2-right {
+      width: 70% !important;
     }
   }
 }

@@ -46,7 +46,6 @@
     ]
   },
   "flex-layout.col#tips__article-1-left": {
-    "title": "Artigo",
     "props": {
       "blockClass": "tips__article-1-left"
     },
@@ -56,7 +55,6 @@
     ]
   },
   "flex-layout.col#tips__article-1-right": {
-    "title": "Artigo",
     "props": {
       "blockClass": "tips__article-1-right"
     },
@@ -71,7 +69,7 @@
   "rich-text#tips__article-1--title": {
     "title": "Titulo do primeiro artigo",
     "props": {
-      "text": "### PÉS:",
+      "text": "### OS PÉS:",
       "blockClass": "tips__article-1--title"
     }
   },
@@ -93,14 +91,12 @@
     ]
   },
   "flex-layout.col#tips__article-2-right": {
-    "title": "Artigo",
     "props": {
       "blockClass": "tips__article-2-right"
     },
     "children": ["rich-text#tips__article-2--text"]
   },
   "flex-layout.col#tips__article-2-left": {
-    "title": "Artigo",
     "props": {
       "blockClass": "tips__article-2-left"
     },
@@ -118,7 +114,7 @@
   "rich-text#tips__article-2--title": {
     "title": "Titulo do primeiro artigo",
     "props": {
-      "text": "### PÉS:",
+      "text": "### OS CALÇADOS:",
       "blockClass": "tips__article-2--title"
     }
   },

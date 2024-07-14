@@ -111,6 +111,10 @@
   }
 }
 
+.imageElement--contact-us__fullbanner {
+  width: 100%;
+}
+
 @media (min-width: 1025px) {
   .imageElement--history__content-img {
     width: 25%;
@@ -123,5 +127,12 @@
     width: 50%;
     display: block;
     margin: 40px auto 50px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .imageElement--tips__article-1-img, .imageElement--tips__article-2-img {
+    display: block;
+    margin: auto;
   }
 }

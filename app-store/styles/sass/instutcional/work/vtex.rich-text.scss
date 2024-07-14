@@ -1,0 +1,23 @@
+.container {
+  &--work__text {
+    max-width: 1208px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: 200px auto;
+    justify-content: center;
+
+    .heading{
+      font-size: 24px;
+    }
+    .paragraph{
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 300;
+      .link--work__text{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "store.custom#contact-us": {
+    "children": ["image#contact-us__fullbanner", "flex-layout.row#contact-us"]
+  },
+
+  "flex-layout.row#contact-us": {
+    "props": {
+      "blockClass": "contact-us"
+    },
+    "children": ["flex-layout.col#contact-us"]
+  },
+
+  "flex-layout.col#contact-us": {
+    "children": ["rich-text#contact-us__telesales", "flex-layout.row#contact-us__store-1","flex-layout.row#contact-us__store-1"]
+  },
+  "rich-text#contact-us__telesales": {
+    "props": {
+      "blockClass":"contact-us__telesales",
+      "text": "**Horários de funcionamento do e-commerce:** 2ª a 6ª das 9:00 às 18:00 | Sábados das 9:00 às 13:00\n **Televendas:** (11) 5054-8878\n **Dúvidas sobre pedidos:** pedido@eurico.com.br\n **Informações gerais:** sac@eurico.com.br"
+    }
+  },
+
+  "image#contact-us__fullbanner": {
+    "title": "Banner principal",
+    "props": {
+      "src": "assets/images/institucional/contact/banner-nossas-lojas2.webp",
+      "blockClass": "contact-us__fullbanner"
+    }
+  },
+
+  "flex-layout.row#contact-us__store-1": {
+    "props": {
+      "blockClass": "contact-us__store"
+    },
+    "children": ["flex-layout.col#contact-us__store-1-left","flex-layout.col#contact-us__store-2-right"]
+  },
+  "flex-layout.row#contact-us__store-2": {},
+
+  "flex-layout.col#contact-us__store-1-left": {
+    "props": {
+      "blockClass":"contact-us__store-left"
+    },
+    "children": ["image#contact-us__store-img"]
+  },
+  "flex-layout.col#contact-us__store-1-right": {},
+  "flex-layout.col#contact-us__store-2-left": {
+    "children": ["image#contact-us__store-img"]
+  },
+  "flex-layout.col#contact-us__store-2-right": {
+    "props": {
+      "blockClass":"contact-us__store-right"
+    },
+    "children": ["rich-text#contact-us__store-info","rich-text#contact-us__store-map","rich-text#contact-us__store-phone"]
+  },
+
+  "rich-text#contact-us__store-info": {
+    "title": "Informações",
+    "props": {
+      "blockClass":"contact-us__store-info",
+      "text": "## EURICO\nAv. Jandira, 49\nMoema - São Paulo/SP\nCEP: 04080-000\nFone: (11) 5054-8877\n\n2ª a 6ª das 9:00 às 19:00 | Sábados das 9:00 às 18:00Estacionamento conveniado na Av.Ibirapuera nº 2.534."
+    }
+  },
+
+  "rich-text#contact-us__store-map": {
+    "title": "Link do Maps",
+    "props": {
+      "blockClass":"contact-us__store-map",
+      "text": "[Clique aqui para ver como chegar](https://goo.gl/maps/mM4KU7ecjVdXdbDs8)"
+    }
+  },
+
+  "rich-text#contact-us__store-phone": {
+    "title": "Telefone",
+    "props": {
+      "blockClass":"contact-us__store-phone",
+      "text": "[(11) 98909-8752](https://api.whatsapp.com/send?phone=5511989098752)"
+    }
+  },
+
+
+  "image#contact-us__store-img": {
+    "props": {
+      "src": "assets/images/img_loja.webp"
+    }
+  }
+
+  // "form#contact-us": {
+  //   "props": {
+  //     "entity": "contact",
+  //     "schema": "site-contact"
+  //   },
+  //   "blocks": ["form-success#contact-us"],
+  //   "children": [
+  //     "form-input.text#title",
+  //     "form-input.text#name",
+  //     "form-input.text#email",
+  //     "form-input.textarea#message",
+  //     "form-submit#contact"
+  //   ]
+  // },
+
+  // "form-success#contact-us": {
+  //   "children": ["rich-text#success-submit"]
+  // },
+  // "rich-text#success-submit": {
+  //   "props": {
+  //     "text": "Thanks for reaching out! We will come back shortly.",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
+
+  // "form-input.text#title": {
+  //   "props": {
+  //     "pointer": "#/properties/title"
+  //   }
+  // },
+  // "form-input.text#name": {
+  //   "props": {
+  //     "pointer": "#/properties/name"
+  //   }
+  // },
+  // "form-input.text#email": {
+  //   "props": {
+  //     "pointer": "#/properties/email"
+  //   }
+  // },
+  // "form-input.textarea#message": {
+  //   "props": {
+  //     "pointer": "#/properties/message"
+  //   }
+  // },
+
+  // "form-submit#contact": {
+  //   "props": {
+  //     "label": "Submit"
+  //   }
+  // }
+}

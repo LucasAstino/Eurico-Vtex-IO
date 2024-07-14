@@ -14,7 +14,10 @@
   "store.custom#tips": {
     "path": "/institucional/dicas"
   },
+  "store.custom#work": {
+    "path": "/institucional/trabalhe-conosco"
+  },
   "store.custom#contact-us": {
-    "path": "/contact-us"
+    "path": "/institucional/contato"
   }
 }
