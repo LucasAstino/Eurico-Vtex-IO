@@ -1,0 +1,62 @@
+.trigger{
+  &--institucional__wrapper-disclosure--trigger{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    &::after{
+      content: "";
+    width: 15px;
+    height: 15px;
+    position: relative;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(assets/icons/commom/down-arrow.png);
+    -webkit-background-size: 15px 15px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    margin-left: 10px;
+    }
+
+    &--visible{
+      &::after{
+        transform: rotate(0deg);
+      }
+    }
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.content{
+
+  &--hidden{
+    display: none;
+  }
+
+  &--institucional__wrapper-policy--group-answer{
+
+    :global(.vtex-rich-text-0-x-paragraph){
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      line-height: 29px;
+    }
+
+    :global(.vtex-rich-text-0-x-link){
+      font-weight: 500;
+      color: black;
+    }
+  }
+}

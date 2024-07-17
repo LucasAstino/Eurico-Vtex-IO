@@ -1,0 +1,113 @@
+{
+  "store.custom#terms-of-use": {
+    "children": [
+      "flex-layout.row#institucional__wrapper"
+    ]
+  },
+
+  "flex-layout.row#institucional__wrapper": {
+    "props": {
+      "blockClass": "institucional__wrapper"
+    },
+    "children": [
+      "flex-layout.col#institucional__wrapper-left",
+      "flex-layout.col#institucional__wrapper-right"
+    ]
+  },
+
+  "flex-layout.col#institucional__wrapper-right": {
+    "props": {
+      "blockClass":"institucional__wrapper-right"
+    },
+    "children": [
+      "rich-text#terms-of-use__title",
+      "rich-text#institucional__wrapper-terms-of-use--content"
+    ]
+  },
+  "flex-layout.col#institucional__wrapper-left": {
+    "props": {
+      "blockClass":"institucional__wrapper-left"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-1",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-2",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-3",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-4",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-5",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-6",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-7",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-8",
+      "rich-text#institucional__wrapper-terms-of-use-menu-item-9"
+    ]
+  },
+
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-1": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Como comparar](/institucional/como-comprar)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-2": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Guia de medidas](/institucional/guia-de-medidas)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-3": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[nossas políticas](/institucional/nossas-politicas)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-4": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Preços e Formas de Pagamento](/institucional/precos-e-formas-de-pagamento)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-5": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Prazo de Entregas e Frete](/institucional/prazo-de-entregas-e-frete)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-6": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Perguntas frequentes](/institucional/perguntas-frequentes)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-7": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Política de privacidade](/institucional/politica-de-privacidade)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-8": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item","active"],
+      "text": "[Termos de uso](/termosdeuso)"
+    }
+  },
+  "rich-text#institucional__wrapper-terms-of-use-menu-item-9": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Trocas e devoluções](/institucional/trocas-e-devolucoes)"
+    }
+  },
+
+  "rich-text#terms-of-use__title": {
+    "props": {
+      "blockClass":"institucional__wrapper-right--title",
+      "text": "# TERMOS DE USO"
+    }
+  },
+
+
+  "rich-text#institucional__wrapper-terms-of-use--content": {
+    "props": {
+      "blockClass":"institucional__wrapper-terms-of-use--content",
+      "text": "O e-commerce Eurico, acessível através da internet pelo website www.eurico.com.br (“Site”), é de titularidade de e administrada pela CL CALÇADOS Ltda., inscrita no CNPJ/MF sob o nº 04.109.693/0001-06 (“Eurico”).\n\nPor favor, leia estes Termos e Condições Gerais (“Termos de Uso”) para conhecer as condições de uso e decidir se quer acessar e utilizar nosso Site e os nossos serviços. Estes Termos de Uso estão vigentes desde 21 de março de 2019.\n\nAo acessar e/ou usar o nosso Site, adquirir um produto, interagir com os sistemas da Eurico, enviar um texto, foto ou vídeo ou de qualquer outra maneira transmitir informações para o nosso Site, ou fazer o cadastro de usuário, você (“Usuário”) concordará, de forma ampla e definitiva com todos os termos, cláusulas e condições destes Termos de Uso. A Eurico, como titular e responsável pela administração do Site, solicita que, antes de expressar sua concordância, você leia estes Termos de Uso atentamente. Caso tenha qualquer dúvida, por favor, entre em contato conosco através dos canais indicados ao final destes Termos de Uso para esclarecer todas as suas dúvidas antes de utilizar o Site.\n\nSe você tiver menos de 18 (dezoito) anos, você deve ser auxiliado pelos seus pais ou responsáveis legais, e utilizar o Site apenas se seus pais ou responsáveis estiverem de acordo com os Termos de Uso e com as condições comerciais para uso do Site e serviços relacionados. Se você, seus pais ou responsáveis, não concordarem com estes Termos de Uso ou com as condições comerciais para o uso do Site, você não deve utilizar o nosso Site, acessar o conteúdo disponível no Site ou fazer qualquer tipo de interação com o nosso Site.\n\nEsses Termos de Uso não se aplicam às páginas de Internet de terceiros e/ou a serviços e produtos fornecidos por terceiros, ainda que tenham conexão com o nosso Site, sejam anunciados ou divulgados no Site, ou que tenham sido acessados, de qualquer forma, através do Site.\n\nA Eurico se reserva o direito de alterar estes Termos de Uso a qualquer tempo para refletir alterações do Site, de políticas e práticas comerciais da Eurico, avanços tecnológicos, mudanças na legislação e/ou boas práticas comerciais. Se a Eurico alterar estes Termos de Uso, uma versão atualizada irá refletir tais alterações e será disponibilizada no Site.\n\nCaso tenha qualquer dúvida, por favor, entre em contato conosco através dos canais indicados ao final destes Termos de Uso para esclarecer todas as suas dúvidas antes de continuar a utilizar o nosso Site.\n\n## AVISO LEGAL\n\n 1. Você reconhece e concorda que, embora a Eurico faça o possível para veicular no Site o conteúdo mais recente, não é possível garantir a exatidão, a efetividade ou a adequação de quaisquer informações contidas no Site. Você, na qualidade de Usuário, deve assumir inteira responsabilidade e aceitar todos os riscos inerentes ao uso do Site e do conteúdo. Qualquer informação relacionada ou disponível no Site, incluindo o conteúdo, são apresentadas “no estado em que se encontram”, e podem incluir imprecisões técnicas, legais, regulatórias ou erros tipográficos. A Eurico se reserva o direito de acrescentar, excluir ou modificar o conteúdo, no todo ou em parte, a qualquer momento, sem prévio aviso.\n\n 2. A Eurico não será, em nenhuma hipótese, responsabilizada por danos indiretos, lucros cessantes ou perdas de dados relacionadas à utilização do Site e/ou aquisição dos produtos disponíveis no Site. Em todo o caso, a responsabilidade da Eurico por eventuais danos diretos causados ao Usuário estará limitada ao valor total pago pelo Usuário, conforme o caso, pela aquisição de produtos no Site.\n\n## SERVIÇOS DE TERCEIROS\n\n 3. Os serviços e conteúdos disponíveis em sites de terceiros são de única e exclusiva responsabilidade do terceiro. Você reconhece e concorda que a Eurico não garante, não endossa, não assume e não terá qualquer responsabilidade com relação a serviços ou sites de terceiros.\n\n## SPAM\n\n 4. O envio de spams pode ser definido como a transmissão de e-mails ou informações não solicitados, geralmente de cunho comercial, em grandes quantidades e repetidamente a pessoas com as quais o remetente não teve qualquer contato prévio ou que declinaram receber as referidas mensagens. A Eurico não é conivente com a prática de envio de spams, e só enviará e-mails aos Usuários com o seu consentimento ou que sejam relacionados ao Site, conforme estes Termos de Uso e a Política de Privacidade.\n\n## PROPRIEDADE INTELECTUAL\n\n 5. O Site e quaisquer informações, documentos e imagens publicados pela Eurico no Site (“Conteúdo Eurico”) são de exclusiva propriedade da Eurico, de empresas relacionadas à Eurico, ou foram devidamente licenciados à Eurico. Não é permitido qualquer tipo de uso ou reprodução, comercial ou não, do Conteúdo Eurico sem autorização prévia e expressa da Eurico e/ou de seus titulares, por escrito. Não há concessão, expressa ou implícita, de licença ou direito a qualquer pessoa, relativa a qualquer direito autoral, marca ou outro direito de propriedade intelectual da Eurico e/ou de terceiros ao Usuário.\n\n 6. Nenhuma das marcas, nomes empresariais ou imagens dos produtos oferecidos pela Eurico ou contidos no Site poderão ser utilizadas sem prévia autorização, por escrito, da Eurico. O Usuário não deverá (i) remover marcas, avisos de direitos autorais ou qualquer outro aviso incluído em qualquer conteúdo, material ou sinal distintivo do Site; (ii) reproduzir, fazer download, modificar, publicar, distribuir, transmitir, disseminar, difundir, transferir, licenciar, vender, alugar, adaptar, criar subprodutos, exibir ou executar publicamente, ou explorar de alguma forma qualquer conteúdo, material ou elemento individual do Site, sem o consentimento prévio por escrito da Eurico; (iii) fazer qualquer tipo de uso comercial ou derivado de qualquer recurso do Site ou de qualquer conteúdo, material ou elemento individual do Site; (iv) usar quadros ou técnicas de enquadramento para anexar qualquer conteúdo, material ou elemento individual no Site, sem o consentimento prévio por escrito da Eurico; (v) usar qualquer ferramenta de violação, meta-tag ou outro texto oculto utilizando o nome, a marca ou URL da Eurico ou o nome de qualquer recurso do Site, sem o consentimento prévio por escrito da Eurico; ou (vi) desmontar, decompilar ou usar engenharia reversa do Site ou em qualquer outro material disponibilizado no Site ou usado no fornecimento de qualquer recurso do Site.\n\n## PRIVACIDADE E SEGURANÇA\n\n 7. A Eurico entende a importância da proteção aos dados pessoais e privacidade dos Usuários. O uso e tratamento de dados e informações que identificam os Usuários se dá de acordo com a legislação vigente aplicável e nos termos da Política da Privacidade disponível em https://www.eurico.com.br/institucional/politica-de-privacidade\n\n 8. O Usuário reconhece e concorda que, ao encaminhar informações pessoais que o identificam ou identificam terceiros à Eurico, embora a Eurico tenha recursos instalados para evitar o acesso não autorizado ou a interceptação das suas informações, não existem recursos tecnológicos suficientes para garantia absoluta de segurança. Caso haja qualquer interceptação ou acesso não autorizado, apesar dos nossos esforços, a Eurico não será responsável por tais interceptações ou acessos não autorizados, ou por qualquer dano direto, indireto, moral ou lucros cessantes sofridos pelo Usuário ou por terceiros. A Eurico não garante que as suas informações não serão objeto de interceptação ou acesso não autorizado. Cada Usuário do Site é responsável pela guarda e manutenção da confidencialidade de seu login e senha de acesso ao Site, estando sujeito a ter que cumprir com todas as transações legalmente válidas efetuadas em seu nome. Portanto, se, por qualquer motivo, a confidencialidade de sua senha estiver comprometida, imediatamente contate a Eurico.\n\n## DISPOSIÇÕES GERAIS\n\n 9. Você declara entender e concordar com estes Termos de Uso, com as políticas comerciais e a Política de Privacidade da Eurico.\n\n 10. O Site foi desenvolvido e é mantido de acordo com as leis do Brasil, que regem estes Termos de Uso.\n\n 11. O foro da comarca da cidade de São Paulo, Estado de São Paulo, fica eleito para dirimir quaisquer questões oriundas do uso do Site e/ou da aquisição de produtos através do Site, com renúncia expressa a qualquer outro, por mais privilegiado que seja ou venha a ser.\n\n 12. Caso você queira contatar a Eurico para qualquer solicitação como previsto nestes Termos de Uso, você deverá entrar em contato com a Eurico através do e-mail sac@eurico.com.br.\nCL Calçados Ltda. – CNPJ/MF nº 04.109.693/0001-06\nAv. Jandira, 59 - Moema\nCEP 04080-000\nSão Paulo - SP"
+    }
+  }
+}

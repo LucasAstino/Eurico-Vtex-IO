@@ -1,0 +1,16 @@
+.container {
+  &--institucional__wrapper-terms-of-use--content {
+    .paragraph {
+      text-decoration: none;
+      letter-spacing: 0.3px;
+      vertical-align: baseline;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+
+    .link{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

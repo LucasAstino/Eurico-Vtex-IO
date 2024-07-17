@@ -17,6 +17,15 @@
   "store.custom#work": {
     "path": "/institucional/trabalhe-conosco"
   },
+  "store.custom#policy": {
+    "path": "/institucional/nossas-politicas"
+  },
+  "store.custom#privacy-policies": {
+    "path": "/institucional/politica-de-privacidade"
+  },
+  "store.custom#terms-of-use": {
+    "path": "/termosdeuso"
+  },
   "store.custom#contact-us": {
     "path": "/institucional/contato"
   }

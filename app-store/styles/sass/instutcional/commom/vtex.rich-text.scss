@@ -1,0 +1,39 @@
+.container{
+  &--institucional__wrapper-menu-item{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 30px;
+    letter-spacing: .5px;
+    text-align: left;
+    font-weight: 400;
+
+    .link{
+      text-decoration: none;
+      color: black;
+      font-weight: 400;
+
+      &--active{
+        font-weight: bold;
+      }
+    }
+  }
+
+  .heading-level-2{
+    font-size: 16px;
+  }
+
+  &--institucional__wrapper-right--title{
+    .heading{
+      font-size: 33px;
+      font-weight: 500;
+      letter-spacing: 4px;
+      line-height: 40px;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 35px;
+    }
+
+
+
+  }
+}

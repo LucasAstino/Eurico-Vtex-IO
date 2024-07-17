@@ -1,0 +1,274 @@
+{
+  "store.custom#policy": {
+    "children": [
+      "flex-layout.row#institucional__wrapper-policy"
+    ]
+  },
+
+  "flex-layout.row#institucional__wrapper-policy": {
+    "props": {
+      "blockClass": "institucional__wrapper"
+    },
+    "children": [
+      "flex-layout.col#institucional__wrapper-left-policy",
+      "flex-layout.col#institucional__wrapper-right-policy"
+    ]
+  },
+
+  "flex-layout.col#institucional__wrapper-right-policy": {
+    "props": {
+      "blockClass":"institucional__wrapper-right"
+    },
+    "children": [
+      "rich-text#policy__title",
+      "disclosure-layout-group#institucional__wrapper-group"
+    ]
+  },
+  "flex-layout.col#institucional__wrapper-left-policy": {
+    "props": {
+      "blockClass":"institucional__wrapper-left"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-policy-menu-item-1",
+      "rich-text#institucional__wrapper-policy-menu-item-2",
+      "rich-text#institucional__wrapper-policy-menu-item-3",
+      "rich-text#institucional__wrapper-policy-menu-item-4",
+      "rich-text#institucional__wrapper-policy-menu-item-5",
+      "rich-text#institucional__wrapper-policy-menu-item-6",
+      "rich-text#institucional__wrapper-policy-menu-item-7",
+      "rich-text#institucional__wrapper-policy-menu-item-8",
+      "rich-text#institucional__wrapper-policy-menu-item-9"
+    ]
+  },
+
+  "rich-text#institucional__wrapper-policy-menu-item-1": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Como comparar](/institucional/como-comprar)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-2": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Guia de medidas](/institucional/guia-de-medidas)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-3": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item","active"],
+      "text": "[nossas políticas](/institucional/nossas-politicas)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-4": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Preços e Formas de Pagamento](/institucional/precos-e-formas-de-pagamento)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-5": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Prazo de Entregas e Frete](/institucional/prazo-de-entregas-e-frete)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-6": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Perguntas frequentes](/institucional/perguntas-frequentes)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-7": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Política de privacidade](/institucional/politica-de-privacidade)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-8": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Termos de uso](/termosdeuso)"
+    }
+  },
+  "rich-text#institucional__wrapper-policy-menu-item-9": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Trocas e devoluções](/institucional/trocas-e-devolucoes)"
+    }
+  },
+
+  "rich-text#policy__title": {
+    "props": {
+      "blockClass":"institucional__wrapper-right--title",
+      "text": "# NOSSAS POLÍTICAS"
+    }
+  },
+
+  "disclosure-layout-group#institucional__wrapper-group": {
+    "children": [
+      "disclosure-layout#institucional__wrapper-policy--group-first",
+      "disclosure-layout#institucional__wrapper-policy--group-second",
+      "disclosure-layout#institucional__wrapper-policy--group-third",
+      "disclosure-layout#institucional__wrapper-policy--group-fourth",
+      "disclosure-layout#institucional__wrapper-policy--group-sixth"
+    ]
+  },
+
+  "disclosure-layout#institucional__wrapper-policy--group-first": {
+    "props": {
+      "animated": true,
+      "blockClass":"institucional__wrapper-disclosure"
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-policy--group-first", "disclosure-content#institucional__wrapper-policy--group-first"]
+  },
+  "disclosure-trigger#institucional__wrapper-policy--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-question-first"]
+  },
+  "disclosure-content#institucional__wrapper-policy--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-policy--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-answer-first"]
+  },
+  "rich-text#institucional__wrapper-policy--group-question-first": {
+    "props": {
+      "text": "Segurança do site"
+    }
+  },
+  "rich-text#institucional__wrapper-policy--group-answer-first": {
+    "props": {
+      "text": "No mundo real ou virtual é muito importante que você tenha sempre confiança na empresa que escolheu para fazer suas compras.\n\nCorresponder à sua confiança é fundamental para a Eurico, marca que reflete as bases sólidas sobre as quais foi construída ao longo de 80 anos de serviços prestados com muita honestidade e dedicação.\n\nPor favor, leia com atenção as informações sobre nossas políticas de vendas, onde informamos nossos deveres e direitos na relação com nossos clientes. Queremos continuar a fazer parte da sua vida, oferecendo sempre os melhores produtos e um atendimento de qualidade.\n\nEstamos à disposição para ouvi-lo! Se você tiver qualquer dúvida, crítica, elogio ou sugestão, por favor escreva para\n\n[sac@eurico.com.br](mailto:sac@eurico.com.br)\n\nou ligue para (11) 5054-8878."
+    }
+  },
+
+
+
+  "disclosure-layout#institucional__wrapper-policy--group-second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-policy--group-second", "disclosure-content#institucional__wrapper-policy--group-second"]
+  },
+  "disclosure-trigger#institucional__wrapper-policy--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-question-second"]
+  },
+  "disclosure-content#institucional__wrapper-policy--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-policy--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-answer-second"]
+  },
+  "rich-text#institucional__wrapper-policy--group-question-second": {
+    "props": {
+      "text": "Pagamentos"
+    }
+  },
+  "rich-text#institucional__wrapper-policy--group-answer-second": {
+    "props": {
+      "text": "As transações comerciais feitas no nosso site são executadas com a tecnologia SSL (Secure Socket Layer), garantindo que todos os seus dados pessoais – tais como CPF, endereço de entrega, dados de cartões de crédito e histórico de pedidos – sejam sigilosos e jamais acessados por terceiros."
+    }
+  },
+
+
+  "disclosure-layout#institucional__wrapper-policy--group-third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-policy--group-third", "disclosure-content#institucional__wrapper-policy--group-third"]
+  },
+  "disclosure-trigger#institucional__wrapper-policy--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [ "rich-text#institucional__wrapper-policy--group-question-third"]
+  },
+  "disclosure-content#institucional__wrapper-policy--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-policy--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-answer-third"]
+  },
+  "rich-text#institucional__wrapper-policy--group-question-third": {
+    "props": {
+      "text": "Política de privacidade"
+    }
+  },
+  "rich-text#institucional__wrapper-policy--group-answer-third": {
+    "props": {
+      "text": "O grupo Eurico mantém os dados pessoais de seus clientes em absoluto sigilo, fornecendo exclusivamente à empresa de segurança contratada os dados armazenados no site com a finalidade de concretizar as compras. O cadastramento no site corresponde ao consentimento expresso quanto a coleta, uso, armazenamento e tratamento dos dados (inclusive pela terceira contratada).\n\nNão cedemos nem comercializamos dados pessoais de clientes a quaisquer outras empresas sob nenhuma hipótese. Sua utilização se restringe à efetivação das compras e, eventualmente, ao envio de catálogos e informativos sobre novidades, lançamentos e promoções.\n\nA qualquer momento você pode cancelar o recebimento dos nossos informativos por meio da opção correspondente, localizada no rodapé do e-mail marketing, ou no caso de correspondências impressas, escrevendo para sac@eurico.com.br.\n\nAinda visando garantir um ambiente de total confidencialidade, todas as informações pessoais fornecidas no momento do cadastro são armazenadas com criptografia.\n\n[Acesse nossa política de privacidade completa clicando aqui](/politicadeprivacidade)"
+    }
+  },
+
+
+
+
+
+  "disclosure-layout#institucional__wrapper-policy--group-fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-group-fourth", "disclosure-content#institucional__wrapper-group-fourth"]
+  },
+  "disclosure-trigger#institucional__wrapper-group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-question-fourth"]
+  },
+  "disclosure-content#institucional__wrapper-group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-policy--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-policy--group-answer-fourth"]
+  },
+  "rich-text#institucional__wrapper-policy--group-question-fourth": {
+    "props": {
+      "text": "Cookies"
+    }
+  },
+  "rich-text#institucional__wrapper-policy--group-answer-fourth": {
+    "props": {
+      "text": "O site http://www.eurico.com.br, de titularidade da Eurico Web, utiliza cookies para reconhecer um visitante constante e melhorar sua experiência de compra. Os cookies são pequenos arquivos de dados transferidos de um site da web para o disco do seu computador e não armazenam dados pessoais."
+    }
+  },
+
+
+  "disclosure-layout#institucional__wrapper-policy--group-sixth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-policy--group-sixth", "disclosure-content#institucional__wrapper-policy--group-sixth"]
+  },
+  "disclosure-trigger#institucional__wrapper-policy--group-sixth": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [ "rich-text#institucional__wrapper-policy--group-question-sixth"]
+  },
+  "disclosure-content#institucional__wrapper-policy--group-sixth": {
+    "props": {
+      "blockClass": "institucional__wrapper-policy--group-answer"
+    },
+    "children": [ "rich-text#institucional__wrapper-policy--group-answer-sixth"]
+  },
+  "rich-text#institucional__wrapper-policy--group-question-sixth": {
+    "props": {
+      "text": "Razão Social"
+    }
+  },
+  "rich-text#institucional__wrapper-policy--group-answer-sixth": {
+    "props": {
+      "text": "Marketplace desenvolvido por:\n\nRazão Social:\n\nEURICO WEB LTDA - EPP\n\nCNPJ 12.579.806/0001-65\n\nAv. Jandira, 59 - Moema\n\nCEP 04080-000\n\nSão Paulo - SP\n\nTel: (11) 5054-8878\n\nE-Mail:\nsac@eurico.com.br"
+    }
+  }
+}

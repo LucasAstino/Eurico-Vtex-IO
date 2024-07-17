@@ -314,6 +314,17 @@
   }
 }
 
+.flexRow--institucional__wrapper {
+  margin: 100px auto;
+  max-width: 1118px;
+}
+.flexRow--institucional__wrapper .stretchChildrenWidth {
+  display: contents;
+}
+.flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
+  width: 30%;
+}
+
 .flexRow--contact-us {
   max-width: 1208px;
   padding: 0 10px;
