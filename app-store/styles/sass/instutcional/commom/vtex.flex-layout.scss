@@ -1,16 +1,28 @@
-.flexRow{
-  &--institucional__wrapper{
-    margin: 100px auto;
+.flexRow {
+  &--institucional__wrapper {
+    @include desktop {
+      margin: 100px auto;
+    }
     max-width: 1118px;
 
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       display: contents;
     }
 
+    .flexCol {
+      &--institucional__wrapper-left {
+        @include desktop {
+          width: 30%;
+        }
 
-    .flexCol{
-      &--institucional__wrapper-left{
-        width: 30%;
+        position: relative;
+      }
+    }
+
+    .flexRowContent {
+      @include tablet {
+        flex-direction: column;
+        padding: 50px 15px 60px;
       }
     }
   }

@@ -1,0 +1,404 @@
+{
+  "store.custom#how-to-buy": {
+    "children": ["flex-layout.row#institucional__wrapper-how-to-buy"]
+  },
+
+  "flex-layout.row#institucional__wrapper-how-to-buy": {
+    "props": {
+      "blockClass": "institucional__wrapper"
+    },
+    "children": [
+      "flex-layout.col#institucional__wrapper-left-how-to-buy",
+      "flex-layout.col#institucional__wrapper-right-how-to-buy"
+    ]
+  },
+
+  "flex-layout.col#institucional__wrapper-right-how-to-buy": {
+    "props": {
+      "blockClass": "institucional__wrapper-right"
+    },
+    "children": [
+      "rich-text#how-to-buy__title",
+      "disclosure-layout-group#institucional__wrapper-group--how-to-buy"
+    ]
+  },
+  "flex-layout.col#institucional__wrapper-left-how-to-buy": {
+    "props": {
+      "blockClass": "institucional__wrapper-left"
+    },
+    "children": ["responsive-layout.desktop#menu-desktop--how-to-buy", "responsive-layout.mobile#menu-mobile--how-to-buy"]
+  },
+
+  "rich-text#how-to-buy__title": {
+    "props": {
+      "blockClass": "institucional__wrapper-right--title",
+      "text": "# COMO COMPRAR"
+    }
+  },
+
+  "disclosure-layout-group#institucional__wrapper-group--how-to-buy": {
+    "children": [
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-first",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-second",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-third",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-fourth",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-sixth",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-seven",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-eight",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-nine",
+      "disclosure-layout#institucional__wrapper-how-to-buy--group-ten"
+    ]
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-first": {
+    "props": {
+      "animated": true,
+      "blockClass": "institucional__wrapper-disclosure"
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-first",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-first"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-first"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-first"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-first": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "O site da Eurico é seguro?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-first": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-answer",
+      "text": "Sim! O site da Eurico é um marketplace de responsabilidade da Eurico Web, uma empresa do grupo Eurico 100% dedicada ao comércio eletrônico, que comercializa com exclusividade os produtos Eurico e Eurico Max.\nO site conta com um sistema de segurança que criptografa todas as informações enviadas, impedindo que pessoas não autorizadas tenham acesso a elas. Seus dados pessoais são tratados de maneira sigilosa, utilizados apenas pelos funcionários da Eurico responsáveis pelo processamento do seu pedido."
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-second": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-second",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-second"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-second"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-second"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-second": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Como eu faço um pedido pelo site?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-second": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Muito fácil! Escolha o modelo e cor de sua preferência, selecione o tamanho e clique em “comprar”. A seguir você será direcionado ao carrinho de compras. Querendo continuar comprando – e é claro que você vai querer! – clique nesta opção; estando satisfeito com os produtos escolhidos, finalize o pedido: insira seu e-mail, preencha ou confira seus dados cadastrais, selecione o tipo de envio e a forma de pagamento desejados.\nVerifique com atenção todas as informações cadastradas, pois nosso sistema não permite a alteração do endereço de entrega após o envio do pedido. Se houver qualquer erro no endereço informado, o pedido será devolvido à Eurico, o que vai acarretar numa nova cobrança de frete para que seja enviado novamente – não queremos que isso aconteça, certo?\nDepois do pedido enviado, acompanhe as atualizações do status da sua compra por e-mail e pela sua página de cadastro aqui no site."
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-third": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-third",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-third"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-third"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-third"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-third": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Posso direcionar minha encomenda a outro endereço?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-third": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Pode sim! Para informar um endereço de entrega diferente do que consta do seu cadastro, basta clicar em “alterar opções de entrega” e preencher o formulário. Você também pode editar um endereço já existente ou excluí-lo.\nVerifique com atenção todas as informações cadastradas, pois nosso sistema não permite a alteração do endereço de entrega após o envio do pedido. Se houver qualquer erro no endereço informado, o pedido será devolvido à Eurico, o que vai acarretar numa nova cobrança de frete para que seja enviado novamente – não queremos que isso aconteça, certo?"
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-group-fourth",
+      "disclosure-content#institucional__wrapper-group-fourth"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-fourth"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-fourth"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Posso comprar no site e retirar na loja?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-fourth": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Pode, caso o CEP informado no pedido seja de São Paulo – Capital. Neste caso, não há cobrança de frete, claro! Basta selecionar a loja de sua preferência na finalização do pedido e aguardar nosso e-mail de confirmação com as informações sobre a retirada.\nNosso prazo para separação das encomendas é de até dois dias úteis a partir da aprovação do pagamento e você receberá nosso contato assim que o pacote estiver disponível para a retirada.\nAo comparecer à loja para a retirada, você deverá trazer o e-mail com a confirmação do seu pedido (pode ser impresso ou na tela do celular) e apresentar um documento com foto original. O pedido ficará disponível para retirada por 30 dias a partir do envio do e-mail de confirmação. Após esse prazo, ele será automaticamente cancelado e o valor pago será registrado como um crédito a ser utilizado numa próxima compra.\nCaso a retirada seja realizada por terceiros, solicitamos que especifique esta informação no campo de observações do pedido ou posteriormente, por telefone (11) 5054-8878 ou e-mail pedido@eurico.com.br. Ressaltamos que sem a informação de retirada por terceiros, nossa equipe não está autorizada a liberar a encomenda.\nEventuais cancelamentos por arrependimento, trocas ou defeitos seguem a política padrão dos canais online.\nVerifique no e-mail de confirmação os horários de funcionamento da loja selecionada.\nEndereços:\nEurico: Av. Jandira 49, São Paulo, SP\nEurico Max: Rua Oscar Freire, 550, São Paulo, SP"
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-sixth": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-sixth",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-sixth"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-sixth": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-sixth"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-sixth": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-sixth"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-sixth": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Posso comprar por e-mail ou telefone?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-sixth": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Claro! Você pode nos ligar ou enviar um e-mail informando o código, a cor e o tamanho dos produtos desejados. Caso precise de uma mãozinha para escolher, descreva o produto que procura para que um dos nossos atendentes possa lhe auxiliar na pesquisa e sugerir algumas opções. Se tiver dúvidas quanto aos produtos mostrados no site ou à numeração correta a pedir, teremos prazer em ajudar também.\nAntes do seu contato, não se esqueça de escolher a forma de pagamento e o tipo de envio mais convenientes a você.\nPara finalizar seu pedido vamos precisar também dos seguintes dados:\n– Número do CPF\n– Endereço de e-mail\n– Endereço para entrega e cobrança\n– Número do cartão de crédito, caso opte por esta forma de pagamento\n\nObservação: as compras feitas por e-mail ou telefone seguem as mesmas condições de preço e prazo das compras online.\n\nE-mail para pedidos:\npedido@eurico.com.br\n\nTelefone: (11) 5054-8878\n\nHorário de atendimento telefônico: de 2ª a 6ª feira das 9:00 às 18:30 / Sábados das 9:00 às 13:00."
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-seven": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-seven",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-seven"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-seven": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-seven"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-seven": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-seven"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-seven": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Como funciona a disponibilidade dos produtos no site?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-seven": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Os produtos listados neste site estão sujeitos à disponibilidade dos estoques das lojas físicas Eurico e Eurico Max e atualizados constantemente de acordo com sua movimentação. Ainda assim, ao separarmos o seu pedido, pode acontecer de algum produto selecionado por você não estar mais disponível.\nCaso isso ocorra, entraremos em contato para que você escolha uma das seguintes opções:\n1. Substituição por outro produto de igual valor;\n2. Substituição por outro produto de valor diferente. Nesse caso, a diferença de valores será calculada e acertada conforme o caso;\n3. Cancelamento da compra do produto indisponível e devolução do valor pago por ele;\n4. Registro de um crédito para a realização de compras futuras no site. Os créditos computados em virtude dessa situação terão validade máxima de um ano."
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-eight": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-eight",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-eight"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-eight": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-eight"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-eight": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-eight"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-eight": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Como posso comprar se não tenho certeza do meu número?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-eight": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Você vai encontrar aqui no site uma tabela de conversão de centímetros para o número do calçado, que pode ajudar bastante. Esta tabela não é exata, pois existem pequenas variações nos padrões utilizados por cada fabricante. Além disso, é uma tabela que leva em conta somente o comprimento dos pés (muitas vezes o número pode acabar tendo que ser maior devido à sua largura). Mas por meio dela você pode ter uma boa ideia do número a selecionar na sua compra.\n\nSe ainda estiver em dúvida, não hesite em pedir a nossa ajuda pelo e-mail\n[pedido@eurico.com.br](mailto:pedido@eurico.com.br)\n\n[Clique aqui para acessar a tabela e nosso guia de medidas.](/Institucional/perguntas-frequentes#guia)"
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-nine": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-nine",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-nine"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-nine": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-nine"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-nine": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-nine"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-nine": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Como faço para utilizar vales e cupons?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-nine": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Você tem um vale ou ganhou um cupom de desconto? Oba! Para utilizá-lo, selecione os produtos que quiser (ou que fizerem parte da promoção), e ao ser direcionado ao carrinho de compras, clique em “adicionar cupom”. Informe o código – atentando-se para letras maiúsculas e minúsculas – e clique em “adicionar”. O desconto será calculado automaticamente. Só não se esqueça de fazer isso antes do envio do pedido, pois o sistema não permite o cálculo do desconto depois do pedido finalizado.\n\nAproveite seu desconto, mas fique atento: os cupons têm regras de uso e data de validade!\nQuer aproveitar nossos descontos antes de todo mundo? Assine nossa newsletter! Você receberá promoções e cupons exclusivos direto no seu e-mail e ainda ficará por dentro das nossas últimas novidades."
+    }
+  },
+
+  "disclosure-layout#institucional__wrapper-how-to-buy--group-ten": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#institucional__wrapper-how-to-buy--group-ten",
+      "disclosure-content#institucional__wrapper-how-to-buy--group-ten"
+    ]
+  },
+  "disclosure-trigger#institucional__wrapper-how-to-buy--group-ten": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-question-ten"
+    ]
+  },
+  "disclosure-content#institucional__wrapper-how-to-buy--group-ten": {
+    "props": {
+      "blockClass": "institucional__wrapper-how-to-buy--group-answer"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy--group-answer-ten"
+    ]
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-question-ten": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Onde fica a Eurico?"
+    }
+  },
+  "rich-text#institucional__wrapper-how-to-buy--group-answer-ten": {
+    "props": {
+      "blockClass": ["institucional__wrapper--group-answer", "how-to-buy"],
+      "text": "Se você tiver a possibilidade de nos fazer uma visita, poderá conhecer os mais de mil modelos presentes nas vitrines das lojas físicas Eurico e Eurico Max. Nossos vendedores estão sempre à sua disposição e terão muito prazer em lhe atender pessoalmente.\n\nEurico: Av. Jandira, 49 – Moema\nSão Paulo, SP - Fone (11) 5054-8877\nAtendimento de 2ª a 6ª feira das 9 às 19h e aos sábados das 9 às 18h.\nEstacionamento conveniado\n\nEurico Max: Rua Oscar Freire, 550 – Jardins\nSão Paulo, SP - Fone (11) 3061-3050\nAtendimento de 2ª a 6ª feira das 10 às 19h e aos sábados das 9:30 às 18h.\nEstacionamento gratuito no local\n\nVale lembrar que este site é um marketplace operado pela Eurico Web, empresa do grupo Eurico que não possui loja física, mas comercializa com exclusividade os produtos das lojas Eurico e Eurico Max."
+    }
+  }
+}

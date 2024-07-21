@@ -135,6 +135,7 @@
   },
   "rich-text#institucional__wrapper-policy--group-question-first": {
     "props": {
+      "blockClass": "institucional__wrapper--group-question",
       "text": "Segurança do site"
     }
   },
@@ -167,6 +168,7 @@
   },
   "rich-text#institucional__wrapper-policy--group-question-second": {
     "props": {
+      "blockClass": "institucional__wrapper--group-question",
       "text": "Pagamentos"
     }
   },
@@ -198,6 +200,7 @@
   },
   "rich-text#institucional__wrapper-policy--group-question-third": {
     "props": {
+      "blockClass": "institucional__wrapper--group-question",
       "text": "Política de privacidade"
     }
   },
@@ -215,16 +218,16 @@
     "props": {
       "animated": true
     },
-    "children": ["disclosure-trigger#institucional__wrapper-group-fourth", "disclosure-content#institucional__wrapper-group-fourth"]
+    "children": ["disclosure-trigger#institucional__wrapper-policy--group-fourth", "disclosure-content#institucional__wrapper-policy--group-fourth"]
   },
-  "disclosure-trigger#institucional__wrapper-group-fourth": {
+  "disclosure-trigger#institucional__wrapper-policy--group-fourth": {
     "props": {
       "blockClass": "institucional__wrapper-disclosure--trigger",
       "as": "div"
     },
     "children": ["rich-text#institucional__wrapper-policy--group-question-fourth"]
   },
-  "disclosure-content#institucional__wrapper-group-fourth": {
+  "disclosure-content#institucional__wrapper-policy--group-fourth": {
     "props": {
       "blockClass": "institucional__wrapper-policy--group-answer"
     },
@@ -232,6 +235,7 @@
   },
   "rich-text#institucional__wrapper-policy--group-question-fourth": {
     "props": {
+      "blockClass": "institucional__wrapper--group-question",
       "text": "Cookies"
     }
   },
@@ -263,6 +267,7 @@
   },
   "rich-text#institucional__wrapper-policy--group-question-sixth": {
     "props": {
+      "blockClass": "institucional__wrapper--group-question",
       "text": "Razão Social"
     }
   },

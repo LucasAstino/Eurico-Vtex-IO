@@ -2,9 +2,6 @@
   "store.custom#about-us": {
     "path": "/institucional/sobre-nos"
   },
-  "store.custom#faq": {
-    "path": "/faq"
-  },
   "store.custom#fidelity": {
     "path": "/fidelidade"
   },
@@ -25,6 +22,24 @@
   },
   "store.custom#terms-of-use": {
     "path": "/termosdeuso"
+  },
+  "store.custom#exchanges-and-returns": {
+    "path": "/institucional/trocas-e-devolucoes"
+  },
+  "store.custom#how-to-buy": {
+    "path": "/institucional/como-comprar"
+  },
+  "store.custom#guide": {
+    "path": "/institucional/guia-de-medidas"
+  },
+  "store.custom#payment-methods": {
+    "path": "/institucional/precos-e-formas-de-pagamento"
+  },
+  "store.custom#delivery-shipping": {
+    "path": "/institucional/prazo-de-entregas-e-frete"
+  },
+  "store.custom#faq": {
+    "path": "/institucional/perguntas-frequentes"
   },
   "store.custom#contact-us": {
     "path": "/institucional/contato"

@@ -1,0 +1,349 @@
+{
+  "store.custom#guide": {
+    "children": [
+      "flex-layout.row#institucional__wrapper-guide"
+    ]
+  },
+
+  "flex-layout.row#institucional__wrapper-guide": {
+    "props": {
+      "blockClass": "institucional__wrapper"
+    },
+    "children": [
+      "flex-layout.col#institucional__wrapper-left-guide",
+      "flex-layout.col#institucional__wrapper-right-guide"
+    ]
+  },
+
+  "flex-layout.col#institucional__wrapper-right-guide": {
+    "props": {
+      "blockClass":"institucional__wrapper-right"
+    },
+    "children": [
+      "rich-text#guide__title",
+      "disclosure-layout-group#institucional__wrapper-group--guide"
+    ]
+  },
+  "flex-layout.col#institucional__wrapper-left-guide": {
+    "props": {
+      "blockClass":"institucional__wrapper-left"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-guide-menu-item-1",
+      "rich-text#institucional__wrapper-guide-menu-item-2",
+      "rich-text#institucional__wrapper-guide-menu-item-3",
+      "rich-text#institucional__wrapper-guide-menu-item-4",
+      "rich-text#institucional__wrapper-guide-menu-item-5",
+      "rich-text#institucional__wrapper-guide-menu-item-6",
+      "rich-text#institucional__wrapper-guide-menu-item-7",
+      "rich-text#institucional__wrapper-guide-menu-item-8",
+      "rich-text#institucional__wrapper-guide-menu-item-9"
+    ]
+  },
+
+  "rich-text#institucional__wrapper-guide-menu-item-1": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[Como comparar](/institucional/como-comprar)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-2": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item","active"],
+      "text": "[Guia de medidas](/institucional/guia-de-medidas)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-3": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[nossas políticas](/institucional/nossas-politicas)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-4": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Preços e Formas de Pagamento](/institucional/precos-e-formas-de-pagamento)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-5": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Prazo de Entregas e Frete](/institucional/prazo-de-entregas-e-frete)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-6": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Perguntas frequentes](/institucional/perguntas-frequentes)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-7": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Política de privacidade](/institucional/politica-de-privacidade)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-8": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Termos de uso](/termosdeuso)"
+    }
+  },
+  "rich-text#institucional__wrapper-guide-menu-item-9": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[Trocas e devoluções](/institucional/trocas-e-devolucoes)"
+    }
+  },
+
+  "rich-text#guide__title": {
+    "title": "Titulo da pagina",
+    "props": {
+      "blockClass":"institucional__wrapper-right--title",
+      "text": "# GUIA DE MEDIDAS"
+    }
+  },
+
+  "disclosure-layout-group#institucional__wrapper-group--guide": {
+    "children": [
+      "disclosure-layout#institucional__wrapper-guide--group-first",
+      "disclosure-layout#institucional__wrapper-guide--group-second",
+      "disclosure-layout#institucional__wrapper-guide--group-third",
+      "disclosure-layout#institucional__wrapper-guide--group-fourth"
+    ]
+  },
+
+  "disclosure-layout#institucional__wrapper-guide--group-first": {
+    "props": {
+      "animated": true,
+      "blockClass":"institucional__wrapper-disclosure"
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-guide--group-first", "disclosure-content#institucional__wrapper-guide--group-first"]
+  },
+  "disclosure-trigger#institucional__wrapper-guide--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-question-first"]
+  },
+  "disclosure-content#institucional__wrapper-guide--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-guide--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-answer-first","flex-layout.row#institucional__wrapper-guide--answer-first", "rich-text#institucional__wrapper-guide--group-answer-first-2","flex-layout.row#institucional__wrapper-guide--answer-first-2","rich-text#institucional__wrapper-guide--group-answer-first-3"]
+  },
+  "rich-text#institucional__wrapper-guide--group-question-first": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Como medimos nossos saltos, plataformas e botas?"
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-first": {
+    "props": {
+      "blockClass":"institucional__wrapper--group-answer",
+      "text": "Seja um scarpin, um sapato de meia pata embutida ou aparente ou um modelo de plataforma, as medidas da altura seguem sempre um mesmo padrão:\n\nA - A altura do salto ou plataforma traseira é medida em linha reta da lateral externa do meio do calcanhar até o chão, descontada a sola de borracha.\n\nB - A altura da meia pata ou plataforma frontal é medida em linha reta da lateral externa da base do apoio plantar ao chão, descontada a sola de borracha."
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-first-2": {
+    "props": {
+      "blockClass":"institucional__wrapper--group-answer",
+      "text": "A - A altura do cano é medida do topo da bota até a base do calcanhar pela parte traseira.\n\nB - A largura do cano é medida na circunferência interna da bota, na altura da panturrilha. No caso de botas com ajusta de panturrilha, será informada a maior medida."
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-first-3": {
+    "props": {
+      "blockClass":"institucional__wrapper--group-answer",
+      "text": "Observação: as medidas informadas na aba 'descrição técnica' de todos os produtos do site são tiradas a partir de um modelo tamanho 41. Por favor, considere que as medidas podem variar de acordo com a numeração do calçado."
+    }
+  },
+  "flex-layout.row#institucional__wrapper-guide--answer-first": {
+    "title": "Conjunto de imagens",
+    "props": {
+      "blockClass": "institucional__wrapper-guide--answer-first-images"
+    },
+    "children": ["image#institucional__wrapper-guide--answer-first-image","image#institucional__wrapper-guide--answer-first-image-2","image#institucional__wrapper-guide--answer-first-image-3","image#institucional__wrapper-guide--answer-first-image-4"]
+
+  },
+  "flex-layout.row#institucional__wrapper-guide--answer-first-2": {
+    "title": "Conjunto de imagens",
+    "props": {
+      "blockClass": "institucional__wrapper-guide--answer-first-images"
+    },
+    "children": ["image#institucional__wrapper-guide--answer-first-2--image-1","image#institucional__wrapper-guide--answer-first-2--image-2"]
+
+  },
+  "image#institucional__wrapper-guide--answer-first-image": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/Sapato.jpg"
+
+    }
+  },
+  "image#institucional__wrapper-guide--answer-first-image-2": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/Meia.jpg"
+
+    }
+  },
+  "image#institucional__wrapper-guide--answer-first-image-3": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/meia-pata-embutida.jpg"
+
+    }
+  },
+  "image#institucional__wrapper-guide--answer-first-image-4": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/Plataformas.jpg"
+
+    }
+  },
+  "image#institucional__wrapper-guide--answer-first-2--image-1": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/altura-do-cano.jpg"
+
+    }
+  },
+  "image#institucional__wrapper-guide--answer-first-2--image-2": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/bota-largura.jpg"
+
+    }
+  },
+
+
+
+  "disclosure-layout#institucional__wrapper-guide--group-second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-guide--group-second", "disclosure-content#institucional__wrapper-guide--group-second"]
+  },
+  "disclosure-trigger#institucional__wrapper-guide--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-question-second"]
+  },
+  "disclosure-content#institucional__wrapper-guide--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-guide--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-answer-second","image#institucional__wrapper-guide--group-answer-second--image","rich-text#institucional__wrapper-guide--group-answer-second-2"]
+  },
+  "rich-text#institucional__wrapper-guide--group-question-second": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Como tirar a medida dos seus pés?"
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-second": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","guide"],
+      "text": "Se você não tem certeza do seu número, siga as instruções a seguir:"
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-second-2": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","guide"],
+      "text": "Posicione uma fita métrica perpendicularmente a uma parede, com o 'zero' encostado na mesma.\n\nA) Pise sobre a fita, encostando o calcanhar na parede;\nB) Verifique até que medida chega o seu 'dedão';\nC) Procure na tabela abaixo o número correspondente ao tamanho verificado.\n\nFaça essa medição no fim do dia, quando os pés estão mais inchados. Meça os dois pés e caso haja diferença entre um pé e outro, utilize a medida maior."
+    }
+  },
+  "image#institucional__wrapper-guide--group-answer-second--image": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-first-image",
+      "src": "assets/images/institucional/guide/pe.png"
+
+    }
+  },
+
+
+  "disclosure-layout#institucional__wrapper-guide--group-third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-guide--group-third", "disclosure-content#institucional__wrapper-guide--group-third"]
+  },
+  "disclosure-trigger#institucional__wrapper-guide--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [ "rich-text#institucional__wrapper-guide--group-question-third"]
+  },
+  "disclosure-content#institucional__wrapper-guide--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-guide--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-answer-third","image#institucional__wrapper-guide--answer-third-image"]
+  },
+  "rich-text#institucional__wrapper-guide--group-question-third": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Tabela de conversão – centímetros x tamanho"
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-third": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","guide"],
+      "text": "Confira as instruções de como tirar a medida dos seus pés no tópico anterior e procure na tabela abaixo o número correspondente ao tamanho verificado.\n\nA tabela não é exata pois existem variações nos padrões adotados por cada fabricante. Além disso, ela só leva em conta o comprimento dos pés, não a sua largura. Mas é um bom ponto de partida caso você não tenha certeza do seu número.\n\nCaso tenha alguma dúvida é só entrar em contato com a gente pelo e-mail pedido@eurico.com.br ou pelo telefone (11) 5054-8878."
+    }
+  },
+  "image#institucional__wrapper-guide--answer-third-image": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-third-image",
+      "src": "assets/images/institucional/guide/tabela-medidas-1.png"
+    }
+  },
+
+
+
+
+
+  "disclosure-layout#institucional__wrapper-guide--group-fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-guide--group-fourth", "disclosure-content#institucional__wrapper-guide--group-fourth"]
+  },
+  "disclosure-trigger#institucional__wrapper-guide--group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-question-fourth"]
+  },
+  "disclosure-content#institucional__wrapper-guide--group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-guide--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-guide--group-answer-fourth","image#institucional__wrapper-guide--answer-fourth-image"]
+  },
+  "rich-text#institucional__wrapper-guide--group-question-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Tabela de conversão – tênis"
+    }
+  },
+  "rich-text#institucional__wrapper-guide--group-answer-fourth": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","guide"],
+      "text": "Algumas marcas de tênis importados como Nike, Asics e Saucony, identificam na caixa uma numeração brasileira incompatível com o nosso padrão de numeração. Assim, ao selecionar seu modelo de tênis no site, você deverá selecionar o número que usa no Brasil sem levar em conta a numeração padronizada pelo fabricante.\n\nPara que não haja dúvidas, ao selecionar o modelo, cor e numeração de qualquer tênis importado, você será direcionado a uma tabela de conversão como esta:"
+    }
+  },
+  "image#institucional__wrapper-guide--answer-fourth-image": {
+    "props": {
+      "blockClass":"institucional__wrapper-guide--answer-third-image",
+      "src": "assets/images/institucional/guide/tabela-medidas-2.png"
+    }
+  }
+
+
+
+}

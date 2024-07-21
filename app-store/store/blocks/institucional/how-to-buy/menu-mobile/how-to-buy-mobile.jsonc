@@ -1,0 +1,47 @@
+{
+  "responsive-layout.mobile#menu-mobile--how-to-buy": {
+    "children": [
+      "disclosure-layout#menu-mobile-how-to-buy"
+    ]
+  },
+  "disclosure-layout#menu-mobile-how-to-buy": {
+    "props": {
+      "animated": true,
+      "blockClass": "institucional__wrapper-disclosure"
+    },
+    "children": [
+      "disclosure-trigger#menu-mobile-how-to-buy",
+      "disclosure-content#menu-mobile-how-to-buy"
+    ]
+  },
+  "disclosure-trigger#menu-mobile-how-to-buy": {
+    "props": {
+      "blockClass": "institucional__menu-mobile--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#menu-mobile-how-to-buy-active"
+    ]
+  },
+  "disclosure-content#menu-mobile-how-to-buy": {
+    "props": {
+      "blockClass": "institucional__wrapper--menu-mobile"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-2",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-3",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-4",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-5",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-6",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-7",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-8",
+      "rich-text#institucional__wrapper-how-to-buy-menu-item-9"
+    ]
+  },
+  "rich-text#menu-mobile-how-to-buy-active": {
+    "props": {
+      "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
+      "text": "How to Buy"
+    }
+  }
+}

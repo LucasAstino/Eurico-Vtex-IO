@@ -1,0 +1,24 @@
+.flexRow {
+  &--institucional__wrapper-faq--content {
+    .flexRowContent {
+      flex-wrap: wrap;
+
+      :global(.vtex-store-link-0-x-link) {
+        width: calc(30% - 20px);
+        margin: 10px;
+        text-decoration: none;
+      }
+    }
+
+    .stretchChildrenWidth {
+      display: contents;
+    }
+
+    .flexCol {
+      &--institucional__wrapper-faq--col {
+        border: 1px solid #000;
+        padding: 47px 0px;
+      }
+    }
+  }
+}

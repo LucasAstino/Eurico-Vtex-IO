@@ -384,11 +384,46 @@
   color: black;
   font-weight: 400;
 }
+.container--institucional__wrapper-menu-item .link:hover {
+  font-weight: bold;
+}
 .container--institucional__wrapper-menu-item .link--active {
   font-weight: bold;
 }
+.container--institucional__wrapper-menu--trigger-mobile {
+  width: 70%;
+  justify-content: center;
+  margin: 15px 0;
+}
+@media (max-width: 1025px) {
+  .container--institucional__wrapper--group-question {
+    width: 100%;
+  }
+}
+.container--institucional__wrapper--group-answer .paragraph {
+  margin-bottom: 30px;
+  font-weight: 300;
+  line-height: 29px;
+}
+.container--institucional__wrapper--group-answer .list {
+  line-height: 29px;
+  font-weight: 300;
+}
+.container--institucional__wrapper--group-answer .link {
+  color: black;
+  font-weight: 400;
+}
+.container .link {
+  color: black;
+}
 .container .heading-level-2 {
   font-size: 16px;
+}
+@media (max-width: 1025px) {
+  .container--institucional__wrapper-right--title {
+    margin-top: 30px;
+    justify-content: center;
+  }
 }
 .container--institucional__wrapper-right--title .heading {
   font-size: 33px;
@@ -398,6 +433,16 @@
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 35px;
+}
+@media (max-width: 1025px) {
+  .container--institucional__wrapper-right--title .heading {
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    line-height: 36px;
+    color: #000;
+    text-transform: uppercase;
+  }
 }
 
 .container--contact-us__telesales {
@@ -502,6 +547,26 @@
   .container--contact-us__store-phone {
     justify-content: center;
   }
+}
+
+.container--exchanges-and-returns .list {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+}
+.container--exchanges-and-returns .listItem::before {
+  content: "-";
+  margin-right: 10px;
+}
+
+.container--institucional__wrapper-faq--col-text {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.container--institucional__wrapper-faq--col-text .paragraph {
+  line-height: 29px;
 }
 
 .container--fidelity__text {
@@ -609,6 +674,22 @@
   }
 }
 
+.container--payment-methods {
+  counter-reset: list-counter;
+}
+.container--payment-methods .listOrdered {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+}
+.container--payment-methods .listOrdered .listItem {
+  counter-increment: list-counter;
+}
+.container--payment-methods .listOrdered .listItem::before {
+  content: counter(list-counter) ". ";
+  margin-right: 10px;
+}
+
 .container--institucional__wrapper-privacy-policies--content .paragraph {
   font-size: 16px;
   font-weight: 400;
@@ -618,6 +699,9 @@
   margin-bottom: 30px;
 }
 
+.container--institucional__wrapper-terms-of-use--content {
+  counter-reset: list-counter;
+}
 .container--institucional__wrapper-terms-of-use--content .paragraph {
   text-decoration: none;
   letter-spacing: 0.3px;
@@ -628,6 +712,19 @@
 .container--institucional__wrapper-terms-of-use--content .link {
   text-decoration: none;
   color: black;
+}
+.container--institucional__wrapper-terms-of-use--content .list {
+  list-style: none;
+  font-weight: 300;
+}
+.container--institucional__wrapper-terms-of-use--content .listItem {
+  counter-increment: list-counter;
+  display: flex;
+}
+.container--institucional__wrapper-terms-of-use--content .listItem::before {
+  content: counter(list-counter) ". ";
+  margin-right: 10px;
+  line-height: 1.5;
 }
 
 .container--tips__title, .container--tips__subTitle {

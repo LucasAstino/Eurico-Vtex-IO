@@ -1,0 +1,251 @@
+{
+  "store.custom#payment-methods": {
+    "children": [
+      "flex-layout.row#institucional__wrapper-payment-methods"
+    ]
+  },
+
+  "flex-layout.row#institucional__wrapper-payment-methods": {
+    "props": {
+      "blockClass": "institucional__wrapper"
+    },
+    "children": [
+      "flex-layout.col#institucional__wrapper-left-payment-methods",
+      "flex-layout.col#institucional__wrapper-right-payment-methods"
+    ]
+  },
+
+  "flex-layout.col#institucional__wrapper-right-payment-methods": {
+    "props": {
+      "blockClass":"institucional__wrapper-right"
+    },
+    "children": [
+      "rich-text#payment-methods__title",
+      "disclosure-layout-group#institucional__wrapper-group--payment-methods"
+    ]
+  },
+  "flex-layout.col#institucional__wrapper-left-payment-methods": {
+    "props": {
+      "blockClass":"institucional__wrapper-left"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-payment-methods-menu-item-1",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-2",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-3",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-4",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-5",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-6",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-7",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-8",
+      "rich-text#institucional__wrapper-payment-methods-menu-item-9"
+    ]
+  },
+
+  "rich-text#institucional__wrapper-payment-methods-menu-item-1": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[Como comparar](/institucional/como-comprar)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-2": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Guia de medidas](/institucional/guia-de-medidas)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-3": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[nossas políticas](/institucional/nossas-politicas)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-4": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item","active"],
+      "text": "[Preços e Formas de Pagamento](/institucional/precos-e-formas-de-pagamento)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-5": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Prazo de Entregas e Frete](/institucional/prazo-de-entregas-e-frete)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-6": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Perguntas frequentes](/institucional/perguntas-frequentes)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-7": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Política de privacidade](/institucional/politica-de-privacidade)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-8": {
+    "props": {
+      "blockClass":"institucional__wrapper-menu-item",
+      "text": "[Termos de uso](/termosdeuso)"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods-menu-item-9": {
+    "props": {
+      "blockClass":["institucional__wrapper-menu-item"],
+      "text": "[Trocas e devoluções](/institucional/trocas-e-devolucoes)"
+    }
+  },
+
+  "rich-text#payment-methods__title": {
+    "props": {
+      "blockClass":"institucional__wrapper-right--title",
+      "text": "# PREÇOS E FORMAS DE PAGAMENTO"
+    }
+  },
+
+  "disclosure-layout-group#institucional__wrapper-group--payment-methods": {
+    "children": [
+      "disclosure-layout#institucional__wrapper-payment-methods--group-first",
+      "disclosure-layout#institucional__wrapper-payment-methods--group-second",
+      "disclosure-layout#institucional__wrapper-payment-methods--group-third",
+      "disclosure-layout#institucional__wrapper-payment-methods--group-fourth"
+    ]
+  },
+
+  "disclosure-layout#institucional__wrapper-payment-methods--group-first": {
+    "props": {
+      "animated": true,
+      "blockClass":"institucional__wrapper-disclosure"
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-payment-methods--group-first", "disclosure-content#institucional__wrapper-payment-methods--group-first"]
+  },
+  "disclosure-trigger#institucional__wrapper-payment-methods--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-question-first"]
+  },
+  "disclosure-content#institucional__wrapper-payment-methods--group-first": {
+    "props": {
+      "blockClass": "institucional__wrapper-payment-methods--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-first"]
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-question-first": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Os preços do site são iguais aos das lojas físicas?"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-answer-first": {
+    "props": {
+      "blockClass":"institucional__wrapper--group-answer",
+      "text": "Sim, via de regra todas as nossas lojas – físicas e virtual – praticam os mesmos preços de venda. No entanto, podem ocorrer promoções ou preços diferenciados em um ou outro canal de venda."
+    }
+  },
+
+
+
+  "disclosure-layout#institucional__wrapper-payment-methods--group-second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-payment-methods--group-second", "disclosure-content#institucional__wrapper-payment-methods--group-second"]
+  },
+  "disclosure-trigger#institucional__wrapper-payment-methods--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-question-second"]
+  },
+  "disclosure-content#institucional__wrapper-payment-methods--group-second": {
+    "props": {
+      "blockClass": "institucional__wrapper-payment-methods--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-second"]
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-question-second": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Quais são nossas formas de pagamento?"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-answer-second": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","payment-methods"],
+      "text": "Você pode escolher uma das seguintes formas de pagamento do seu pedido:\n\n1. Cartão de Crédito – compras no cartão de crédito podem ser parceladas em até 6x sem juros, com parcelas mínimas de R$ 70,00 (para efeito de cálculo das parcelas mínimas, consideramos apenas o valor da mercadoria, sem o frete). Aceitamos as seguintes bandeiras de cartão de crédito:\n- Visa\n- Mastercard\n- Diners\n- American Express\n- Hipercard\n- Elo \n2. Boleto Bancário – você poderá acessar o boleto no ato da finalização da sua compra, além de receber o link por e-mail. O prazo para pagamento é de até três dias corridos após a finalização da compra, mas o quanto antes você pagar, mais rápido receberá sua encomenda. Fique atento ao prazo, pois depois da data estipulada o pedido é automaticamente cancelado.\n\n3. Depósito bancário à vista – ao selecionar o método de pagamento Levpay e clicar em “finalizar a compra”, você será direcionado à página onde deverá escolher o banco de sua preferência. Seu pedido só será efetivado após essa etapa. Na sequência, você receberá um e-mail com as instruções para o pagamento e um link para envio do comprovante. Fique atento ao prazo, pois após a data limite de três dias corridos o pedido é automaticamente cancelado."
+    }
+  },
+
+
+  "disclosure-layout#institucional__wrapper-payment-methods--group-third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-payment-methods--group-third", "disclosure-content#institucional__wrapper-payment-methods--group-third"]
+  },
+  "disclosure-trigger#institucional__wrapper-payment-methods--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": [ "rich-text#institucional__wrapper-payment-methods--group-question-third"]
+  },
+  "disclosure-content#institucional__wrapper-payment-methods--group-third": {
+    "props": {
+      "blockClass": "institucional__wrapper-payment-methods--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-third"]
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-question-third": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Perdi o prazo para pagamento à vista. E agora?"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-answer-third": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","payment-methods"],
+      "text": "No caso de pagamentos à vista (boleto ou depósito bancário), os itens selecionados no pedido só ficam reservados até a data estipulada para o pagamento. Portanto, não efetue o pagamento após a data de vencimento sem antes confirmar por e-mail (pedido@eurico.com.br) se a mercadoria continua disponível!"
+    }
+  },
+
+
+
+
+
+  "disclosure-layout#institucional__wrapper-payment-methods--group-fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#institucional__wrapper-payment-methods--group-fourth", "disclosure-content#institucional__wrapper-payment-methods--group-fourth"]
+  },
+  "disclosure-trigger#institucional__wrapper-payment-methods--group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-disclosure--trigger",
+      "as": "div"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-question-fourth"]
+  },
+  "disclosure-content#institucional__wrapper-payment-methods--group-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper-payment-methods--group-answer"
+    },
+    "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-fourth"]
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-question-fourth": {
+    "props": {
+      "blockClass": "institucional__wrapper--group-question",
+      "text": "Qual é o procedimento para aprovação de compras com cartão de crédito?"
+    }
+  },
+  "rich-text#institucional__wrapper-payment-methods--group-answer-fourth": {
+    "props": {
+      "blockClass":["institucional__wrapper--group-answer","payment-methods"],
+      "text": "Independente da aprovação do seu pagamento pela instituição financeira, realizamos uma análise interna das informações do seu pedido por meio da validação de dados cadastrais para sua segurança. Caso necessário, você será contatado para confirmação de dados. Por isso é importante que seu cadastro esteja sempre completo e atualizado.\n\nA análise é realizada em até dois dias úteis após a finalização do pedido. Nesse período, você poderá ser contatado por um colaborador da Eurico para a confirmação de dados. Assim que seu pedido for aprovado você receberá um e-mail de confirmação.\n\nReforçamos nosso comprometimento com a segurança dos cartões de crédito na Internet, garantindo aos nossos clientes total segurança em nosso site."
+    }
+  }
+
+}

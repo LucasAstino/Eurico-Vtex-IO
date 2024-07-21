@@ -1,0 +1,9 @@
+.flexRow{
+  &--institucional__wrapper-guide--answer-first-images{
+    width: 100%;
+
+    .stretchChildrenWidth{
+      display: contents;
+    }
+  }
+}

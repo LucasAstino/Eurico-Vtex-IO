@@ -1,0 +1,18 @@
+.container{
+  &--payment-methods{
+    counter-reset: list-counter;
+    .listOrdered{
+      list-style: none;
+      padding: 0;
+      font-weight: 300;
+      .listItem{
+        counter-increment: list-counter;
+        &::before{
+          content: counter(list-counter) ". ";
+          margin-right: 10px;
+        }
+      }
+    }
+
+  }
+}

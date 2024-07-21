@@ -1,0 +1,11 @@
+.container{
+  &--institucional__wrapper-faq--col-text{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    justify-content: center;
+    .paragraph{
+      line-height: 29px;
+    }
+  }
+}

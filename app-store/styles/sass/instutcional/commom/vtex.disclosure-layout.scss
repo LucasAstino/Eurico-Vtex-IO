@@ -1,5 +1,5 @@
-.trigger{
-  &--institucional__wrapper-disclosure--trigger{
+.trigger {
+  &--institucional__wrapper-disclosure--trigger {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 400;
@@ -7,56 +7,100 @@
     line-height: 25px;
     display: flex;
     align-items: center;
-    &::after{
+    &::after {
       content: "";
-    width: 15px;
-    height: 15px;
-    position: relative;
-    right: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-image: url(assets/icons/commom/down-arrow.png);
-    -webkit-background-size: 15px 15px;
-    background-size: 15px;
-    background-repeat: no-repeat;
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    margin-left: 10px;
+      width: 15px;
+      height: 15px;
+      position: relative;
+      right: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-image: url(assets/icons/commom/down-arrow.png);
+      -webkit-background-size: 15px 15px;
+      background-size: 15px;
+      background-repeat: no-repeat;
+      -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
+      margin-left: 10px;
     }
 
-    &--visible{
-      &::after{
+    &--visible {
+      &::after {
         transform: rotate(0deg);
       }
     }
-    &:hover{
+    &:hover {
       cursor: pointer;
+    }
+  }
+
+  &--institucional__menu-mobile--trigger {
+    border: 1px solid rgb(118, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: relative;
+      right: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-image: url(assets/icons/commom/down-arrow.png);
+      -webkit-background-size: 15px 15px;
+      background-size: 15px;
+      background-repeat: no-repeat;
+      margin-left: 10px;
+    }
+
+    &--visible {
+      &::after {
+        transform: rotate(180deg);
+      }
     }
   }
 }
 
-.content{
-
-  &--hidden{
+.content {
+  &--hidden {
     display: none;
   }
 
-  &--institucional__wrapper-policy--group-answer{
-
-    :global(.vtex-rich-text-0-x-paragraph){
+  &--institucional__wrapper-policy--group-answer {
+    :global(.vtex-rich-text-0-x-paragraph) {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 30px;
       line-height: 29px;
     }
 
-    :global(.vtex-rich-text-0-x-link){
+    :global(.vtex-rich-text-0-x-link) {
       font-weight: 500;
       color: black;
+    }
+  }
+
+  &--institucional__wrapper--menu-mobile{
+    position: absolute;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 0px gray;
+
+    :global(.vtex-rich-text-0-x-container--institucional__wrapper-menu-item){
+      margin: 25px 0;
     }
   }
 }

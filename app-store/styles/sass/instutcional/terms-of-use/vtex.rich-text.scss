@@ -1,5 +1,6 @@
 .container {
   &--institucional__wrapper-terms-of-use--content {
+    counter-reset: list-counter;
     .paragraph {
       text-decoration: none;
       letter-spacing: 0.3px;
@@ -8,9 +9,24 @@
       margin-bottom: 30px;
     }
 
-    .link{
+    .link {
       text-decoration: none;
       color: black;
+    }
+
+    .list {
+      list-style: none;
+      font-weight: 300;
+    }
+
+    .listItem {
+      counter-increment: list-counter;
+      display: flex;
+      &::before {
+        content: counter(list-counter) ". ";
+        margin-right: 10px;
+        line-height: 1.5;
+      }
     }
   }
 }

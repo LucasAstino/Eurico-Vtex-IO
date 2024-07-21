@@ -118,6 +118,23 @@
   min-height: 400PX;
 }
 
+.imageElement--institucional__wrapper-faq-img {
+  width: 49px;
+  margin: 0 auto;
+  display: block;
+  height: 49px;
+  margin-bottom: 21px;
+}
+
+.imageElement--institucional__wrapper-guide--answer-first-image {
+  width: 25%;
+}
+.imageElement--institucional__wrapper-guide--answer-third-image {
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 1025px) {
   .imageElement--history__content-img {
     width: 25%;
