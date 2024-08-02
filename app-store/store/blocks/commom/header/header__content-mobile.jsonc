@@ -9,7 +9,7 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2#header__minicart"
     ],
     "props": {
       "blockClass": "header__content-mobile",

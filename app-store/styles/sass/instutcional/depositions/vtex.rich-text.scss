@@ -1,0 +1,32 @@
+.container{
+  &--depositions__title{
+    @include tablet{
+      justify-content: center;
+    }
+    .heading{
+      text-transform: uppercase;
+      color: #22201F;
+      font-weight: bold;
+      font-size: 30px;
+      margin:  0 30px;
+
+    }
+  }
+
+  &--new-testimonial__trigger{
+    justify-content: end;
+    width: fit-content;
+
+    .paragraph{
+      cursor: pointer;
+      position: relative;
+      background: #626e3f;
+      padding: 13px 60px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "store.custom#whatsapp": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "children": ["flex-layout.row#bg"]
+  },
+
+  "flex-layout.row#bg": {
+    "props": {
+      "blockClass": "whatsapp__background"
+    },
+    "children": ["flex-layout.row#whatsapp"]
+  },
+
+  "flex-layout.row#whatsapp": {
+    "title": "Lojas",
+    "props": {
+      "blockClass": "whatsapp"
+    },
+    "children": [
+      "flex-layout.col#whatsapp-01",
+      "flex-layout.col#whatsapp-02",
+      "flex-layout.col#whatsapp-03"
+    ]
+  },
+
+  "flex-layout.col#whatsapp-01": {
+    "title": "Lojas",
+    "props": {
+      "blockClass": "whatsapp"
+    },
+    "children": ["rich-text#whatsapp-01", "rich-text#whatsapp__button-01"]
+  },
+  "flex-layout.col#whatsapp-02": {
+    "title": "Lojas",
+    "props": {
+      "blockClass": "whatsapp"
+    },
+    "children": ["rich-text#whatsapp-02", "rich-text#whatsapp__button-02"]
+  },
+  "flex-layout.col#whatsapp-03": {
+    "title": "Lojas",
+    "props": {
+      "blockClass": "whatsapp"
+    },
+    "children": ["rich-text#whatsapp-03", "rich-text#whatsapp__button-03"]
+  },
+
+  "rich-text#whatsapp-01": {
+    "props": {
+      "text": "Falar com a loja online",
+      "blockClass": "whatsapp"
+    }
+  },
+  "rich-text#whatsapp-02": {
+    "props": {
+      "text": "Falar com Eurico - Moema\nAv. Jandira, 49\nCEP: 04080-000",
+      "blockClass": "whatsapp"
+    }
+  },
+  "rich-text#whatsapp-03": {
+    "props": {
+      "text": "Falar com Eurico Max - Jardins\nR. Oscar Freire, 550\nCEP: 01426-000",
+      "blockClass": "whatsapp"
+    }
+  },
+  "rich-text#whatsapp__button-01": {
+    "props": {
+      "text": "[Whatsapp](https://api.whatsapp.com/send?phone=5511989517198)",
+      "blockClass": "whatsapp__button"
+    }
+  },
+  "rich-text#whatsapp__button-02": {
+    "props": {
+      "text": "[Whatsapp](https://api.whatsapp.com/send?phone=5511989098752)",
+      "blockClass": "whatsapp__button"
+    }
+  },
+  "rich-text#whatsapp__button-03": {
+    "props": {
+      "text": "[Whatsapp](https://api.whatsapp.com/send?phone=5511982152474)",
+      "blockClass": "whatsapp__button"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "image#category-banner": {
+    "props": {
+      "src": "assets/images/category/banner-principal-desktop-feminino.png",
+      "blockClass":"category-banner"
+    }
+  }
+}

@@ -24,3 +24,117 @@
   letter-spacing: 0.3px;
   -webkit-text-stroke: 0.2px;
 }
+
+.sellingPrice--product__price-pdp {
+  color: #161615;
+  font-size: 20px;
+  display: flex;
+  gap: 5px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  -webkit-text-stroke: 0.2px;
+  width: fit-content !important;
+}
+.sellingPrice--product__price-pdp::after {
+  background-color: #161615;
+  content: "";
+  display: block;
+  height: 17px;
+  margin-left: 10px;
+  width: 1px;
+}
+.sellingPrice--product__price-pdp .sellingPriceValue {
+  color: #161615;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.2px;
+}
+
+.listPrice--product-list-price__pdp {
+  color: #606060;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  text-decoration-line: line-through;
+  margin-top: 10px;
+  display: block;
+}
+
+.installments--product__installments-pdp {
+  margin-bottom: 0;
+  width: fit-content !important;
+  color: #606060;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.savings--flag__price-savings {
+  background: #c00018;
+  color: #fff;
+  display: flex;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 600;
+  height: 26px;
+  justify-content: center;
+  letter-spacing: 0.3px;
+  max-width: 120px;
+  text-transform: uppercase;
+  width: 120px;
+  gap: 5px;
+  align-items: center;
+}
+
+.sellingPrice--shelf__category {
+  border-right: 1px solid black;
+  color: #161615;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 10px;
+  margin-right: 10px;
+  width: fit-content !important;
+  height: fit-content;
+}
+@media (max-width: 1025px) {
+  .sellingPrice--shelf__category {
+    border: 0;
+    width: 100% !important;
+  }
+}
+.sellingPrice--shelf__category .sellingPriceValue {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.listPrice--product-list-price__category {
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  text-decoration: line-through;
+  -webkit-text-stroke: 0.2px;
+  width: fit-content !important;
+}
+.listPrice--product-list-price__category .listPriceValue--product-list-price__category {
+  text-decoration: none;
+}
+
+.installments--shelf__category {
+  font-weight: 500;
+  -webkit-text-stroke: 0.2px;
+  width: fit-content !important;
+  font-size: 14px;
+}
+@media (max-width: 1025px) {
+  .installments--shelf__category {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}

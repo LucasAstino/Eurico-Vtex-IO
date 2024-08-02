@@ -1,0 +1,10 @@
+.container {
+  &--search__filter--trigger {
+    .paragraph {
+      letter-spacing: 1.6px;
+      font-family: Lato, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}

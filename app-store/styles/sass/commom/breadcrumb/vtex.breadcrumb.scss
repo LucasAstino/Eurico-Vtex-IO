@@ -1,0 +1,22 @@
+.container{
+  .link{
+    color: #161615;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .homeLink{
+    &::before{
+      content: "EURICO";
+    }
+    .homeIcon{
+      display: none;
+    }
+  }
+
+  .caretIcon{
+    color: #161615;
+  }
+}

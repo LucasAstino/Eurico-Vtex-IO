@@ -7,7 +7,10 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
   position: relative;
   max-width: 380px !important;
-  @media(max-width:768px){
+  @include tablet{
+    max-width: 100% !important;
+  }
+  @include mobile {
     min-height: auto;
     padding: 0;
   }
@@ -26,7 +29,7 @@
           display: -webkit-box;
           font-size: 12px;
           -webkit-text-stroke: 0.2px;
-          @include mobile{
+          @include mobile {
             height: auto;
             text-align: center;
           }
@@ -43,8 +46,13 @@
         border-radius: 0;
         height: 45px;
         border: 1px solid black;
-        @media(max-width:768px){
-          display: none;
+        // @media(max-width:768px){
+        //   display: none;
+        // }
+
+        @include tablet {
+          opacity: 1;
+          visibility: visible;
         }
 
         :global(.vtex-button__label) {
@@ -78,10 +86,12 @@
             transition-duration: 0.3s;
             transition-timing-function: ease-out;
           }
-          &:hover {
-            color: white;
-            &::after{
-              transform: scaleX(1);
+          @include desktop {
+            &:hover {
+              color: white;
+              &::after {
+                transform: scaleX(1);
+              }
             }
           }
         }

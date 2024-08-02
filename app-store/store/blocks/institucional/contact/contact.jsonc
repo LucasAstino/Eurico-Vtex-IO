@@ -1,6 +1,6 @@
 {
   "store.custom#contact-us": {
-    "children": ["image#contact-us__fullbanner", "flex-layout.row#contact-us"]
+    "children": ["image#contact-us__fullbanner","__fold__", "flex-layout.row#contact-us"]
   },
 
   "flex-layout.row#contact-us": {

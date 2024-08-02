@@ -1,0 +1,53 @@
+{
+  "store.custom#depositions":{
+    "children":["flex-layout.row#depositions__header","__fold__","flex-layout.row#depositions__content"]
+
+  },
+  "flex-layout.row#depositions__header":{
+    "props": {
+      "blockClass": "depositions__header"
+    },
+    "children":["rich-text#depositions__title","modal-trigger#new-testimonial__trigger"]
+
+  },
+  "flex-layout.row#depositions__content":{
+    "props": {
+      "blockClass": "depositions__content"
+    },
+    "children":["fg-Depositions"]
+
+  },
+  "modal-trigger#new-testimonial__trigger": {
+    "props": {
+      "blockClass":"new-testimonial__trigger"
+    },
+    "children": ["rich-text##new-testimonial__trigger", "modal-layout#new-testimonial"]
+  },
+  "modal-layout#new-testimonial": {
+    "props": {
+      "modal-actions.close":true
+    },
+    "children": [ "modal-header#new-testimonial","fg-NewTestimonial"]
+  },
+  "modal-header#new-testimonial":{
+    "props": {
+      "showCloseButton": true,
+      "blockClass":"new-testimonial"
+    }
+
+  },
+  "rich-text##new-testimonial__trigger": {
+    "title": "TItulo do botão",
+    "props": {
+      "text":"Novo",
+       "blockClass": "new-testimonial__trigger"
+    }
+  },
+  "rich-text#depositions__title": {
+    "title": "TItulo da pagina de depoimentos",
+    "props": {
+      "text":"# Depoimentos",
+       "blockClass": "depositions__title"
+    }
+  }
+}

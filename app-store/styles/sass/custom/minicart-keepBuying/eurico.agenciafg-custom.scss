@@ -1,0 +1,17 @@
+.minicartFooter_keepBuying {
+  all: unset;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 12px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 0 7%;
+
+  &:hover{
+    cursor: pointer;
+  }
+}

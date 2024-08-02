@@ -7,14 +7,16 @@
     "title": "Desktop",
     "children": [
       "slider-layout#header__tipbar",
-      "sticky-layout#header__content",
-      "flex-layout.row#category-menu"
+      "flex-layout.row#header__content",
+      "flex-layout.row#category-menu",
+      "sticky-layout#header__content"
     ]
   },
 
   "header-layout.mobile": {
     "title": "Mobile",
     "children": [
+
       "slider-layout#header__tipbar",
       "sticky-layout#header__content-mobile",
       "search-bar#header__search"

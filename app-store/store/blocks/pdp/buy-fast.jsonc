@@ -1,0 +1,65 @@
+{
+  "sticky-layout.stack-container#buy-fast-pdp": {
+    "props": {
+      "position": "bottom",
+      "blockClass": "buy-fast-pdp"
+    },
+    "children": [
+      "sticky-layout#buy-fast-pdp"
+    ]
+  },
+
+  "sticky-layout#buy-fast-pdp": {
+    "props": {
+      "blockClass":"buy-fast-pdp"
+    },
+    "children": ["responsive-layout.desktop#buy-fast-pdp","responsive-layout.phone#buy-fast-pdp"]
+  },
+
+  "responsive-layout.desktop#buy-fast-pdp": {
+    "children": [ "flex-layout.row#buy-fast-pdp"]
+  },
+  "responsive-layout.phone#buy-fast-pdp": {
+    "children": ["flex-layout.row#buy-fast-pdp-mobile"]
+  },
+
+
+  "flex-layout.row#buy-fast-pdp": {
+    "props": {
+      "blockClass": "buy-fast-pdp"
+    },
+    "children": ["flex-layout.col#buy-fast-pdp--col-1","flex-layout.col#buy-fast-pdp--col-2", "flex-layout.col#buy-fast-pdp--col-3"]
+  },
+
+  "flex-layout.row#buy-fast-pdp-mobile": {
+    "props": {
+      "blockClass": "buy-fast-pdp"
+    },
+    "children": ["flex-layout.col#buy-fast-pdp--col-1", "flex-layout.col#buy-fast-pdp--col-3"]
+  },
+
+  "flex-layout.col#buy-fast-pdp--col-1": {
+    "props": {
+      "blockClass":"buy-fast-pdp--col-1"
+    },
+    "children": ["vtex.store-components:product-name#product__info--name","flex-layout.row#product__price-pdp"]
+  },
+  "flex-layout.col#buy-fast-pdp--col-2": {
+    "props": {
+      "blockClass":"buy-fast-pdp--col-2"
+    },
+    "children": ["sku-selector#dpp","modal-trigger#product__guide-size"]
+  },
+  "flex-layout.col#buy-fast-pdp--col-3": {
+    "props": {
+      "blockClass":"buy-fast-pdp--col-3"
+    },
+    "children": [ "flex-layout.row#buy__buttom-pdp"]
+  }
+
+  // "rich-text#123": {
+  //   "props": {
+  //     "text": "lambeee"
+  //   }
+  // }
+}

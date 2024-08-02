@@ -30,6 +30,9 @@
 
 
   &--menu__item {
+     .styledLinkContent{
+       border-bottom: 1px solid transparent;
+    }
     &:hover {
       .styledLinkContent {
         &--menu__item {
@@ -48,6 +51,7 @@
   .submenuWrapper {
     &--submenu__container {
       padding: 0;
+      z-index: 1001;
     }
   }
 

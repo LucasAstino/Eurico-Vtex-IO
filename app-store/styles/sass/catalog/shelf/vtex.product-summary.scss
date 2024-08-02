@@ -1,0 +1,21 @@
+.container {
+  &--category {
+
+    &:hover{
+      box-shadow: none;
+    }
+    .element {
+      &--category {
+        .nameContainer {
+          &--category {
+            justify-content: start !important;
+          }
+        }
+      }
+    }
+
+    .imageStackContainer{
+      width: 100%;
+    }
+  }
+}

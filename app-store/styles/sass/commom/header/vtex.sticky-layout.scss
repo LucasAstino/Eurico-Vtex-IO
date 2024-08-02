@@ -1,0 +1,29 @@
+.wrapper--sticky-header {
+  background-color: white !important;
+  position: absolute !important;
+  z-index: -1;
+
+  &--stuck {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .container--sticky-header {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+
+    :global(.vtex-menu-2-x-menuContainer--main__menu) {
+      width: 100%;
+      margin-right: 10px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--menu__category) {
+      box-shadow: none;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--header__content-sticky) {
+      height: 84px;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+}

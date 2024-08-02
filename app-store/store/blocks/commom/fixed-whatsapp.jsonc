@@ -1,0 +1,12 @@
+{
+  "image#fixed__whatsapp": {
+    "props": {
+      "src": "assets/icons/commom/fixed-whatsapp.svg",
+      "blockClass":"fixed__whatsapp",
+      "link": {
+        "url": "/institucional/contato/whatsapp",
+        "openNewTab": true
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+  &--product__guide-size--trigger {
+    .paragraph {
+      border: none;
+      box-shadow: none;
+      color: #606060;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: normal;
+      margin: 0;
+      text-align: start;
+      text-decoration: underline;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &--product-payment-options--trigger {
+    .paragraph {
+      align-items: center;
+      color: #606060;
+      cursor: pointer;
+      display: flex;
+      font-size: 12px;
+      font-weight: 400;
+      gap: 15px;
+      text-decoration: underline;
+      text-transform: none;
+
+      &::before{
+        background-image: url(assets/icons/pdp/pdp-cartao.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        height: 22px;
+        width: 22px;
+      }
+    }
+  }
+}

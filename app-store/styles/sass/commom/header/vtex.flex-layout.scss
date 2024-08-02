@@ -1,0 +1,10 @@
+.flexRow{
+  &--header__icons{
+    .flexRowContent--header__icons{
+      gap: 8px;
+      .stretchChildrenWidth{
+        display: contents;
+      }
+    }
+  }
+}

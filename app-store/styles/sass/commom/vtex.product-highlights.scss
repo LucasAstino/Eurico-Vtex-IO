@@ -1,5 +1,7 @@
 .productHighlightWrapper{
   &--collection{
-    display: none;
+    .productHighlightText[data-highlight-name="Tudo"]{
+      display: none;
+    }
   }
 }

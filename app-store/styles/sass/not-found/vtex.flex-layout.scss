@@ -1,0 +1,18 @@
+.flexRow{
+  &--search__not-found__text{
+    margin: 50px 0;
+    .flexRowContent{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      @include tablet{
+        padding: 0 30px;
+      }
+
+      :global(.vtex-store-components-3-x-searchBarContainer){
+        box-shadow: none;
+      }
+    }
+  }
+}

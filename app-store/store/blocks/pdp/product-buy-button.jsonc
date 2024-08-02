@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#buy__buttom-pdp": {
+    "props": {
+      "blockClass": "buy__button-pdp"
+    },
+    "children": ["add-to-cart-button#buy__buttom-pdp"]
+  },
+  "add-to-cart-button#buy__buttom-pdp": {
+    "props": {
+      "blockClass":"buy__buttom-pdp",
+      "text": "Comprar"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "modal-trigger#product__guide-size": {
+    "props": {
+      "blockClass":"product__guide-size--trigger"
+    },
+    "children": ["rich-text#product__guide-size--trigger", "modal-layout#product__guide-size"]
+  },
+  "rich-text#product__guide-size--trigger": {
+    "props": {
+      "blockClass":"product__guide-size--trigger",
+      "text": "Tem dúvida no tamanho? Confira a tabela de medidas"
+    }
+  },
+  "modal-header#product__guide-size": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
+  "modal-layout#product__guide-size": {
+    "props": {
+      "showCloseButton":true,
+      "blockClass":"product__guide-size"
+    },
+    "children": ["modal-header#product__guide-size","image#table__sizes"]
+  },
+  "image#table__sizes": {
+    "props": {
+      "src": "assets/images/pdp/tabela-medidas.png",
+      "blockClass":"table__sizes-img"
+
+    }
+  }
+}

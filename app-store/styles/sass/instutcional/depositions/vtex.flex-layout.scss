@@ -1,0 +1,32 @@
+.flexRow {
+  &--depositions__header {
+    max-width: 1208px;
+    padding: 50px 10px 0;
+    margin: auto;
+
+    .stretchChildrenWidth{
+      display: contents;
+    }
+
+    .flexRowContent--depositions__header{
+      justify-content: space-between;
+      display: flex;
+      @include tablet{
+        flex-direction: column-reverse;
+        gap: 20px;
+      }
+    }
+
+  }
+
+  &--depositions__content {
+    max-width: 1208px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+
+    .stretchChildrenWidth{
+      display: contents;
+    }
+  }
+}

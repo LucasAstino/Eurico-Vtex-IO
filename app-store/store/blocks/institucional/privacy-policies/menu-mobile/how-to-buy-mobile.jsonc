@@ -1,0 +1,48 @@
+{
+  "responsive-layout.mobile#menu-mobile--privacy-policies": {
+    "children": [
+      "disclosure-layout#menu-mobile-privacy-policies"
+    ]
+  },
+  "disclosure-layout#menu-mobile-privacy-policies": {
+    "props": {
+      "animated": true,
+      "blockClass": "institucional__wrapper-disclosure"
+    },
+    "children": [
+      "disclosure-trigger#menu-mobile-privacy-policies",
+      "disclosure-content#menu-mobile-privacy-policies"
+    ]
+  },
+  "disclosure-trigger#menu-mobile-privacy-policies": {
+    "props": {
+      "blockClass": "institucional__menu-mobile--trigger",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#menu-mobile-privacy-policies-active"
+    ]
+  },
+  "disclosure-content#menu-mobile-privacy-policies": {
+    "props": {
+      "blockClass": "institucional__wrapper--menu-mobile"
+    },
+    "children": [
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-1",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-2",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-3",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-4",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-5",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-6",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-7",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-8",
+      "rich-text#institucional__wrapper-privacy-policies-menu-item-9"
+    ]
+  },
+  "rich-text#menu-mobile-privacy-policies-active": {
+    "props": {
+      "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
+      "text": "Políticas de trocas"
+    }
+  }
+}

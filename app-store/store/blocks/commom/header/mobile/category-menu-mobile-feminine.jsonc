@@ -32,12 +32,12 @@
       "blockClass":"category__menu-drawer-submenu"
     },
     "children": [
-      "menu-item#category__menu-drawer--feminine-submenu__title"
+      "menu-item#category__menu-drawer--feminine-submenu__title","menu-item#emphasis__menu-drawer--feminine-submenu__title","menu-item#forSizes__menu-drawer--feminine-submenu__title"
     ]
   },
-  "menu-item#category__menu-drawer--feminine-submenu__title": {
+  "menu-item#forSizes__menu-drawer--feminine-submenu__title": {
     "props": {
-      "blockClass": "category__menu-drawer--submenu__title",
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
       "id": "menu-item-category__menu-drawer--feminine-submenu__title",
       "type": "custom",
       "iconId": null,
@@ -45,8 +45,98 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Subcategoria 1",
-        "text": "Subcategoria 1"
+        "tagTitle": "Por tamanho",
+        "text": "Por tamanho"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#forSizes__menu-drawer--feminine-subSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#forSizes__menu-drawer--feminine-subSubmenu": {
+    "props": {
+      "width": "100%",
+      "blockClass":"category__menu-drawer-subSubmenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#forSizes-subSubmenu-feminine"
+    ]
+  },
+  "vtex.menu@2.x:menu#forSizes-subSubmenu-feminine": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--feminine-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/40?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "40",
+            "text": "40"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/41?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "41",
+            "text": "41"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/42?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "42",
+            "text": "42"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/43?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "43",
+            "text": "43"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/44?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "44",
+            "text": "44"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#category__menu-drawer--feminine-submenu__title": {
+    "props": {
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
+      "id": "menu-item-category__menu-drawer--feminine-submenu__title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Categorias",
+        "text": "Categorias"
       }
     },
     "blocks": [
@@ -59,23 +149,23 @@
       "blockClass":"category__menu-drawer-subSubmenu"
     },
     "children": [
-      "vtex.menu@2.x:menu#subcategory-subSubmenu-feminine"
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-feminine","rich-text#seeMore"
     ]
   },
   "vtex.menu@2.x:menu#subcategory-subSubmenu-feminine": {
     "props": {
       "orientation": "vertical",
       "blockClass":"category__menu-drawer--feminine-subSubmenu",
-      "items": [
+     "items": [
         {
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/sobre-nos",
+            "href": "/feminino?O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "QUEM SOMOS",
-            "text": "QUEM SOMOS"
+            "tagTitle": "Todas as novidades",
+            "text": "Todas as novidades"
           }
         },
         {
@@ -83,10 +173,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/historia",
+            "href": "/feminino/bota?O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "A história",
-            "text": "A história"
+            "tagTitle": "Bota",
+            "text": "Bota"
           }
         },
         {
@@ -94,10 +184,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/nossas-politicas",
+            "href": "/feminino/Bota/Coturno?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "Nossas políticas",
-            "text": "Nossas políticas"
+            "tagTitle": "Coturno",
+            "text": "Coturno"
           }
         },
         {
@@ -105,10 +195,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/fidelidade",
+            "href": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "Fidelidade",
-            "text": "Fidelidade"
+            "tagTitle": "Sapatilha",
+            "text": "Sapatilha"
           }
         },
         {
@@ -127,10 +217,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/depoimentos",
+            "href": "/feminino/Tênis/Casual?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "Depoimentos",
-            "text": "Depoimentos"
+            "tagTitle": "Tênis Casual",
+            "text": "Tênis Casual"
           }
         },
         {
@@ -138,10 +228,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/dicas",
+            "href": "/feminino/Tênis/Esportivo?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "Dicas",
-            "text": "Dicas"
+            "tagTitle": "Tênis Esportivo",
+            "text": "Tênis Esportivo"
           }
         },
         {
@@ -149,10 +239,243 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/trabalhe-conosco",
+            "href": "/feminino/sandalia?O=OrderByReleaseDateDESC",
             "noFollow": false,
-            "tagTitle": "Trabalhe conosco",
-            "text": "Trabalhe conosco"
+            "tagTitle": "Sandália",
+            "text": "Sandália"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/mule,tamanco?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Mule e Tamanco",
+            "text": "Mule e Tamanco"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/scarpin?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Scarpin",
+            "text": "Scarpin"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Mocassim",
+            "text": "Mocassim"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/alpargata?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Alpargata",
+            "text": "Alpargata"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/rasteira?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Rasteira",
+            "text": "Rasteira"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/chinelo?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Chinelo",
+            "text": "Chinelo"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#emphasis__menu-drawer--feminine-submenu__title": {
+    "props": {
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
+      "id": "menu-item-category__menu-drawer--feminine-submenu__title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Destaques",
+        "text": "Destaques"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#emphasis__menu-drawer--feminine-subSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#emphasis__menu-drawer--feminine-subSubmenu": {
+    "props": {
+      "width": "100%",
+      "blockClass":"category__menu-drawer-subSubmenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#emphasis-subSubmenu-feminine"
+    ]
+  },
+  "vtex.menu@2.x:menu#emphasis-subSubmenu-feminine": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--feminine-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/129?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Usaflex",
+            "text": "Usaflex"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/nike?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Nike",
+            "text": "Nike"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Melissa",
+            "text": "Melissa"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Linha Prime",
+            "text": "Linha Prime"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/guia-de-medidas",
+            "noFollow": false,
+            "tagTitle": "Guia de medidas",
+            "text": "Guia de medidas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/344?map=productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Glamour",
+            "text": "Glamour"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Eurico Basics",
+            "text": "Eurico Basics"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Confort",
+            "text": "Confort"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Havaianas",
+            "text": "Havaianas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Meias e Acessórios",
+            "text": "Meias e Acessórios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao?O=OrderByPriceASC",
+            "noFollow": false,
+            "tagTitle": "Cartão Presente",
+            "text": "Cartão Presente"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Veja Como Fica",
+            "text": "Veja Como Fica"
           }
         }
       ]

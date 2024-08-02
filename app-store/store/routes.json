@@ -41,6 +41,15 @@
   "store.custom#faq": {
     "path": "/institucional/perguntas-frequentes"
   },
+  "store.custom#depositions": {
+    "path": "/institucional/depoimentos"
+  },
+  "store.custom#exchange-policies": {
+    "path": "/institucional/politicas-de-trocas"
+  },
+  "store.custom#whatsapp": {
+    "path": "/institucional/contato/whatsapp"
+  },
   "store.custom#contact-us": {
     "path": "/institucional/contato"
   }

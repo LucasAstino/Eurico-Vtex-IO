@@ -1,89 +1,80 @@
-@media screen and (min-width: 40em) {
-  .paper--quickview {
-    height: 260px;
-    width: 580px;
-  }
-
-  .actionsContainer--quickview {
-    padding: 0 2rem 2rem 2rem;
-  }
+.triggerContainer--product__guide-size--trigger {
+  margin-bottom: 20px;
 }
 
-@media screen and (min-width: 50em) {
-  .paper--quickview {
-    height: 450px;
-    width: 900px;
-  }
+.modal--product__guide-size .container--product__guide-size .paper--product__guide-size {
+  border-radius: 8px;
+  padding: 20px;
+  overflow: initial;
 }
-
-
-@media screen and (min-width: 75em) {
-  .paper--quickview {
-    width: calc(100% - 4rem);
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 82em) {
-  .actionsContainer--quickview {
-    padding: 0 2.5rem 2.5rem 2.5rem;
-  }
-}
-
-.paper--quickview {
-  min-width: 320px;
-  max-width: 96rem;
-}
-
-.headerContainer--quickview {
-  border: none;
+.modal--product__guide-size .container--product__guide-size .paper--product__guide-size .headerContainer {
   position: absolute;
+  top: -13px;
+  right: -8px;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a7a9ac;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.67);
+}
+.modal--product__guide-size .container--product__guide-size .paper--product__guide-size .headerContainer .closeButton {
+  padding: 0;
+  display: flex;
+}
+.modal--product__guide-size .container--product__guide-size .paper--product__guide-size .headerContainer .closeButton .closeIcon {
+  scale: 0.5;
+  color: #fff;
+  stroke-width: 2;
+}
+.modal--product__guide-size .container--product__guide-size .paper--product__guide-size :global(.vtex-store-components-3-x-imageElement--table__sizes-img) {
+  max-width: 300px;
+}
+.modal--product__guide-size .backdropContainer--product__guide-size {
+  opacity: 0.2 !important;
+  background-color: white;
+}
+.modal--product-payment-options .paper--product-payment-options {
+  width: 500px;
+  height: 330px;
+}
+.modal--product-payment-options .paper--product-payment-options .headerContainer {
+  align-items: center;
+  background-color: #c00018;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 30px;
+}
+.modal--product-payment-options .paper--product-payment-options .headerContainer :global(.vtex-rich-text-0-x-paragraph--product-title-modal) {
+  color: white;
+  font-weight: 600;
+}
+.modal--product-payment-options .paper--product-payment-options .headerContainer .closeButtonContainer .closeButton {
+  padding: 0;
+}
+.modal--product-payment-options .paper--product-payment-options .headerContainer .closeButtonContainer .closeButton .closeIcon {
+  color: white;
+}
+
+.backdropContainer .backdrop--product-payment-options {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.headerContainer--new-testimonial {
+  position: absolute;
+  border: 0;
   right: 0;
 }
 
-.actionsContainer--quickview {
-  height: 100%;
-  width: 100%;
-  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: transparent;
-  box-shadow: -4px 0px 27px -12px transparent;
-}
-
-.actionsContentWrapper {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #aaa;
-  padding-top: 1.5rem;
-}
-
-.contentContainer--quickviewContent {
-  padding: 2.5rem 0 2.5rem 2rem;
-  overflow-x: hidden;
-}
-
-.triggerContainer--quickview {
-  padding: .75rem;
-}
-
-.triggerContainer {
-  outline: none;
-}
-
-.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
-  border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
-}
-
-.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
-  border-top-color: transparent;
-}
-
-.closeButton {
-  padding-right: 1rem;
-}
-
-.paper--product-gifts {
-  padding: 1.5rem;
+.triggerContainer--new-testimonial__trigger {
+  width: fit-content !important;
 }

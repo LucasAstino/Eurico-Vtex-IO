@@ -29,7 +29,7 @@
   "vtex.menu@2.x:menu#category__menu-drawer--acessories-submenu": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"category__menu-drawer--acessories-submenu"
+      "blockClass":"category__menu-drawer-submenu"
     },
     "children": [
       "menu-item#category__menu-drawer--acessories-submenu__title"
@@ -37,7 +37,7 @@
   },
   "menu-item#category__menu-drawer--acessories-submenu__title": {
     "props": {
-      "blockClass": "menu__item",
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
       "id": "menu-item-category__menu-drawer--acessories-submenu__title",
       "type": "custom",
       "iconId": null,
@@ -45,8 +45,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Subcategoria 1",
-        "text": "Subcategoria 1"
+        "tagTitle": "Categorias",
+        "text": "Categorias"
       }
     },
     "blocks": [
@@ -56,52 +56,262 @@
   "vtex.menu@2.x:submenu#category__menu-drawer--acessories-subSubmenu": {
     "props": {
       "width": "100%",
-      "blockClass":"category__menu-drawer--acessories-subSubmenu"
+      "blockClass":"category__menu-drawer-subSubmenu"
     },
     "children": [
-      "vtex.menu@2.x:menu#subcategory-subSubmenu-acessories"
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-acessories","rich-text#seeMore"
     ]
   },
   "vtex.menu@2.x:menu#subcategory-subSubmenu-acessories": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"category__menu-drawer--acessories-subSubmenu"
-    },
-    "children": [
-      "menu-item#item1-acessories",
-      "menu-item#item2-acessories"
-    ]
-  },
-  "menu-item#item1-acessories": {
-    "props": {
-      "blockClass": "menu__item",
-      "id": "menu-item-item1",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "Item 1",
-        "text": "Item 1",
-        "href": "/item1"
-      }
+      "blockClass":"category__menu-drawer--acessories-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Meia feminina",
+            "text": "Meia feminina"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/meias-masculina?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Meia masculina",
+            "text": "Meia masculina"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/cinto-masculino?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Cinto masculino",
+            "text": "Cinto masculino"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/Carteira%20Masculina?map=c,c&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Carteira Masculina",
+            "text": "Carteira Masculina"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/palmilha?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Palmilha",
+            "text": "Palmilha"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/cuidados-para-pes-e-calçados?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Cuidados para pés e calçados",
+            "text": "Cuidados para pés e calçados"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/cartao-presente?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Cartão Presente",
+            "text": "Cartão Presente"
+          }
+        }
+      ]
     }
   },
-  "menu-item#item2-acessories": {
+  "menu-item#emphasis__menu-drawer--acessories-submenu__title": {
     "props": {
-      "blockClass": "menu__item",
-      "id": "menu-item-item2",
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
+      "id": "menu-item-category__menu-drawer--acessories-submenu__title",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Item 2",
-        "text": "Item 2",
-        "href": "/item2"
+        "tagTitle": "Destaques",
+        "text": "Destaques"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#emphasis__menu-drawer--acessories-subSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#emphasis__menu-drawer--acessories-subSubmenu": {
+    "props": {
+      "width": "100%",
+      "blockClass":"category__menu-drawer-subSubmenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories"
+    ]
+  },
+  "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--acessories-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/129?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Usaflex",
+            "text": "Usaflex"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/nike?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Nike",
+            "text": "Nike"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Melissa",
+            "text": "Melissa"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Linha Prime",
+            "text": "Linha Prime"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/guia-de-medidas",
+            "noFollow": false,
+            "tagTitle": "Guia de medidas",
+            "text": "Guia de medidas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/344?map=productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Glamour",
+            "text": "Glamour"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Eurico Basics",
+            "text": "Eurico Basics"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Confort",
+            "text": "Confort"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Havaianas",
+            "text": "Havaianas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Meias e Acessórios",
+            "text": "Meias e Acessórios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao?O=OrderByPriceASC",
+            "noFollow": false,
+            "tagTitle": "Cartão Presente",
+            "text": "Cartão Presente"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Veja Como Fica",
+            "text": "Veja Como Fica"
+          }
+        }
+      ]
     }
   }
 }

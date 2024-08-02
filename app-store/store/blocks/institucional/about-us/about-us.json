@@ -3,6 +3,7 @@
     "blocks": [
       "image#about-us",
       "flex-layout.row#about-us-row",
+      "__fold__",
       "flex-layout.row#history__content"
     ]
   },

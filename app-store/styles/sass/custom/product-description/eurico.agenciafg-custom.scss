@@ -1,0 +1,33 @@
+.product__description-container {
+  .product__description-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .product__description {
+    @include desktop {
+      white-space: pre-wrap;
+    }
+    color: #161615;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+
+  .product__toggle-button--description {
+    letter-spacing: 0.3px;
+    vertical-align: baseline;
+    font-family: Lato, sans-serif;
+    all: unset;
+    text-decoration: underline;
+    color: #161615;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-text-stroke: 0.2px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

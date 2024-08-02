@@ -62,14 +62,16 @@
           }
         },
         {
+          "id": "menu-item-shop",
           "type": "custom",
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/account",
-            "noFollow": false,
-            "tagTitle": "Trocas e devoluções",
-            "text": "Minha conta"
+            "noFollow": true,
+            "href":"/",
+            "tagTitle": "Minha conta",
+            "text": "Minha conta",
+            "blockClass":"my-account"
           }
         },
         {

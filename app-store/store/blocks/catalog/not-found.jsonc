@@ -1,0 +1,52 @@
+{
+  "store.not-found#product": {
+    "blocks": ["flex-layout.row#search__not-found"]
+  },
+
+  "store.not-found#search": {
+    "blocks": ["flex-layout.row#search__not-found"]
+  },
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#search__not-found"
+    ]
+  },
+
+  "flex-layout.row#search__not-found": {
+    "children": [
+      "rich-text#search__not-found__text",
+      "search-bar#search__not-found",
+      "rich-text#search__not-found__backToHome"
+    ],
+    "props": {
+      "blockClass": "search__not-found__text",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#search__not-found__text": {
+    "props": {
+      "text": "# **OPS!** Busca não encontrada \n Infelizmente não encontramos nenhum resultado para a sua busca",
+      "blockClass": "search__not-found__text"
+    }
+  },
+  "rich-text#search__not-found__backToHome": {
+    "props": {
+      "text": "[Voltar para a home](/)",
+      "blockClass": "search__not-found__backToHome"
+    }
+  },
+
+  "search-bar#search__not-found": {
+    "title": "busca",
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "search__not-found",
+      "hideTitles": true,
+      "placeholder": "DIGITE AQUI",
+      "compactMode": false,
+      "containerMode": "overlay"
+    }
+  }
+
+}

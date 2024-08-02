@@ -26,3 +26,66 @@
 .minicartContainer :global(.vtex-button__label) {
   padding: 0;
 }
+
+@media (max-width: 1025px) {
+  .drawer--header__minicart {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+.drawer--header__minicart .drawerContent--header__minicart .closeIconContainer--header__minicart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.drawer--header__minicart .drawerContent--header__minicart .closeIconContainer--header__minicart .closeIcon {
+  color: gray;
+}
+.drawer--header__minicart .drawerContent--header__minicart .minicartContentContainer .minicartTitle {
+  display: none;
+}
+
+.minicartSummary--header__minicart--resume :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemLabel--header__minicart--resume) {
+  font-size: 0;
+}
+.minicartSummary--header__minicart--resume :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemLabel--header__minicart--resume)::before {
+  content: "Total:";
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.minicartSummary--header__minicart--resume :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemPrice--header__minicart--resume) {
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+  letter-spacing: 1px;
+}
+.minicartSummary--header__minicart--resume :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+.minicartCheckoutButton {
+  padding: 0 7%;
+  margin: 10px 0;
+}
+.minicartCheckoutButton :global(.vtex-button) {
+  border-radius: 0;
+  height: 50px;
+  background-color: #6bc66b;
+  border: 0;
+}
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: "Finalizar compra";
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #fff;
+}

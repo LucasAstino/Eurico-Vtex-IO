@@ -1,0 +1,49 @@
+.sellingPrice {
+  &--shelf__category {
+    border-right: 1px solid black;
+    color: #161615;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: fit-content !important;
+    height: fit-content;
+    @include tablet {
+      border: 0;
+      width: 100% !important;
+    }
+    .sellingPriceValue {
+      margin-left: 5px;
+      font-size: 14px;
+    }
+  }
+}
+
+.listPrice--product-list-price__category{
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: .3px;
+  vertical-align: baseline;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  text-decoration: line-through;
+  -webkit-text-stroke: 0.2px;
+  width: fit-content !important;
+  .listPriceValue--product-list-price__category{
+    text-decoration: none;
+  }
+}
+
+.installments {
+  &--shelf__category {
+    font-weight: 500;
+    -webkit-text-stroke: 0.2px;
+    width: fit-content !important;
+    font-size: 14px;
+    @include tablet {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+}

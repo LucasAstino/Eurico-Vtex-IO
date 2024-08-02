@@ -41,7 +41,7 @@
   "rich-text#menu-mobile-how-to-buy-active": {
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
-      "text": "How to Buy"
+      "text": "COMO COMPRAR"
     }
   }
 }

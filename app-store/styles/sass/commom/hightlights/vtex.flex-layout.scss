@@ -1,0 +1,28 @@
+.flexRow {
+  &--flags {
+    .flexRowContent--flags {
+      display: flex !important;
+      flex-wrap: wrap;
+      width: calc(100% - 25px);
+      gap: 7px;
+      z-index: 999 !important;
+      align-items: center;
+
+      :global(.vtex__last-unit) {
+        width: 120px;
+        align-items: center;
+        color: #606060;
+        display: flex;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 12px;
+        font-style: normal;
+        justify-content: center;
+        letter-spacing: 0.3px;
+        height: 26px;
+        line-height: 14px;
+        border: 1px solid #606060;
+      }
+    }
+  }
+}

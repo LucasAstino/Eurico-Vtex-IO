@@ -173,6 +173,13 @@
 
   &--filterMobileCol {
     width: 38%;
+
+    @include tablet{
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      justify-content: center;
+      line-height: 16px;
+    }
   }
 
   &--col-right {

@@ -1,0 +1,66 @@
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .quantitySelectorButton--header__minicart--quantity {
+  border: 1px solid black;
+  color: black;
+  width: 30px;
+  padding: 7px 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .quantitySelectorButton--header__minicart--quantity::before {
+  content: "";
+  display: block;
+  width: 20px;
+  font-size: 20px;
+  height: 100%;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .quantitySelectorButton--header__minicart--quantity :nth-child(n+1) {
+  display: none;
+}
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .quantitySelectorIncrease::before {
+  content: "+";
+}
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .quantitySelectorDecrease::before {
+  content: "-";
+}
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .inputContainer {
+  width: 40px;
+  padding: 0;
+  flex: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.quantitySelectorContainer--header__minicart--quantity .quantitySelectorWrapper--header__minicart--quantity .inputContainer :first-child {
+  font-weight: 700;
+}
+
+.unitPriceContainer--header__minicart--price .unitPricePerUnitCurrency--header__minicart--price {
+  left: 105px;
+  top: 67%;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-weight: 800;
+  display: block;
+  font-family: Lato;
+  letter-spacing: 1px;
+}
+.unitPriceContainer--header__minicart--price .unitPriceMeasurementUnit--header__minicart--price {
+  display: none;
+}
+
+.removeButtonContainer--header__minicart--remove .removeButton--header__minicart--remove::after {
+  content: "+";
+  font-size: 45px;
+  transform: rotate(45deg);
+  display: inline-block;
+  font-weight: 300;
+  font-family: lato;
+  color: #d2d2d2;
+}
+.removeButtonContainer--header__minicart--remove .removeButton--header__minicart--remove .deleteIcon {
+  display: none;
+}

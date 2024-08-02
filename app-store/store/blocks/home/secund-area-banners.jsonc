@@ -11,18 +11,18 @@
     "props": {
     },
     "children": [
-      "responsive-layout.desktop",
-      "responsive-layout.tablet",
-      "responsive-layout.phone"
+      "responsive-layout.desktop#secund-area-banners",
+      "responsive-layout.tablet#secund-area-banners",
+      "responsive-layout.phone#secund-area-banners"
     ]
   },
-  "responsive-layout.desktop": {
+  "responsive-layout.desktop#secund-area-banners": {
     "children":["flex-layout.row#secund-area-banners"]
   },
-  "responsive-layout.tablet": {
+  "responsive-layout.tablet#secund-area-banners": {
     "children":["flex-layout.row#secund-area-banners"]
   },
-  "responsive-layout.phone": {
+  "responsive-layout.phone#secund-area-banners": {
     "children":["flex-layout.row#secund-area-banners--mobile"]
   },
   "flex-layout.row#secund-area-banners": {

@@ -1,0 +1,92 @@
+{
+  "vtex.store-components:product-name#product__info--name": {
+    "props": {
+      "blockClass": "product__info--name"
+    }
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3,
+      "blockClass": "product__name-pdp"
+    },
+    "children": [ "vtex.store-components:product-name#product__info--name"]
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+  },
+
+  "flex-layout.row#product-availability": {
+    "props": {
+      "colGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col-availability"
+    ]
+  },
+  "flex-layout.col#right-col-availability": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-availability"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row#availability"
+    ]
+  },
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": ["availability-subscriber"]
+  },
+
+  "flex-layout.row#product__ratingAndref": {
+    "props": {
+      "blockClass": "product__ratingAndref"
+    },
+    "children": ["product-identifier.product", "product-rating-summary"]
+  },
+
+  // "product-description": {
+  //   "title": "Descrição do produto",
+  //   "props": {
+  //     "title": "Descrição:",
+  //     "collapseContent":true,
+  //     "blockClass":"product__description"
+  //   }
+  // },
+
+
+
+
+
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": false,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": false
+      },
+      "blockClass":"share__pdp"
+    }
+  }
+}

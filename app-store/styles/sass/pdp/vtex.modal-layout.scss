@@ -1,0 +1,94 @@
+.triggerContainer {
+  &--product__guide-size--trigger{
+    margin-bottom: 20px;
+  }
+}
+
+.modal {
+  &--product__guide-size {
+    .container {
+      &--product__guide-size {
+        .paper--product__guide-size {
+          border-radius: 8px;
+          padding: 20px;
+          overflow: initial;
+
+          .headerContainer {
+            position: absolute;
+            top: -13px;
+            right: -8px;
+            height: 27px;
+            width: 27px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #a7a9ac;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid #fff;
+            cursor: pointer;
+            transition: color 0.2s ease-in-out;
+            box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.67);
+
+            .closeButton {
+              padding: 0;
+              display: flex;
+              .closeIcon {
+                scale: 0.5;
+                color: #fff;
+                stroke-width: 2;
+              }
+            }
+          }
+
+          :global(.vtex-store-components-3-x-imageElement--table__sizes-img) {
+            max-width: 300px;
+          }
+        }
+      }
+    }
+    .backdropContainer {
+      &--product__guide-size {
+        opacity: 0.2 !important;
+        background-color: white;
+      }
+    }
+  }
+
+  &--product-payment-options {
+    .paper--product-payment-options {
+      width: 500px;
+      height: 330px;
+      .headerContainer {
+        align-items: center;
+        background-color: #c00018;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px 20px 30px;
+
+        :global(.vtex-rich-text-0-x-paragraph--product-title-modal){
+          color: white;
+          font-weight: 600;
+        }
+
+        .closeButtonContainer{
+          .closeButton{
+            padding: 0;
+            .closeIcon{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.backdropContainer {
+  .backdrop--product-payment-options {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,40 @@
+.container {
+  &--filter__suggestion-filter-one,
+  &--filter__suggestion-filter-secund,
+  &--filter__suggestion-filter-third {
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    color: #626262;
+    display: flex;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    max-height: 52px;
+    padding: 0 11px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+
+    &:hover {
+      background: #f3f3f3;
+      border: 1px solid #e9e9e9;
+    }
+
+    .link {
+      padding: 15px 0;
+      text-decoration: none;
+      display: inline-block;
+    }
+  }
+
+  &--filter__suggestion-title {
+    color: #161615;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+}

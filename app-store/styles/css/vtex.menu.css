@@ -46,6 +46,9 @@
   letter-spacing: 1.5px;
   -webkit-text-stroke: 0.2px;
 }
+.menuItem--menu__item .styledLinkContent {
+  border-bottom: 1px solid transparent;
+}
 .menuItem--menu__item:hover .styledLinkContent--menu__item {
   border-bottom: 1px solid #c00018;
 }
@@ -55,6 +58,7 @@
 }
 .menuContainer .submenuWrapper--submenu__container {
   padding: 0;
+  z-index: 1001;
 }
 .menuContainer--main__menu {
   width: 60%;
@@ -111,7 +115,13 @@
   margin-top: 30px;
   position: static;
   border-top: 0.5px solid rgba(0, 0, 0, 0.34);
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+  border-bottom: none;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer--submenu .menuContainer--category__menu-drawer-submenu {
+  gap: 25px;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer--submenu .menuContainer--category__menu-drawer-submenu .styledLinkContent--has-children {
+  font-weight: 600;
 }
 .submenuContainer .submenuWrapper--category__menu-drawer--submenu .menuContainerNav {
   width: 100%;
@@ -132,4 +142,22 @@
   position: static;
   border-top: 0.5px solid rgba(0, 0, 0, 0.34);
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+}
+.submenuContainer .submenuWrapper--category__menu-drawer-subSubmenu .submenu--category__menu-drawer-subSubmenu {
+  flex-direction: column;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer-subSubmenu .submenu--category__menu-drawer-subSubmenu :global(.vtex-rich-text-0-x-container--seeMore) {
+  padding-left: 25px;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer-subSubmenu .submenu--category__menu-drawer-subSubmenu :global(.vtex-rich-text-0-x-container--seeMore) :global(.vtex-rich-text-0-x-wrapper--seeMore) {
+  width: 100%;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer-subSubmenu .submenu--category__menu-drawer-subSubmenu :global(.vtex-rich-text-0-x-container--seeMore) :global(.vtex-rich-text-0-x-wrapper--seeMore) :global(.vtex-rich-text-0-x-paragraph--seeMore) {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  width: 100px;
+}
+.submenuContainer .submenuWrapper--category__menu-drawer-subSubmenu .menuContainer {
+  gap: 15px;
 }

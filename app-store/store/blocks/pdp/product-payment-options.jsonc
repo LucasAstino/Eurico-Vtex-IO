@@ -1,0 +1,145 @@
+{
+  "modal-trigger#product-payment-options": {
+    "props": {
+      "blockClass":"product-payment-options--trigger"
+    },
+    "children": ["rich-text#product-payment-options--trigger", "modal-layout#product-payment-options"]
+  },
+  "rich-text#product-payment-options--trigger": {
+    "props": {
+      "blockClass":"product-payment-options--trigger",
+      "text": "Ver opções de pagamento"
+    }
+  },
+  "rich-text#product-title-modal": {
+    "props": {
+      "blockClass":"product-title-modal",
+      "text": "Formas de Pagamento"
+    }
+  },
+  "modal-header#product-payment-options": {
+    "props": {
+
+      "showCloseButton": true
+    },
+    "children":["rich-text#product-title-modal"]
+  },
+  "modal-layout#product-payment-options": {
+    "props": {
+      "showCloseButton":true,
+      "blockClass":"product-payment-options"
+    },
+    "children": ["modal-header#product-payment-options","tab-layout#product-payment-options"]
+  },
+
+  "tab-layout#product-payment-options": {
+    "children": [
+      "tab-list#product-payment-options",
+      "tab-content#product-payment-options"
+    ],
+    "props": {
+      "blockClass": "product-payment-options",
+      "defaultActiveTabId": "product-payment-options1"
+    }
+  },
+  "tab-list#product-payment-options": {
+    "children": [
+      "tab-list.item#product-payment-options-1",
+      "tab-list.item#product-payment-options-2",
+      "tab-list.item#product-payment-options-3",
+      "tab-list.item#product-payment-options-4"
+    ],
+    "props": {
+      "blockClass":"product-payment-options"
+    }
+  },
+  "tab-list.item#product-payment-options-1": {
+    "props": {
+      "tabId": "product-payment-options-1",
+      "label": "Cartão de crédito",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#product-payment-options-2": {
+    "props": {
+      "tabId": "product-payment-options-2",
+      "label": "PIX"
+    }
+  },
+  "tab-list.item#product-payment-options-3": {
+    "props": {
+      "tabId": "product-payment-options-3",
+      "label": "Boleto bancário"
+    }
+  },
+  "tab-list.item#product-payment-options-4": {
+    "props": {
+      "tabId": "product-payment-options-4",
+      "label": "SpinPay"
+    }
+  },
+  "tab-content#product-payment-options": {
+    "children": [
+      "tab-content.item#product-payment-options-1",
+      "tab-content.item#product-payment-options-2",
+      "tab-content.item#product-payment-options-3",
+      "tab-content.item#product-payment-options-4"
+    ]
+  },
+  "tab-content.item#product-payment-options-1": {
+    "children": [
+"rich-text#product-payment-card"
+    ],
+    "props": {
+      "tabId": "product-payment-options-1"
+    }
+  },
+  "tab-content.item#product-payment-options-2": {
+    "children": [
+      "rich-text#product-payment-pix"
+    ],
+    "props": {
+      "tabId": "product-payment-options-2"
+    }
+  },
+  "tab-content.item#product-payment-options-3": {
+    "children": [
+      "rich-text#product-payment-boleto"
+    ],
+    "props": {
+      "tabId": "product-payment-options-3"
+    }
+  },
+  "tab-content.item#product-payment-options-4": {
+    "children": [
+      "rich-text#product-payment-spinPay"
+    ],
+    "props": {
+      "tabId": "product-payment-options-4"
+    }
+  },
+  "rich-text#product-payment-card": {
+    "props": {
+      "blockClass":"product-payment-card",
+      "text": ""
+    }
+  },
+  "rich-text#product-payment-pix": {
+    "props": {
+      "blockClass":"product-payment-pix",
+      "text": "O pagamento é instantâneo e só pode ser à vista. Na etapa de finalização da compra, a gente explica direitinho como pagar com Pix."
+    }
+  },
+  "rich-text#product-payment-boleto": {
+    "props": {
+      "blockClass":"product-payment-boleto",
+      "text": "O Boleto bancário será exibido após a confirmação da compra e poderá ser impresso para pagamento em qualquer agência bancária, ou ter o número anotado para pagamento pelo telefone ou internet."
+    }
+  },
+  "rich-text#product-payment-spinPay": {
+    "props": {
+      "blockClass":"product-payment-spinPay",
+      "text": "O pagamento poderá ser feito por Picpay ou Mercado Pago. Na etapa de finalização da compra, a gente explica direitinho como pagar com SpinPay."
+    }
+  }
+}

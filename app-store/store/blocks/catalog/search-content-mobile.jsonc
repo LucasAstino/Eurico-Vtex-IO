@@ -1,0 +1,90 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "breadcrumb.search#search__breadcrumb",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#filter-switcher-mobile",
+
+      "flex-layout.row#filter__suggestion",
+      "__fold__",
+      "flex-layout.row#contentmobile",
+      "fg-Pagination",
+      "rich-text#content-seo-category"
+    ],
+    "props": {
+      "showFacetQuantity": true,
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid-1"
+    }
+  },
+  "flex-layout.row#contentmobile": {
+    "children": ["search-content"],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.row#searchinfomobile": {
+    "children": [
+      "flex-layout.col#filterMobile",
+      "flex-layout.col#orderByMobile"
+    ],
+    "props": {
+      "blockClass": "searchinfomobile",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "colJustify": "around"
+    }
+  },
+
+  "flex-layout.col#orderByMobile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "width": "grow",
+      "blockClass": "orderByMobileCol"
+    }
+  },
+
+  "flex-layout.row#filter-switcher-mobile": {
+    "children": ["total-products.v2", "gallery-layout-switcher#mobile"],
+    "props": {
+      "blockClass": "filter-switcher-mobile"
+    }
+  },
+
+  "flex-layout.col#filterMobile": {
+    "children": ["drawer#search__filter"],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+
+  "drawer-trigger#search__filter--trigger": {
+    "children": ["rich-text#search__filter--trigger"],
+    "props": {
+      "blockClass": "search__filter--triggerbutton"
+    }
+  },
+  "rich-text#search__filter--trigger": {
+    "props": {
+      "text": "Filtrar",
+      "blockClass":"search__filter--trigger"
+    }
+  },
+  "drawer#search__filter": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "blocks": ["drawer-trigger#search__filter--trigger"],
+    "props": {
+      "slideDirection": "rightToLeft",
+      "renderingStrategy": "lazy",
+      "isFullWidth": true,
+      "blockClass": "search__filter"
+    }
+  }
+}

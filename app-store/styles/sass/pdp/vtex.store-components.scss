@@ -1,0 +1,128 @@
+.productNameContainer {
+  &--product__info--name {
+    margin-bottom: 10px;
+    .productBrand--product__info--name {
+      color: #161615;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: start;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.productImagesContainer {
+  &--product-image-grid {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    .productImage--product-image-grid {
+      aspect-ratio: 1 / 1;
+      border: 1px solid #d9d9d9;
+      height: auto;
+      overflow: hidden;
+      width: 100%;
+
+      &:hover {
+        cursor: zoom-in;
+      }
+    }
+  }
+}
+
+.skuSelectorContainer--sku-selector__pdp {
+  .skuSelectorSubcontainer--tamanho {
+    margin: 0;
+  }
+
+  .skuSelectorTextContainer {
+    .skuSelectorName {
+      color: #161615;
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 20px;
+      text-transform: none;
+
+      &::after {
+        content: ":";
+      }
+    }
+  }
+
+  .skuSelectorOptionsList {
+    gap: 15px;
+    .skuSelectorItem--sku-selector__pdp {
+      border: 1px solid #606060 !important;
+      border-radius: 0 !important;
+      color: #626262 !important;
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      height: 40px !important;
+      margin: 0 !important;
+      opacity: 1 !important;
+      transform: none !important;
+      width: 40px !important;
+
+      .frameAround--sku-selector__pdp {
+        border: 0;
+      }
+      &--selected {
+        background-color: black;
+
+        .skuSelectorItemTextValue--sku-selector__pdp {
+          color: white;
+        }
+      }
+
+      .skuSelectorInternalBox--sku-selector__pdp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+      }
+    }
+  }
+}
+
+.carouselContainer--product-image-slide {
+  justify-content: center;
+  .carouselGaleryThumbs--product-image-slide {
+    display: none;
+  }
+
+  .carouselGaleryCursor {
+    margin: 0;
+    .productImagesGallerySwiperContainer--product-image-slide {
+      padding-bottom: 20px;
+    }
+  }
+
+  .swiper-pagination {
+    width: fit-content;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 10px;
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+    left: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    transform: translateX(-50%);
+    .swiperBullet {
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      height: 10px;
+      width: 10px;
+      opacity: 1;
+
+      &--active {
+        background-color: #606060;
+        border-radius: 5px;
+        width: 40px;
+      }
+    }
+  }
+}

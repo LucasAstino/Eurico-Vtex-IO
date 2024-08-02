@@ -10,7 +10,8 @@
       "menu-item#category__menu-drawer--acessories",
       "menu-item#category__menu-drawer--outlet",
       "menu-item#category__menu-drawer--eurico",
-      "menu-item#category__menu-drawer--contact"
+      "menu-item#category__menu-drawer--contact",
+      "fg-ScriptCommom"
     ]
   }
 }

@@ -1,0 +1,27 @@
+.flexRow {
+  &--selling-prices__category {
+    width: fit-content !important;
+    // @include tablet{
+    //   flex: auto;
+    // }
+    .flexRowContent--selling-prices__category {
+      width: fit-content;
+      justify-content: flex-start;
+    }
+  }
+
+  &--shelf__category-price {
+    .flexRowContent {
+      flex-wrap: wrap;
+    }
+    @include tablet {
+      .flexRowContent {
+        flex-direction: column;
+
+        .stretchChildrenWidth {
+          display: contents;
+        }
+      }
+    }
+  }
+}

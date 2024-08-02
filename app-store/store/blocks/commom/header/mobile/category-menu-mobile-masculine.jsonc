@@ -29,15 +29,17 @@
   "vtex.menu@2.x:menu#category__menu-drawer--masculine-submenu": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"category__menu-drawer--masculine-submenu"
+      "blockClass":"category__menu-drawer-submenu"
     },
     "children": [
-      "menu-item#category__menu-drawer--masculine-submenu__title"
+      "menu-item#category__menu-drawer--masculine-submenu__title","menu-item#emphasis__menu-drawer--masculine-submenu__title","menu-item#forSizes__menu-drawer--masculine-submenu__title"
     ]
   },
-  "menu-item#category__menu-drawer--masculine-submenu__title": {
+
+
+  "menu-item#forSizes__menu-drawer--masculine-submenu__title": {
     "props": {
-      "blockClass": "menu__item",
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
       "id": "menu-item-category__menu-drawer--masculine-submenu__title",
       "type": "custom",
       "iconId": null,
@@ -45,8 +47,121 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Subcategoria 1",
-        "text": "Subcategoria 1"
+        "tagTitle": "Por tamanho",
+        "text": "Por tamanho"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#forSizes__menu-drawer--masculine-subSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#forSizes__menu-drawer--masculine-subSubmenu": {
+    "props": {
+      "width": "100%",
+      "blockClass":"category__menu-drawer-subSubmenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#forSizes-subSubmenu-masculine"
+    ]
+  },
+  "vtex.menu@2.x:menu#forSizes-subSubmenu-masculine": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--masculine-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/44?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "44",
+            "text": "44"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/45?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "45",
+            "text": "45"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/46?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "46",
+            "text": "46"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/47?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "47",
+            "text": "47"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/48?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "48",
+            "text": "48"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/49?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "49",
+            "text": "49"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/50?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "50",
+            "text": "50"
+          }
+        }
+      ]
+    }
+  },
+
+  "menu-item#category__menu-drawer--masculine-submenu__title": {
+    "props": {
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
+      "id": "menu-item-category__menu-drawer--masculine-submenu__title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Categorias",
+        "text": "Categorias"
       }
     },
     "blocks": [
@@ -56,52 +171,295 @@
   "vtex.menu@2.x:submenu#category__menu-drawer--masculine-subSubmenu": {
     "props": {
       "width": "100%",
-      "blockClass":"category__menu-drawer--masculine-subSubmenu"
+      "blockClass":"category__menu-drawer-subSubmenu"
     },
     "children": [
-      "vtex.menu@2.x:menu#subcategory-subSubmenu-masculine"
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-masculine","rich-text#seeMore"
     ]
   },
   "vtex.menu@2.x:menu#subcategory-subSubmenu-masculine": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"category__menu-drawer--masculine-subSubmenu"
-    },
-    "children": [
-      "menu-item#item1-masculine",
-      "menu-item#item2-masculine"
-    ]
-  },
-  "menu-item#item1-masculine": {
-    "props": {
-      "blockClass": "menu__item",
-      "id": "menu-item-item1",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "Item 1",
-        "text": "Item 1",
-        "href": "/item1"
-      }
+      "blockClass":"category__menu-drawer--masculine-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Todas as novidades",
+            "text": "Todas as novidades"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/sapatenis?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Sapatênis",
+            "text": "Sapatênis"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/Tênis/Casual?map=c,c,specificationFilter_20&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Tênis Casual",
+            "text": "Tênis Casual"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/Tênis/Esportivo?map=c,c,specificationFilter_20&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Tênis Esportivo",
+            "text": "Tênis Esportivo"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/bota?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Bota",
+            "text": "Bota"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/social?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Social",
+            "text": "Social"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/casual?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Casual",
+            "text": "Casual"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/chuteira?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Chuteira",
+            "text": "Chuteira"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/sandalias-e-chinelos?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Sandálias e Chinelos",
+            "text": "Sandálias e Chinelos"
+          }
+        }
+      ]
     }
   },
-  "menu-item#item2-masculine": {
+  "menu-item#emphasis__menu-drawer--masculine-submenu__title": {
     "props": {
-      "blockClass": "menu__item",
-      "id": "menu-item-item2",
+      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
+      "id": "menu-item-category__menu-drawer--masculine-submenu__title",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Item 2",
-        "text": "Item 2",
-        "href": "/item2"
+        "tagTitle": "Destaques",
+        "text": "Destaques"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#emphasis__menu-drawer--masculine-subSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#emphasis__menu-drawer--masculine-subSubmenu": {
+    "props": {
+      "width": "100%",
+      "blockClass":"category__menu-drawer-subSubmenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#emphasis-subSubmenu-masculine"
+    ]
+  },
+  "vtex.menu@2.x:menu#emphasis-subSubmenu-masculine": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"category__menu-drawer--masculine-subSubmenu",
+     "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/129?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Nike",
+            "text": "Nike"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/adidas?map=c,b&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Adidas",
+            "text": "Adidas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/tenis/fila?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Fila",
+            "text": "Fila"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/tenis/new-balance?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "New Balance",
+            "text": "New Balance"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/skechers?map=c,b&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Skechers",
+            "text": "Skechers"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/olympikus?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Olympikus",
+            "text": "Olympikus"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/all-star?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Converse",
+            "text": "Converse"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/bull-terrier?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Bull Terrier",
+            "text": "Bull Terrier"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/anatomic-gel?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Anatomic Gel",
+            "text": "Anatomic Gel"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/havaianas?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Havaianas",
+            "text": "Havaianas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/masculino/Eurico%20Basics?map=c,specificationFilter_20&O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Eurico Basics",
+            "text": "Eurico Basics"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao?O=OrderByPriceASC",
+            "noFollow": false,
+            "tagTitle": "Cartão Presente",
+            "text": "Cartão Presente"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/meia-masculina?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Meias e Acessórios",
+            "text": "Meias e Acessórios"
+          }
+        }
+      ]
     }
   }
 }

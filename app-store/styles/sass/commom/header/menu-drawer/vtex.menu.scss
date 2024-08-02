@@ -56,7 +56,15 @@
       margin-top: 30px;
       position: static;
       border-top: 0.5px solid rgba(0, 0, 0, 0.34);
-      border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+      border-bottom: none;
+
+      .menuContainer--category__menu-drawer-submenu {
+        gap: 25px;
+
+        .styledLinkContent--has-children {
+          font-weight: 600;
+        }
+      }
 
       .menuContainerNav {
         width: 100%;
@@ -84,6 +92,27 @@
       position: static;
       border-top: 0.5px solid rgba(0, 0, 0, 0.34);
       border-bottom: 0.5px solid rgba(0, 0, 0, 0.34);
+
+      .submenu--category__menu-drawer-subSubmenu {
+        flex-direction: column;
+
+        :global(.vtex-rich-text-0-x-container--seeMore) {
+          padding-left: 25px;
+          :global(.vtex-rich-text-0-x-wrapper--seeMore) {
+            width: 100%;
+            :global(.vtex-rich-text-0-x-paragraph--seeMore) {
+              font-size: 14px;
+              font-weight: 400;
+              letter-spacing: 0.15em;
+              width: 100px;
+            }
+          }
+        }
+      }
+
+      .menuContainer {
+        gap: 15px;
+      }
     }
   }
 }

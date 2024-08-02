@@ -1,0 +1,40 @@
+.filters--layout{
+  @include tablet{
+    margin: 0;
+  }
+}
+
+.accordionFilter {
+  .filterAccordionBreadcrumbs {
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 20px 5px 30px;
+    height: 57px;
+  }
+  .filterBreadcrumbsContent--filter__navigation {
+    align-items: center;
+
+    gap: 15px;
+    display: flex;
+    padding: 0;
+
+
+
+    &::after {
+      content: "Filtrar";
+      letter-spacing: 1.6px;
+      line-height: 16px;
+      color: #161615;
+
+      font-family: Lato, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .filterBreadcrumbsText--filter__navigation {
+      display: none;
+    }
+  }
+}

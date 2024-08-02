@@ -8,6 +8,11 @@
   position: relative;
   max-width: 380px !important;
 }
+@media (max-width: 1025px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
 @media (max-width: 768px) {
   .container {
     min-height: auto;
@@ -47,9 +52,10 @@
   height: 45px;
   border: 1px solid black;
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .container .clearLink .element :global(.vtex-button) {
-    display: none;
+    opacity: 1;
+    visibility: visible;
   }
 }
 .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label) {
@@ -84,11 +90,13 @@
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
-.container .clearLink .element :global(.vtex-button) :global(.vtex-button__label):hover {
-  color: white;
-}
-.container .clearLink .element :global(.vtex-button) :global(.vtex-button__label):hover::after {
-  transform: scaleX(1);
+@media (min-width: 1025px) {
+  .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label):hover {
+    color: white;
+  }
+  .container .clearLink .element :global(.vtex-button) :global(.vtex-button__label):hover::after {
+    transform: scaleX(1);
+  }
 }
 .container:hover {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
@@ -96,4 +104,18 @@
 .container:hover .clearLink .element :global(.vtex-button) {
   opacity: 1;
   visibility: visible;
+}
+
+.container--category {
+  padding: 0;
+}
+
+.container--category:hover {
+  box-shadow: none;
+}
+.container--category .element--category .nameContainer--category {
+  justify-content: start !important;
+}
+.container--category .imageStackContainer {
+  width: 100%;
 }

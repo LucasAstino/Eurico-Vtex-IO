@@ -1,4 +1,7 @@
 .container{
+  @include desktop{
+    width: fit-content !important;
+  }
   @include tablet{
     margin-right: 25px
   }

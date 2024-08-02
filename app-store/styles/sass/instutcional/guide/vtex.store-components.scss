@@ -1,6 +1,9 @@
 .imageElement{
   &--institucional__wrapper-guide--answer-first-image{
     width: 25%;
+    @include tablet{
+      width: 80%;
+    }
   }
 
   &--institucional__wrapper-guide--answer-third-image{

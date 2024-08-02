@@ -1,0 +1,296 @@
+.depoimentos__list {
+  @include desktop{
+    width: 85% !important;
+  }
+  list-style: none;
+  padding: 0;
+
+  .main {
+    display: table;
+    width: 100%;
+    padding: 30px 0;
+
+    .my_popup_open.btn_new {
+      cursor: pointer;
+      position: relative;
+      background: #626e3f;
+      padding: 13px 60px;
+      border-radius: 2px;
+      font-weight: bold;
+      color: #fff;
+      float: right;
+      margin-top: 30px;
+    }
+  }
+
+  .section {
+    position: relative;
+    width: 83%;
+    float: left;
+
+    .title_testimony {
+      text-align: left;
+      text-transform: uppercase;
+      color: #22201f;
+      font-weight: bold;
+      font-size: 30px;
+      margin: 30px 30px;
+    }
+
+    .content_testimony {
+      width: 100%;
+      display: block;
+      position: relative;
+    }
+
+    .footer_arrow {
+      display: none;
+      width: auto;
+      margin: 0 auto;
+
+      .pre,
+      .next {
+        float: left;
+        width: auto;
+        display: none;
+        background: #e2d5c9;
+        margin-left: 10px;
+        padding: 7px;
+        border-radius: 2px;
+        font-weight: bold;
+        text-transform: capitalize;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .depoimento__item {
+    @include tablet {
+      margin: 30px 0;
+    }
+    margin: 30px;
+    border: 1px solid;
+    padding: 30px;
+    background-color: ghostwhite;
+
+    .depoimento {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__titulo {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 1.2px;
+        margin-bottom: 10px;
+        width: 70%;
+        @include tablet {
+          width: fit-content;
+        }
+      }
+
+      &__nome {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        color: #cc0c0c;
+      }
+
+      &__mensagem {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        -webkit-text-stroke: 0.2px;
+
+        @include tablet{
+          font-size: 14px;
+        }
+
+        :last-child {
+          display: none;
+        }
+      }
+
+      &__data {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+.popup-depoimento {
+  width: 430px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 21px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 111;
+  margin: auto;
+  cursor: pointer;
+  overflow-y: scroll;
+  background-color: #fff;
+  display: none;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 30px;
+
+    .e-popup__form-input {
+      border: 1px solid #313131;
+      font-size: 10px;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      line-height: 17px;
+      padding: 10px 15px;
+      margin: 10px 0px;
+      cursor: pointer;
+    }
+
+    .e-popup__form-submit {
+      border: 1px solid #626e3f;
+      width: 90px;
+      height: 40px;
+      background-color: #626e3f;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 600;
+      margin: 9px 0px 5px 140px;
+      cursor: pointer;
+    }
+  }
+
+  .popup-depoimento__close {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    left: 320px;
+    top: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  &.is--active {
+    display: block;
+  }
+}
+
+.popup__success {
+  text-align: center;
+  font-size: 13px;
+  color: #777777;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: none;
+
+  &.is--active {
+    display: block;
+  }
+}
+
+.popup-depoimento__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  width: 430px;
+  height: 460px;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+.popup-depoimento__container .popup-depoimento__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.popup-depoimento__container .e-popup__form-input {
+  border: 1px solid #313131;
+  font-size: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 17px;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+ .e-popup__form-submit {
+  border: 1px solid #626e3f;
+  width: 90px;
+  height: 40px;
+  background-color: #626e3f;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 9px 0px 5px 140px;
+  cursor: pointer;
+}
+.popup-depoimento__close {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  left: 320px;
+  top: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.popup-depoimento.is--active {
+  display: block;
+}
+
+.popup__success {
+  text-align: center;
+  font-size: 13px;
+  color: #777777;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: none;
+}
+.popup__success.is--active {
+  display: block;
+}

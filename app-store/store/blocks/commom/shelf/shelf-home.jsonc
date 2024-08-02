@@ -2,27 +2,19 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "product-specification-badges",
       "product-summary-name",
-      // "flex-layout.col#productRating",
-      // "product-summary-space",
-      "product-list-price#summary",
+
       "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "add-to-cart-button"
+      "product-installments#summary"
+      // "add-to-cart-button"
     ]
-  },
-  "flex-layout.col#productRating": {
-    "props": {
-      "blockClass": "productRating"
-    },
-    "children": ["product-rating-inline"]
   },
 
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "vtex.product-highlights@2.x:product-highlights#collection"
     ]
   },
 
@@ -34,12 +26,7 @@
     }
   },
 
-  "vtex.product-highlights@2.x:product-highlights#collection": {
-    "props": {
-      "type": "collection"
-    },
-    "children": ["product-highlight-wrapper"]
-  },
+
   "product-highlight-wrapper": {
     "props": {
       "blockClass": "collection"
@@ -59,16 +46,15 @@
   },
   "flex-layout.row#selling-price-savings": {
     "props": {
-      "horizontalAlign":"center",
-      "blockClass":"selling-price-savings",
+      "horizontalAlign": "center",
+      "blockClass": "selling-price-savings",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-selling-price#summary"
     ]
   },
   "product-installments#summary": {
@@ -81,12 +67,11 @@
       "blockClass": "summary"
     }
   },
-  "product-price-savings#summary": {
+
+  "add-to-cart-button": {
     "props": {
-      "markers": [
-        "discount"
-      ],
-      "blockClass": "summary"
+      "onClickBehavior": "go-to-product-page",
+      "text": "Comprar"
     }
   }
 }

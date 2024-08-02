@@ -1,0 +1,34 @@
+{
+  "store.login": {
+    "blocks": ["login-content"]
+    // "parent": {
+    //   "header": "link#login__link",
+    //   "footer": "flex-layout.row"
+    // }
+  },
+  // "link#login__link": {
+  //   "props": {
+  //     "href": "/",
+  //     "blockClass": "login__link"
+  //   }
+  // },
+  "login": {
+    "props": {
+      "optionsTitle": "Acesse sua conta",
+      "logInButtonBehavior": "popover",
+      "accountOptionsButtonBehavior": "popover",
+      "emailPlaceholder": "Ex: jose@email.com"
+    }
+  },
+  "login-content": {
+    "props": {
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 2,
+      "accessCodeTitle": "Por favor informe seu E-mail",
+      "emailAndPasswordTitle": "E-mail e Senha",
+      "passwordPlaceholder": "Adicionar sua senha",
+      "hideIconLabel": true,
+      "blockClass": "login__content"
+    }
+  }
+}

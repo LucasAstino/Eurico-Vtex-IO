@@ -2,8 +2,21 @@
   &--institucional__wrapper-guide--answer-first-images{
     width: 100%;
 
+    @include tablet{
+      display: flex;
+      flex-direction: column;
+    }
+
     .stretchChildrenWidth{
       display: contents;
+    }
+
+    .flexRowContent{
+      @include tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     }
   }
 }

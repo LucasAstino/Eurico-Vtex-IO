@@ -1,0 +1,101 @@
+{
+  "product-summary.shelf#category": {
+    "props": {
+      "blockClass": "category"
+    },
+    "children": [
+      "stack-layout#prodsum__category",
+      "product-summary-name#category",
+      // "flex-layout.col#productRating",
+      // "product-summary-space",
+      "product-list-price",
+      "flex-layout.row#shelf__category-price",
+      "add-to-cart-button"
+    ]
+  },
+  "stack-layout#prodsum__category": {
+    "props": {
+      "blockClass": "prodsum__category"
+    },
+    "children": [
+      "product-summary-image#shelf__category",
+      "flex-layout.row#flags"
+    ]
+  },
+
+  "flex-layout.row#flags": {
+    "props": {
+      "blockClass": "flags"
+    },
+    "children": [
+      "product-price-savings#flag__price-savings",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "fg-UltimosPares"
+    ]
+  },
+
+  "product-price-savings#flag__price-savings": {
+    "props": {
+      // "markers": ["discount"],
+      "blockClass": "flag__price-savings",
+      "message": "{savingsPercentage} Off"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection",
+      "blockClass": "highlights"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+
+  "product-summary-name#category": {
+    "props": {
+      "blockClass": "category"
+    }
+  },
+
+  "product-summary-image#shelf__category": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 380,
+      "hoverImage": {
+        "criteria": "label",
+        "label": "fotoVira"
+      }
+    }
+  },
+
+  "flex-layout.row#shelf__category-price": {
+    "props": {
+      "blockClass": "shelf__category-price"
+    },
+    "children": [
+      "product-selling-price#shelf__category",
+      "product-installments#shelf__category"
+    ]
+  },
+
+  "product-installments#shelf__category": {
+    "props": {
+      "markers": ["from"],
+      "message": "{installmentsNumber}x de {installmentValue}",
+      "blockClass": "shelf__category"
+    }
+  },
+
+  "product-list-price": {
+    "props": {
+      "message": "DE: {listPriceValue}",
+      "blockClass": "product-list-price__category"
+    }
+  },
+  "product-selling-price#shelf__category": {
+    "props": {
+      "message": "Por:{sellingPriceValue}",
+      "blockClass": "shelf__category"
+    }
+  }
+}
