@@ -16,12 +16,10 @@ export const HANDLES_POPUPNEWSLETTER = [
 ] as const
 
 export function NewsletterForm() {
-  console.log('fg6')
   const { handles } = useCssHandles(HANDLES_POPUPNEWSLETTER)
   const [data, setData] = useState({
     success: false,
   })
-  console.log(data)
   const submitButtonRef = useRef<HTMLButtonElement | null>(null)
 
   const handleSubmit = function (e: React.FormEvent<HTMLFormElement>) {
@@ -34,14 +32,12 @@ export function NewsletterForm() {
       sexo: submitButtonRef.current?.getAttribute('data-gender') as string,
     }
 
-    console.log(newsletterData)
 
     const newsletter = newsletterFactory()
     newsletter.send(newsletterData).then(function () {
     setData(() => ({ ...data, success: true }))
     })
 
-    console.log(data)
   }
 
   return (

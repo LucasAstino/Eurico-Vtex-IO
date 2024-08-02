@@ -4,5 +4,32 @@
   },
   "fg-Newsletter":{
     "component":"Newsletter"
+  },
+  "fg-Pagination":{
+    "component":"Pagination"
+  },
+  "fg-product-variants":{
+    "component":"product-variants"
+  },
+  "fg-product-description":{
+    "component":"product-description"
+  },
+  "fg-Depositions":{
+    "component":"Depositions"
+  },
+  "fg-NewTestimonial":{
+    "component":"NewTestimonial"
+  },
+  "fg-ScriptCommom":{
+    "component":"ScriptCommom"
+  },
+  "fg-UltimosPares":{
+    "component":"UltimosPares"
+  },
+  "fg-Flags":{
+    "component":"Flags"
+  },
+  "fg-keepBuying":{
+    "component":"KeepBuying"
   }
 }
