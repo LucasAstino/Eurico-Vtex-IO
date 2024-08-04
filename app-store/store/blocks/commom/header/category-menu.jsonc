@@ -41,7 +41,7 @@
       "width": "100%",
       "blockClass": "submenu__container"
     },
-    "children": ["flex-layout.row#submenu__container"]
+    "children": ["flex-layout.row#submenu__container-feminine"]
   },
   "vtex.menu@2.x:menu#category-wrapper": {
     "props": {
@@ -366,7 +366,7 @@
       "width": "100%",
       "blockClass": "submenu__container"
     },
-    "children": ["flex-layout.row#submenu__container"]
+    "children": ["flex-layout.row#submenu__container-masculine"]
   },
   // "vtex.menu@2.x:menu#category-masculino": {
   //   "props": {
@@ -396,7 +396,7 @@
       "width": "100%",
       "blockClass": "submenu__container"
     },
-    "children": ["flex-layout.row#submenu__container"]
+    "children": ["flex-layout.row#submenu__container-acessories"]
   },
   // "vtex.menu@2.x:menu#category-acessorios": {
   //   "props": {
@@ -405,7 +405,7 @@
   //   "children": [
   //   ]
   // },
-  "flex-layout.row#submenu__container": {
+  "flex-layout.row#submenu__container-acessories": {
     "props": {
       "blockClass": "submenu__container",
       "horizontalAlign": "between",
@@ -413,20 +413,67 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.row#submenu__container-left",
+      "flex-layout.row#submenu__container-left-acessories",
       "flex-layout.row#submenu__container-right"
     ]
   },
-  "flex-layout.row#submenu__container-left": {
+  "flex-layout.row#submenu__container-masculine": {
+    "props": {
+      "blockClass": "submenu__container",
+      "horizontalAlign": "between",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#submenu__container-left-masculine",
+      "flex-layout.row#submenu__container-right"
+    ]
+  },
+  "flex-layout.row#submenu__container-feminine": {
+    "props": {
+      "blockClass": "submenu__container",
+      "horizontalAlign": "between",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+     "flex-layout.row#submenu__container-left-feminine",
+      "flex-layout.row#submenu__container-right"
+    ]
+  },
+  "flex-layout.row#submenu__container-left-acessories": {
     "props": {
       "horizontalAlign": "between",
       "blockClass": "submenu__container-left",
       "colGap":"30px"
     },
     "children": [
-      "flex-layout.col#submenu__container--item-01",
-      "flex-layout.col#submenu__container--item-02",
-      "flex-layout.col#submenu__container--item-03"
+      "flex-layout.col#submenu__container--acessories-01",
+      "flex-layout.col#submenu__container--acessories-02"
+    ]
+  },
+  "flex-layout.row#submenu__container-left-feminine": {
+    "props": {
+      "horizontalAlign": "between",
+      "blockClass": "submenu__container-left",
+      "colGap":"30px"
+    },
+    "children": [
+      "flex-layout.col#submenu__container--feminine-01",
+      "flex-layout.col#submenu__container--feminine-02",
+      "flex-layout.col#submenu__container--feminine-03"
+    ]
+  },
+  "flex-layout.row#submenu__container-left-masculine": {
+    "props": {
+      "horizontalAlign": "between",
+      "blockClass": "submenu__container-left",
+      "colGap":"30px"
+    },
+    "children": [
+      "flex-layout.col#submenu__container--masculine-01",
+      "flex-layout.col#submenu__container--masculine-02",
+      "flex-layout.col#submenu__container--masculine-03"
     ]
   },
   "flex-layout.row#submenu__container-right": {
@@ -435,27 +482,74 @@
     },
     "children": ["flex-layout.col#submenu__container--item-04"]
   },
-  "flex-layout.col#submenu__container--item-01": {
+  "flex-layout.col#submenu__container--masculine-01": {
     "props":{
       "width":"25%"
     },
     "children": [
       "rich-text#submenu__title",
-      "vtex.menu@2.x:menu#category-wrapper",
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-masculine",
       "rich-text#seeMore"
     ]
   },
-  "flex-layout.col#submenu__container--item-02": {
+  "flex-layout.col#submenu__container--masculine-02": {
     "props": {
       "preventVerticalStretch": true,
       "width":"25%"
     },
     "children": [
       "rich-text#submenu__title",
-      "vtex.menu@2.x:menu#emphasis-wrapper"
+     "vtex.menu@2.x:menu#emphasis-subSubmenu-masculine"
     ]
   },
-  "flex-layout.col#submenu__container--item-03": {
+  "flex-layout.col#submenu__container--masculine-03": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width":"25%"
+    },
+    "children": ["rich-text#submenu__title", "vtex.menu@2.x:menu#forSizes-subSubmenu-masculine"]
+  },
+  "flex-layout.col#submenu__container--acessories-01": {
+    "props":{
+      "width":"25%"
+    },
+    "children": [
+      "rich-text#submenu__title",
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-acessories",
+      "rich-text#seeMore"
+    ]
+  },
+  "flex-layout.col#submenu__container--acessories-02": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width":"25%"
+    },
+    "children": [
+      "rich-text#submenu__title"
+    //  "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories"
+    ]
+  },
+  "flex-layout.col#submenu__container--feminine-01": {
+    "props":{
+      "width":"25%"
+    },
+    "children": [
+      "rich-text#submenu__title",
+      "vtex.menu@2.x:menu#subcategory-subSubmenu-feminine",
+      "rich-text#seeMore"
+    ]
+  },
+  "flex-layout.col#submenu__container--feminine-02": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width":"25%"
+    },
+    "children": [
+      "rich-text#submenu__title",
+      "vtex.menu@2.x:menu#emphasis-subSubmenu-feminine"
+    ]
+  },
+  "flex-layout.col#submenu__container--feminine-03": {
     "props": {
       "preventVerticalStretch": true,
       "width":"25%"

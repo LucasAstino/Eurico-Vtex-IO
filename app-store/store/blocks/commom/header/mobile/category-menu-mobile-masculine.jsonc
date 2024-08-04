@@ -67,7 +67,7 @@
   "vtex.menu@2.x:menu#forSizes-subSubmenu-masculine": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"category__menu-drawer--masculine-subSubmenu",
+      "blockClass":"forSizes__menu-drawer--subSubmenu",
      "items": [
         {
           "type": "custom",

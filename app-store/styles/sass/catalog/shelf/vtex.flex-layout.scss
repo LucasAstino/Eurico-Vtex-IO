@@ -17,6 +17,7 @@
     @include tablet {
       .flexRowContent {
         flex-direction: column;
+        display: flex;
 
         .stretchChildrenWidth {
           display: contents;

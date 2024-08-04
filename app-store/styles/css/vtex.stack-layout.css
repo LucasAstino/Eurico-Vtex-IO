@@ -2,3 +2,11 @@
   width: 100%;
   z-index: 999 !important;
 }
+@media (max-width: 1025px) {
+  .stackItem--prodsum__category--flags {
+    position: static;
+  }
+  .stackItem--prodsum__category--flags :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    display: contents;
+  }
+}

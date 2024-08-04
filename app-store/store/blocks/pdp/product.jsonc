@@ -4,10 +4,10 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "__fold__",
-      "sticky-layout.stack-container#buy-fast-pdp"
+      "sticky-layout.stack-container#buy-fast-pdp",
 
       // "shelf.relatedProducts",
-      // "product-reviews"
+      "product-reviews"
       // "product-questions-and-answers"
       // "sticky-layout.stack-container#buy-fast-pdp"
     ]
@@ -171,7 +171,6 @@
     },
     "children": [
       "flex-layout.row#product-name",
-
       "flex-layout.row#product__ratingAndref",
       "product-list-price#pdp",
       "flex-layout.row#product__price-pdp",

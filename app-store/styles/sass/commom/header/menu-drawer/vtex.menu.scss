@@ -111,8 +111,46 @@
       }
 
       .menuContainer {
-        gap: 15px;
+        @include desktop {
+          gap: 15px;
+        }
       }
     }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--submenu__container-left){
+  @include desktop {
+    :global(.vtex-flex-layout-0-x-flexColChild) {
+      display: contents;
+    }
+    .styledLinkContainer {
+      margin: 0;
+    }
+  }
+}
+
+.menuContainer--forSizes__menu-drawer--subSubmenu {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  @include tablet{
+    gap: 15px;
+  }
+
+  .styledLinkContainer--forSizes__menu-drawer--subSubmenu {
+    margin: 0;
+  }
+
+  .styledLinkContent--forSizes__menu-drawer--subSubmenu {
+    @include tablet{
+      width: 28px;
+      border: 1px solid #000;
+    }
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 28px;
+    justify-content: center;
   }
 }

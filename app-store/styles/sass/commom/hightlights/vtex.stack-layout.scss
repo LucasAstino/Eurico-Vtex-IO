@@ -4,4 +4,11 @@
 .stackItem--prodsum__category--flags{
   width: 100%;
   z-index: 999 !important;
+
+  @include tablet{
+    position: static;
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+      display: contents;
+    }
+  }
 }
