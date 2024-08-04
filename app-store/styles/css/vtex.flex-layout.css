@@ -422,9 +422,6 @@
 .flexRow--product-main .flexRowContent--product-main .flexCol--stack__product .flexColChild--stack__product {
   display: contents;
 }
-.flexRow--product-main :global(.vtex-reviews-and-ratings-1-x-reviewsHeading) {
-  display: none;
-}
 .flexRow--buy-fast-pdp {
   box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.16);
   background-color: white;

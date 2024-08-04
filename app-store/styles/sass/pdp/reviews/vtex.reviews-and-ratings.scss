@@ -1,3 +1,16 @@
-:global(.vtex-reviews-and-ratings-1-x-container){
-  display: none;
+.container{
+  .reviewsHeading,.reviewsRatingAverage{
+    display: none;
+  }
+
+  .reviewsRating{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+
+    &::before{
+      content: "Média de avaliações:";
+      font-size: 16px;
+    }
+  }
 }

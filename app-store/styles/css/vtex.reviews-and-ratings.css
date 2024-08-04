@@ -1,3 +1,13 @@
-:global(.vtex-reviews-and-ratings-1-x-container) {
+@charset "UTF-8";
+.container .reviewsHeading, .container .reviewsRatingAverage {
   display: none;
+}
+.container .reviewsRating {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.container .reviewsRating::before {
+  content: "Média de avaliações:";
+  font-size: 16px;
 }
