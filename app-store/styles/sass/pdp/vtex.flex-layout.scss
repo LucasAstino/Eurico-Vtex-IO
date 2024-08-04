@@ -1,9 +1,30 @@
 .flexRow {
   &--product__ratingAndref {
+    :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
 
+      &::after {
+        content: "AVALIAÇÃO";
+        color: #161615;
+        font-size: 12px;
+        font-weight: 300;
+        text-decoration: none;
+      }
+    }
 
-    :global(.vtex-reviews-and-ratings-3-x-summaryButtonContainer){
+    :global(.vtex-reviews-and-ratings-3-x-summaryButtonContainer) {
       display: none;
+    }
+
+    :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+      display: none;
+    }
+
+    :global(.vtex-reviews-and-ratings-3-x-star) {
+      font-size: 20px;
+      color: gray;
     }
 
     .flexRowContent {
@@ -158,8 +179,7 @@
         display: none;
       }
 
-
-      .flexRow--buy__button-pdp{
+      .flexRow--buy__button-pdp {
         padding: 0;
       }
 
