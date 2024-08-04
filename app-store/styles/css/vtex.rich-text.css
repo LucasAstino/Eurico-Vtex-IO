@@ -338,59 +338,6 @@
   margin: 15px 0;
 }
 
-.container--footer__column--title .paragraph {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #000000;
-  letter-spacing: 1.5px;
-  margin-bottom: 20px;
-  font-weight: 300;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 768px) {
-  .container--footer__column--title .paragraph {
-    margin-bottom: 0;
-  }
-}
-.container--footer__address-item .heading {
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #000000;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin: 0 0 12px;
-}
-.container--footer__address-item .paragraph {
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 18px;
-  text-align: left;
-  color: #000000;
-  margin-bottom: 35px;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 768px) {
-  .container--footer__address-item .paragraph {
-    line-height: 30px;
-  }
-}
-.container--footer__copyright-text .paragraph {
-  font-size: 10px;
-  letter-spacing: 0.3px;
-  vertical-align: baseline;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 768px) {
-  .container--footer__copyright-text .paragraph {
-    font-size: 11px;
-    text-align: center;
-    line-height: 20px;
-  }
-}
-
 .paragraph--header__tipbar--item {
   color: black;
   letter-spacing: 0.3px;
@@ -483,6 +430,59 @@
   }
 }
 
+.container--footer__column--title .paragraph {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 768px) {
+  .container--footer__column--title .paragraph {
+    margin-bottom: 0;
+  }
+}
+.container--footer__address-item .heading {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+.container--footer__address-item .paragraph {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 35px;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 768px) {
+  .container--footer__address-item .paragraph {
+    line-height: 30px;
+  }
+}
+.container--footer__copyright-text .paragraph {
+  font-size: 10px;
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 768px) {
+  .container--footer__copyright-text .paragraph {
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+
 @media (max-width: 1025px) {
   .container--header__minicart--title {
     justify-content: center;
@@ -507,6 +507,51 @@
   font-family: Lato, sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+.container--about-us__title .heading {
+  font-size: 33px;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 33px;
+  margin-top: 35px;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us__title {
+    text-align: center;
+    display: inline;
+  }
+}
+.container--about-us-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #000;
+  text-align: left;
+}
+.container--about-us-text .paragraph {
+  padding: 15px 35px 15px 0;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text .paragraph {
+    padding: 15px 0;
+  }
+}
+.container--about-us-text .heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text {
+    text-align: center;
+    font-size: 13px;
+  }
 }
 
 .container--institucional__wrapper-menu-item {
@@ -581,6 +626,70 @@
     color: #000;
     text-transform: uppercase;
   }
+}
+
+.container--whatsapp .wrapper {
+  font-style: normal;
+  font-weight: 700;
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container--whatsapp .wrapper::before {
+  content: "";
+  width: 77px;
+  height: 20px;
+  display: block;
+  background-image: url(assets/icons/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container--whatsapp .wrapper .paragraph {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #eaeaea;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+.container--whatsapp__button .wrapper {
+  width: 100%;
+}
+.container--whatsapp__button .wrapper:hover {
+  cursor: pointer;
+}
+.container--whatsapp__button .wrapper .link {
+  width: 100%;
+  height: 40px;
+  background: #24d366;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  transition: all 0.2s;
+  color: #fff;
+  text-decoration: none;
+}
+.container--whatsapp__button .wrapper .link::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url(assets/icons/whatsapp.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container--contact-us__telesales {
@@ -687,51 +796,6 @@
   }
 }
 
-.container--about-us__title .heading {
-  font-size: 33px;
-  letter-spacing: 1.5px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: 400;
-  margin-bottom: 33px;
-  margin-top: 35px;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 1025px) {
-  .container--about-us__title {
-    text-align: center;
-    display: inline;
-  }
-}
-.container--about-us-text {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 25px;
-  color: #000;
-  text-align: left;
-}
-.container--about-us-text .paragraph {
-  padding: 15px 35px 15px 0;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 1025px) {
-  .container--about-us-text .paragraph {
-    padding: 15px 0;
-  }
-}
-.container--about-us-text .heading {
-  font-size: 24px;
-  font-weight: bold;
-}
-@media (max-width: 1025px) {
-  .container--about-us-text {
-    text-align: center;
-    font-size: 13px;
-  }
-}
-
 @media (max-width: 1025px) {
   .container--depositions__title {
     justify-content: center;
@@ -760,70 +824,6 @@
   color: #fff;
 }
 
-.container--whatsapp .wrapper {
-  font-style: normal;
-  font-weight: 700;
-  width: 100%;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 1.5px;
-  color: #000;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.container--whatsapp .wrapper::before {
-  content: "";
-  width: 77px;
-  height: 20px;
-  display: block;
-  background-image: url(assets/icons/logo.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.container--whatsapp .wrapper .paragraph {
-  padding-left: 20px;
-  margin-left: 20px;
-  border-left: 1px solid #eaeaea;
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-}
-.container--whatsapp__button .wrapper {
-  width: 100%;
-}
-.container--whatsapp__button .wrapper:hover {
-  cursor: pointer;
-}
-.container--whatsapp__button .wrapper .link {
-  width: 100%;
-  height: 40px;
-  background: #24d366;
-  border-radius: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  transition: all 0.2s;
-  color: #fff;
-  text-decoration: none;
-}
-.container--whatsapp__button .wrapper .link::before {
-  content: "";
-  width: 30px;
-  height: 30px;
-  display: block;
-  background-image: url(assets/icons/whatsapp.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .container--exchanges-and-returns .list {
   list-style: none;
   padding: 0;
@@ -832,6 +832,16 @@
 .container--exchanges-and-returns .listItem::before {
   content: "-";
   margin-right: 10px;
+}
+
+.container--institucional__wrapper-faq--col-text {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.container--institucional__wrapper-faq--col-text .paragraph {
+  line-height: 29px;
 }
 
 .container--fidelity__text {
@@ -867,16 +877,6 @@
 }
 .container--fidelity__text .list .listItem::before {
   content: "-";
-}
-
-.container--institucional__wrapper-faq--col-text {
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  justify-content: center;
-}
-.container--institucional__wrapper-faq--col-text .paragraph {
-  line-height: 29px;
 }
 
 .container--history__title .heading {
