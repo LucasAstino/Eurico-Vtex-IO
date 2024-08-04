@@ -3,8 +3,7 @@ import type { ProductTypes } from 'vtex.product-context'
 import { useProduct } from 'vtex.product-context'
 import { useQuery } from 'react-apollo'
 import { useRuntime } from 'vtex.render-runtime'
-// import { useIntl } from 'react-intl'
-import {useCssHandles } from 'vtex.css-handles'
+import { useCssHandles } from 'vtex.css-handles'
 import { Link } from 'vtex.render-runtime'
 
 export const HANDLES_VARIANTS = [
@@ -30,17 +29,15 @@ interface SimilarProductsVariantsProps {
   imageLabel: string
 }
 
-
 export function SimilarProductsVariants({
   productQuery,
   imageLabel
 }: SimilarProductsVariantsProps) {
-  const {handles} = useCssHandles(HANDLES_VARIANTS)
+  const { handles } = useCssHandles(HANDLES_VARIANTS)
   const product = useProduct()
   const productCurrentImg = product?.selectedItem?.images[0].imageUrl
   const productCurrentImgAlt = product?.selectedItem?.images[0].imageText
-  const color = product?.product?.properties[1].values[0]
-  // const intl = useIntl()
+  const color = product?.product?.properties?.[1]?.values?.[0] || 'N/A'
   const productContext = useProduct()
   const { route } = useRuntime()
   const productId =
@@ -78,40 +75,40 @@ export function SimilarProductsVariants({
     if (item) items.push(item)
   })
 
-  if( items.length == 0 ){
-    return <>
+  if (items.length === 0) {
+    return (
       <div className={handles['similar__products-variants']}>
-      <p className={handles['similar__products-variants--title']}>Cor: <span className={handles['variant-type']}>{color}</span></p>
-      <div className={handles['similar__products-variants--wrap']}>
-      <div className={`${handles['similar__image-container']} ${handles['similar__image-container--current']}`}>
+        <p className={handles['similar__products-variants--title']}>
+          Cor: <span className={handles['variant-type']}>{color}</span>
+        </p>
+        <div className={handles['similar__products-variants--wrap']}>
+          <div className={`${handles['similar__image-container']} ${handles['similar__image-container--current']}`}>
             <img
-                  src={productCurrentImg}
-                  alt={productCurrentImgAlt}
-                  height="50px"
-                  className={`${handles['similar__products-variants--img']} ${handles['similar__products-variants--img-current']} mr3
-                    }`
-                  }
-                />
-            </div>
+              src={productCurrentImg}
+              alt={productCurrentImgAlt}
+              height="50px"
+              className={`${handles['similar__products-variants--img']} ${handles['similar__products-variants--img-current']} mr3`}
+            />
+          </div>
+        </div>
       </div>
-    </div>
-    </>
+    )
   }
 
   return (
     <div className={handles['similar__products-variants']}>
-      <p className={handles['similar__products-variants--title']}>Cor: <span className={handles['variant-type']}>{color}</span></p>
+      <p className={handles['similar__products-variants--title']}>
+        Cor: <span className={handles['variant-type']}>{color}</span>
+      </p>
       <div className={handles['similar__products-variants--wrap']}>
-      <div className={`${handles['similar__image-container']} ${handles['similar__image-container--current']}`}>
-            <img
-                  src={productCurrentImg}
-                  alt={productCurrentImgAlt}
-                  height="50px"
-                  className={`${handles['similar__products-variants--img']} ${handles['similar__products-variants--img-current']} mr3
-                    }`
-                  }
-                />
-            </div>
+        <div className={`${handles['similar__image-container']} ${handles['similar__image-container--current']}`}>
+          <img
+            src={productCurrentImg}
+            alt={productCurrentImgAlt}
+            height="50px"
+            className={`${handles['similar__products-variants--img']} ${handles['similar__products-variants--img-current']} mr3`}
+          />
+        </div>
         {items.map((element: ProductTypes.Product) => {
           const imageIndex = imageLabel === undefined
             ? 0
@@ -121,30 +118,24 @@ export function SimilarProductsVariants({
 
           const srcImage = element.items[0].images[imageIndex].imageUrl
           return (
-            <>
             <Link
               key={element.productId}
               className={`${handles['similar__products-variants--link']} ${route?.params?.slug === element.linkText ? '--is-active' : ''}`}
-              {...{
-              page: 'store.product',
-              params: {
-              slug: element?.linkText,
-              id: element?.productId,
-              },
-            }}>
-
-            <div className={handles['similar__image-container']}>
+              page="store.product"
+              params={{
+                slug: element?.linkText,
+                id: element?.productId,
+              }}
+            >
+              <div className={handles['similar__image-container']}>
                 <img
                   src={srcImage}
                   alt={element.productName}
                   height="50px"
-                  className={`${handles['similar__products-variants--img']}  mr3 ${route?.params?.slug === element.linkText ? 'o-50' : ''
-                  }`
-                }
+                  className={`${handles['similar__products-variants--img']} mr3 ${route?.params?.slug === element.linkText ? 'o-50' : ''}`}
                 />
-                </div>
+              </div>
             </Link>
-            </>
           )
         })}
       </div>
@@ -158,5 +149,3 @@ SimilarProductsVariants.schema = {
   type: 'object',
   properties: {},
 }
-
-
