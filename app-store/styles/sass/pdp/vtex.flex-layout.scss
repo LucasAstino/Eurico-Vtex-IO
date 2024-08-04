@@ -9,7 +9,7 @@
         content: "AVALIAÇÃO";
         color: #161615;
         font-size: 12px;
-        font-weight: 300;
+        font-weight: 400;
         text-decoration: none;
       }
     }
@@ -32,6 +32,11 @@
       display: flex;
       gap: 50px;
       position: relative;
+
+      @include desktop {
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+      }
 
       &::after {
         background-color: #d9d9d9;
@@ -142,6 +147,10 @@
           }
         }
       }
+    }
+
+    :global(.vtex-reviews-and-ratings-1-x-reviewsHeading){
+      display: none;
     }
   }
 
