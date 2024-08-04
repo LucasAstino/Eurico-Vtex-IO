@@ -27,6 +27,9 @@
   padding: 0;
 }
 
+.drawer--header__minicart {
+  z-index: 1001;
+}
 @media (max-width: 1025px) {
   .drawer--header__minicart {
     max-width: 100% !important;

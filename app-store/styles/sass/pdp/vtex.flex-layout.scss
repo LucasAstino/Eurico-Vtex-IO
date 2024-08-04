@@ -1,5 +1,11 @@
 .flexRow {
   &--product__ratingAndref {
+
+
+    :global(.vtex-reviews-and-ratings-3-x-summaryButtonContainer){
+      display: none;
+    }
+
     .flexRowContent {
       align-items: center;
       display: flex;

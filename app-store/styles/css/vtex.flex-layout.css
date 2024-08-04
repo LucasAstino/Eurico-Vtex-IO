@@ -294,6 +294,9 @@
   box-shadow: none;
 }
 
+.flexRow--product__ratingAndref :global(.vtex-reviews-and-ratings-3-x-summaryButtonContainer) {
+  display: none;
+}
 .flexRow--product__ratingAndref .flexRowContent {
   align-items: center;
   display: flex;
@@ -443,6 +446,26 @@
 }
 .flexRow--product-breadcrumb {
   padding-left: 40px;
+}
+
+.flexRow--selling-prices__category {
+  width: fit-content !important;
+}
+.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
+  width: fit-content;
+  justify-content: flex-start;
+}
+.flexRow--shelf__category-price .flexRowContent {
+  flex-wrap: wrap;
+}
+@media (max-width: 1025px) {
+  .flexRow--shelf__category-price .flexRowContent {
+    flex-direction: column;
+    display: flex;
+  }
+  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
+    display: contents;
+  }
 }
 
 .flexRow--footer__newsletter {
@@ -633,26 +656,6 @@
   flex-direction: column;
 }
 
-.flexRow--selling-prices__category {
-  width: fit-content !important;
-}
-.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
-  width: fit-content;
-  justify-content: flex-start;
-}
-.flexRow--shelf__category-price .flexRowContent {
-  flex-wrap: wrap;
-}
-@media (max-width: 1025px) {
-  .flexRow--shelf__category-price .flexRowContent {
-    flex-direction: column;
-    display: flex;
-  }
-  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
-    display: contents;
-  }
-}
-
 .flexRow--about-us-row {
   max-width: 1208px;
   padding: 0 10px;
@@ -661,32 +664,6 @@
 @media (max-width: 1025px) {
   .flexRow--about-us-row {
     padding: 0 30px;
-  }
-}
-
-.flexRow--institucional__wrapper {
-  max-width: 1118px;
-}
-@media (min-width: 1025px) {
-  .flexRow--institucional__wrapper {
-    margin: 100px auto;
-  }
-}
-.flexRow--institucional__wrapper .stretchChildrenWidth {
-  display: contents;
-}
-.flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
-  position: relative;
-}
-@media (min-width: 1025px) {
-  .flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
-    width: 30%;
-  }
-}
-@media (max-width: 1025px) {
-  .flexRow--institucional__wrapper .flexRowContent--institucional__wrapper {
-    flex-direction: column;
-    padding: 50px 15px 60px;
   }
 }
 
@@ -718,6 +695,32 @@
 }
 .flexRow--contact-us__store .flexCol--contact-us__store-right {
   padding-left: 30px;
+}
+
+.flexRow--institucional__wrapper {
+  max-width: 1118px;
+}
+@media (min-width: 1025px) {
+  .flexRow--institucional__wrapper {
+    margin: 100px auto;
+  }
+}
+.flexRow--institucional__wrapper .stretchChildrenWidth {
+  display: contents;
+}
+.flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
+  position: relative;
+}
+@media (min-width: 1025px) {
+  .flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
+    width: 30%;
+  }
+}
+@media (max-width: 1025px) {
+  .flexRow--institucional__wrapper .flexRowContent--institucional__wrapper {
+    flex-direction: column;
+    padding: 50px 15px 60px;
+  }
 }
 
 .flexRow--whatsapp__background {
