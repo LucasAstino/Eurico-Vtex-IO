@@ -48,7 +48,7 @@
     "props": {
       "blockClass":"buy-fast-pdp--col-2"
     },
-    "children": ["sku-selector#dpp","modal-trigger#product__guide-size"]
+    "children": ["sku-selector#pdp","modal-trigger#product__guide-size"]
   },
   "flex-layout.col#buy-fast-pdp--col-3": {
     "props": {

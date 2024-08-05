@@ -5,11 +5,7 @@
       "condition-layout.product#availability",
       "__fold__",
       "sticky-layout.stack-container#buy-fast-pdp",
-
-      // "shelf.relatedProducts",
       "product-reviews"
-      // "product-questions-and-answers"
-      // "sticky-layout.stack-container#buy-fast-pdp"
     ]
   },
 
@@ -90,8 +86,6 @@
     "children": [
       "product-images",
       "flex-layout.row#flags-pdp"
-      // "product-bookmark",
-      // "product-specification-badges"
     ]
   },
   "stack-layout#mobile": {
@@ -152,7 +146,7 @@
     }
   },
 
-  "sku-selector#dpp": {
+  "sku-selector#pdp": {
     "props": {
       "blockClass": "sku-selector__pdp"
     }
@@ -175,12 +169,11 @@
       "product-list-price#pdp",
       "flex-layout.row#product__price-pdp",
       "modal-trigger#product-payment-options",
-
       "product-separator",
       "fg-product-description",
       "product-separator",
       "fg-product-variants",
-      "sku-selector#dpp",
+      "sku-selector#pdp",
       "product-assembly-options",
       "product-gifts",
       "modal-trigger#product__guide-size",
