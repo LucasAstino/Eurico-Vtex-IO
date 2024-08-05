@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop": {
+    "title": "Layout de resultado de busca para desktop",
     "children": [
       "image#category-banner",
       "flex-layout.row#searchinfo",
@@ -17,6 +18,7 @@
     }
   },
   "flex-layout.row#result": {
+    "title": "Resultado de busca",
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "blockClass": "category__result",
@@ -24,29 +26,32 @@
     }
   },
   "flex-layout.col#filter": {
+    "title": "Coluna de filtro",
     "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filterCol"
     }
   },
-
   "flex-layout.col#content": {
+    "title": "Coluna de conteúdo",
     "children": [
       "flex-layout.row#products",
       "fg-Pagination"
     ],
     "props": {
-      "blockClass":"search__result-content"
+      "blockClass": "search__result-content"
     }
   },
   "flex-layout.row#products": {
+    "title": "Produtos",
     "children": ["search-content"]
   },
   "search-content": {
+    "title": "Conteúdo de busca",
     "blocks": ["gallery", "not-found"]
   },
-
   "gallery": {
+    "title": "Galeria de produtos",
     "props": {
       "layouts": [
         {
@@ -70,7 +75,7 @@
           "itemsPerRow": 3
         }
       ],
-      "ListSummary":"product-summary.shelf#category",
+      "ListSummary": "product-summary.shelf#category",
       "GridSummary": "product-summary.shelf#category"
     }
   }

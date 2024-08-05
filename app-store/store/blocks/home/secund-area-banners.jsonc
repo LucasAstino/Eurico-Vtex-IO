@@ -1,15 +1,14 @@
 {
   "flex-layout.row#secund-area-banners--responsive": {
-    "title": "Segunda area de banners",
-    "props": {
-    },
+    "title": "Segunda área de banners responsiva",
+    "props": {},
     "children": [
       "flex-layout.col#secund-area-banners--responsive"
     ]
   },
   "flex-layout.col#secund-area-banners--responsive": {
-    "props": {
-    },
+    "title": "Coluna de banners responsiva",
+    "props": {},
     "children": [
       "responsive-layout.desktop#secund-area-banners",
       "responsive-layout.tablet#secund-area-banners",
@@ -17,16 +16,19 @@
     ]
   },
   "responsive-layout.desktop#secund-area-banners": {
-    "children":["flex-layout.row#secund-area-banners"]
+    "title": "Layout responsivo para desktop",
+    "children": ["flex-layout.row#secund-area-banners"]
   },
   "responsive-layout.tablet#secund-area-banners": {
-    "children":["flex-layout.row#secund-area-banners"]
+    "title": "Layout responsivo para tablet",
+    "children": ["flex-layout.row#secund-area-banners"]
   },
   "responsive-layout.phone#secund-area-banners": {
-    "children":["flex-layout.row#secund-area-banners--mobile"]
+    "title": "Layout responsivo para celular",
+    "children": ["flex-layout.row#secund-area-banners--mobile"]
   },
   "flex-layout.row#secund-area-banners": {
-    "title": "Segunda area de banners desktop",
+    "title": "Segunda área de banners para desktop",
     "props": {
       "blockClass": "secund__area-banners",
       "horizontalAlign": "between"
@@ -37,7 +39,7 @@
     ]
   },
   "flex-layout.row#secund-area-banners--mobile": {
-    "title": "Segunda area de banners mobile",
+    "title": "Segunda área de banners para celular",
     "props": {
       "blockClass": "secund__area-banners",
       "horizontalAlign": "between"
@@ -48,6 +50,7 @@
     ]
   },
   "flex-layout.col#secund-area-banners-col-1": {
+    "title": "Coluna esquerda da segunda área de banners",
     "props": {
       "width": "49%",
       "blockClass": "col-left"
@@ -58,6 +61,7 @@
     ]
   },
   "flex-layout.col#secund-area-banners-col-2": {
+    "title": "Coluna direita da segunda área de banners",
     "props": {
       "width": "49%",
       "blockClass": "col-right"
@@ -67,32 +71,32 @@
       "image#secund-area-banners-banner-4"
     ]
   },
-
   "image#secund-area-banners-banner-1": {
+    "title": "Imagem 1 da segunda área de banners",
     "props": {
       "src": "assets/images/baixodesk-1.webp",
       "maxHeight": "",
       "blockClass": "secund__area-banners--img"
     }
   },
-
   "image#secund-area-banners-banner-2": {
+    "title": "Imagem 2 da segunda área de banners",
     "props": {
       "src": "assets/images/baixodesk-2.webp",
       "maxHeight": "",
       "blockClass": "secund__area-banners--img"
     }
   },
-
   "image#secund-area-banners-banner-3": {
+    "title": "Imagem 3 da segunda área de banners",
     "props": {
       "src": "assets/images/baixodesk-3.webp",
       "maxHeight": "",
       "blockClass": "secund__area-banners--img"
     }
   },
-
   "image#secund-area-banners-banner-4": {
+    "title": "Imagem 4 da segunda área de banners",
     "props": {
       "src": "assets/images/baixodesk-4.webp",
       "maxHeight": "",

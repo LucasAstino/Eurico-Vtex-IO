@@ -1,5 +1,6 @@
 {
   "product-summary.shelf#category": {
+    "title": "Resumo do produto na prateleira da categoria",
     "props": {
       "blockClass": "category"
     },
@@ -14,6 +15,7 @@
     ]
   },
   "stack-layout#prodsum__category": {
+    "title": "Layout empilhado da prateleira da categoria",
     "props": {
       "blockClass": "prodsum__category"
     },
@@ -22,8 +24,8 @@
       "flex-layout.row#flags"
     ]
   },
-
   "flex-layout.row#flags": {
+    "title": "Bandeiras de promoção",
     "props": {
       "blockClass": "flags"
     },
@@ -33,30 +35,30 @@
       "fg-UltimosPares"
     ]
   },
-
   "product-price-savings#flag__price-savings": {
+    "title": "Economia de preço",
     "props": {
       // "markers": ["discount"],
       "blockClass": "flag__price-savings",
       "message": "{savingsPercentage} Off"
     }
   },
-
   "vtex.product-highlights@2.x:product-highlights#collection": {
+    "title": "Destaques do produto",
     "props": {
       "type": "collection",
       "blockClass": "highlights"
     },
     "children": ["product-highlight-wrapper"]
   },
-
   "product-summary-name#category": {
+    "title": "Nome do produto na categoria",
     "props": {
       "blockClass": "category"
     }
   },
-
   "product-summary-image#shelf__category": {
+    "title": "Imagem do produto na prateleira da categoria",
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
@@ -67,8 +69,8 @@
       }
     }
   },
-
   "flex-layout.row#shelf__category-price": {
+    "title": "Preço na prateleira da categoria",
     "props": {
       "blockClass": "shelf__category-price"
     },
@@ -77,24 +79,25 @@
       "product-installments#shelf__category"
     ]
   },
-
   "product-installments#shelf__category": {
+    "title": "Parcelamento na prateleira da categoria",
     "props": {
       "markers": ["from"],
       "message": "{installmentsNumber}x de {installmentValue}",
       "blockClass": "shelf__category"
     }
   },
-
   "product-list-price": {
+    "title": "Preço de lista do produto",
     "props": {
       "message": "DE: {listPriceValue}",
       "blockClass": "product-list-price__category"
     }
   },
   "product-selling-price#shelf__category": {
+    "title": "Preço de venda do produto",
     "props": {
-      "message": "Por:{sellingPriceValue}",
+      "message": "Por: {sellingPriceValue}",
       "blockClass": "shelf__category"
     }
   }

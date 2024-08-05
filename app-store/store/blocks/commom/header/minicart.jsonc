@@ -1,12 +1,13 @@
 {
   "minicart.v2#header__minicart": {
-    "title": "minicart",
+    "title": "Mini carrinho de compras",
     "children": ["minicart-base-content"],
     "props": {
       "blockClass": "header__minicart"
     }
   },
   "minicart-base-content": {
+    "title": "Conteúdo do mini carrinho",
     "blocks": ["minicart-empty-state"],
     "children": [
       "flex-layout.row#minicart-header",
@@ -14,8 +15,9 @@
       "flex-layout.row#minicart-footer"
     ]
   },
-  //MINCART HEADER
+  //MINICART HEADER
   "flex-layout.row#minicart-header": {
+    "title": "Cabeçalho do mini carrinho",
     "props": {
       "blockClass": "header__minicart--header",
       "colSizing": "auto"
@@ -26,8 +28,9 @@
     ]
   },
   "rich-text#header__minicart--title": {
+    "title": "Título do mini carrinho",
     "props": {
-      "text": "sacola",
+      "text": "Sacola",
       "blockClass": "header__minicart--title"
     }
   },
@@ -48,6 +51,7 @@
     "children": ["flex-layout.row#product-list"]
   },
   "flex-layout.row#product-list": {
+    "title": "Lista de produtos do mini carrinho",
     "children": [
       "flex-layout.col#product-list__image",
       "flex-layout.col#product-list__info",
@@ -59,6 +63,7 @@
     }
   },
   "flex-layout.col#product-list__image": {
+    "title": "Imagem do produto no mini carrinho",
     "children": ["product-list-image#minicart-image"],
     "props": {
       "blockClass": "header__minicart--item__image"
@@ -75,6 +80,7 @@
     }
   },
   "flex-layout.col#product-list__info": {
+    "title": "Informações do produto no mini carrinho",
     "children": [
       "vtex.product-list:product-name#minicart-name",
       "product-variations",
@@ -85,6 +91,7 @@
     }
   },
   "flex-layout.row#product-list__info--quantity": {
+    "title": "Quantidade e preço do produto no mini carrinho",
     "children": [
       "quantity-selector#minicart-quantity",
       "unit-price#minicart__item"
@@ -118,13 +125,19 @@
   },
   //MINICART FOOTER
   "flex-layout.row#minicart-footer": {
+    "title": "Rodapé do mini carrinho",
     "props": {
       "blockClass": "header__minicart--footer",
       "colSizing": "auto"
     },
-    "children": [ "minicart-summary#minicart-sumary","minicart-checkout-button","fg-keepBuying" ]
+    "children": [
+      "minicart-summary#minicart-sumary",
+      "minicart-checkout-button",
+      "fg-keepBuying"
+    ]
   },
   "minicart-summary#minicart-sumary": {
+    "title": "Resumo do mini carrinho",
     "blocks": ["checkout-summary.compact#minicart"],
     "props": {
       "blockClass": "header__minicart--resume"
@@ -133,10 +146,8 @@
   "checkout-summary.compact#minicart": {
     "children": ["summary-totalizers#minicart"],
     "props": {
-      "totalizersToShow": ["Items"
-      // , "Discounts"
-    ],
-    "total":2
+      "totalizersToShow": ["Items"],
+      "total": 2
     }
   },
   "summary-totalizers#minicart": {
@@ -148,18 +159,22 @@
     }
   },
   "minicart-checkout-button": {
+    "title": "Botão de finalização do mini carrinho",
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform"
     }
   },
   //MINICART VAZIO
   "minicart-empty-state": {
+    "title": "Estado vazio do mini carrinho",
     "children": ["flex-layout.row#empty-state"]
   },
   "flex-layout.row#empty-state": {
+    "title": "Linha de estado vazio do mini carrinho",
     "children": ["flex-layout.col#empty-state"]
   },
   "flex-layout.col#empty-state": {
+    "title": "Coluna de estado vazio do mini carrinho",
     "children": [
       "rich-text#minicart-default-empty-state-title",
       "rich-text#minicart-default-empty-state"
@@ -171,12 +186,14 @@
     }
   },
   "rich-text#minicart-default-empty-state-title": {
+    "title": "Título de estado vazio do mini carrinho",
     "props": {
       "text": "SUA SACOLA ESTÁ VAZIA",
       "blockClass": "empty-state-title"
     }
   },
   "rich-text#minicart-default-empty-state": {
+    "title": "Descrição de estado vazio do mini carrinho",
     "props": {
       "text": "Você ainda não tem produtos na sua sacola. <br> Navegue pelo site para escolher seus itens",
       "blockClass": "empty-state"

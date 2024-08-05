@@ -1,10 +1,10 @@
 {
   "search-result-layout.mobile": {
+    "title": "Layout de resultado de busca para dispositivos móveis",
     "children": [
       "breadcrumb.search#search__breadcrumb",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#filter-switcher-mobile",
-
       "flex-layout.row#filter__suggestion",
       "__fold__",
       "flex-layout.row#contentmobile",
@@ -22,13 +22,14 @@
     }
   },
   "flex-layout.row#contentmobile": {
+    "title": "Conteúdo de busca para dispositivos móveis",
     "children": ["search-content"],
     "props": {
       "preserveLayoutOnMobile": true
     }
   },
-
   "flex-layout.row#searchinfomobile": {
+    "title": "Informações de busca para dispositivos móveis",
     "children": [
       "flex-layout.col#filterMobile",
       "flex-layout.col#orderByMobile"
@@ -40,45 +41,45 @@
       "colJustify": "around"
     }
   },
-
   "flex-layout.col#orderByMobile": {
+    "title": "Ordenar por para dispositivos móveis",
     "children": ["order-by.v2"],
     "props": {
       "width": "grow",
       "blockClass": "orderByMobileCol"
     }
   },
-
   "flex-layout.row#filter-switcher-mobile": {
+    "title": "Alternador de layout de filtro para dispositivos móveis",
     "children": ["total-products.v2", "gallery-layout-switcher#mobile"],
     "props": {
       "blockClass": "filter-switcher-mobile"
     }
   },
-
   "flex-layout.col#filterMobile": {
+    "title": "Filtro para dispositivos móveis",
     "children": ["drawer#search__filter"],
     "props": {
       "blockClass": "filterMobileCol"
     }
   },
-
   "drawer-trigger#search__filter--trigger": {
+    "title": "Gatilho do filtro de busca",
     "children": ["rich-text#search__filter--trigger"],
     "props": {
       "blockClass": "search__filter--triggerbutton"
     }
   },
   "rich-text#search__filter--trigger": {
+    "title": "Texto do gatilho do filtro de busca",
     "props": {
       "text": "Filtrar",
-      "blockClass":"search__filter--trigger"
+      "blockClass": "search__filter--trigger"
     }
   },
   "drawer#search__filter": {
-    "children": [
-      "filter-navigator.v3"
-    ],
+    "title": "Filtro de busca",
+    "children": ["filter-navigator.v3"],
     "blocks": ["drawer-trigger#search__filter--trigger"],
     "props": {
       "slideDirection": "rightToLeft",

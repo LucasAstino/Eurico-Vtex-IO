@@ -14,7 +14,7 @@
   },
   "rich-text#institucional__wrapper-faq-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
@@ -44,7 +44,7 @@
   },
   "rich-text#institucional__wrapper-faq-menu-item-6": {
     "props": {
-      "blockClass": "institucional__wrapper-menu-item",
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Perguntas frequentes](/institucional/perguntas-frequentes)"
     }
   },

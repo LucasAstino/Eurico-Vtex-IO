@@ -1,6 +1,7 @@
 
 {
   "menu-item#category__menu-drawer--eurico": {
+    "title":"Link eurico no menu",
     "props": {
       "blockClass": ["category__menu-drawer--item"],
       "id": "menu-item-category__menu",

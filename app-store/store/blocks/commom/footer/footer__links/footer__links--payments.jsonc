@@ -1,8 +1,8 @@
-
 {
   "flex-layout.col#footer__links-payments": {
+    "title": "Coluna de Formas de Pagamento no Rodapé",
     "children": [
-       "rich-text#footer__titulo--payments",
+      "rich-text#footer__titulo--payments",
       "image#payments"
     ],
     "props": {
@@ -10,12 +10,14 @@
     }
   },
   "rich-text#footer__titulo--payments": {
+    "title": "Título das Formas de Pagamento no Rodapé",
     "props": {
       "text": "FORMAS DE PAGAMENTO",
       "blockClass": "footer__column--title"
     }
   },
   "image#payments": {
+    "title": "Imagem de Formas de Pagamento no Rodapé",
     "props": {
       "src": "assets/images/footer/payments.svg",
       "blockClass": "selo"

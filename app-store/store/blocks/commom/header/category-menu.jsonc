@@ -43,308 +43,308 @@
     },
     "children": ["flex-layout.row#submenu__container-feminine"]
   },
-  "vtex.menu@2.x:menu#category-wrapper": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "wrapper",
-      "items": [
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Todas as novidades",
-            "text": "Todas as novidades"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/bota?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Bota",
-            "text": "Bota"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Bota/Coturno?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Coturno",
-            "text": "Coturno"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Sapatilha",
-            "text": "Sapatilha"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/institucional/guia-de-medidas",
-            "noFollow": false,
-            "tagTitle": "Guia de medidas",
-            "text": "Guia de medidas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Tênis/Casual?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Tênis Casual",
-            "text": "Tênis Casual"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Tênis/Esportivo?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Tênis Esportivo",
-            "text": "Tênis Esportivo"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/sandalia?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Sandália",
-            "text": "Sandália"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/mule,tamanco?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Mule e Tamanco",
-            "text": "Mule e Tamanco"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/scarpin?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Scarpin",
-            "text": "Scarpin"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/mocassim?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Mocassim",
-            "text": "Mocassim"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/alpargata?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Alpargata",
-            "text": "Alpargata"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/rasteira?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Rasteira",
-            "text": "Rasteira"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/chinelo?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Chinelo",
-            "text": "Chinelo"
-          }
-        }
-      ]
-    }
-  },
-  "vtex.menu@2.x:menu#emphasis-wrapper": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "wrapper",
-      "items": [
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/129?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Usaflex",
-            "text": "Usaflex"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/nike?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Nike",
-            "text": "Nike"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Melissa",
-            "text": "Melissa"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Linha Prime",
-            "text": "Linha Prime"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/institucional/guia-de-medidas",
-            "noFollow": false,
-            "tagTitle": "Guia de medidas",
-            "text": "Guia de medidas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/344?map=productClusterIds",
-            "noFollow": false,
-            "tagTitle": "Glamour",
-            "text": "Glamour"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Eurico Basics",
-            "text": "Eurico Basics"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Confort",
-            "text": "Confort"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Havaianas",
-            "text": "Havaianas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Meias e Acessórios",
-            "text": "Meias e Acessórios"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/cartao?O=OrderByPriceASC",
-            "noFollow": false,
-            "tagTitle": "Cartão Presente",
-            "text": "Cartão Presente"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Veja Como Fica",
-            "text": "Veja Como Fica"
-          }
-        }
-      ]
-    }
-  },
+  // "vtex.menu@2.x:menu#category-wrapper": {
+  //   "props": {
+  //     "orientation": "vertical",
+  //     "blockClass": "wrapper",
+  //     "items": [
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Todas as novidades",
+  //           "text": "Todas as novidades"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/bota?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Bota",
+  //           "text": "Bota"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Bota/Coturno?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Coturno",
+  //           "text": "Coturno"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Sapatilha",
+  //           "text": "Sapatilha"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/institucional/guia-de-medidas",
+  //           "noFollow": false,
+  //           "tagTitle": "Guia de medidas",
+  //           "text": "Guia de medidas"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Tênis/Casual?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Tênis Casual",
+  //           "text": "Tênis Casual"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Tênis/Esportivo?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Tênis Esportivo",
+  //           "text": "Tênis Esportivo"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/sandalia?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Sandália",
+  //           "text": "Sandália"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/mule,tamanco?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Mule e Tamanco",
+  //           "text": "Mule e Tamanco"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/scarpin?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Scarpin",
+  //           "text": "Scarpin"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Mocassim",
+  //           "text": "Mocassim"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/alpargata?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Alpargata",
+  //           "text": "Alpargata"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/rasteira?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Rasteira",
+  //           "text": "Rasteira"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/chinelo?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Chinelo",
+  //           "text": "Chinelo"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
+  // "vtex.menu@2.x:menu#emphasis-wrapper": {
+  //   "props": {
+  //     "orientation": "vertical",
+  //     "blockClass": "wrapper",
+  //     "items": [
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/129?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Usaflex",
+  //           "text": "Usaflex"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/nike?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Nike",
+  //           "text": "Nike"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Melissa",
+  //           "text": "Melissa"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Linha Prime",
+  //           "text": "Linha Prime"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/institucional/guia-de-medidas",
+  //           "noFollow": false,
+  //           "tagTitle": "Guia de medidas",
+  //           "text": "Guia de medidas"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/344?map=productClusterIds",
+  //           "noFollow": false,
+  //           "tagTitle": "Glamour",
+  //           "text": "Glamour"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Eurico Basics",
+  //           "text": "Eurico Basics"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Confort",
+  //           "text": "Confort"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Havaianas",
+  //           "text": "Havaianas"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Meias e Acessórios",
+  //           "text": "Meias e Acessórios"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/cartao?O=OrderByPriceASC",
+  //           "noFollow": false,
+  //           "tagTitle": "Cartão Presente",
+  //           "text": "Cartão Presente"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Veja Como Fica",
+  //           "text": "Veja Como Fica"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
   "menu-item#category-masculino": {
     "props": {
       "blockClass":"menu__item",

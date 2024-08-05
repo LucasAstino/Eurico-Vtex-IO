@@ -14,7 +14,7 @@
   },
   "rich-text#institucional__wrapper-payment-methods-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
@@ -32,7 +32,7 @@
   },
   "rich-text#institucional__wrapper-payment-methods-menu-item-4": {
     "props": {
-      "blockClass": "institucional__wrapper-menu-item",
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Preços e Formas de Pagamento](/institucional/precos-e-formas-de-pagamento)"
     }
   },

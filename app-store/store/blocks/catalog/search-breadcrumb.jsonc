@@ -1,18 +1,20 @@
 {
   "flex-layout.row#searchbread": {
+    "title": "Linha de layout para o breadcrumb de busca",
     "children": ["breadcrumb.search"],
     "props": {
       "blockClass": "search__breadcrumb",
-      // "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
   "breadcrumb": {
+    "title": "Breadcrumb padrão",
     "props": {
       "showOnMobile": true
     }
   },
   "breadcrumb.search#search__breadcrumb": {
+    "title": "Breadcrumb para a página de busca",
     "props": {
       "blockClass": "search__breadcrumb",
       "showOnMobile": true

@@ -35,3 +35,11 @@
     }
   }
 }
+
+
+.opened--search__filter{
+  transform: none !important;
+  will-change: transform !important;
+  perspective: 1px !important;
+  translate: 0, 0 !important;
+}

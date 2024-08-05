@@ -14,6 +14,7 @@
   },
 
   "flex-layout.row#search__not-found": {
+    "title": "Conteúdo da página 404",
     "children": [
       "rich-text#search__not-found__text",
       "search-bar#search__not-found",
@@ -25,12 +26,14 @@
     }
   },
   "rich-text#search__not-found__text": {
+    "title": "Mensagem de busca não encontrada",
     "props": {
       "text": "# **OPS!** Busca não encontrada \n Infelizmente não encontramos nenhum resultado para a sua busca",
       "blockClass": "search__not-found__text"
     }
   },
   "rich-text#search__not-found__backToHome": {
+    "title": "Link para voltar para a home",
     "props": {
       "text": "[Voltar para a home](/)",
       "blockClass": "search__not-found__backToHome"
@@ -38,7 +41,7 @@
   },
 
   "search-bar#search__not-found": {
-    "title": "busca",
+    "title": "Barra de busca",
     "props": {
       "openAutocompleteOnFocus": true,
       "blockClass": "search__not-found",
@@ -48,5 +51,4 @@
       "containerMode": "overlay"
     }
   }
-
 }

@@ -1,11 +1,13 @@
 {
   "flex-layout.row#searchinfo": {
+    "title": "Informações da busca",
     "props": {
       "blockClass": "searchinfo"
     },
     "children": ["flex-layout.col#searchinfo", "flex-layout.row#orderByAndSwitcher"]
   },
   "flex-layout.row#orderByAndSwitcher": {
+    "title": "Ordenar e Alternar Visualização",
     "children": ["order-by.v2", "gallery-layout-switcher"],
     "props": {
       "horizontalAlign": "right",
@@ -15,27 +17,30 @@
     }
   },
   "flex-layout.col#searchinfo": {
-    "children": ["flex-layout.row#searchbread","total-products.v2"],
+    "title": "Informações da busca - Coluna",
+    "children": ["flex-layout.row#searchbread", "total-products.v2"],
     "props": {
       "blockClass": "searchinfo__col-left"
     }
   },
-
   "gallery-layout-switcher": {
+    "title": "Alternador de Layout da Galeria",
     "children": [
       "gallery-layout-option#grid-3",
       "gallery-layout-option#grid-4"
     ]
   },
   "gallery-layout-switcher#mobile": {
+    "title": "Alternador de Layout da Galeria Mobile",
     "children": [
       "gallery-layout-option#grid-1",
       "gallery-layout-option#grid-2"
     ]
   },
   "gallery-layout-option#grid-2": {
+    "title": "Opção de Layout Grid 2",
     "props": {
-      "blockClass":"category-grid-2",
+      "blockClass": "category-grid-2",
       "name": "grid-2"
     },
     "children": [
@@ -43,8 +48,9 @@
     ]
   },
   "gallery-layout-option#grid-1": {
+    "title": "Opção de Layout Grid 1",
     "props": {
-      "blockClass":"category-grid-1",
+      "blockClass": "category-grid-1",
       "name": "grid-1"
     },
     "children": [
@@ -52,8 +58,9 @@
     ]
   },
   "gallery-layout-option#grid-4": {
+    "title": "Opção de Layout Grid 4",
     "props": {
-      "blockClass":"category-grid-4",
+      "blockClass": "category-grid-4",
       "name": "grid-4"
     },
     "children": [
@@ -61,8 +68,9 @@
     ]
   },
   "gallery-layout-option#grid-3": {
+    "title": "Opção de Layout Grid 3",
     "props": {
-      "blockClass":"category-grid-3",
+      "blockClass": "category-grid-3",
       "name": "grid-3"
     },
     "children": [

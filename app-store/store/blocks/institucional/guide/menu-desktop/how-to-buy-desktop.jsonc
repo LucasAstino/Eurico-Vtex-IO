@@ -14,13 +14,13 @@
   },
   "rich-text#institucional__wrapper-guide-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
   "rich-text#institucional__wrapper-guide-menu-item-2": {
     "props": {
-      "blockClass": "institucional__wrapper-menu-item",
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Guia de medidas](/institucional/guia-de-medidas)"
     }
   },

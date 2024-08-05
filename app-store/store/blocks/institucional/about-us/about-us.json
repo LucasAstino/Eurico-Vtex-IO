@@ -1,5 +1,6 @@
 {
   "store.custom#about-us": {
+    "title": "Sobre nós",
     "blocks": [
       "image#about-us",
       "flex-layout.row#about-us-row",
@@ -9,6 +10,7 @@
   },
 
   "flex-layout.row#about-us-row": {
+    "title": "Linha sobre nós",
     "props": {
       "blockClass": "about-us-row"
     },
@@ -18,6 +20,7 @@
   },
 
   "flex-layout.col#about-us": {
+    "title": "Coluna sobre nós",
     "children": [
       "rich-text#about-us__title",
       "rich-text#about-us-text"
@@ -29,14 +32,15 @@
   },
 
   "rich-text#about-us__title": {
+    "title": "Título sobre nós",
     "props": {
-      "text":
-      "# A EURICO",
+      "text": "# A EURICO",
       "blockClass": "about-us__title"
     }
   },
 
   "image#about-us": {
+    "title": "Imagem sobre nós",
     "props": {
       "src": "assets/images/institucional/about-us/main-banner-sobre-nos2.webp",
       "maxHeight": "",
@@ -44,7 +48,9 @@
       "blockClass": "about-us__fullbanner"
     }
   },
+
   "rich-text#about-us-text": {
+    "title": "Texto sobre nós",
     "props": {
       "text": "Quando se fala em calçados de tamanhos grandes, o grupo Eurico é a maior referência do Brasil.\n\nFundado em 1938 pelo casal de alemães Erich e Leonie Rosenthal em São Paulo, no bairro de Moema, o grupo atua no varejo oferecendo uma enorme diversidade de calçados femininos do 40 ao 43 e masculinos do 44 ao 48.\n\nAtualmente as empresas do grupo são administradas por netas e bisnetos do casal fundador, mantendo o atendimento da sua loja-matriz - que funciona até hoje no mesmo endereço - e com expansão para venda de produtos premium na Eurico Max, além da plataforma EURICO WEB de comércio eletrônico.\n\n**Hoje e sempre, nós do grupo Eurico queremos que você se sinta em CASA!**\n\nNossa loja sempre foi conhecida como CASA EURICO. Foi com este nome que ela foi fundada, em 1938, época na qual era bastante comum o uso da palavra 'casa' para designar um negócio.\n\nAo longo dos anos, essa palavra passou a ganhar outro sentido, pois todas as pessoas que entravam aqui sentiam, na mesma hora, uma agradável sensação de conforto e acolhimento, como se todos nós fôssemos parte de uma grande família.\n\nO início das atividades da Eurico Max, em sua loja na Rua Oscar Freire, passamos a oferecer aos nossos clientes uma nova opção de compra, com uma linha de produtos exclusiva e sempre em sintonia com as últimas tendências da moda.\n\nNo que se refere à proposta do negócio, mantemos a mesma essência dese 1938 - a comercialização das melhores opções de calçados em tamanhos grandes disponíveis no mercado - assim como os valores que sempre nortearam o grupo Eurico: acolhimento, eficiência, profissionalismo, qualidade e honestidade.\n\nA partir de 2015, a nossa Casa Eurico passou a ser simplesmente Eurico. Mas continuará sendo sempre a casa de todos nós!\n\n ## MODA INCLUSIVA: A NOSSA BANDEIRA\n\nO conceito de Moda Inclusiva, que o grupo Eurico tem orgulho em representar, se refere a atender com uma ótima diversidade de produtos todos os consumidores que se sentem excluídos pela moda - seja por conta do tamanho do seu manequim, dos seus pés, ou por qualquer outra característica que os impeça de serem atendidos pela maioria das lojas de artigos de moda.\n\nDa mesma forma, todas as pessoas que fazem parte direta ou indiretamente do grupo Eurico - sejam colaboradores, clientes ou fornecedores - devem ser tratados com respeito e de forma igualitária. Somos um grupo que acolhe as diferenças.",
       "blockClass": "about-us-text"

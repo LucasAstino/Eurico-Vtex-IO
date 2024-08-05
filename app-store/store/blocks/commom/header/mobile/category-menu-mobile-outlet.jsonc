@@ -1,6 +1,7 @@
 
 {
   "menu-item#category__menu-drawer--outlet": {
+    "title":"Link outlet no menu",
     "props": {
       "blockClass": ["category__menu-drawer--item"],
       "id": "menu-item-category__menu",

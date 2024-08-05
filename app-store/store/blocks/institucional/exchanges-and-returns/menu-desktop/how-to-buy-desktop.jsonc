@@ -14,7 +14,7 @@
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
@@ -62,7 +62,7 @@
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-9": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item"],
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Trocas e devoluções](/institucional/trocas-e-devolucoes)"
     }
   }

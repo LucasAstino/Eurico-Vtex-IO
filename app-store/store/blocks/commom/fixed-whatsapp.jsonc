@@ -1,5 +1,6 @@
 {
   "image#fixed__whatsapp": {
+    "title": "Botao whatsapp fixo",
     "props": {
       "src": "assets/icons/commom/fixed-whatsapp.svg",
       "blockClass":"fixed__whatsapp",

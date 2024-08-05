@@ -14,7 +14,7 @@
   },
   "rich-text#institucional__wrapper-terms-of-use-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
@@ -56,7 +56,7 @@
   },
   "rich-text#institucional__wrapper-terms-of-use-menu-item-8": {
     "props": {
-      "blockClass": "institucional__wrapper-menu-item",
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Termos de uso](/termosdeuso)"
     }
   },

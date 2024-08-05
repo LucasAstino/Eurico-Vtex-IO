@@ -1,5 +1,6 @@
 {
   "menu-item#category__menu-drawer--feminine": {
+    "title":"Menu feminino",
     "props": {
       "blockClass": ["has-children","category__menu-drawer--item"],
       "id": "menu-item-category__menu",

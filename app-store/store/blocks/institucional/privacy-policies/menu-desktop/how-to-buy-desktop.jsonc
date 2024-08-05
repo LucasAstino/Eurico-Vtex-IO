@@ -14,7 +14,7 @@
   },
   "rich-text#institucional__wrapper-privacy-policies-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
@@ -50,7 +50,7 @@
   },
   "rich-text#institucional__wrapper-privacy-policies-menu-item-7": {
     "props": {
-      "blockClass": "institucional__wrapper-menu-item",
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Política de privacidade](/institucional/politica-de-privacidade)"
     }
   },

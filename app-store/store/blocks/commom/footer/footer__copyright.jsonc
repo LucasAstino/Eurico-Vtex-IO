@@ -1,14 +1,16 @@
 {
   "flex-layout.row#footer__copyright": {
+    "title": "Rodapé de Copyright",
     "props": {
       "blockClass": "footer__copyright",
       "colSizing": "auto",
       "fullWidth": false,
       "horizontalAlign": "between"
     },
-    "children": ["flex-layout.col#footer__copyright-left","flex-layout.col#footer__copyright-right"]
+    "children": ["flex-layout.col#footer__copyright-left", "flex-layout.col#footer__copyright-right"]
   },
   "flex-layout.col#footer__copyright-left": {
+    "title": "Coluna de Copyright à Esquerda",
     "props": {
       "blockClass": "",
       "colSizing": "auto",
@@ -21,6 +23,7 @@
     "children": ["rich-text#footer__copyright-text"]
   },
   "flex-layout.col#footer__copyright-right": {
+    "title": "Coluna de Copyright à Direita",
     "props": {
       "blockClass": "",
       "colSizing": "auto",
@@ -33,32 +36,34 @@
     "children": ["flex-layout.row#footer__copyright-right--row"]
   },
   "flex-layout.row#footer__copyright-right--row": {
+    "title": "Linha de Imagens no Copyright",
     "props": {
-      "colGap":6,
+      "colGap": 6,
       "blockClass": "footer__copyright-right--row",
       "colSizing": "auto"
     },
     "children": [
-      "image#footer__copyright-img-01","image#footer__copyright-img-02"
+      "image#footer__copyright-img-01",
+      "image#footer__copyright-img-02"
     ]
   },
-
-  "image#footer__copyright-img-01":{
-    "props":{
-      "maxWidth":"140px",
-      "src":"assets/images/footer/logo-agencia.png",
-      "blockClass":"agencia"
-    }
-
-  },
-  "image#footer__copyright-img-02":{
-    "props":{
-      "src":"assets/icons/footer/vtex.svg",
-       "blockClass":"vtex-copyright"
+  "image#footer__copyright-img-01": {
+    "title": "Imagem da Agência no Copyright",
+    "props": {
+      "maxWidth": "140px",
+      "src": "assets/images/footer/logo-agencia.png",
+      "blockClass": "agencia"
     }
   },
-
+  "image#footer__copyright-img-02": {
+    "title": "Imagem VTEX no Copyright",
+    "props": {
+      "src": "assets/icons/footer/vtex.svg",
+      "blockClass": "vtex-copyright"
+    }
+  },
   "rich-text#footer__copyright-text": {
+    "title": "Texto de Copyright",
     "props": {
       "text": "Copyright © 2020 - Todos os direitos reservados | EURICO WEB CALÇADOS LTDA-EPP\nCNPJ: 12.579.806/0001-65 | Av. Jandira, 59 - Indianópolis - São Paulo/SP - (11) 5054 8878",
       "blockClass": "footer__copyright-text"

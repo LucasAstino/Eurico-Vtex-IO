@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#category__menu-mobile": {
+    "title":"Menu Mobile",
     "props": {
       "orientation": "vertical",
       "blockClass": "category__menu-mobile"

@@ -1,8 +1,8 @@
-
 {
   "flex-layout.col#footer__links-payments-mobile": {
+    "title": "Coluna de Formas de Pagamento no Rodapé (Mobile)",
     "children": [
-       "rich-text#footer__titulo--payments-mobile",
+      "rich-text#footer__titulo--payments-mobile",
       "image#payments-mobile"
     ],
     "props": {
@@ -10,12 +10,14 @@
     }
   },
   "rich-text#footer__titulo--payments-mobile": {
+    "title": "Título das Formas de Pagamento (Mobile)",
     "props": {
       "text": "FORMAS DE PAGAMENTO",
       "blockClass": "footer__column--title"
     }
   },
   "image#payments-mobile": {
+    "title": "Imagem das Formas de Pagamento (Mobile)",
     "props": {
       "src": "assets/images/footer/payments-mobile.svg",
       "blockClass": "selo"

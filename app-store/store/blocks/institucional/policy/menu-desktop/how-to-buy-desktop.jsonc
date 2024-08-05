@@ -14,7 +14,7 @@
   },
   "rich-text#institucional__wrapper-policy-menu-item-1": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item", "active"],
+      "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
@@ -26,7 +26,7 @@
   },
   "rich-text#institucional__wrapper-policy-menu-item-3": {
     "props": {
-      "blockClass": ["institucional__wrapper-menu-item"],
+      "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Nossas políticas](/institucional/nossas-politicas)"
     }
   },

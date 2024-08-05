@@ -1,5 +1,6 @@
 {
   "disclosure-layout#footer__atendimento": {
+    "title": "Layout de Atendimento no Rodapé",
     "children": [
       "disclosure-trigger#footer__trigger--atendimento-title",
       "disclosure-content#footer__trigger--atendimento-content",
@@ -11,33 +12,37 @@
     }
   },
   "disclosure-trigger#footer__trigger--atendimento-title": {
+    "title": "Título do Atendimento no Rodapé",
     "children": ["rich-text#footer__atendimento--title"],
     "props": {
       "blockClass": "footer__trigger"
     }
   },
   "disclosure-content#footer__trigger--atendimento-content": {
+    "title": "Conteúdo do Atendimento no Rodapé",
     "children": ["menu#footer__atendimento--menuatendimento"],
     "props": {
       "blockClass": "footer__content"
     }
   },
   "rich-text#footer__atendimento--title": {
+    "title": "Título da Seção de Atendimento no Rodapé",
     "props": {
       "text": "AJUDA E SUPORTE",
       "blockClass": "footer__column--title"
     }
   },
-  "image#footer__atendimento-easy--exchange":{
-    "props":{
-      "blockClass":"footer__atendimento-img",
-      "src":"assets/images/footer/new-aftersale.webp"
+  "image#footer__atendimento-easy--exchange": {
+    "title": "Imagem de Troca Fácil no Atendimento do Rodapé",
+    "props": {
+      "blockClass": "footer__atendimento-img",
+      "src": "assets/images/footer/new-aftersale.webp"
     }
   },
   "menu#footer__atendimento--menuatendimento": {
-    "title": "MENU",
+    "title": "Menu de Atendimento no Rodapé",
     "props": {
-      "blockClass": ["footer__atendimento--link","footer__menu"],
+      "blockClass": ["footer__atendimento--link", "footer__menu"],
       "items": [
         {
           "type": "custom",
@@ -68,10 +73,10 @@
           "itemProps": {
             "type": "internal",
             "noFollow": true,
-            "href":"/",
+            "href": "/",
             "tagTitle": "Minha conta",
             "text": "Minha conta",
-            "blockClass":"my-account"
+            "blockClass": "my-account"
           }
         },
         {

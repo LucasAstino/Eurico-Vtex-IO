@@ -1,5 +1,6 @@
 {
   "flex-layout.col#footer__links-selos": {
+    "title": "Coluna de Selos e Redes Sociais no Rodapé",
     "children": [
       "rich-text#footer__titulo--selo",
       "flex-layout.row#footer__links-selos--row-01",
@@ -11,10 +12,11 @@
     }
   },
   "flex-layout.row#footer__links-selos--row-01": {
+    "title": "Linha de Ícones de Redes Sociais - Linha 1",
     "props": {
-      "colGap":6,
-      "horizontalAlign":"left",
-      "marginBottom":9,
+      "colGap": 6,
+      "horizontalAlign": "left",
+      "marginBottom": 9,
       "blockClass": "footer__links-selos--row",
       "colSizing": "auto"
     },
@@ -26,66 +28,75 @@
     ]
   },
   "flex-layout.row#footer__links-selos--row-02": {
+    "title": "Linha de Selos de Certificação - Linha 2",
     "props": {
-      "colGap":5,
+      "colGap": 5,
       "blockClass": "footer__links-selos--row",
       "colSizing": "auto"
     },
-    "children": ["image#selo-01","image#selo-02","image#selo-03"]
+    "children": [
+      "image#selo-01",
+      "image#selo-02",
+      "image#selo-03"
+    ]
   },
   "rich-text#footer__titulo--selo": {
+    "title": "Título das Redes Sociais e Selos",
     "props": {
       "text": "NOSSAS REDES SOCIAIS",
       "blockClass": "footer__column--title"
     }
   },
   "image#social-01": {
-    "title": "icone de rede social",
+    "title": "Ícone do Facebook",
     "props": {
       "src": "assets/icons/footer/icon-facebook.svg",
       "blockClass": "selo"
     }
   },
   "image#social-02": {
-    "title": "icone de rede social",
+    "title": "Ícone do Instagram",
     "props": {
       "src": "assets/icons/footer/icon-instagram.svg",
       "blockClass": "selo"
     }
   },
   "image#social-03": {
-    "title": "icone de rede social",
+    "title": "Ícone do YouTube",
     "props": {
       "src": "assets/icons/footer/icon-youtube.svg",
       "blockClass": "selo"
     }
   },
   "image#social-04": {
-    "title": "icone de rede social",
+    "title": "Ícone do TikTok",
     "props": {
       "src": "assets/icons/footer/icon-tiktok.svg",
       "blockClass": "selo"
     }
   },
   "image#selo-01": {
+    "title": "Selo de Segurança",
     "props": {
-      "maxWidth":"50px",
+      "maxWidth": "50px",
       "src": "assets/icons/footer/encrypt.svg",
-      "blockClass": ["selo","icon-encrypt"]
+      "blockClass": ["selo", "icon-encrypt"]
     }
   },
   "image#selo-02": {
+    "title": "Selo da VTEX",
     "props": {
-      "maxWidth":"70px",
+      "maxWidth": "70px",
       "src": "assets/images/footer/vtex.png",
-      "blockClass": ["selo","icon-vtex"]
+      "blockClass": ["selo", "icon-vtex"]
     }
   },
   "image#selo-03": {
+    "title": "Selo Clear Sale",
     "props": {
-      "maxWidth":"145px",
+      "maxWidth": "145px",
       "src": "assets/images/footer/cleasale.png",
-      "blockClass": ["selo","icon-clearSale"]
+      "blockClass": ["selo", "icon-clearSale"]
     }
   }
 }

@@ -1,67 +1,78 @@
 {
   "filter-navigator.v3": {
+    "title": "Navegador de filtros",
     "props": {
-      "blockClass":"filter__navigation",
-      // "truncateFilters": true,
+      "blockClass": "filter__navigation",
       "categoryFiltersMode": "href",
       "layout": "desktop",
       "initiallyCollapsed": true,
       "appliedFiltersOverview": "hide",
       "totalProductsOnMobile": "hide",
-      "fullWidthOnMobile":true,
-      "navigationTypeOnMobile":"collapsible",
-      //   "maxItemsDepartment": 1,
-      //   "maxItemsCategory": 1
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible",
       "showClearAllFiltersOnDesktop": true
     }
   },
 
   "flex-layout.row#filter__suggestion": {
+    "title": "Sugestão de filtro",
     "props": {
       "blockClass": "filter__suggestion"
     },
-    "title": "Sugestão de filtro",
-    "children": ["flex-layout.col#filter__suggestion-left","flex-layout.col#filter__suggestion-right"]
+    "children": [
+      "flex-layout.col#filter__suggestion-left",
+      "flex-layout.col#filter__suggestion-right"
+    ]
   },
 
   "flex-layout.col#filter__suggestion-left": {
+    "title": "Sugestão de filtro - Esquerda",
     "props": {
-      "blockClass":"filter__suggestion-left"
+      "blockClass": "filter__suggestion-left"
     },
-    "children": ["rich-text#filter__suggestion-title","rich-text#filter__suggestion-filter-one","rich-text#filter__suggestion-filter-secund","rich-text#filter__suggestion-filter-third"]
-
+    "children": [
+      "rich-text#filter__suggestion-title",
+      "rich-text#filter__suggestion-filter-one",
+      "rich-text#filter__suggestion-filter-secund",
+      "rich-text#filter__suggestion-filter-third"
+    ]
   },
+
   "flex-layout.col#filter__suggestion-right": {
+    "title": "Sugestão de filtro - Direita",
     "props": {
-      "blockClass":"filter__suggestion-right"
+      "blockClass": "filter__suggestion-right"
     }
   },
 
   "rich-text#filter__suggestion-title": {
-    "title": "Titulo da Sugestão de filtros",
+    "title": "Título da sugestão de filtros",
     "props": {
-      "blockClass":"filter__suggestion-title",
+      "blockClass": "filter__suggestion-title",
       "text": "Sugestão de filtro:"
     }
   },
+
   "rich-text#filter__suggestion-filter-one": {
     "title": "Primeiro filtro",
     "props": {
-      "blockClass":"filter__suggestion-filter-one",
+      "blockClass": "filter__suggestion-filter-one",
       "text": "[Mini Coleção BOLD](/feminino/360?map=c,productClusterIds&O=OrderByReleaseDateDESC)"
     }
   },
+
   "rich-text#filter__suggestion-filter-secund": {
     "title": "Segundo filtro",
     "props": {
-      "blockClass":"filter__suggestion-filter-secund",
+      "blockClass": "filter__suggestion-filter-secund",
       "text": "[Saltos Altos](/feminino/Alto?map=c,specificationFilter_28&O=OrderByReleaseDateDESC)"
     }
   },
+
   "rich-text#filter__suggestion-filter-third": {
     "title": "Terceiro filtro",
     "props": {
-      "blockClass":"filter__suggestion-filter-third",
+      "blockClass": "filter__suggestion-filter-third",
       "text": "[Linha Confort](/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC)"
     }
   }

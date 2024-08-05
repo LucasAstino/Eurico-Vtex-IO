@@ -1,5 +1,6 @@
 {
   "disclosure-layout#footer__institucional": {
+    "title": "Layout Institucional no Rodapé",
     "children": [
       "disclosure-trigger#footer__trigger--institucional-title",
       "disclosure-content#footer__trigger--intitucional-content"
@@ -10,27 +11,30 @@
     }
   },
   "disclosure-trigger#footer__trigger--institucional-title": {
+    "title": "Título Institucional no Rodapé",
     "children": ["rich-text#footer__institucional--title"],
     "props": {
       "blockClass": "footer__trigger"
     }
   },
   "disclosure-content#footer__trigger--intitucional-content": {
+    "title": "Conteúdo Institucional no Rodapé",
     "children": ["menu#footer__institucional--menuinstitucional"],
     "props": {
       "blockClass": "footer__content"
     }
   },
   "rich-text#footer__institucional--title": {
+    "title": "Título da Seção Institucional no Rodapé",
     "props": {
-      "text": "institucional",
+      "text": "Institucional",
       "blockClass": "footer__column--title"
     }
   },
   "menu#footer__institucional--menuinstitucional": {
-    "title": "MENU",
+    "title": "Menu Institucional no Rodapé",
     "props": {
-      "blockClass": ["footer__institucional--link","footer__menu"],
+      "blockClass": ["footer__institucional--link", "footer__menu"],
       "items": [
         {
           "type": "custom",
@@ -39,8 +43,8 @@
             "type": "internal",
             "href": "/institucional/sobre-nos",
             "noFollow": false,
-            "tagTitle": "QUEM SOMOS",
-            "text": "QUEM SOMOS"
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
           }
         },
         {
@@ -50,8 +54,8 @@
             "type": "internal",
             "href": "/institucional/historia",
             "noFollow": false,
-            "tagTitle": "A história",
-            "text": "A história"
+            "tagTitle": "A História",
+            "text": "A História"
           }
         },
         {
@@ -61,8 +65,8 @@
             "type": "internal",
             "href": "/institucional/nossas-politicas",
             "noFollow": false,
-            "tagTitle": "Nossas políticas",
-            "text": "Nossas políticas"
+            "tagTitle": "Nossas Políticas",
+            "text": "Nossas Políticas"
           }
         },
         {
@@ -83,8 +87,8 @@
             "type": "internal",
             "href": "/institucional/guia-de-medidas",
             "noFollow": false,
-            "tagTitle": "Guia de medidas",
-            "text": "Guia de medidas"
+            "tagTitle": "Guia de Medidas",
+            "text": "Guia de Medidas"
           }
         },
         {
@@ -116,8 +120,8 @@
             "type": "internal",
             "href": "/institucional/trabalhe-conosco",
             "noFollow": false,
-            "tagTitle": "Trabalhe conosco",
-            "text": "Trabalhe conosco"
+            "tagTitle": "Trabalhe Conosco",
+            "text": "Trabalhe Conosco"
           }
         }
       ]

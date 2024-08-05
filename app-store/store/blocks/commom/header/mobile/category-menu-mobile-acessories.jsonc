@@ -1,5 +1,6 @@
 {
   "menu-item#category__menu-drawer--acessories": {
+    "title":"Menu Acessorios",
     "props": {
       "blockClass": ["has-children","category__menu-drawer--item"],
       "id": "menu-item-category__menu",
@@ -146,172 +147,172 @@
         }
       ]
     }
-  },
-  "menu-item#emphasis__menu-drawer--acessories-submenu__title": {
-    "props": {
-      "blockClass": ["category__menu-drawer--submenu__title","has-children"],
-      "id": "menu-item-category__menu-drawer--acessories-submenu__title",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "Destaques",
-        "text": "Destaques"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#emphasis__menu-drawer--acessories-subSubmenu"
-    ]
-  },
-  "vtex.menu@2.x:submenu#emphasis__menu-drawer--acessories-subSubmenu": {
-    "props": {
-      "width": "100%",
-      "blockClass":"category__menu-drawer-subSubmenu"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories"
-    ]
-  },
-  "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass":"category__menu-drawer--acessories-subSubmenu",
-     "items": [
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/129?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Usaflex",
-            "text": "Usaflex"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/nike?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Nike",
-            "text": "Nike"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Melissa",
-            "text": "Melissa"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Linha Prime",
-            "text": "Linha Prime"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/institucional/guia-de-medidas",
-            "noFollow": false,
-            "tagTitle": "Guia de medidas",
-            "text": "Guia de medidas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/344?map=productClusterIds",
-            "noFollow": false,
-            "tagTitle": "Glamour",
-            "text": "Glamour"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Eurico Basics",
-            "text": "Eurico Basics"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Confort",
-            "text": "Confort"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Havaianas",
-            "text": "Havaianas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Meias e Acessórios",
-            "text": "Meias e Acessórios"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/cartao?O=OrderByPriceASC",
-            "noFollow": false,
-            "tagTitle": "Cartão Presente",
-            "text": "Cartão Presente"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
-            "noFollow": false,
-            "tagTitle": "Veja Como Fica",
-            "text": "Veja Como Fica"
-          }
-        }
-      ]
-    }
   }
+  // "menu-item#emphasis__menu-drawer--acessories-submenu__title": {
+  //   "props": {
+  //     "blockClass": ["category__menu-drawer--submenu__title","has-children"],
+  //     "id": "menu-item-category__menu-drawer--acessories-submenu__title",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "noFollow": false,
+  //       "tagTitle": "Destaques",
+  //       "text": "Destaques"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "vtex.menu@2.x:submenu#emphasis__menu-drawer--acessories-subSubmenu"
+  //   ]
+  // },
+  // "vtex.menu@2.x:submenu#emphasis__menu-drawer--acessories-subSubmenu": {
+  //   "props": {
+  //     "width": "100%",
+  //     "blockClass":"category__menu-drawer-subSubmenu"
+  //   },
+  //   "children": [
+  //     "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories"
+  //   ]
+  // },
+  // "vtex.menu@2.x:menu#emphasis-subSubmenu-acessories": {
+  //   "props": {
+  //     "orientation": "vertical",
+  //     "blockClass":"category__menu-drawer--acessories-subSubmenu",
+  //    "items": [
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/129?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Usaflex",
+  //           "text": "Usaflex"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/nike?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Nike",
+  //           "text": "Nike"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Melissa",
+  //           "text": "Melissa"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Linha Prime",
+  //           "text": "Linha Prime"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/institucional/guia-de-medidas",
+  //           "noFollow": false,
+  //           "tagTitle": "Guia de medidas",
+  //           "text": "Guia de medidas"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/344?map=productClusterIds",
+  //           "noFollow": false,
+  //           "tagTitle": "Glamour",
+  //           "text": "Glamour"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Eurico Basics",
+  //           "text": "Eurico Basics"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Confort",
+  //           "text": "Confort"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Havaianas",
+  //           "text": "Havaianas"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Meias e Acessórios",
+  //           "text": "Meias e Acessórios"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/cartao?O=OrderByPriceASC",
+  //           "noFollow": false,
+  //           "tagTitle": "Cartão Presente",
+  //           "text": "Cartão Presente"
+  //         }
+  //       },
+  //       {
+  //         "type": "custom",
+  //         "highlight": false,
+  //         "itemProps": {
+  //           "type": "internal",
+  //           "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+  //           "noFollow": false,
+  //           "tagTitle": "Veja Como Fica",
+  //           "text": "Veja Como Fica"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // }
 }

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#footer__links": {
-    "title": "FOOTER - Links",
+    "title": "Footer - Links",
     "children": [
       "disclosure-layout#footer__institucional",
       "disclosure-layout#footer__atendimento",
@@ -14,7 +14,7 @@
     }
   },
   "flex-layout.row#footer__links-mobile": {
-    "title": "FOOTER - Links",
+    "title": "Footer - Links Mobile",
     "children": [
       "disclosure-layout#footer__institucional",
       "disclosure-layout#footer__atendimento",

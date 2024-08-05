@@ -1,34 +1,38 @@
 {
   "flex-layout.row#home__shelf": {
+    "title": "Linha flexível da prateleira da home",
     "children": ["tab-layout#home__shelf-tab"]
   },
   "rich-text#home__shelf-title": {
-    "title":"Titulo vitrine home",
+    "title": "Título vitrine home",
     "props": {
       "text": "## DESTAQUES DA COLEÇÃO",
       "blockClass": "shelfTitle"
     }
   },
   "list-context.product-list#shelf__feminine": {
+    "title": "Lista de produtos femininos",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home__shelf"],
     "props": {
-      "blockClass":"shelf__feminine",
-      "category":"26",
+      "blockClass": "shelf__feminine",
+      "category": "26",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
   "list-context.product-list#shelf__masculine": {
+    "title": "Lista de produtos masculinos",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home__shelf"],
     "props": {
-      "category":"25",
+      "category": "25",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
   "slider-layout#home__shelf": {
+    "title": "Layout de slider da prateleira",
     "props": {
-      "showPaginationDots":"never",
+      "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
@@ -36,10 +40,11 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": ["shelf","carrossel"]
-      }
+      "blockClass": ["shelf", "carrossel"]
+    }
   },
   "tab-layout#home__shelf-tab": {
+    "title": "Layout de abas da prateleira da home",
     "children": [
       "tab-list#home__shelf-tab--list",
       "tab-content#home__shelf-tab--content"
@@ -50,8 +55,9 @@
     }
   },
   "tab-list#home__shelf-tab--list": {
-    "props":{
-      "blockClass":"home__shelf-tab--list"
+    "title": "Lista de abas da prateleira da home",
+    "props": {
+      "blockClass": "home__shelf-tab--list"
     },
     "children": [
       "tab-list.item#home__shelf-tab--list-feminine",
@@ -59,30 +65,31 @@
     ]
   },
   "tab-list.item#home__shelf-tab--list-feminine": {
-    "title":"categoria da primeira vitrine",
+    "title": "Categoria da primeira vitrine",
     "props": {
-      "blockClass":"home__shelf-tab--list-feminine",
+      "blockClass": "home__shelf-tab--list-feminine",
       "tabId": "feminine",
       "label": "Feminino",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#home__shelf-tab--list-masculine": {
-    "title":"categoria da segunda vitrine",
+    "title": "Categoria da segunda vitrine",
     "props": {
-      "blockClass":"home__shelf-tab--list-masculine",
-
+      "blockClass": "home__shelf-tab--list-masculine",
       "tabId": "masculine",
       "label": "Masculino"
     }
   },
   "tab-content#home__shelf-tab--content": {
+    "title": "Conteúdo das abas da prateleira da home",
     "children": [
       "tab-content.item#home__shelf-tab--content-feminine",
       "tab-content.item#home__shelf-tab--content-masculine"
     ]
   },
   "tab-content.item#home__shelf-tab--content-feminine": {
+    "title": "Conteúdo da aba feminina",
     "children": [
       "list-context.product-list#shelf__feminine"
     ],
@@ -91,6 +98,7 @@
     }
   },
   "tab-content.item#home__shelf-tab--content-masculine": {
+    "title": "Conteúdo da aba masculina",
     "children": [
       "list-context.product-list#shelf__masculine"
     ],

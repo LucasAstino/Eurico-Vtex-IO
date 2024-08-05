@@ -1,5 +1,6 @@
 {
   "list-context.image-list#fullbanner": {
+    "title": "Slider principal home",
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": "auto",
@@ -17,6 +18,7 @@
     }
   },
   "slider-layout#demo-images": {
+    "title": "Slider principal home",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

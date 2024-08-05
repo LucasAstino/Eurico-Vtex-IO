@@ -1,6 +1,7 @@
 
 {
   "menu-item#category__menu-drawer--contact": {
+    "title":"Link contato no menu",
     "props": {
       "blockClass": ["category__menu-drawer--item"],
       "id": "menu-item-category__menu",
