@@ -322,13 +322,6 @@
   margin: 0;
 }
 
-.container--search__filter--trigger .paragraph {
-  letter-spacing: 1.6px;
-  font-family: Lato, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-}
-
 .container--content-seo-category .heading {
   color: #000;
   font-size: 18px;
@@ -507,6 +500,13 @@
   text-align: center;
   font-weight: 400;
   font-family: Lato;
+}
+
+.container--search__filter--trigger .paragraph {
+  letter-spacing: 1.6px;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .container--about-us__title .heading {
@@ -974,6 +974,34 @@
   margin-bottom: 30px;
 }
 
+.container--institucional__wrapper-terms-of-use--content {
+  counter-reset: list-counter;
+}
+.container--institucional__wrapper-terms-of-use--content .paragraph {
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.container--institucional__wrapper-terms-of-use--content .link {
+  text-decoration: none;
+  color: black;
+}
+.container--institucional__wrapper-terms-of-use--content .list {
+  list-style: none;
+  font-weight: 300;
+}
+.container--institucional__wrapper-terms-of-use--content .listItem {
+  counter-increment: list-counter;
+  display: flex;
+}
+.container--institucional__wrapper-terms-of-use--content .listItem::before {
+  content: counter(list-counter) ". ";
+  margin-right: 10px;
+  line-height: 1.5;
+}
+
 .container--tips__title, .container--tips__subTitle {
   margin: 15px 0;
   display: block;
@@ -1032,34 +1060,6 @@
 }
 .container .list--tips__article-1--text .listItem .paragraph--tips__article-1--text, .container .list--tips__article-1--text .listItem .paragraph--tips__article-2--text, .container .list--tips__article-2--text .listItem .paragraph--tips__article-1--text, .container .list--tips__article-2--text .listItem .paragraph--tips__article-2--text {
   padding-left: 20px;
-}
-
-.container--institucional__wrapper-terms-of-use--content {
-  counter-reset: list-counter;
-}
-.container--institucional__wrapper-terms-of-use--content .paragraph {
-  text-decoration: none;
-  letter-spacing: 0.3px;
-  vertical-align: baseline;
-  font-weight: 300;
-  margin-bottom: 30px;
-}
-.container--institucional__wrapper-terms-of-use--content .link {
-  text-decoration: none;
-  color: black;
-}
-.container--institucional__wrapper-terms-of-use--content .list {
-  list-style: none;
-  font-weight: 300;
-}
-.container--institucional__wrapper-terms-of-use--content .listItem {
-  counter-increment: list-counter;
-  display: flex;
-}
-.container--institucional__wrapper-terms-of-use--content .listItem::before {
-  content: counter(list-counter) ". ";
-  margin-right: 10px;
-  line-height: 1.5;
 }
 
 .container--work__text {

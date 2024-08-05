@@ -227,34 +227,32 @@
       }
     }
 
-    &--emailAndPassword{
-      .inputContainerEmail{
-        &::before{
+    &--emailAndPassword {
+      .inputContainerEmail {
+        &::before {
           content: "Seu email";
           font-weight: 300;
           font-size: 14px;
           margin-bottom: 5px;
           display: block;
-
         }
       }
 
-      .inputContainerPassword{
-        &::before{
+      .inputContainerPassword {
+        &::before {
           content: "Senha";
           font-weight: 300;
           font-size: 14px;
           margin-bottom: 5px;
           display: block;
-
         }
       }
 
-      .forgotPasswordLink{
+      .forgotPasswordLink {
         color: black;
       }
 
-      .dontHaveAccount{
+      .dontHaveAccount {
         color: black;
       }
     }
@@ -332,7 +330,7 @@
             content: "confirmar";
             @extend %link;
             text-transform: uppercase;
-            font-weight: 900 ;
+            font-weight: 900;
             text-decoration: none;
           }
         }
@@ -364,4 +362,109 @@
       }
     }
   }
+}
+
+// css do copmponente de review, esta nesse arquivo devido a bug da vtex..
+
+:global(.vtex-reviews-and-ratings-3-x-container){
+  margin-bottom: 50px;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+
+  &::before {
+    content: "Média de avaliações:";
+    font-size: 16px;
+  }
+
+  :global(.vtex-reviews-and-ratings-3-x-star) {
+    font-size: 20px;
+    color: gray;
+  }
+}
+
+:global(.vtex-reviews-and-ratings-3-x-graphContainer) {
+  &:first-child {
+    :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+      background-image: url(assets/icons/pdp/icon-avaliacao-5.png);
+      width: 112px;
+      height: 25px;
+      display: block;
+      font-size: 0;
+    }
+  }
+  &:nth-child(2) {
+    :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+      background-image: url(assets/icons/pdp/icon-avaliacao-4.png);
+      width: 112px;
+      height: 25px;
+      display: block;
+      font-size: 0;
+    }
+  }
+  &:nth-child(3) {
+    :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+      background-image: url(assets/icons/pdp/icon-avaliacao-3.png);
+      width: 112px;
+      height: 25px;
+      display: block;
+      font-size: 0;
+    }
+  }
+  &:nth-child(4) {
+    :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+      background-image: url(assets/icons/pdp/icon-avaliacao-2.png);
+      width: 112px;
+      height: 25px;
+      display: block;
+      font-size: 0;
+    }
+  }
+  &:nth-child(5) {
+    :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+      background-image: url(assets/icons/pdp/icon-avaliacao-1.png);
+      width: 112px;
+      height: 25px;
+      display: block;
+      font-size: 0;
+    }
+  }
+
+  :global(.vtex-reviews-and-ratings-3-x-graphBarContainer) {
+    display: inline-block;
+    height: 9px;
+    width: 200px;
+    background-color: #e8e9e9;
+    margin-right: 8px;
+    border-radius: 10px;
+    flex: initial;
+  }
+
+  :global(.vtex-reviews-and-ratings-3-x-graphBarPercent) {
+    display: none;
+  }
+
+}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) {
+  :global(.c-action-primary) {
+    color: #000;
+  }
+}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewCommentsContainer) {
+  display: none;
+}
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+  display: none;
+}
+:global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) {
+  display: none;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage) {
+  display: none;
 }

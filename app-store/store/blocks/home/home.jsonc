@@ -10,7 +10,8 @@
       "flex-layout.row#third__banner-area",
       "rich-text#physical__stories-title",
       "flex-layout.row#physical__stories",
-      "rich-text#content-seo"
+      "rich-text#content-seo",
+      "flex-layout.row#footer__newsletter"
     ]
   }
 }

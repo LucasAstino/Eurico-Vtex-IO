@@ -163,6 +163,10 @@
       margin-right: auto;
       max-width: 1500px;
 
+      @include desktop {
+        padding: 20px 0;
+      }
+
       .stretchChildrenWidth {
         display: contents;
       }
@@ -208,6 +212,9 @@
   }
 
   &--product-breadcrumb {
-    padding-left: 40px;
+    @include desktop {
+      padding-left: 40px;
+    }
   }
 }
+

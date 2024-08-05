@@ -1,3 +1,7 @@
+.wrapper--buy-fast-pdp--stuck {
+  height: 0 !important;
+}
+
 .wrapper--sticky-header {
   background-color: white !important;
   position: absolute !important;

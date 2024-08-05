@@ -10,3 +10,7 @@
     display: contents;
   }
 }
+
+.stackItem--flags-pdp {
+  width: 100%;
+}
