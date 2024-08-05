@@ -6,16 +6,23 @@
       "colSizing": "auto"
     },
     "children": [
-      "rich-text#footer__address-item",
-      "rich-text#footer__address-item"
+      "rich-text#footer__address-item-01",
+      "rich-text#footer__address-item-02"
     ]
   },
 
-  "rich-text#footer__address-item": {
+  "rich-text#footer__address-item-01": {
     "title": "Endereço e Informações de Contato",
     "props": {
       "blockClass": "footer__address-item",
-      "text": "###### EURICO \n Oscar Freire, 550\nJardins - São Paulo/SP\nCEP:01426-000\nFone:(11) 3061-3050"
+      "text": "###### EURICO \n Av.Jandira, 49\nMoema - São Paulo/SP\nCEP:04080-000\nFone:(11) 5054-8877"
+    }
+  },
+  "rich-text#footer__address-item-02": {
+    "title": "Endereço e Informações de Contato",
+    "props": {
+      "blockClass": "footer__address-item",
+      "text": "###### Eurico Max \n Oscar Freire, 550\nJardins - São Paulo/SP\nCEP:01426-000\nFone:(11) 3061-3050"
     }
   }
 }
