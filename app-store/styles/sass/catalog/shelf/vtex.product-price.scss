@@ -12,6 +12,7 @@
     @include tablet {
       border: 0;
       width: 100% !important;
+      text-align: left;
     }
     .sellingPriceValue {
       margin-left: 5px;
@@ -30,6 +31,9 @@
   text-decoration: line-through;
   -webkit-text-stroke: 0.2px;
   width: fit-content !important;
+  @include tablet{
+    padding-bottom: 10px;
+  }
   .listPriceValue--product-list-price__category{
     text-decoration: none;
   }
