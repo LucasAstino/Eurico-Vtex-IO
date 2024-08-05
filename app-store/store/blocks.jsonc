@@ -9,7 +9,7 @@
     "parent": {
       "challenge": "challenge.profile"
     }
-  },
+  }
 
   // "store.login": {
   //   "blocks": ["login-content#default"]
@@ -23,7 +23,7 @@
   //   }
   // },
 
-  "store.product-review-form": {
-    "blocks": ["product-review-form"]
-  }
+  // "store.product-review-form": {
+  //   "blocks": ["product-review-form"]
+  // }
 }
