@@ -39,11 +39,11 @@
     }
   },
 
-  "product-list-price#summary": {
-    "props": {
-      "blockClass": "summary"
-    }
-  },
+  // "product-list-price#summary": {
+  //   "props": {
+  //     "blockClass": "summary"
+  //   }
+  // },
   "flex-layout.row#selling-price-savings": {
     "props": {
       "horizontalAlign": "center",
@@ -59,6 +59,7 @@
   },
   "product-installments#summary": {
     "props": {
+      "message": "{installmentsNumber} de {installmentValue}",
       "blockClass": "summary"
     }
   },
