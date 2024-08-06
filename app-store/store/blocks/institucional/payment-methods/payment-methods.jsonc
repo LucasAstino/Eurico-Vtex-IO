@@ -6,6 +6,7 @@
   },
 
   "flex-layout.row#institucional__wrapper-payment-methods": {
+    "title": "Body",
     "props": {
       "blockClass": "institucional__wrapper"
     },
@@ -16,6 +17,7 @@
   },
 
   "flex-layout.col#institucional__wrapper-right-payment-methods": {
+    "title": "Conteudo",
     "props": {
       "blockClass":"institucional__wrapper-right"
     },
@@ -25,6 +27,7 @@
     ]
   },
   "flex-layout.col#institucional__wrapper-left-payment-methods": {
+    "title": "Menu",
     "props": {
       "blockClass":"institucional__wrapper-left"
     },
@@ -36,6 +39,7 @@
 
 
   "rich-text#payment-methods__title": {
+    "title": "Titulo da pagina",
     "props": {
       "blockClass":"institucional__wrapper-right--title",
       "text": "# PREÇOS E FORMAS DE PAGAMENTO"
@@ -72,12 +76,14 @@
     "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-first"]
   },
   "rich-text#institucional__wrapper-payment-methods--group-question-first": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Os preços do site são iguais aos das lojas físicas?"
     }
   },
   "rich-text#institucional__wrapper-payment-methods--group-answer-first": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Sim, via de regra todas as nossas lojas – físicas e virtual – praticam os mesmos preços de venda. No entanto, podem ocorrer promoções ou preços diferenciados em um ou outro canal de venda."
@@ -106,12 +112,14 @@
     "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-second"]
   },
   "rich-text#institucional__wrapper-payment-methods--group-question-second": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Quais são nossas formas de pagamento?"
     }
   },
   "rich-text#institucional__wrapper-payment-methods--group-answer-second": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","payment-methods"],
       "text": "Você pode escolher uma das seguintes formas de pagamento do seu pedido:\n\n1. Cartão de Crédito – compras no cartão de crédito podem ser parceladas em até 6x sem juros, com parcelas mínimas de R$ 70,00 (para efeito de cálculo das parcelas mínimas, consideramos apenas o valor da mercadoria, sem o frete). Aceitamos as seguintes bandeiras de cartão de crédito:\n- Visa\n- Mastercard\n- Diners\n- American Express\n- Hipercard\n- Elo \n2. Boleto Bancário – você poderá acessar o boleto no ato da finalização da sua compra, além de receber o link por e-mail. O prazo para pagamento é de até três dias corridos após a finalização da compra, mas o quanto antes você pagar, mais rápido receberá sua encomenda. Fique atento ao prazo, pois depois da data estipulada o pedido é automaticamente cancelado.\n\n3. Depósito bancário à vista – ao selecionar o método de pagamento Levpay e clicar em “finalizar a compra”, você será direcionado à página onde deverá escolher o banco de sua preferência. Seu pedido só será efetivado após essa etapa. Na sequência, você receberá um e-mail com as instruções para o pagamento e um link para envio do comprovante. Fique atento ao prazo, pois após a data limite de três dias corridos o pedido é automaticamente cancelado."
@@ -139,12 +147,14 @@
     "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-third"]
   },
   "rich-text#institucional__wrapper-payment-methods--group-question-third": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Perdi o prazo para pagamento à vista. E agora?"
     }
   },
   "rich-text#institucional__wrapper-payment-methods--group-answer-third": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","payment-methods"],
       "text": "No caso de pagamentos à vista (boleto ou depósito bancário), os itens selecionados no pedido só ficam reservados até a data estipulada para o pagamento. Portanto, não efetue o pagamento após a data de vencimento sem antes confirmar por e-mail (pedido@eurico.com.br) se a mercadoria continua disponível!"
@@ -175,12 +185,14 @@
     "children": ["rich-text#institucional__wrapper-payment-methods--group-answer-fourth"]
   },
   "rich-text#institucional__wrapper-payment-methods--group-question-fourth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Qual é o procedimento para aprovação de compras com cartão de crédito?"
     }
   },
   "rich-text#institucional__wrapper-payment-methods--group-answer-fourth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","payment-methods"],
       "text": "Independente da aprovação do seu pagamento pela instituição financeira, realizamos uma análise interna das informações do seu pedido por meio da validação de dados cadastrais para sua segurança. Caso necessário, você será contatado para confirmação de dados. Por isso é importante que seu cadastro esteja sempre completo e atualizado.\n\nA análise é realizada em até dois dias úteis após a finalização do pedido. Nesse período, você poderá ser contatado por um colaborador da Eurico para a confirmação de dados. Assim que seu pedido for aprovado você receberá um e-mail de confirmação.\n\nReforçamos nosso comprometimento com a segurança dos cartões de crédito na Internet, garantindo aos nossos clientes total segurança em nosso site."

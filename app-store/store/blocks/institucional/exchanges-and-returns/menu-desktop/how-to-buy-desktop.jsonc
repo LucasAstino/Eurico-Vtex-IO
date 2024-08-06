@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#menu-desktop--exchanges-and-returns": {
+    "title": "Menu Desktop",
     "children": [
       "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-1",
       "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-2",
@@ -13,54 +14,63 @@
     ]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-1": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Como comprar](/institucional/como-comprar)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-2": {
+    "title": "Link Menu",
     "props": {
       "blockClass": "institucional__wrapper-menu-item",
       "text": "[Guia de medidas](/institucional/guia-de-medidas)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-3": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item"],
       "text": "[Nossas políticas](/institucional/nossas-politicas)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-4": {
+    "title": "Link Menu",
     "props": {
       "blockClass": "institucional__wrapper-menu-item",
       "text": "[Preços e Formas de Pagamento](/institucional/precos-e-formas-de-pagamento)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-5": {
+    "title": "Link Menu",
     "props": {
       "blockClass": "institucional__wrapper-menu-item",
       "text": "[Prazo de Entregas e Frete](/institucional/prazo-de-entregas-e-frete)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-6": {
+    "title": "Link Menu",
     "props": {
       "blockClass": "institucional__wrapper-menu-item",
       "text": "[Perguntas frequentes](/institucional/perguntas-frequentes)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-7": {
+    "title": "Link Menu",
     "props": {
       "blockClass": "institucional__wrapper-menu-item",
       "text": "[Política de privacidade](/institucional/politica-de-privacidade)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-8": {
+    "title": "Link Menu",
     "props": {
       "blockClass": "institucional__wrapper-menu-item",
       "text": "[Termos de uso](/termosdeuso)"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns-menu-item-9": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item", "active"],
       "text": "[Trocas e devoluções](/institucional/trocas-e-devolucoes)"

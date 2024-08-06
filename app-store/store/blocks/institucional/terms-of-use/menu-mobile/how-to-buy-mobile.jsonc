@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--terms-of-use": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-terms-of-use"
     ]
@@ -40,6 +41,7 @@
     ]
   },
   "rich-text#menu-mobile-terms-of-use-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "TERMOS DE USO"

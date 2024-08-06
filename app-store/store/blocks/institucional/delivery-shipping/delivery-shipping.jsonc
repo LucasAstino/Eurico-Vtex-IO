@@ -6,6 +6,7 @@
   },
 
   "flex-layout.row#institucional__wrapper-delivery-shipping": {
+    "title": "Body",
     "props": {
       "blockClass": "institucional__wrapper"
     },
@@ -16,6 +17,7 @@
   },
 
   "flex-layout.col#institucional__wrapper-right-delivery-shipping": {
+    "title": "Conteudo",
     "props": {
       "blockClass":"institucional__wrapper-right"
     },
@@ -25,6 +27,7 @@
     ]
   },
   "flex-layout.col#institucional__wrapper-left-delivery-shipping": {
+    "title": "Menu",
     "props": {
       "blockClass":"institucional__wrapper-left"
     },
@@ -36,6 +39,7 @@
 
 
   "rich-text#delivery-shipping__title": {
+    "title": "Titulo da pagina",
     "props": {
       "blockClass":"institucional__wrapper-right--title",
       "text": "# ENTREGA E FRETE"
@@ -75,11 +79,13 @@
     "children": ["rich-text#institucional__wrapper-delivery-shipping--group-answer-first"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-first": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "Como são enviadas as encomendas?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-first": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Para que você sempre receba da Eurico um produto de ótima qualidade, ele passa pelos olhos atentos da nossa equipe do setor de despachos. Os calçados são embalados um a um em plástico bolha e cuidadosamente acondicionados em embalagem apropriada de forma a protegê-los durante o transporte.\nSe durante a separação do pedido, percebermos que algum dos produtos escolhidos apresenta qualquer problema relativo à qualidade o envio da encomenda será suspenso. Neste caso, entraremos em contato para que você escolha pela substituição por outro produto (no caso de diferença de valor, ela deverá ser acertada conforme o caso) ou pelo cancelamento da compra do produto inadequado e devolução do valor pago por ele.\nO envio de todas as encomendas é feito através de um serviço terceirizado contratado pela Eurico Web.\nCaso a embalagem esteja danificada/avariada no ato de entrega não receba o pacote. Após a conclusão da entrega, não podemos mais nos responsabilizar por danos ou extravio do pedido. Por isso, orientamos que você recuse o pedido imediatamente no momento da entrega caso note que a embalagem tem alguma avaria, como: caixa rasgada, amassada, aberta ou com qualquer outro sinal de violação.\nImportante: Se você mora em um prédio ou condomínio, pedimos que deixe a portaria informada para não receber seu pedido caso a caixa esteja danificada. Nos contate pelo e-mail pedido@eurico.com.br ou pelo WhatsApp (11) 94557-7834 para nos informar sobre o caso e obter suporte para receber seu pedido corretamente."
@@ -108,11 +114,13 @@
     "children": ["rich-text#institucional__wrapper-delivery-shipping--group-answer-second"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-second": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "Qual é o prazo de entrega do meu pedido?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-second": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Sabemos que nossos produtos são esperados ansiosamente depois da compra feita. Por isso, procuramos atender todos os pedidos com a maior agilidade possível. Estando disponíveis os artigos solicitados, providenciamos o envio no prazo máximo de dois dias úteis. No caso de pagamentos à vista (depósito bancário ou boleto), precisamos contar com um pouquinho mais da sua paciência, pois esse prazo passa a valer a partir da confirmação do seu pagamento pela instituição bancária, o que pode levar mais dois úteis.\nPagamento confirmado, mercadoria embalada – chegou a hora do envio da sua encomenda. A partir daí, os prazos da empresa de entregas devem ser observados.\nAo selecionar a opção de frete no ato da sua compra, o site apresentará automaticamente o prazo total de entrega do seu pedido."
@@ -140,11 +148,13 @@
     "children": ["rich-text#institucional__wrapper-delivery-shipping--group-answer-third"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-third": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "Quais são as opções de frete?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-third": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Trabalhamos com entregas via Correios (Sedex e PAC) e transportadoras terceirizadas.\nO valor do frete varia de acordo com a sua cidade, o peso da sua encomenda e o tipo de envio que você escolher. Ele é calculado automaticamente pelo site, e você pode visualizá-lo antes da finalização do seu pedido, assim como o prazo estimado. Depois do pedido enviado, você pode acompanhar as atualizações do status da sua compra por e-mail e pelo site."
@@ -175,11 +185,13 @@
     "children": ["rich-text#institucional__wrapper-delivery-shipping--group-answer-fourth"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-fourth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "Vou receber minha encomenda em casa?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-fourth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Sim, via de regra as encomendas são entregues no endereço informado no pedido, independentemente do tipo de envio selecionado.\nPORÉM: alguns endereços foram identificados pelo Departamento de Segurança Empresarial da ECT como áreas de difícil acesso ou de risco. Se o seu endereço fizer parte de alguma dessas áreas, seu pedido poderá ser direcionado para retirada na unidade dos Correios mais próxima ao CEP de destino. É chato, nós sabemos, mas são regras dos Correios sobre as quais não temos como interferir. A cobrança do frete nesses casos permanece a mesma.\nCaso a embalagem esteja danificada/avariada no ato de entrega não receba o pacote. Após a conclusão da entrega, não podemos mais nos responsabilizar por danos ou extravio do pedido. Por isso, orientamos que você recuse o pedido imediatamente no momento da entrega caso note que a embalagem tem alguma avaria, como: caixa rasgada, amassada, aberta ou com qualquer outro sinal de violação.\nImportante: Se você mora em um prédio ou condomínio, pedimos que deixe a portaria informada para não receber seu pedido caso a caixa esteja danificada. Nos contate pelo e-mail pedido@eurico.com.br ou pelo WhatsApp (11) 94557-7834 para nos informar sobre o caso e obter suporte para receber seu pedido corretamente."
@@ -207,11 +219,13 @@
     "children": [ "rich-text#institucional__wrapper-delivery-shipping--group-answer-sixth"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-sixth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "E se eu não estiver disponível para receber minha encomenda?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-sixth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "A empresa de entregas faz três tentativas de entrega; depois da terceira tentativa sem sucesso, a mercadoria é devolvida à Eurico, o que acarreta numa nova cobrança de frete. Como não queremos que isso aconteça, é importante você acompanhar o processo de envio da sua encomenda por meio do código de rastreamento que informamos após sua postagem.\nSe não puder estar no seu endereço na data prevista para entrega, sugerimos que você peça para outra pessoa recebê-la, deixando-a previamente informada sobre a compra para que não haja uma devolução desnecessária."
@@ -240,11 +254,13 @@
     "children": [ "rich-text#institucional__wrapper-delivery-shipping--group-answer-seven"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-seven": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "Posso comprar no site e retirar na loja?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-seven": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Pode, caso o CEP informado no pedido seja de São Paulo – Capital. Neste caso, não há cobrança de frete, claro! Basta selecionar a loja de sua preferência na finalização do pedido e aguardar nosso e-mail de confirmação com as informações sobre a retirada.\nNosso prazo para separação das encomendas é de até dois dias úteis a partir da aprovação do pagamento e você receberá nosso contato assim que o pacote estiver disponível para a retirada.\nAo comparecer à loja para a retirada, você deverá trazer o e-mail com a confirmação do seu pedido (pode ser impresso ou na tela do celular) e apresentar um documento com foto original. O pedido ficará disponível para retirada por 30 dias a partir do envio do e-mail de confirmação. Após esse prazo, ele será automaticamente cancelado e o valor pago será registrado como um crédito a ser utilizado numa próxima compra.\nCaso a retirada seja realizada por terceiros, solicitamos que especifique esta informação no campo de observações do pedido ou posteriormente, por telefone (11) 5054-8878 ou e-mail pedido@eurico.com.br. Ressaltamos que sem a informação de retirada por terceiros, nossa equipe não está autorizada a liberar a encomenda.\nEventuais cancelamentos por arrependimento, trocas ou defeitos seguem a política padrão dos canais online.\nVerifique no e-mail de confirmação os horários de funcionamento da loja selecionada.\nEndereços:\nEurico: Av. Jandira 49, São Paulo, SP\nEurico Max: Rua Oscar Freire, 550, São Paulo, SP"
@@ -273,11 +289,13 @@
     "children": [ "rich-text#institucional__wrapper-delivery-shipping--group-answer-eight"]
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-question-eight": {
+    "title": "Titulo - Dropdown",
     "props": {
       "text": "Qual é a área de atendimento dos pedidos?"
     }
   },
   "rich-text#institucional__wrapper-delivery-shipping--group-answer-eight": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Qualquer pedido feito para entrega dentro do território nacional, independente da sua cidade, pode ser atendido pela Eurico.\nSó não atendemos pedidos de fora do Brasil."

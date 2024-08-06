@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--how-to-buy": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-how-to-buy"
     ]
@@ -39,6 +40,7 @@
     ]
   },
   "rich-text#menu-mobile-how-to-buy-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "COMO COMPRAR"

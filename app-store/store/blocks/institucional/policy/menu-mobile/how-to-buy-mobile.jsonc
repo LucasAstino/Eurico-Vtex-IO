@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--policy": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-policy"
     ]
@@ -39,6 +40,7 @@
     ]
   },
   "rich-text#menu-mobile-policy-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "NOSSAS POLÍTICAS"

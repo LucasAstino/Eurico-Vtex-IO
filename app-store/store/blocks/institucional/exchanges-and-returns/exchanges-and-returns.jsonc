@@ -6,6 +6,7 @@
   },
 
   "flex-layout.row#institucional__wrapper-exchanges-and-returns": {
+    "title": "Body",
     "props": {
       "blockClass": "institucional__wrapper"
     },
@@ -16,6 +17,7 @@
   },
 
   "flex-layout.col#institucional__wrapper-right-exchanges-and-returns": {
+    "title": "Conteudo",
     "props": {
       "blockClass":"institucional__wrapper-right"
     },
@@ -25,6 +27,7 @@
     ]
   },
   "flex-layout.col#institucional__wrapper-left-exchanges-and-returns": {
+    "title": "Menu",
     "props": {
       "blockClass":"institucional__wrapper-left"
     },
@@ -34,6 +37,7 @@
   },
 
   "rich-text#exchanges-and-returns__title": {
+    "title": "Titulo da pagina",
     "props": {
       "blockClass":"institucional__wrapper-right--title",
       "text": "# TROCAS E DEVOLUÇÕES"
@@ -74,12 +78,14 @@
     "children": ["rich-text#institucional__wrapper-exchanges-and-returns--group-answer-first"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-first": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "E se o sapato não servir?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-first": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":"institucional__wrapper--group-answer",
       "text": "Nossa maior satisfação é ver nossos clientes felizes e satisfeitos com as compras feitas conosco, mas sabemos que não é sempre que isso acontece.\n\nPara certificar-se que o calçado está confortável, sugerimos que logo que receba sua encomenda faça um teste de calce, caminhando um pouco sobre um tapete. Dica: faça o teste no fim do dia, quando os pés estão mais inchados. Se estiver um pouco apertado na largura e for de couro natural, é provável que depois de alguns dias de uso ele ceda e adapte aos seus pés. Se estiver um pouco largo, pode ser que com uma palmilha de espuma você resolva o problema. Porém, se o calçado definitivamente não servir ou não estiver confortável, não sofra! Teremos prazer em efetuar uma troca para você, de acordo com nossa política de vendas e trocas."
@@ -108,12 +114,14 @@
     "children": ["rich-text#institucional__wrapper-exchanges-and-returns--group-answer-second"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-second": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Como devo proceder em caso de troca?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-second": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "Se você não ficar satisfeito com o produto adquirido, poderá solicitar a troca por qualquer outro item disponível no site, desde que observadas as seguintes condições:\n\n- A devolução deve ocorrer dentro do prazo de 20 dias após o recebimento da encomenda;\n- O produto não pode ter sido usado e deverá estar em perfeitas condições, dentro da respectiva caixa da forma como foi recebido, com a etiqueta de código de barras afixada e acompanhado da nota fiscal.\n\nPara solicitar uma troca, acesse sua conta no canto superior direito da tela e clique em “Meus Pedidos”. Localize o pedido que você deseja trocar e clique em “Solicitar Troca/Devolução”. Selecione a opção desejada e informe o motivo da solicitação. A seguir, você receberá o protocolo de sua troca com todas as informações a respeito dela.\n\nSe preferir, você também pode escrever para pedido@eurico.com.br informando o motivo da troca e as especificações do produto a ser devolvido e do que deseja receber em substituição a ele: código, cor e tamanho de ambos. Após este contato, você receberá por e-mail as instruções para sua devolução.\n\nCaso você opte por receber um produto de valor inferior, o valor remanescente será registrado como crédito em seu cadastro. Os créditos computados em virtude dessa situação terão validade máxima de um ano. Produtos comprados em datas promocionais (Black Friday e liquidações, por exemplo) não poderão ser trocados."
@@ -141,12 +149,14 @@
     "children": ["rich-text#institucional__wrapper-exchanges-and-returns--group-answer-third"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-third": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Quem paga pelo frete em caso de troca?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-third": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "A Eurico oferece o frete de devolução na primeira troca (envio econômico).\nEste benefício é válido somente para a primeira troca"
@@ -177,12 +187,14 @@
     "children": ["rich-text#institucional__wrapper-exchanges-and-returns--group-answer-fourth"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-fourth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Posso trocar na loja física uma compra feita pelo site?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-fourth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "Sim! Caso tenha a possibilidade de vir pessoalmente à Eurico ou à Eurico Max, esta é a melhor forma de fazer a sua troca, pois poderá ver e experimentar todos os produtos que quiser e assim, fazer a escolha mais acertada."
@@ -210,12 +222,14 @@
     "children": [ "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-sixth"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-sixth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Quero trocar um sapato e agora ele entrou em promoção. Qual valor eu terei de crédito?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-sixth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "Para efeito de cálculo do valor a ser creditado em caso de troca, consideramos o preço promocional vigente no momento da devolução do produto, independentemente do valor pago por ele. Assim, ao trocar um produto cujo preço foi reduzido (em épocas de liquidação, por exemplo), sugerimos que você troque por outro produto também em promoção."
@@ -243,12 +257,14 @@
     "children": [ "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-seven"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-seven": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Como devo proceder em caso de devolução?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-seven": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "De acordo com a lei 8078 de 11/09/1990 artigo 49, o consumidor pode desistir da compra no prazo de 7 dias a contar do ato do recebimento do pedido, desde que a compra tenha sido feita fora do estabelecimento comercial (Internet, e-mail ou telefone). Neste caso, a Eurico se responsabiliza pela devolução ou estorno integral do valor pago pela compra, desde que observadas as seguintes condições:\n\n- A devolução deve ocorrer dentro do prazo de 7 dias após o recebimento da encomenda;\n- O produto não poderá ter sido usado e deverá estar em perfeitas condições, dentro da respectiva caixa e com a etiqueta de código de barras afixada, acompanhado da nota fiscal.\nPara solicitar uma devolução, acesse sua conta no canto superior direito da tela e clique em “Meus Pedidos”. Localize o pedido que você deseja devolver e clique em “Solicitar Troca/Devolução”. Selecione a opção desejada e informe o motivo da solicitação. A seguir, você receberá o protocolo de sua devolução com todas as informações a respeito dela.\n\nSe preferir, você também pode escrever para pedido@eurico.com.br informando o código, cor e tamanho do produto a ser devolvido e o motivo. Após este contato, você receberá por e-mail as instruções para sua devolução.\n\nQuando recebermos a sua devolução, será feita uma análise técnica e depois da sua aprovação, providenciaremos o reembolso em até cinco dias úteis.\nIMPORTANTE: O reembolso ocorrerá no mesmo método de pagamento da transação inicial ou por meio de um vale-troca."
@@ -276,12 +292,14 @@
     "children": [ "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-eight"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-eight": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Como devo proceder em caso de defeito?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-eight": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "Somos bastante exigentes na escolha dos nossos fornecedores. Mesmo assim, para que você sempre receba da Eurico um produto de ótima qualidade, ele ainda passa pelos olhos atentos da nossa equipe do setor de despachos. Os calçados são embalados cuidadosamente para chegar às suas mãos em perfeitas condições, como se você estivesse comprando na loja. No entanto, estamos sujeitos a defeitos de fabricação que só aparecem após o uso do produto.\nCaso isso ocorra, escreva para sac@eurico.com.br. Após este contato, você receberá por e-mail as instruções para devolução e o Código de Autorização que abona o frete.\n\nQuando recebermos a sua devolução, o produto será submetido à análise do fabricante. Se for confirmado o defeito relatado, será providenciado o devido reparo ou, caso não haja condições de reparo, o produto com defeito será substituído por outro novo (mesmo modelo) sem qualquer custo adicional a você.\n\nNa hipótese de não termos disponibilidade do mesmo modelo, você poderá escolher outro produto de igual valor; caso você opte por um produto mais caro ou mais barato, a diferença será calculada e acertada conforme o caso.\n\nÉ importante ressaltar que nosso prazo de garantia é de 90 dias após o recebimento da encomenda. Assim, caso observe qualquer irregularidade relativa à qualidade do produto recebido, nos procure sem demora!"
@@ -310,12 +328,14 @@
     "children": [ "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-nine"]
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-question-nine": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "O que acontece quando há divergência do produto em relação às imagens do site?"
     }
   },
   "rich-text#institucional__wrapper-exchanges-and-returns--group-answer-nine": {
+    "title": "Resposta - Dropdown",
     "props": {
       "blockClass":["institucional__wrapper--group-answer","exchanges-and-returns"],
       "text": "As fotos deste site procuram mostrar com a máxima exatidão o produto real. Pequenas variações de cor são normais, já que pode haver distorções de tonalidades entre um monitor e outro, ou em função da luminosidade da foto, ou ainda em partidas diferentes do couro do calçado.\nMas se ao receber a encomenda você verificar uma divergência significativa do produto recebido em relação às suas imagens no site, por favor escreva para sac@eurico.com.br. Se sua reclamação for procedente, providenciaremos a substituição do produto sem qualquer custo adicional a você."

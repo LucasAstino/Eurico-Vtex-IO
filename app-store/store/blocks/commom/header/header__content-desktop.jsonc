@@ -6,6 +6,7 @@
     "children": ["flex-layout.row#header__content-sticky"]
   },
   "flex-layout.row#header__content-sticky": {
+    "title": "Header - Fixo",
     "props": {
       "blockClass": "header__content-sticky",
       "horizontalAlign": "center",

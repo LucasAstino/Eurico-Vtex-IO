@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--delivery-shipping": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-delivery-shipping"
     ]
@@ -40,6 +41,7 @@
     ]
   },
   "rich-text#menu-mobile-delivery-shipping-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "ENTREGA E FRETE"

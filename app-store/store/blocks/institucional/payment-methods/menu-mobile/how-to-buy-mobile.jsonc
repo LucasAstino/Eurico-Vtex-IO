@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--payment-methods": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-payment-methods"
     ]
@@ -40,6 +41,7 @@
     ]
   },
   "rich-text#menu-mobile-payment-methods-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "PREÇOS E FORMAS DE PAGAMENTO"

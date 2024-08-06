@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--privacy-policies": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-privacy-policies"
     ]
@@ -40,6 +41,7 @@
     ]
   },
   "rich-text#menu-mobile-privacy-policies-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "Políticas de trocas"

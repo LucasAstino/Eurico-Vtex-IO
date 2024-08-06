@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile#menu-mobile--exchanges-and-returns": {
+    "title": "Menu Mobile",
     "children": [
       "disclosure-layout#menu-mobile-exchanges-and-returns"
     ]
@@ -40,6 +41,7 @@
     ]
   },
   "rich-text#menu-mobile-exchanges-and-returns-active": {
+    "title": "Link Menu",
     "props": {
       "blockClass": ["institucional__wrapper-menu-item","institucional__wrapper-menu--trigger-mobile"],
       "text": "TROCAS E DEVOLUÇÕES"

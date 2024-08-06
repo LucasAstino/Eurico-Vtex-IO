@@ -6,6 +6,7 @@
   },
 
   "flex-layout.row#institucional__wrapper-policy": {
+    "title": "Body",
     "props": {
       "blockClass": "institucional__wrapper"
     },
@@ -16,6 +17,7 @@
   },
 
   "flex-layout.col#institucional__wrapper-right-policy": {
+    "title": "Conteudo",
     "props": {
       "blockClass":"institucional__wrapper-right"
     },
@@ -25,6 +27,7 @@
     ]
   },
   "flex-layout.col#institucional__wrapper-left-policy": {
+    "title": "Menu",
     "props": {
       "blockClass":"institucional__wrapper-left"
     },
@@ -36,6 +39,7 @@
 
 
   "rich-text#policy__title": {
+    "title": "Titulo da pagina",
     "props": {
       "blockClass":"institucional__wrapper-right--title",
       "text": "# NOSSAS POLÍTICAS"
@@ -73,12 +77,14 @@
     "children": ["rich-text#institucional__wrapper-policy--group-answer-first"]
   },
   "rich-text#institucional__wrapper-policy--group-question-first": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Segurança do site"
     }
   },
   "rich-text#institucional__wrapper-policy--group-answer-first": {
+    "title": "Resposta - Dropdown",
     "props": {
       "text": "No mundo real ou virtual é muito importante que você tenha sempre confiança na empresa que escolheu para fazer suas compras.\n\nCorresponder à sua confiança é fundamental para a Eurico, marca que reflete as bases sólidas sobre as quais foi construída ao longo de 80 anos de serviços prestados com muita honestidade e dedicação.\n\nPor favor, leia com atenção as informações sobre nossas políticas de vendas, onde informamos nossos deveres e direitos na relação com nossos clientes. Queremos continuar a fazer parte da sua vida, oferecendo sempre os melhores produtos e um atendimento de qualidade.\n\nEstamos à disposição para ouvi-lo! Se você tiver qualquer dúvida, crítica, elogio ou sugestão, por favor escreva para\n\n[sac@eurico.com.br](mailto:sac@eurico.com.br)\n\nou ligue para (11) 5054-8878."
     }
@@ -106,12 +112,14 @@
     "children": ["rich-text#institucional__wrapper-policy--group-answer-second"]
   },
   "rich-text#institucional__wrapper-policy--group-question-second": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Pagamentos"
     }
   },
   "rich-text#institucional__wrapper-policy--group-answer-second": {
+    "title": "Resposta - Dropdown",
     "props": {
       "text": "As transações comerciais feitas no nosso site são executadas com a tecnologia SSL (Secure Socket Layer), garantindo que todos os seus dados pessoais – tais como CPF, endereço de entrega, dados de cartões de crédito e histórico de pedidos – sejam sigilosos e jamais acessados por terceiros."
     }
@@ -138,12 +146,14 @@
     "children": ["rich-text#institucional__wrapper-policy--group-answer-third"]
   },
   "rich-text#institucional__wrapper-policy--group-question-third": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Política de privacidade"
     }
   },
   "rich-text#institucional__wrapper-policy--group-answer-third": {
+    "title": "Resposta - Dropdown",
     "props": {
       "text": "O grupo Eurico mantém os dados pessoais de seus clientes em absoluto sigilo, fornecendo exclusivamente à empresa de segurança contratada os dados armazenados no site com a finalidade de concretizar as compras. O cadastramento no site corresponde ao consentimento expresso quanto a coleta, uso, armazenamento e tratamento dos dados (inclusive pela terceira contratada).\n\nNão cedemos nem comercializamos dados pessoais de clientes a quaisquer outras empresas sob nenhuma hipótese. Sua utilização se restringe à efetivação das compras e, eventualmente, ao envio de catálogos e informativos sobre novidades, lançamentos e promoções.\n\nA qualquer momento você pode cancelar o recebimento dos nossos informativos por meio da opção correspondente, localizada no rodapé do e-mail marketing, ou no caso de correspondências impressas, escrevendo para sac@eurico.com.br.\n\nAinda visando garantir um ambiente de total confidencialidade, todas as informações pessoais fornecidas no momento do cadastro são armazenadas com criptografia.\n\n[Acesse nossa política de privacidade completa clicando aqui](/politicadeprivacidade)"
     }
@@ -173,12 +183,14 @@
     "children": ["rich-text#institucional__wrapper-policy--group-answer-fourth"]
   },
   "rich-text#institucional__wrapper-policy--group-question-fourth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Cookies"
     }
   },
   "rich-text#institucional__wrapper-policy--group-answer-fourth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "text": "O site http://www.eurico.com.br, de titularidade da Eurico Web, utiliza cookies para reconhecer um visitante constante e melhorar sua experiência de compra. Os cookies são pequenos arquivos de dados transferidos de um site da web para o disco do seu computador e não armazenam dados pessoais."
     }
@@ -205,12 +217,14 @@
     "children": [ "rich-text#institucional__wrapper-policy--group-answer-sixth"]
   },
   "rich-text#institucional__wrapper-policy--group-question-sixth": {
+    "title": "Titulo - Dropdown",
     "props": {
       "blockClass": "institucional__wrapper--group-question",
       "text": "Razão Social"
     }
   },
   "rich-text#institucional__wrapper-policy--group-answer-sixth": {
+    "title": "Resposta - Dropdown",
     "props": {
       "text": "Marketplace desenvolvido por:\n\nRazão Social:\n\nEURICO WEB LTDA - EPP\n\nCNPJ 12.579.806/0001-65\n\nAv. Jandira, 59 - Moema\n\nCEP 04080-000\n\nSão Paulo - SP\n\nTel: (11) 5054-8878\n\nE-Mail:\nsac@eurico.com.br"
     }
