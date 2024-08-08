@@ -2618,11 +2618,6 @@ esutils@^2.0.2:
   resolved "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-"eurico.agenciafg-custom@https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.14+build1721948870/public/@types/eurico.agenciafg-custom":
-  version "0.0.14"
-  resolved "https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.14+build1721948870/public/@types/eurico.agenciafg-custom"
-  integrity sha512-egK/hoIT378UhP78sL5xyxFKqrIq1rqaWW2qo4/wJE7wJWVOOQqGSnDc32PsycbMuDzOSpM5Ze65SBYPr4pI9g==
-
 exec-sh@^0.3.2:
   version "0.3.6"
   resolved "https://registry.npmjs.org/exec-sh/-/exec-sh-0.3.6.tgz"

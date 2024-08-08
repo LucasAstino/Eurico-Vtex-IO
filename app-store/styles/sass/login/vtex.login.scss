@@ -368,6 +368,46 @@
 
 :global(.vtex-reviews-and-ratings-3-x-container){
   margin-bottom: 50px;
+  width: fit-content;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-loginLink),
+:global(.vtex-reviews-and-ratings-3-x-writeReviewButton) {
+  max-width: 463px;
+  width: 100%;
+  height: 62px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewButton){
+  font-size: 0;
+  &::after {
+    content: "PUBLIQUE SUA OPINIÃO";
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+  }
+}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-down),
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-up) {
+  display: none;
 }
 
 :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
