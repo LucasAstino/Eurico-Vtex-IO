@@ -43,6 +43,11 @@
   color: #717171;
 }
 
+.container {
+  padding: 0;
+  max-width: unset;
+}
+
 .productNameContainer--product__info--name {
   margin-bottom: 10px;
 }
@@ -153,50 +158,11 @@
   width: 40px;
 }
 
-.container {
-  padding: 0;
-  max-width: unset;
-}
-
 .imageElement--fixed__whatsapp {
   display: block !important;
   position: fixed;
   right: 40px;
   bottom: 40px;
-}
-
-.imageElement--footer__atendimento-img {
-  max-width: 177px;
-  margin-top: 15px;
-}
-@media (max-width: 768px) {
-  .imageElement--footer__atendimento-img {
-    display: none;
-  }
-}
-@media (max-width: 1025px) {
-  .imageElement--selo {
-    width: fit-content;
-    height: auto;
-  }
-}
-@media (max-width: 768px) {
-  .imageElement--icon-encrypt {
-    max-width: 80px !important;
-  }
-}
-@media (max-width: 768px) {
-  .imageElement--icon-vtex {
-    max-width: 90px !important;
-  }
-}
-@media (max-width: 768px) {
-  .imageElement--icon-clearSale {
-    max-width: 160px !important;
-  }
-}
-.imageElement--agencia {
-  height: fit-content;
 }
 
 @media (max-width: 1025px) {
@@ -244,6 +210,40 @@
   margin-top: 20px;
 }
 
+.imageElement--footer__atendimento-img {
+  max-width: 177px;
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .imageElement--footer__atendimento-img {
+    display: none;
+  }
+}
+@media (max-width: 1025px) {
+  .imageElement--selo {
+    width: fit-content;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--icon-encrypt {
+    max-width: 80px !important;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--icon-vtex {
+    max-width: 90px !important;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--icon-clearSale {
+    max-width: 160px !important;
+  }
+}
+.imageElement--agencia {
+  height: fit-content;
+}
+
 .imageElement--about-us__fullbanner {
   width: 100%;
 }
@@ -268,21 +268,6 @@
   margin-bottom: 21px;
 }
 
-@media (min-width: 1025px) {
-  .imageElement--history__content-img {
-    width: 25%;
-    height: fit-content;
-    margin-right: 30px;
-  }
-}
-@media (min-width: 1025px) {
-  .imageElement--history__content-neighborhood--content-img-large {
-    width: 50%;
-    display: block;
-    margin: 40px auto 50px;
-  }
-}
-
 .imageElement--institucional__wrapper-guide--answer-first-image {
   width: 25%;
 }
@@ -301,5 +286,20 @@
   .imageElement--tips__article-1-img, .imageElement--tips__article-2-img {
     display: block;
     margin: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .imageElement--history__content-img {
+    width: 25%;
+    height: fit-content;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .imageElement--history__content-neighborhood--content-img-large {
+    width: 50%;
+    display: block;
+    margin: 40px auto 50px;
   }
 }

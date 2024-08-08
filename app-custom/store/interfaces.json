@@ -31,5 +31,8 @@
   },
   "fg-keepBuying":{
     "component":"KeepBuying"
+  },
+  "fg-custom-buy-too": {
+    "component": "CustomBuyToo"
   }
 }
