@@ -21,6 +21,7 @@
 }
 .container .clearLink .element .nameContainer {
   justify-content: center;
+  padding: 0;
 }
 .container .clearLink .element .nameContainer .productBrand {
   text-transform: uppercase;
@@ -33,6 +34,7 @@
   display: -webkit-box;
   font-size: 12px;
   -webkit-text-stroke: 0.2px;
+  margin-top: 18px;
 }
 @media (max-width: 768px) {
   .container .clearLink .element .nameContainer .productBrand {

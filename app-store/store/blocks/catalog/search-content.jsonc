@@ -4,7 +4,7 @@
     "children": [
       "image#category-banner",
       "flex-layout.row#searchinfo",
-      "flex-layout.row#filter__suggestion",
+      "flex-layout.row#buttons-category",
       "flex-layout.row#searchtitle",
       "__fold__",
       "flex-layout.row#result",
@@ -17,6 +17,61 @@
       "defaultGalleryLayout": "grid-4"
     }
   },
+
+  "flex-layout.row#buttons-category": {
+    "title": "Butons Category",
+    "children": ["custom-buttons-category#search"],
+    "props": {
+      "blockClass": "buttons-category"
+    }
+  },
+
+  "custom-buttons-category#search": {
+    "props": {
+        "isActive": true,
+        "buttonsContent": [
+          {
+            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/tenis_cateogria_eurico.png",
+            "buttonName": "TÊNIS"
+          },
+          {
+            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/mocassim_cateogria_eurico.png",
+            "buttonName": "MOCASSIM"
+          },
+          {
+            "categorySrc": "feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/sapatilha_cateogria_eurico.png",
+            "buttonName": "SAPATILHA"
+          },
+          {
+            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/tenis_cateogria_eurico.png",
+            "buttonName": "TÊNIS"
+          },
+          {
+            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/mocassim_cateogria_eurico.png",
+            "buttonName": "MOCASSIM"
+          },
+          {
+            "categorySrc": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/sapatilha_cateogria_eurico.png",
+            "buttonName": "SAPATILHA"
+          }
+        ]
+    },
+    "children": [
+        "list-context-renderer#buttons-category"
+    ]
+},
+"list-context-renderer#buttons-category": {
+    "props": {
+        "listElement": "div",
+        "itemElement": "div"
+    }
+},
   "flex-layout.row#result": {
     "title": "Resultado de busca",
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],

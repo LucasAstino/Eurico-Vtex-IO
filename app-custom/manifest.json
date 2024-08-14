@@ -10,6 +10,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.list-context": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.native-types": "0.x",
     "vtex.css-handles": "1.x",

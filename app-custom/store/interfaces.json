@@ -31,5 +31,13 @@
   },
   "fg-keepBuying":{
     "component":"KeepBuying"
+  },
+  "custom-buttons-category": {
+    "component": "CustomButtonsCategory",
+    "allowed": "*",
+    "composition": "children",
+    "content": {
+      "$ref": "app:eurico.agenciafg-custom#/definitions/CustomButtonsCategory"
+    }
   }
 }
