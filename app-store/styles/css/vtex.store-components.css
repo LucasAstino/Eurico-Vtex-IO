@@ -240,6 +240,27 @@
   align-items: flex-start;
 }
 
+.backToTopButtonActive {
+  bottom: 8rem;
+}
+.backToTopButtonActive :global(.vtex-button) {
+  background-color: transparent;
+  border: 0;
+}
+.backToTopButtonActive :global(.vtex-button) :global(.vtex-button__label) {
+  display: none;
+}
+.backToTopButtonActive :global(.vtex-button)::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-image: url(assets/icons/scrollup-icon.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .imageElement--banner-categoria {
   margin-top: 20px;
 }

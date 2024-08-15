@@ -21,8 +21,14 @@
       "flex-layout.row#category-menu",
       "search-bar",
       "flex-layout.row#header__icons",
-      "flex-layout.col#spacer"
+      "flex-layout.col#spacer",
+      "back-to-top-button"
     ]
+  },
+  "back-to-top-button":{
+    "props":{
+      "displayThreshold": 800
+    }
   },
   "flex-layout.row#header__content": {
     "props": {

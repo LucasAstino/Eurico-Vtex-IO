@@ -46,6 +46,30 @@
   }
 }
 
+.backToTopButtonActive {
+  bottom: 8rem;
+
+  :global(.vtex-button) {
+    background-color: transparent;
+    border: 0;
+
+    :global(.vtex-button__label) {
+      display: none;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 48px;
+      height: 48px;
+      background-image: url(assets/icons/scrollup-icon.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
 .imageElement{
   &--banner-categoria{
     margin-top: 20px;
