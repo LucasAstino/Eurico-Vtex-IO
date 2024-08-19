@@ -5,8 +5,11 @@
   },
   "header-layout.desktop": {
     "title": "Desktop",
+    "props": {
+      "blockClass": "header-layout__desktop"
+    },
     "children": [
-      "slider-layout#header__tipbar",
+      "slider-layout#header__topbarv2",
       "flex-layout.row#header__content",
       "flex-layout.row#category-menu",
       "sticky-layout#header__content"
@@ -17,7 +20,7 @@
     "title": "Mobile",
     "children": [
 
-      "slider-layout#header__tipbar",
+      "slider-layout#header__topbarv2",
       "sticky-layout#header__content-mobile",
       "search-bar#header__search"
     ]

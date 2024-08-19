@@ -3,12 +3,20 @@
   @include tablet{
     display: block;
   }
+  :global(.vtex-styleguide-9-x-input) {
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+  }
 
   :global(.vtex-input-prefix__group) {
-    border: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    flex-direction: row-reverse;
   }
   :global(.vtex-input__suffix) {
     padding: 0;
+    background-color: transparent;
   }
   :global(.vtex-store-components-3-x-searchIcon) {
     display: none;

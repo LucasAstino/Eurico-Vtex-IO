@@ -21,15 +21,6 @@
   }
 }
 
-.menuItem .styledLinkContent--header__institucional--link {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  color: black;
-  margin: 0;
-  -webkit-text-stroke: 0.2px;
-}
 .menuItem .styledLinkContent--wrapper {
   font-weight: 600;
   font-size: 10px;
@@ -42,9 +33,8 @@
 .menuItem .styledLinkContent--menu__item {
   font-size: 12px;
   font-weight: 400;
+  color: #fff;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  -webkit-text-stroke: 0.2px;
 }
 .menuItem--menu__item .styledLinkContent {
   border-bottom: 1px solid transparent;
@@ -53,22 +43,16 @@
   border-bottom: 1px solid #c00018;
 }
 
-.menuContainer--header__institucional--link {
-  gap: 35px;
-}
 .menuContainer .submenuWrapper--submenu__container {
   padding: 0;
   z-index: 1001;
 }
 .menuContainer--main__menu {
-  width: 60%;
+  width: 44%;
   margin: auto;
   justify-content: space-between;
 }
 
-.styledLinkContainer--header__institucional--link {
-  margin: 0;
-}
 .styledLinkContainer--wrapper {
   margin: 0;
   padding: 0;

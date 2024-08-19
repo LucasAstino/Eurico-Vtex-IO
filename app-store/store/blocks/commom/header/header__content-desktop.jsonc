@@ -40,13 +40,19 @@
       "fullWidth": true
     },
     "children": [
-      "menu#header__institucional--menu-institucional",
+      "flex-layout.col#spacer",
+      // "rich-text#empty-space",
       "flex-layout.col#spacer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
       "flex-layout.row#header__icons"
     ]
+  },
+  "rich-text#empty-space": {
+    "props": {
+      "text": ""
+    }
   },
   "flex-layout.row#header__icons": {
     "props": {
@@ -67,7 +73,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logo.svg",
+      "url": "assets/icons/new-logo.svg",
       "width": "164",
       "height": "47"
     }

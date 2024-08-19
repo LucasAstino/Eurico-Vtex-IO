@@ -73,6 +73,10 @@
     }
   }
 
+  &--header__content {
+    background: transparent;
+  }
+
   @media screen and (min-width: 40em) {
     &--menu-link,
     &--header__content {
@@ -114,6 +118,11 @@
 }
 
 .flexRow {
+
+  &--header__content {
+    background-color: transparent !important;
+    z-index: 99;
+  }
   &--header {
     &__content {
       background-color: white;
@@ -142,8 +151,7 @@
   }
 
   &--menu__category {
-    -webkit-box-shadow: 5px 5px 5px #f7f7f7;
-    box-shadow: 5px 5px 5px #f7f7f7;
+    z-index: 99;
   }
 
   &--physical__stories-row:first-child{

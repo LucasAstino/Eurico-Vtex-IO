@@ -1,0 +1,45 @@
+{
+  "slider-layout#header__topbarv2": {
+    "title": "Header - Topbar",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2000
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "header__topbar"
+    },
+    "children":[
+      "rich-text#header__topbar--item1",
+      "rich-text#header__topbar--item2",
+      "rich-text#header__topbar--item3"
+    ]
+  },
+  "rich-text#header__topbar--item1": {
+    "title": "Item 1",
+    "props": {
+      "text": "[Primeira Troca Grátis](/institucional/trocas-e-devolucoes)",
+      "blockClass": ["header__topbar--item", "header__topbar--item1"]
+    }
+  },
+  "rich-text#header__topbar--item2": {
+    "title": "Item 3",
+    "props": {
+      "text": "[Compre no site e retire nas lojas](/institucional/envio-e-entrega)",
+      "blockClass": ["header__topbar--item", "header__topbar--item2"]
+    }
+  },
+  "rich-text#header__topbar--item3": {
+    "title": "Item 4",
+    "props": {
+      "text": "Televendas (11) 5054-8878",
+      "blockClass": ["header__topbar--item", "header__topbar--item3","header__topbar--item-last"]
+    }
+  }
+}

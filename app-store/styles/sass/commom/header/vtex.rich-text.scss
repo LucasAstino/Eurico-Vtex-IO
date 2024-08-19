@@ -1,7 +1,7 @@
 
 
 .paragraph {
-  &--header__tipbar--item {
+  &--header__topbar--item {
     color: black;
     letter-spacing: 0.3px;
     vertical-align: baseline;
@@ -18,7 +18,7 @@
       cursor: pointer;
     }
   }
-  &--header__tipbar--item-last {
+  &--header__topbar--item-last {
     letter-spacing: 1.5px;
     -webkit-text-stroke: 0.2px;
   }
@@ -66,7 +66,7 @@
   }
 }
 .link {
-  &--header__tipbar--item {
+  &--header__topbar--item {
     text-decoration: none;
     color: black;
     letter-spacing: 0.3px;
