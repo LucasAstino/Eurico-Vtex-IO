@@ -43,6 +43,46 @@
             "default": null
           }
         }
+    },
+
+    "CustomButtonsBrands": {
+      "title": "Lista de Botões das Marcas",
+      "type": "object",
+      "properties": {
+        "isActive": {
+            "title": "Ativador",
+            "type": "boolean",
+            "default": null
+        },
+        "buttonsContent": {
+          "title": "Botões",
+          "type": "array",
+          "default": [],
+          "items": {
+              "$ref": "app:eurico.agenciafg-custom#/definitions/ButtonBrand"
+          }
+        }
+      }
+    },
+
+    "ButtonBrand": {
+        "title": "Botão da Marca",
+        "type": "object",
+        "properties": {
+          "categorySrc": {
+            "title": "Link Categoria",
+            "type": "string",
+            "default": null
+          },
+          "imageSrc": {
+            "title": "Link Imagem",
+            "type": "string",
+            "default": null,
+            "widget": {
+              "ui:widget": "image-uploader"
+            }
+          }
+        }
     }
   }
 }

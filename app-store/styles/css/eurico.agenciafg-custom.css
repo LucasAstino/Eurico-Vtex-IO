@@ -15,6 +15,70 @@
   cursor: pointer;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+.pagination .buttonPrev {
+  background-image: url(/arquivos/icon-button-previous.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  height: 30px;
+  display: block;
+  order: -1;
+  width: 22px;
+}
+.pagination .buttonNext {
+  background-image: url(/arquivos/icon-button-next.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  height: 30px;
+  display: block;
+  order: 1;
+  width: 22px;
+}
+.pagination .backToFirstContainer {
+  line-height: 22px;
+  height: fit-content;
+}
+.pagination .backToFirstContainer .backToFirst {
+  text-decoration: none;
+  color: black;
+}
+.pagination .nextToLastContainer {
+  line-height: 22px;
+  height: fit-content;
+}
+.pagination .nextToLastContainer .nextToLast {
+  color: black;
+  text-decoration: none;
+}
+.pagination .itens_pagination {
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.pagination .itens_pagination.itens__itemActive {
+  background-color: black;
+  border-radius: 50%;
+}
+.pagination .itens_pagination.itens__itemActive .pagination__item {
+  color: white;
+}
+.pagination .itens_pagination .pagination__item {
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+}
+
 .newsletterform__form {
   display: flex;
   text-decoration: none;
@@ -103,68 +167,35 @@
   display: block;
 }
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  gap: 20px;
+.product__description-container .product__description-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
 }
-.pagination .buttonPrev {
-  background-image: url(/arquivos/icon-button-previous.png);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  font-size: 0;
-  height: 30px;
-  display: block;
-  order: -1;
-  width: 22px;
+.product__description-container .product__description {
+  color: #161615;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
-.pagination .buttonNext {
-  background-image: url(/arquivos/icon-button-next.png);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  font-size: 0;
-  height: 30px;
-  display: block;
-  order: 1;
-  width: 22px;
+@media (min-width: 1025px) {
+  .product__description-container .product__description {
+    white-space: pre-wrap;
+  }
 }
-.pagination .backToFirstContainer {
-  line-height: 22px;
-  height: fit-content;
+.product__description-container .product__toggle-button--description {
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-family: Lato, sans-serif;
+  all: unset;
+  text-decoration: underline;
+  color: #161615;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-text-stroke: 0.2px;
 }
-.pagination .backToFirstContainer .backToFirst {
-  text-decoration: none;
-  color: black;
-}
-.pagination .nextToLastContainer {
-  line-height: 22px;
-  height: fit-content;
-}
-.pagination .nextToLastContainer .nextToLast {
-  color: black;
-  text-decoration: none;
-}
-.pagination .itens_pagination {
-  font-size: 18px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-}
-.pagination .itens_pagination.itens__itemActive {
-  background-color: black;
-  border-radius: 50%;
-}
-.pagination .itens_pagination.itens__itemActive .pagination__item {
-  color: white;
-}
-.pagination .itens_pagination .pagination__item {
-  text-decoration: none;
-  color: black;
-  line-height: 30px;
+.product__description-container .product__toggle-button--description:hover {
+  cursor: pointer;
 }
 
 .similar__products-variants .similar__products-variants--title {
@@ -199,37 +230,6 @@
 .similar__products-variants .similar__products-variants--wrap .similar__image-container .similar__products-variants--img {
   width: 66px;
   height: auto;
-}
-
-.product__description-container .product__description-title {
-  color: #000;
-  font-size: 14px;
-  font-weight: 600;
-}
-.product__description-container .product__description {
-  color: #161615;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.3px;
-}
-@media (min-width: 1025px) {
-  .product__description-container .product__description {
-    white-space: pre-wrap;
-  }
-}
-.product__description-container .product__toggle-button--description {
-  letter-spacing: 0.3px;
-  vertical-align: baseline;
-  font-family: Lato, sans-serif;
-  all: unset;
-  text-decoration: underline;
-  color: #161615;
-  font-size: 14px;
-  font-weight: 400;
-  -webkit-text-stroke: 0.2px;
-}
-.product__description-container .product__toggle-button--description:hover {
-  cursor: pointer;
 }
 
 .depoimentos__list {

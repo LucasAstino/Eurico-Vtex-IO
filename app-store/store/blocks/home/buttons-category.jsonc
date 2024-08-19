@@ -1,0 +1,48 @@
+{
+  "custom-buttons-category#home": {
+    "props": {
+        "isActive": true,
+        "buttonsContent": [
+          {
+            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/tenis_cateogria_eurico.png",
+            "buttonName": "TÊNIS"
+          },
+          {
+            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/mocassim_cateogria_eurico.png",
+            "buttonName": "MOCASSIM"
+          },
+          {
+            "categorySrc": "feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/sapatilha_cateogria_eurico.png",
+            "buttonName": "SAPATILHA"
+          },
+          {
+            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/tenis_cateogria_eurico.png",
+            "buttonName": "TÊNIS"
+          },
+          {
+            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/mocassim_cateogria_eurico.png",
+            "buttonName": "MOCASSIM"
+          },
+          {
+            "categorySrc": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "imageSrc": "https://eurico.vteximg.com.br/arquivos/sapatilha_cateogria_eurico.png",
+            "buttonName": "SAPATILHA"
+          }
+        ]
+    },
+    "children": [
+        "list-context-renderer#buttons-category"
+    ]
+  },
+  "list-context-renderer#buttons-category": {
+      "props": {
+          "listElement": "div",
+          "itemElement": "div"
+      }
+  }
+}
