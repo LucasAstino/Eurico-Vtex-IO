@@ -52,29 +52,28 @@
   "flex-layout.col#secund-area-banners-col-1": {
     "title": "Coluna esquerda da segunda área de banners",
     "props": {
-      "width": "49%",
+      "width": "61%",
       "blockClass": "col-left"
     },
     "children": [
-      "image#secund-area-banners-banner-1",
-      "image#secund-area-banners-banner-2"
+      "image#secund-area-banners-banner-1"
     ]
   },
   "flex-layout.col#secund-area-banners-col-2": {
     "title": "Coluna direita da segunda área de banners",
     "props": {
-      "width": "49%",
+      "width": "36%",
       "blockClass": "col-right"
     },
     "children": [
-      "image#secund-area-banners-banner-3",
-      "image#secund-area-banners-banner-4"
+      "image#secund-area-banners-banner-2",
+      "image#secund-area-banners-banner-3"
     ]
   },
   "image#secund-area-banners-banner-1": {
     "title": "Imagem 1 da segunda área de banners",
     "props": {
-      "src": "assets/images/baixodesk-1.webp",
+      "src": "assets/images/banner_home1.png",
       "maxHeight": "",
       "blockClass": "secund__area-banners--img"
     }
@@ -82,7 +81,7 @@
   "image#secund-area-banners-banner-2": {
     "title": "Imagem 2 da segunda área de banners",
     "props": {
-      "src": "assets/images/baixodesk-2.webp",
+      "src": "assets/images/banner_home2.png",
       "maxHeight": "",
       "blockClass": "secund__area-banners--img"
     }
@@ -90,15 +89,7 @@
   "image#secund-area-banners-banner-3": {
     "title": "Imagem 3 da segunda área de banners",
     "props": {
-      "src": "assets/images/baixodesk-3.webp",
-      "maxHeight": "",
-      "blockClass": "secund__area-banners--img"
-    }
-  },
-  "image#secund-area-banners-banner-4": {
-    "title": "Imagem 4 da segunda área de banners",
-    "props": {
-      "src": "assets/images/baixodesk-4.webp",
+      "src": "assets/images/banner_home3.png",
       "maxHeight": "",
       "blockClass": "secund__area-banners--img"
     }

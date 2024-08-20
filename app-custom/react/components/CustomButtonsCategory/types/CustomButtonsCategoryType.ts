@@ -4,4 +4,5 @@ export interface ICustomButtonsCategory {
   isActive: boolean;
   buttonsContent: IButtonCategory[];
   children: any
+  page: string;
 }

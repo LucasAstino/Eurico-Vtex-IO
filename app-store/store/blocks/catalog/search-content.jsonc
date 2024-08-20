@@ -29,6 +29,7 @@
   "custom-buttons-category#search": {
     "props": {
         "isActive": true,
+        "page": "search",
         "buttonsContent": [
           {
             "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",

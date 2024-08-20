@@ -1,4 +1,18 @@
 {
+  "flex-layout.row#buttons-brands-home": {
+    "title": "Botões de Marcas Home",
+    "props": {},
+    "children": [
+      "custom-buttons-brands#home"
+    ]
+  },
+  "rich-text#buttons-brands-home": {
+    "title": "Título Seção Botões Marcas",
+    "props": {
+      "blockClass": "buttons-category-home",
+      "text": "AS MELHORES MARCAS"
+    }
+  },
   "custom-buttons-brands#home": {
     "props": {
         "isActive": true,

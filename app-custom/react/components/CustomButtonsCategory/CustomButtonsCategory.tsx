@@ -19,14 +19,27 @@ const CustomButtonsCategory = (props: ICustomButtonsCategory) => {
   ))
   const newListContextValue = list.concat(listContent);
 
-  return (
-    <div className={styles.CustomButtonsCategory}>
-      <ListContextProvider list={newListContextValue}>
-          {item1}
-      </ListContextProvider>
-    </div>
-  )
+  if (props.page === "search") {
+    return (
+      <div className={styles.CustomButtonsCategory}>
+        <ListContextProvider list={newListContextValue}>
+            {item1}
+        </ListContextProvider>
+      </div>
+    )
+  }
 
+  if (props.page === "home") {
+    return (
+      <div className={styles.CustomButtonsCategoryHome}>
+        <ListContextProvider list={newListContextValue}>
+            {item1}
+        </ListContextProvider>
+      </div>
+    )
+  }
+
+  return <></>
 }
 
 export default CustomButtonsCategory;

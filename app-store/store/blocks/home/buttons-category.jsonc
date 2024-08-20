@@ -1,7 +1,24 @@
 {
+  "flex-layout.row#buttons-category-home": {
+    "title": "Botões de Categoria Home",
+    "props": {
+      "blockClass": "buttons-category-home"
+    },
+    "children": [
+      "custom-buttons-category#home"
+    ]
+  },
+  "rich-text#buttons-category-home": {
+    "title": "Título Seção Botões Categoria",
+    "props": {
+      "blockClass": "buttons-category-home",
+      "text": "ESCOLHA SEU MODELO FAVORITO"
+    }
+  },
   "custom-buttons-category#home": {
     "props": {
         "isActive": true,
+        "page": "home",
         "buttonsContent": [
           {
             "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
