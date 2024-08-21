@@ -1,0 +1,63 @@
+{
+  "responsive-layout.desktop#home-size": {
+    "children": ["flex-layout.row#home-size"]
+  },
+  "flex-layout.row#home-size": {
+    "props": {
+      "blockClass": "home-size"
+    },
+    "children": [
+      "custom-buttons-size#home"
+    ]
+  },
+  "responsive-layout.mobile#home-size": {
+    "children": [
+      "custom-buttons-size#home"
+    ]
+  },
+  "custom-buttons-size#home": {
+    "props": {
+        "title": "COMPRE POR NUMERAÇÃO",
+        "isActive": true,
+        "buttonsContent": [
+          {
+            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
+            "sizeText": "40"
+          },
+          {
+            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "sizeText": "41"
+          },
+          {
+            "categorySrc": "feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "sizeText": "42"
+          },
+          {
+            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
+            "sizeText": "43"
+          },
+          {
+            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "sizeText": "44"
+          },
+          {
+            "categorySrc": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "sizeText": "46"
+          },
+          {
+            "categorySrc": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "sizeText": "48"
+          }
+        ]
+    },
+    "children": [
+      "list-context-renderer#buttons-size"
+    ]
+  },
+  "list-context-renderer#buttons-size": {
+    "props": {
+        "listElement": "div",
+        "itemElement": "div"
+    }
+}
+}

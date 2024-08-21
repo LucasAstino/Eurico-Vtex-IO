@@ -6,25 +6,46 @@
   "rich-text#home__shelf-title": {
     "title": "Título vitrine home",
     "props": {
-      "text": "## DESTAQUES DA COLEÇÃO",
+      "text": "## CALÇADOS FEMININOS",
       "blockClass": "shelfTitle"
     }
   },
-  "list-context.product-list#shelf__feminine": {
-    "title": "Lista de produtos femininos",
+  "list-context.product-list#shelf__alpargata": {
+    "title": "Lista de produtos 1",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home__shelf"],
     "props": {
-      "blockClass": "shelf__feminine",
+      "blockClass": "shelf__1",
       "category": "26",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "list-context.product-list#shelf__masculine": {
-    "title": "Lista de produtos masculinos",
+  "list-context.product-list#shelf__tenis": {
+    "title": "Lista de produtos 2",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home__shelf"],
     "props": {
+      "blockClass": "shelf__2",
+      "category": "25",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#shelf__sandalia": {
+    "title": "Lista de produtos 3",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home__shelf"],
+    "props": {
+      "blockClass": "shelf__3",
+      "category": "26",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#shelf__mocassim": {
+    "title": "Lista de produtos 4",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home__shelf"],
+    "props": {
+      "blockClass": "shelf__4",
       "category": "25",
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -51,7 +72,7 @@
     ],
     "props": {
       "blockClass": "home__shelf-tab",
-      "defaultActiveTabId": "feminine"
+      "defaultActiveTabId": "alpargata"
     }
   },
   "tab-list#home__shelf-tab--list": {
@@ -60,50 +81,89 @@
       "blockClass": "home__shelf-tab--list"
     },
     "children": [
-      "tab-list.item#home__shelf-tab--list-feminine",
-      "tab-list.item#home__shelf-tab--list-masculine"
+      "tab-list.item#home__shelf-tab--list-alpargata",
+      "tab-list.item#home__shelf-tab--list-tenis",
+      "tab-list.item#home__shelf-tab--list-sandalia",
+      "tab-list.item#home__shelf-tab--list-mocassim"
     ]
   },
-  "tab-list.item#home__shelf-tab--list-feminine": {
+  "tab-list.item#home__shelf-tab--list-alpargata": {
     "title": "Categoria da primeira vitrine",
     "props": {
-      "blockClass": "home__shelf-tab--list-feminine",
-      "tabId": "feminine",
-      "label": "Feminino",
+      "blockClass": ["home__shelf-tab--list", "home__shelf-tab--list-alpargata"],
+      "tabId": "alpargata",
+      "label": "Alpargata",
       "defaultActiveTab": true
     }
   },
-  "tab-list.item#home__shelf-tab--list-masculine": {
+  "tab-list.item#home__shelf-tab--list-tenis": {
+    "title": "Categoria da primeira vitrine",
+    "props": {
+      "blockClass": ["home__shelf-tab--list", "home__shelf-tab--list-tenis"],
+      "tabId": "tenis",
+      "label": "Tenis",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home__shelf-tab--list-sandalia": {
     "title": "Categoria da segunda vitrine",
     "props": {
-      "blockClass": "home__shelf-tab--list-masculine",
-      "tabId": "masculine",
-      "label": "Masculino"
+      "blockClass": ["home__shelf-tab--list", "home__shelf-tab--list-sandalia"],
+      "tabId": "sandalia",
+      "label": "Sandália"
+    }
+  },
+  "tab-list.item#home__shelf-tab--list-mocassim": {
+    "title": "Categoria da segunda vitrine",
+    "props": {
+      "blockClass": ["home__shelf-tab--list", "home__shelf-tab--list-mocassim"],
+      "tabId": "mocassim",
+      "label": "Mocassim"
     }
   },
   "tab-content#home__shelf-tab--content": {
     "title": "Conteúdo das abas da prateleira da home",
     "children": [
-      "tab-content.item#home__shelf-tab--content-feminine",
-      "tab-content.item#home__shelf-tab--content-masculine"
+      "tab-content.item#home__shelf-tab--content-alpargata",
+      "tab-content.item#home__shelf-tab--content-tenis",
+      "tab-content.item#home__shelf-tab--content-sandalia",
+      "tab-content.item#home__shelf-tab--content-mocassim"
     ]
   },
-  "tab-content.item#home__shelf-tab--content-feminine": {
+  "tab-content.item#home__shelf-tab--content-alpargata": {
     "title": "Conteúdo da aba feminina",
     "children": [
-      "list-context.product-list#shelf__feminine"
+      "list-context.product-list#shelf__alpargata"
     ],
     "props": {
-      "tabId": "feminine"
+      "tabId": "alpargata"
     }
   },
-  "tab-content.item#home__shelf-tab--content-masculine": {
+  "tab-content.item#home__shelf-tab--content-tenis": {
     "title": "Conteúdo da aba masculina",
     "children": [
-      "list-context.product-list#shelf__masculine"
+      "list-context.product-list#shelf__tenis"
     ],
     "props": {
-      "tabId": "masculine"
+      "tabId": "tenis"
+    }
+  },
+  "tab-content.item#home__shelf-tab--content-sandalia": {
+    "title": "Conteúdo da aba feminina",
+    "children": [
+      "list-context.product-list#shelf__sandalia"
+    ],
+    "props": {
+      "tabId": "sandalia"
+    }
+  },
+  "tab-content.item#home__shelf-tab--content-mocassim": {
+    "title": "Conteúdo da aba masculina",
+    "children": [
+      "list-context.product-list#shelf__mocassim"
+    ],
+    "props": {
+      "tabId": "mocassim"
     }
   }
 }

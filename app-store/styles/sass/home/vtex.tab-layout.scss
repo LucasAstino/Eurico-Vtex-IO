@@ -3,38 +3,40 @@
     .listContainer {
       .listItem {
         :global(.vtex-button) {
-          font-size: 12px;
+          width: 240px;
+          height: 47px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          color: #393939;
+          font-family: "Lato";
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 19.2px;
+          text-align: center;
           text-transform: uppercase;
-          font-style: italic;
-          letter-spacing: 1.5px;
-          font-weight: 300;
           cursor: pointer;
-          position: relative;
           transition: all 0.3s ease-in-out;
-          background: none;
-          -webkit-text-stroke: 0.2px;
-          border: none;
-          color: black;
+          border: 1px solid #C00018
         }
+        :global(.vtex-button):hover {
+          background: #C00018;
+          color: #FFFFFF;
+        }
+
         :global(.vtex-button__label) {
           padding: 0;
         }
         &Active {
           :global(.vtex-button) {
-            color: #c00018;
+            color: #FFFFFF;
             font-weight: 900;
-            &::after {
-              content: "";
-              width: 25px;
-              margin: 10px auto 0;
-              display: block;
-              background: #c00018;
-              transition: all width 0.3s;
-              height: 2px;
-              position: absolute;
-              left: 50%;
-              translate: -50%;
-            }
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.2px;
+            text-align: center;
+            background: #C00018;
           }
         }
       }

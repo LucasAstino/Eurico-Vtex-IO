@@ -26,8 +26,8 @@
   }
 
   &--third__banner-area {
-    margin: 80px auto 100px auto;
-    width: 90%;
+    margin: 72px auto;
+    width: 100%;
     @include mobile {
       margin-top: 10px;
       width: fit-content;
@@ -129,7 +129,7 @@
     }
   }
   &--secund__area-banners {
-    margin-top: 70px;
+    margin-top: 162px;
   }
 
   &--quickviewMainRow {

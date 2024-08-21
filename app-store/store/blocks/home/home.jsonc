@@ -3,6 +3,8 @@
     "blocks": [
       "Helmet",
       "list-context.image-list#fullbanner",
+      "responsive-layout.desktop#home-size",
+      "responsive-layout.mobile#home-size",
       "rich-text#buttons-category-home",
       "flex-layout.row#buttons-category-home",
       "flex-layout.row#secund-area-banners--responsive",

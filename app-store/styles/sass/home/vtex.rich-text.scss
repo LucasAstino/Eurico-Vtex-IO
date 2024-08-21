@@ -14,6 +14,12 @@
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 32px;
+
+    @media (max-width: 1024px) {
+      margin-top: 48px;
+      margin-bottom: 24px;
+    }
 
     .headingLevel2 {
       &--shelfTitle {
@@ -142,7 +148,30 @@
       }
     }
   }
+
+  &--buttons-category-home {
+    justify-content: center;
+    margin-top: 80px;
+
+    @media (max-width: 1024px) {
+      margin-top: 48px;
+      padding: 0 45px;
+    }
+  }
 }
+
+.paragraph {
+  &--buttons-category-home {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #393939;
+    margin: 0 0 24px;
+  }
+}
+
 @media only screen and (min-width: 640px) {
   .container--question {
     .strong {

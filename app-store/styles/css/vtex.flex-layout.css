@@ -10,6 +10,10 @@
   }
 }
 
+.flexRow--selling-price-savings .flexRowContent {
+  margin-bottom: 5px;
+}
+
 .flexRow--category__result {
   padding: 32px 90px 0;
   border-top: 1px solid #e3e4e6;
@@ -95,10 +99,6 @@
   margin: 24px auto;
 }
 
-.flexRow--selling-price-savings .flexRowContent {
-  margin-bottom: 5px;
-}
-
 .flexRowContent--menu-link__content, .flexRowContent--header__content {
   padding: 0 0.5rem;
   background-color: white;
@@ -123,8 +123,8 @@
   width: fit-content;
 }
 .flexRowContent--third__banner-area {
-  margin: 80px auto 100px auto;
-  width: 90%;
+  margin: 72px auto;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .flexRowContent--third__banner-area {
@@ -138,11 +138,7 @@
     width: 100% !important;
   }
 }
-@media (min-width: 769px) {
-  .flexRowContent--third__banner-area .flexCol--translateToTop {
-    margin-top: -50px;
-  }
-}
+
 .flexRowContent--physical__stories {
   width: 100%;
   margin: auto;
@@ -209,7 +205,7 @@
   background-color: white;
 }
 .flexRow--secund__area-banners {
-  margin-top: 70px;
+  margin-top: 162px;
 }
 .flexRow--quickviewMainRow {
   display: flex;
@@ -698,36 +694,6 @@
   }
 }
 
-.flexRow--contact-us {
-  max-width: 1208px;
-  padding: 0 10px;
-  margin: auto;
-}
-.flexRow--contact-us__store {
-  margin-bottom: 100px;
-}
-.flexRow--contact-us__store .stretchChildrenWidth {
-  display: contents;
-}
-@media (max-width: 768px) {
-  .flexRow--contact-us__store .flexRowContent {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.flexRow--contact-us__store .flexCol--contact-us__store-left {
-  width: 50%;
-}
-@media (max-width: 768px) {
-  .flexRow--contact-us__store .flexCol--contact-us__store-left {
-    width: 100%;
-    align-items: center;
-  }
-}
-.flexRow--contact-us__store .flexCol--contact-us__store-right {
-  padding-left: 30px;
-}
-
 .flexRow--about-us-row {
   max-width: 1208px;
   padding: 0 10px;
@@ -763,6 +729,36 @@
     flex-direction: column;
     padding: 50px 15px 60px;
   }
+}
+
+.flexRow--contact-us {
+  max-width: 1208px;
+  padding: 0 10px;
+  margin: auto;
+}
+.flexRow--contact-us__store {
+  margin-bottom: 100px;
+}
+.flexRow--contact-us__store .stretchChildrenWidth {
+  display: contents;
+}
+@media (max-width: 768px) {
+  .flexRow--contact-us__store .flexRowContent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.flexRow--contact-us__store .flexCol--contact-us__store-left {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .flexRow--contact-us__store .flexCol--contact-us__store-left {
+    width: 100%;
+    align-items: center;
+  }
+}
+.flexRow--contact-us__store .flexCol--contact-us__store-right {
+  padding-left: 30px;
 }
 
 .flexRow--whatsapp__background {

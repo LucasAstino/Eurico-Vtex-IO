@@ -1,0 +1,58 @@
+.CustomButtonsSize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 27px 0;
+  background: #FAFAFA;
+  column-gap: 32px;
+}
+
+.CustomButtonsSize :global(.eurico-agenciafg-custom-0-x-paragraph) {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #393939;
+  margin: 0;
+}
+
+.CustomButtonsSize :global(.vtex-list-context-0-x-list) {
+  display: flex;
+  column-gap: 24px;
+}
+
+.ButtonSize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #C00018;
+  border-radius: 50%;
+
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #393939;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1024px) {
+  .CustomButtonsSize {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    row-gap: 23px;
+  }
+
+  .CustomButtonsSize :global(.vtex-list-context-0-x-list) {
+    display: flex;
+    column-gap: 24px;
+  }
+}
+
+

@@ -8,7 +8,8 @@
     "children": [
       "flex-layout.col#third__banner-area--1",
       "flex-layout.col#third__banner-area--2",
-      "flex-layout.col#third__banner-area--3"
+      "flex-layout.col#third__banner-area--3",
+      "flex-layout.col#third__banner-area--4"
     ]
   },
   "flex-layout.col#third__banner-area--1": {
@@ -33,10 +34,17 @@
     },
     "children": ["image#banner-3"]
   },
+  "flex-layout.col#third__banner-area--4": {
+    "title": "Coluna 3 da terceira área de banners",
+    "props": {
+      "width": "32%"
+    },
+    "children": ["image#banner-4"]
+  },
   "image#banner-1": {
     "title": "Imagem 1 da terceira área de banners",
     "props": {
-      "src": "assets/images/banner-dep-1.webp",
+      "src": "assets/images/third-banner-1.png",
       "maxHeight": "",
       "blockClass": "third__banner-area--img"
     }
@@ -44,15 +52,23 @@
   "image#banner-2": {
     "title": "Imagem 2 da terceira área de banners",
     "props": {
-      "src": "assets/images/banner-dep-2.webp",
+      "src": "assets/images/third-banner-2.png",
       "maxHeight": "",
-      "blockClass": ["third__banner-area--img", "third"]
+      "blockClass": "third__banner-area--img"
     }
   },
   "image#banner-3": {
     "title": "Imagem 3 da terceira área de banners",
     "props": {
-      "src": "assets/images/banner-dep-3.webp",
+      "src": "assets/images/third-banner-3.png",
+      "maxHeight": "",
+      "blockClass": "third__banner-area--img"
+    }
+  },
+  "image#banner-4": {
+    "title": "Imagem 4 da terceira área de banners",
+    "props": {
+      "src": "assets/images/third-banner-4.png",
       "maxHeight": "",
       "blockClass": "third__banner-area--img"
     }

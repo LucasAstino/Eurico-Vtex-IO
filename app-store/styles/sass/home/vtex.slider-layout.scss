@@ -4,10 +4,6 @@
       width: fit-content;
     }
   }
-
-  &--shelf {
-    padding-top: 90px;
-  }
 }
 
 .slide {
@@ -42,10 +38,7 @@
   &--carrossel {
     background-color: transparent;
     min-height: 450px;
-    // @media (max-width: 768px) {
-    //   max-height: 450px;
-    // }
-    margin-top: -120px;
+
     .sliderArrows {
       .caretIcon {
         display: none;
@@ -124,7 +117,6 @@
   margin-bottom: 25px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  min-height: 550px;
   @media (max-width: 768px) {
     min-height: auto;
   }

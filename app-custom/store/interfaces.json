@@ -48,5 +48,14 @@
     "content": {
       "$ref": "app:eurico.agenciafg-custom#/definitions/CustomButtonsBrands"
     }
+  },
+
+  "custom-buttons-size": {
+    "component": "CustomButtonsSize",
+    "allowed": "*",
+    "composition": "children",
+    "content": {
+      "$ref": "app:eurico.agenciafg-custom#/definitions/CustomButtonsSize"
+    }
   }
 }

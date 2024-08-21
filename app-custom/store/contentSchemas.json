@@ -83,6 +83,48 @@
             }
           }
         }
+    },
+
+    "CustomButtonsSize": {
+      "title": "Lista de Botões dos Tamanhos",
+      "type": "object",
+      "properties": {
+        "isActive": {
+            "title": "Ativador",
+            "type": "boolean",
+            "default": null
+        },
+        "title": {
+          "title": "Título da Categoria",
+          "type": "string",
+          "default": null
+        },
+        "buttonsContent": {
+          "title": "Botões",
+          "type": "array",
+          "default": [],
+          "items": {
+              "$ref": "app:eurico.agenciafg-custom#/definitions/ButtonSize"
+          }
+        }
+      }
+    },
+
+    "ButtonSize": {
+        "title": "Botão da Marca",
+        "type": "object",
+        "properties": {
+          "categorySrc": {
+            "title": "Link Categoria",
+            "type": "string",
+            "default": null
+          },
+          "sizeText": {
+            "title": "Texto Tamanho",
+            "type": "string",
+            "default": null
+          }
+        }
     }
   }
 }
