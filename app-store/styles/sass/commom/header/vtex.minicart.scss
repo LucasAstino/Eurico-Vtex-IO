@@ -2,11 +2,10 @@
   .cartIcon {
     display: none;
   }
-
   .minicartIconContainer {
     &::before {
       content: "";
-      background: url(assets/icons/icon-minicart.svg) no-repeat;
+      background: url(assets/icons/cart.svg) no-repeat;
       background-size: contain;
       background-position: center;
       width: 19px;
@@ -15,8 +14,9 @@
     }
   }
 
-  .openIconContainer--minicart{
-    padding: 0;
+  .openIconContainer--minicart,
+  .openIconContainer--minicart-header__minicart{
+    padding: .75em 0;
   }
 
   .minicartQuantityBadge{

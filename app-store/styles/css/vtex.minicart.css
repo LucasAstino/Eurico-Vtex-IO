@@ -3,15 +3,16 @@
 }
 .minicartContainer .minicartIconContainer::before {
   content: "";
-  background: url(assets/icons/icon-minicart.svg) no-repeat;
+  background: url(assets/icons/cart.svg) no-repeat;
   background-size: contain;
   background-position: center;
   width: 19px;
   height: 24px;
   display: block;
 }
-.minicartContainer .openIconContainer--minicart {
-  padding: 0;
+.minicartContainer .openIconContainer--minicart,
+.minicartContainer .openIconContainer--minicart-header__minicart {
+  padding: 0.75em 0;
 }
 .minicartContainer .minicartQuantityBadge {
   width: 10px;

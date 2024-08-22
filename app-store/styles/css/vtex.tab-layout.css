@@ -1,3 +1,11 @@
+@media (max-width: 1024px) {
+  .container--home__shelf-tab .listContainer {
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: unset;
+    overflow-x: scroll;
+  }
+}
 .container--home__shelf-tab .listContainer .listItem :global(.vtex-button) {
   width: 240px;
   height: 47px;

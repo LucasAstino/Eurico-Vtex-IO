@@ -1,6 +1,25 @@
 {
-  "slider-layout#header__topbarv2": {
-    "title": "Header - Topbar",
+  "slider-layout#header__topbar--desktop": {
+    "title": "Topbar",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "header__topbar"
+    },
+    "children":[
+      "rich-text#header__topbar--item1",
+      "rich-text#header__topbar--item2",
+      "rich-text#header__topbar--item3"
+    ]
+  },
+  "slider-layout#header__topbar--mobile": {
+    "title": "Topbar",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -8,7 +27,7 @@
         "phone": 1
       },
       "autoplay": {
-        "timeout": 2000
+        "timeout": 3000
       },
       "infinite": true,
       "showPaginationDots": "never",
@@ -29,14 +48,14 @@
     }
   },
   "rich-text#header__topbar--item2": {
-    "title": "Item 3",
+    "title": "Item 2",
     "props": {
       "text": "[Compre no site e retire nas lojas](/institucional/envio-e-entrega)",
       "blockClass": ["header__topbar--item", "header__topbar--item2"]
     }
   },
   "rich-text#header__topbar--item3": {
-    "title": "Item 4",
+    "title": "Item 3",
     "props": {
       "text": "Televendas (11) 5054-8878",
       "blockClass": ["header__topbar--item", "header__topbar--item3","header__topbar--item-last"]

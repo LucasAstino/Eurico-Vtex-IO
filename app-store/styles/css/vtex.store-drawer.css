@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .openIconContainer--search__filter {
   display: flex;
   align-items: center;
@@ -80,13 +79,18 @@
   height: 48px;
   background: white;
 }
+@media (max-width: 1025px) {
+  .drawerContent .childrenContainer--menu__drawer :global(.vtex-login-2-x-container) {
+    margin-right: 17px;
+  }
+}
 .drawerContent .childrenContainer--menu__drawer :global(.vtex-login-2-x-container) :global(.vtex-button) {
   display: block;
   padding: 0;
   margin: 0;
-  width: 28px;
-  height: 28px;
-  background: url(https://eurico.vtexassets.com/assets/vtex/assets-builder/eurico.fg-store/0.0.45/icons/login___24ef9a1….svg) no-repeat;
+  width: 24px;
+  height: 24px;
+  background: url("assets/icons/header/drawer-menu-icon.svg") no-repeat;
   background-size: contain;
   min-height: unset;
   border: 0;

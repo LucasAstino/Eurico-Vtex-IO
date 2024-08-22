@@ -6,7 +6,20 @@
   }
     &--secund__area-banners--img{
       margin-bottom: 20px;
+
+      @media (max-width:768px) {
+        margin-right: 24px;
+        width: calc(100% - 24px);
+      }
     }
+
+    &--secund__area-banners--img-mid {
+      @media (max-width:768px) {
+        margin-right: 0;
+        margin-left: 24px;
+      }
+    }
+
     &--physical__stories-img{
       height: 410px;
       @include mobile{

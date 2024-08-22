@@ -18,6 +18,42 @@
       cursor: pointer;
     }
   }
+
+  &--header__topbar--item1,
+  &--header__topbar--item2,
+  &--header__topbar--item3 {
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 12px;
+    }
+  }
+
+  &--header__topbar--item1 {
+    &::before {
+      background-image: url(assets/icons/header/Sparkle.svg);
+    }
+  }
+
+  &--header__topbar--item2 {
+    &::before {
+      background-image: url(assets/icons/header/Storefront.svg);
+    }
+  }
+
+  &--header__topbar--item3 {
+    &::before {
+      background-image: url(assets/icons/header/Headphones.svg);
+    }
+  }
+
   &--header__topbar--item-last {
     letter-spacing: 1.5px;
     -webkit-text-stroke: 0.2px;
@@ -78,18 +114,6 @@
     -webkit-text-stroke: 0.2px;
     @include desktop{
       font-size: 10px;
-      padding-right: 45px;
-
-      &::after {
-        content: "";
-        position: absolute;
-        right: 0;
-        top: -2px;
-        width: 1px;
-        height: 15px;
-        background: black;
-        opacity: 0.2;
-      }
     }
   }
 }

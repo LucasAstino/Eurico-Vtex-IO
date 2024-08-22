@@ -69,6 +69,10 @@
   opacity: 1;
 }
 
+.triggerContainer--search-bar {
+  margin-left: 15px;
+}
+
 .headerContainer--new-testimonial {
   position: absolute;
   border: 0;

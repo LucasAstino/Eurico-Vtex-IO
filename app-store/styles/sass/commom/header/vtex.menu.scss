@@ -1,6 +1,15 @@
 .menuItem {
 
   .styledLinkContent {
+    &--header__institucional--link {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 400;
+      color: black;
+      margin: 0;
+      -webkit-text-stroke: 0.2px;
+    }
     &--wrapper {
       font-weight: 600;
       font-size: 10px;
@@ -13,8 +22,9 @@
     &--menu__item {
       font-size: 12px;
       font-weight: 400;
-      color: #fff;
       text-transform: uppercase;
+      letter-spacing: 1.5px;
+      -webkit-text-stroke: 0.2px;
     }
   }
 
@@ -34,6 +44,10 @@
 }
 
 .menuContainer {
+  &--header__institucional--link {
+    gap: 35px;
+  }
+
   .submenuWrapper {
     &--submenu__container {
       padding: 0;
@@ -42,13 +56,16 @@
   }
 
   &--main__menu {
-    width: 44%;
+    width: 60%;
     margin: auto;
     justify-content: space-between;
   }
 }
 
 .styledLinkContainer {
+  &--header__institucional--link {
+    margin: 0;
+  }
   &--wrapper {
     margin: 0;
     padding: 0;

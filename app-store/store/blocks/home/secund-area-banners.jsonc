@@ -83,7 +83,7 @@
     "props": {
       "src": "assets/images/banner_home2.png",
       "maxHeight": "",
-      "blockClass": "secund__area-banners--img"
+      "blockClass":[ "secund__area-banners--img", "secund__area-banners--img-mid"]
     }
   },
   "image#secund-area-banners-banner-3": {

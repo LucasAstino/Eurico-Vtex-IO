@@ -10,7 +10,6 @@ import { ICustomButtonsCategory } from "./types/CustomButtonsCategoryType";
 const CustomButtonsCategory = (props: ICustomButtonsCategory) => {
   const { list } = useListContext() || [];
   const [item1] = props.children;
-  console.log("Props", props)
 
   if(!props.isActive) return <></>
 

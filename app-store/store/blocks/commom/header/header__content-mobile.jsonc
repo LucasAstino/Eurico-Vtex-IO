@@ -5,6 +5,7 @@
   "flex-layout.row#header__content-mobile": {
     "children": [
       "drawer",
+      "modal-trigger#search-bar",
       "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
@@ -19,11 +20,33 @@
       "fullWidth": true
     }
   },
+  "modal-trigger#search-bar": {
+    "props": {
+      "blockClass": "search-bar"
+    },
+    "children": ["image#search-bar", "modal-layout#search-bar"]
+  },
+  "image#search-bar": {
+    "props": {
+      "src": "assets/icons/search.svg",
+      "maxHeight": 24,
+      "blockClass": "search-bar"
+    }
+  },
+
+  "modal-layout#search-bar": {
+    "props": {
+      "blockClass": "search-bar",
+      "disableEscapeKeyDown": false,
+      "backdrop": "clickable"
+    },
+    "children": ["search-bar#header__search"]
+  },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/icons/new-logo.svg",
+      "url": "assets/icons/logo.svg",
       "width": "115",
       "height": "48"
     }

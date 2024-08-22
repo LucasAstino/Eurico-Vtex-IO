@@ -53,11 +53,6 @@
 }
 
 .ButtonCategory span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 221px;
-  height: 40px;
   background: #fff;
   margin-bottom: 18px;
 }
@@ -87,61 +82,42 @@
 
 
 @media (max-width: 1800px) {
-  .ButtonCategory {
-    min-height: 253px;
-    max-height: 253px;
-    width: 204px;
-    font-size: 15px;
-    line-height: 1px;
+  .CustomButtonsCategoryHome :global(.vtex-list-context-0-x-list) {
+    column-gap: 25px;
   }
 
-  .ButtonCategory span {
-    width: 166px;
-    height: 30px;
+  .CustomButtonsCategoryHome .ButtonCategory {
+    min-height: 203px;
+    max-height: 203px;
+    width: 154px;
   }
 
-  .ButtonCategory img {
-    width: 187px;
-    height: 85px;
+  .CustomButtonsCategoryHome .ButtonCategory img {
+      width: 150px;
+      height: 150px;
   }
 }
 
 @media (max-width: 1500px) {
-  .ButtonCategory {
-    min-height: 190px;
-    max-height: 190px;
-    width: 153px;
-    font-size: 12px;
-  }
-
-  .ButtonCategory span {
-    width: 124px;
-    height: 22px;
-  }
-
-  .ButtonCategory img {
-    width: 140px;
-    height: 64px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .ButtonCategory {
-    min-height: 142px;
-    max-height: 142px;
+  .CustomButtonsCategoryHome .ButtonCategory img {
     width: 115px;
-    font-size: 10px;
-  }
-
-  .ButtonCategory span {
-    width: 93px;
-    height: 16px;
-  }
-
-  .ButtonCategory img {
-    width: 105px;
-    height: 48px;
+    height: 115px;
   }
 }
+
+@media (max-width: 1024px) {
+  .CustomButtonsCategory,
+  .CustomButtonsCategoryHome {
+    padding: 0 16px;
+  }
+
+  .CustomButtonsCategory :global(.vtex-list-context-0-x-list),
+  .CustomButtonsCategoryHome :global(.vtex-list-context-0-x-list) {
+    justify-content: unset;
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+
 
 

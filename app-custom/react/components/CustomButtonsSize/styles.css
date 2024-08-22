@@ -55,4 +55,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .CustomButtonsSize {
+    padding: 30px 16px;
+  }
+
+  .CustomButtonsSize :global(.vtex-list-context-0-x-list) {
+    justify-content: unset;
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
 

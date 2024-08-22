@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+  :global(.vtex-login-2-x-container) {
+    margin-right: 15px;
+  }
+}
+
+:globaL(.vtex-minicart-2-x-openIconContainer--header__minicart) {
+  padding: 0.75em 0;
+}

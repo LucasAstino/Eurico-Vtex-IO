@@ -103,4 +103,16 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .CustomButtonsBrands {
+    padding: 0 16px;
+  }
+
+  .CustomButtonsBrands :global(.vtex-list-context-0-x-list) {
+    justify-content: unset;
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+
 

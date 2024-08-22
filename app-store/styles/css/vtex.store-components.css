@@ -6,6 +6,18 @@
 .imageElement--secund__area-banners--img {
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .imageElement--secund__area-banners--img {
+    margin-right: 24px;
+    width: calc(100% - 24px);
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--secund__area-banners--img-mid {
+    margin-right: 0;
+    margin-left: 24px;
+  }
+}
 .imageElement--physical__stories-img {
   height: 410px;
 }
@@ -211,7 +223,7 @@
 }
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border: 0;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
   flex-direction: row-reverse;
 }
 .searchBarContainer :global(.vtex-input__suffix) {
@@ -226,9 +238,9 @@
 }
 .searchBarContainer :global(.vtex-store-components-3-x-searchBarIcon)::before {
   content: "";
-  width: 28px;
-  height: 28px;
-  background: url(assets/icons/icon-search.svg) no-repeat;
+  width: 21px;
+  height: 21px;
+  background: url(assets/icons/search.svg) no-repeat;
   background-position: center;
   background-size: contain;
   margin: 1px;
@@ -236,16 +248,24 @@
 @media (max-width: 1025px) {
   .searchBarContainer {
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
-    position: relative;
+    position: fixed;
+    top: 42px;
+    left: 0;
     width: 100%;
     z-index: 999;
     max-width: 100%;
     background-color: white;
+    padding: 16px 8px;
   }
 }
 .searchBarContainer .autoCompleteOuterContainer--header__search-mobile :global(.vtex-input-prefix__group) {
   justify-content: center;
   align-items: flex-start;
+}
+@media (max-width: 1024px) {
+  .searchBarContainer .autoCompleteOuterContainer--header__search-mobile :global(.vtex-input-prefix__group) {
+    align-items: center;
+  }
 }
 
 .backToTopButtonActive {

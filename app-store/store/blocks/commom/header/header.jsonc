@@ -9,7 +9,7 @@
       "blockClass": "header-layout__desktop"
     },
     "children": [
-      "slider-layout#header__topbarv2",
+      "slider-layout#header__topbar--desktop",
       "flex-layout.row#header__content",
       "flex-layout.row#category-menu",
       "sticky-layout#header__content"
@@ -19,10 +19,8 @@
   "header-layout.mobile": {
     "title": "Mobile",
     "children": [
-
-      "slider-layout#header__topbarv2",
-      "sticky-layout#header__content-mobile",
-      "search-bar#header__search"
+      "slider-layout#header__topbar--mobile",
+      "sticky-layout#header__content-mobile"
     ]
   },
 
