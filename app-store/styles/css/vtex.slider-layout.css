@@ -3,6 +3,9 @@
     width: fit-content;
   }
 }
+.slideChildrenContainer--shelf {
+  padding-top: 24px;
+}
 
 @media (min-width: 1025px) {
   .slide--header__topbar:nth-child(n+5) {

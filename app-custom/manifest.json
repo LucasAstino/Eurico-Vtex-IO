@@ -21,7 +21,8 @@
     "vtex.order-manager": "0.x",
     "vtex.store-resources": "0.x",
     "vtex.device-detector": "0.x",
-    "vtex.rich-text": "0.x"
+    "vtex.rich-text": "0.x",
+    "vtex.recommendation-shelf": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

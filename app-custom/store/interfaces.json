@@ -57,5 +57,8 @@
     "content": {
       "$ref": "app:eurico.agenciafg-custom#/definitions/CustomButtonsSize"
     }
+  },
+  "fg-custom-buy-too": {
+    "component": "CustomBuyToo"
   }
 }

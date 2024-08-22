@@ -55,6 +55,11 @@
   color: #717171;
 }
 
+.container {
+  padding: 0;
+  max-width: unset;
+}
+
 .productNameContainer--product__info--name {
   margin-bottom: 10px;
 }
@@ -177,40 +182,6 @@
   bottom: 40px;
 }
 
-.imageElement--footer__atendimento-img {
-  max-width: 177px;
-  margin-top: 15px;
-}
-@media (max-width: 768px) {
-  .imageElement--footer__atendimento-img {
-    display: none;
-  }
-}
-@media (max-width: 1025px) {
-  .imageElement--selo {
-    width: fit-content;
-    height: auto;
-  }
-}
-@media (max-width: 768px) {
-  .imageElement--icon-encrypt {
-    max-width: 80px !important;
-  }
-}
-@media (max-width: 768px) {
-  .imageElement--icon-vtex {
-    max-width: 90px !important;
-  }
-}
-@media (max-width: 768px) {
-  .imageElement--icon-clearSale {
-    max-width: 160px !important;
-  }
-}
-.imageElement--agencia {
-  height: fit-content;
-}
-
 @media (max-width: 1025px) {
   .searchBarContainer {
     display: block;
@@ -293,6 +264,40 @@
   margin-top: 20px;
 }
 
+.imageElement--footer__atendimento-img {
+  max-width: 177px;
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .imageElement--footer__atendimento-img {
+    display: none;
+  }
+}
+@media (max-width: 1025px) {
+  .imageElement--selo {
+    width: fit-content;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--icon-encrypt {
+    max-width: 80px !important;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--icon-vtex {
+    max-width: 90px !important;
+  }
+}
+@media (max-width: 768px) {
+  .imageElement--icon-clearSale {
+    max-width: 160px !important;
+  }
+}
+.imageElement--agencia {
+  height: fit-content;
+}
+
 .imageElement--about-us__fullbanner {
   width: 100%;
 }
@@ -331,6 +336,13 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 1025px) {
+  .imageElement--tips__article-1-img, .imageElement--tips__article-2-img {
+    display: block;
+    margin: auto;
+  }
+}
+
 @media (min-width: 1025px) {
   .imageElement--history__content-img {
     width: 25%;
@@ -343,12 +355,5 @@
     width: 50%;
     display: block;
     margin: 40px auto 50px;
-  }
-}
-
-@media (max-width: 1025px) {
-  .imageElement--tips__article-1-img, .imageElement--tips__article-2-img {
-    display: block;
-    margin: auto;
   }
 }

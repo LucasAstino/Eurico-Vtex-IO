@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.buyTogether__loading {
+    width: 100%;
+    text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-title-compre-junto) {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #393939;
+  margin: 47px 0 30px;
+}
+
+.buyTogether__loading img {
+    max-width: 100px;
+}
+
+.buyTogether__container_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+    max-width: 870px;
+}
+
+.product__buyTogether_image {
+    height: auto;
+    width: 124px;
+    height: 124px;
+    object-fit: scale-down;
+    margin-right: 24px;
+}
+
+.product__buyTogether_name {
+    max-width: 200px;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #393939;
+}
+
+.product__buyTogether_listprice,
+.product__buyTogether_listprice b {
+  font-family: "Lato", sans-serif;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 16.8px;
+  color: #393939;
+}
+
+.product__buyTogether_listprice b {
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+.bloco_texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product__buyTogether_buyButton {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #1f752e;
+  height: 48px;
+  width: 100%;
+  max-width: 200px;
+  border: none;
+  margin: 0;
+  border-radius: 2px;
+
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.product__buyTogether_buyButton:hover {
+  background-color: #369b47;
+}
+
+@media screen and (max-width: 1024px) {
+  :global(.vtex-rich-text-0-x-title-compre-junto) {
+    font-size: 25px !important;
+    line-height: 30px;
+    text-align: center;
+    width: 173px;
+    height: auto;
+    margin: 0;
+  }
+
+  :global(.vtex-rich-text-0-x-container--buyTogetherTitle) {
+    margin: 68px auto 4px;
+    width: fit-content;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    .buyTogether__container_wrapper {
+        align-items: center;
+        margin-left: unset;
+    }
+
+
+    .product__buyTogether_cardv2 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .products__buyTogether_resume_container {
+        width: 100%;
+        margin-left: unset;
+        margin-top: 40px;
+    }
+
+    .product__buyTogether_image {
+        width: 116px;
+        height: 116px;
+    }
+
+    .bloco_texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__buyTogether_totalPrice {
+        width: 240px;
+    }
+
+}
+
