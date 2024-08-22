@@ -15,29 +15,28 @@
   "flex-layout.col#third__banner-area--1": {
     "title": "Coluna 1 da terceira área de banners",
     "props": {
-      "width": "32%"
+      "width": "25%"
     },
     "children": ["image#banner-1"]
   },
   "flex-layout.col#third__banner-area--2": {
     "title": "Coluna 2 da terceira área de banners",
     "props": {
-      "width": "32%",
-      "blockClass": "translateToTop"
+      "width": "25%"
     },
     "children": ["image#banner-2"]
   },
   "flex-layout.col#third__banner-area--3": {
     "title": "Coluna 3 da terceira área de banners",
     "props": {
-      "width": "32%"
+      "width": "25%"
     },
     "children": ["image#banner-3"]
   },
   "flex-layout.col#third__banner-area--4": {
-    "title": "Coluna 3 da terceira área de banners",
+    "title": "Coluna 4 da terceira área de banners",
     "props": {
-      "width": "32%"
+      "width": "25%"
     },
     "children": ["image#banner-4"]
   },

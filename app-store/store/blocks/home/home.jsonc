@@ -12,7 +12,6 @@
       "rich-text#home__shelf-title",
       "flex-layout.row#home__shelf",
       "flex-layout.row#third__banner-area",
-      "rich-text#buttons-brands-home",
       "flex-layout.row#buttons-brands-home",
       "rich-text#physical__stories-title",
       "flex-layout.row#physical__stories",

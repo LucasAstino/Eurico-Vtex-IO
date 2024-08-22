@@ -1,5 +1,6 @@
 import React from "react";
 import { useListContext, ListContextProvider } from "vtex.list-context";
+import RichText from 'vtex.rich-text/index'
 
 import styles from "./styles.css"
 
@@ -10,17 +11,17 @@ import { IButtonsBrand } from "./types/ButtonsBrandsType";
 const CustomButtonsBrands = (props: IButtonsBrand) => {
   const { list } = useListContext() || [];
   const [item1] = props.children;
-  console.log("Props", props)
 
   if(!props.isActive) return <></>
 
   const listContent = props.buttonsContent.map((button: IButtonBrand, index: number) => (
-    <ButtonBrand buttonName={button.buttonName} categorySrc={button.categorySrc} imageSrc={button.imageSrc} key={index}/>
+    <ButtonBrand categorySrc={button.categorySrc} imageSrc={button.imageSrc} key={index}/>
   ))
   const newListContextValue = list.concat(listContent);
 
   return (
     <div className={styles.CustomButtonsBrands}>
+      <RichText text={props.title} />
       <ListContextProvider list={newListContextValue}>
           {item1}
       </ListContextProvider>

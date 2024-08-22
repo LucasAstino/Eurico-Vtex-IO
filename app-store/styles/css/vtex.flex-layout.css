@@ -10,10 +10,6 @@
   }
 }
 
-.flexRow--selling-price-savings .flexRowContent {
-  margin-bottom: 5px;
-}
-
 .flexRow--category__result {
   padding: 32px 90px 0;
   border-top: 1px solid #e3e4e6;
@@ -99,6 +95,10 @@
   margin: 24px auto;
 }
 
+.flexRow--selling-price-savings .flexRowContent {
+  margin-bottom: 5px;
+}
+
 .flexRowContent--menu-link__content, .flexRowContent--header__content {
   padding: 0 0.5rem;
   background-color: white;
@@ -138,7 +138,11 @@
     width: 100% !important;
   }
 }
-
+@media (min-width: 769px) {
+  .flexRowContent--third__banner-area .flexCol--translateToTop {
+    margin-top: -50px;
+  }
+}
 .flexRowContent--physical__stories {
   width: 100%;
   margin: auto;
@@ -486,6 +490,26 @@
   }
 }
 
+.flexRow--selling-prices__category {
+  width: fit-content !important;
+}
+.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
+  width: fit-content;
+  justify-content: flex-start;
+}
+.flexRow--shelf__category-price .flexRowContent {
+  flex-wrap: wrap;
+}
+@media (max-width: 1025px) {
+  .flexRow--shelf__category-price .flexRowContent {
+    flex-direction: column;
+    display: flex;
+  }
+  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
+    display: contents;
+  }
+}
+
 .flexRow--footer__newsletter {
   background-color: #f2f2f2;
   padding: 50px 80px 0;
@@ -603,7 +627,7 @@
 }
 
 .flexRow--header__icons .flexRowContent--header__icons {
-  gap: 8px;
+  gap: 40px;
 }
 .flexRow--header__icons .flexRowContent--header__icons .stretchChildrenWidth {
   display: contents;
@@ -672,26 +696,6 @@
 }
 .flexRow--header__minicart--footer .flexRowContent--header__minicart--footer {
   flex-direction: column;
-}
-
-.flexRow--selling-prices__category {
-  width: fit-content !important;
-}
-.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
-  width: fit-content;
-  justify-content: flex-start;
-}
-.flexRow--shelf__category-price .flexRowContent {
-  flex-wrap: wrap;
-}
-@media (max-width: 1025px) {
-  .flexRow--shelf__category-price .flexRowContent {
-    flex-direction: column;
-    display: flex;
-  }
-  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
-    display: contents;
-  }
 }
 
 .flexRow--about-us-row {

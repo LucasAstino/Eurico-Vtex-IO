@@ -34,8 +34,16 @@
 
         :global(.vtex-button) {
           display: block;
-          margin: auto;
-          width: auto;
+
+          padding: 0;
+          margin: 0;
+          width: 28px;
+          height: 28px;
+          background: url(https://eurico.vtexassets.com/assets/vtex/assets-builder/eurico.fg-store/0.0.45/icons/login___24ef9a1….svg) no-repeat;
+          background-size: contain;
+          min-height: unset;
+          border: 0;
+
           :global(.vtex-button__label){
             padding-right: 0;
           }

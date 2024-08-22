@@ -54,6 +54,11 @@
             "type": "boolean",
             "default": null
         },
+        "title": {
+          "title": "Título da Marca",
+          "type": "string",
+          "default": null
+        },
         "buttonsContent": {
           "title": "Botões",
           "type": "array",

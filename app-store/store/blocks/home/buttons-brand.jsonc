@@ -3,43 +3,37 @@
     "title": "Botões de Marcas Home",
     "props": {},
     "children": [
-      "custom-buttons-brands#home"
+      "custom-buttons-brands#homev2"
     ]
   },
-  "rich-text#buttons-brands-home": {
-    "title": "Título Seção Botões Marcas",
-    "props": {
-      "blockClass": "buttons-category-home",
-      "text": "AS MELHORES MARCAS"
-    }
-  },
-  "custom-buttons-brands#home": {
+  "custom-buttons-brands#homev2": {
     "props": {
         "isActive": true,
+        "title": "### AS MELHORES MARCAS",
         "buttonsContent": [
           {
-            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
-            "imageSrc": "https://eurico.vteximg.com.br/arquivos/tenis_cateogria_eurico.png"
+            "categorySrc": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "imageSrc": "assets/images/brand-image.png"
           },
           {
-            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
-            "imageSrc": "https://eurico.vteximg.com.br/arquivos/mocassim_cateogria_eurico.png"
+            "categorySrc": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "imageSrc": "assets/images/brand-image.png"
           },
           {
-            "categorySrc": "feminino/sapatilha?O=OrderByReleaseDateDESC",
-            "imageSrc": "https://eurico.vteximg.com.br/arquivos/sapatilha_cateogria_eurico.png"
+            "categorySrc": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "imageSrc": "assets/images/brand-image.png"
           },
           {
-            "categorySrc": "/feminino/tênis?O=OrderByReleaseDateDESC",
-            "imageSrc": "https://eurico.vteximg.com.br/arquivos/tenis_cateogria_eurico.png"
+            "categorySrc": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "imageSrc": "assets/images/brand-image.png"
           },
           {
-            "categorySrc": "/feminino/mocassim?O=OrderByReleaseDateDESC",
-            "imageSrc": "https://eurico.vteximg.com.br/arquivos/mocassim_cateogria_eurico.png"
+            "categorySrc": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "imageSrc": "assets/images/brand-image.png"
           },
           {
-            "categorySrc": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
-            "imageSrc": "https://eurico.vteximg.com.br/arquivos/sapatilha_cateogria_eurico.png"
+            "categorySrc": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "imageSrc": "assets/images/brand-image.png"
           }
         ]
     },

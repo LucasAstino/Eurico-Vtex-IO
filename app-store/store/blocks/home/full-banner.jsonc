@@ -3,16 +3,17 @@
     "title": "Slider principal home",
     "children": ["slider-layout#demo-images"],
     "props": {
+      "blockClass": ["fullbanner-home"],
       "height": "auto",
       "preload": true,
       "images": [
         {
-          "image": "https://eurico.vteximg.com.br/arquivos/banner-example.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-example-mobile.png"
+          "image": "assets/images/banner-example.png",
+          "mobileImage": "assets/images/banner-example-mobile.png"
         },
         {
-          "image": "https://eurico.vteximg.com.br/arquivos/banner-example.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-example-mobile.png"
+          "image": "assets/images/banner-example.png",
+          "mobileImage": "assets/images/banner-example-mobile.png"
         }
       ]
     }
