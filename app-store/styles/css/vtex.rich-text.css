@@ -588,51 +588,6 @@
   font-family: Lato;
 }
 
-.container--about-us__title .heading {
-  font-size: 33px;
-  letter-spacing: 1.5px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: 400;
-  margin-bottom: 33px;
-  margin-top: 35px;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 1025px) {
-  .container--about-us__title {
-    text-align: center;
-    display: inline;
-  }
-}
-.container--about-us-text {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 25px;
-  color: #000;
-  text-align: left;
-}
-.container--about-us-text .paragraph {
-  padding: 15px 35px 15px 0;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 1025px) {
-  .container--about-us-text .paragraph {
-    padding: 15px 0;
-  }
-}
-.container--about-us-text .heading {
-  font-size: 24px;
-  font-weight: bold;
-}
-@media (max-width: 1025px) {
-  .container--about-us-text {
-    text-align: center;
-    font-size: 13px;
-  }
-}
-
 .container--institucional__wrapper-menu-item {
   text-transform: uppercase;
   font-size: 12px;
@@ -704,6 +659,51 @@
     line-height: 36px;
     color: #000;
     text-transform: uppercase;
+  }
+}
+
+.container--about-us__title .heading {
+  font-size: 33px;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 33px;
+  margin-top: 35px;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us__title {
+    text-align: center;
+    display: inline;
+  }
+}
+.container--about-us-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #000;
+  text-align: left;
+}
+.container--about-us-text .paragraph {
+  padding: 15px 35px 15px 0;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text .paragraph {
+    padding: 15px 0;
+  }
+}
+.container--about-us-text .heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text {
+    text-align: center;
+    font-size: 13px;
   }
 }
 
@@ -903,16 +903,6 @@
   color: #fff;
 }
 
-.container--exchanges-and-returns .list {
-  list-style: none;
-  padding: 0;
-  font-weight: 300;
-}
-.container--exchanges-and-returns .listItem::before {
-  content: "-";
-  margin-right: 10px;
-}
-
 .container--institucional__wrapper-faq--col-text {
   font-size: 12px;
   font-weight: 400;
@@ -923,39 +913,14 @@
   line-height: 29px;
 }
 
-.container--fidelity__text {
-  max-width: 1208px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 40px auto 50px;
-}
-.container--fidelity__text .headingLevel1 {
-  font-size: 24px;
-  margin-bottom: 1em;
-}
-.container--fidelity__text .headingLevel2 {
-  font-size: 24px;
-  font-weight: 400;
-}
-.container--fidelity__text .paragraph {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 25px;
-}
-.container--fidelity__text .list {
+.container--exchanges-and-returns .list {
   list-style: none;
   padding: 0;
+  font-weight: 300;
 }
-.container--fidelity__text .list .listItem {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 25px;
-}
-.container--fidelity__text .list .listItem::before {
+.container--exchanges-and-returns .listItem::before {
   content: "-";
+  margin-right: 10px;
 }
 
 .container--history__title .heading {
@@ -1028,6 +993,41 @@
   }
 }
 
+.container--fidelity__text {
+  max-width: 1208px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 40px auto 50px;
+}
+.container--fidelity__text .headingLevel1 {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+.container--fidelity__text .headingLevel2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.container--fidelity__text .paragraph {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.container--fidelity__text .list {
+  list-style: none;
+  padding: 0;
+}
+.container--fidelity__text .list .listItem {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.container--fidelity__text .list .listItem::before {
+  content: "-";
+}
+
 .container--payment-methods {
   counter-reset: list-counter;
 }
@@ -1051,34 +1051,6 @@
   line-height: 29px;
   color: #000;
   margin-bottom: 30px;
-}
-
-.container--institucional__wrapper-terms-of-use--content {
-  counter-reset: list-counter;
-}
-.container--institucional__wrapper-terms-of-use--content .paragraph {
-  text-decoration: none;
-  letter-spacing: 0.3px;
-  vertical-align: baseline;
-  font-weight: 300;
-  margin-bottom: 30px;
-}
-.container--institucional__wrapper-terms-of-use--content .link {
-  text-decoration: none;
-  color: black;
-}
-.container--institucional__wrapper-terms-of-use--content .list {
-  list-style: none;
-  font-weight: 300;
-}
-.container--institucional__wrapper-terms-of-use--content .listItem {
-  counter-increment: list-counter;
-  display: flex;
-}
-.container--institucional__wrapper-terms-of-use--content .listItem::before {
-  content: counter(list-counter) ". ";
-  margin-right: 10px;
-  line-height: 1.5;
 }
 
 .container--tips__title, .container--tips__subTitle {
@@ -1160,4 +1132,32 @@
 .container--work__text .paragraph .link--work__text {
   text-decoration: none;
   color: black;
+}
+
+.container--institucional__wrapper-terms-of-use--content {
+  counter-reset: list-counter;
+}
+.container--institucional__wrapper-terms-of-use--content .paragraph {
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.container--institucional__wrapper-terms-of-use--content .link {
+  text-decoration: none;
+  color: black;
+}
+.container--institucional__wrapper-terms-of-use--content .list {
+  list-style: none;
+  font-weight: 300;
+}
+.container--institucional__wrapper-terms-of-use--content .listItem {
+  counter-increment: list-counter;
+  display: flex;
+}
+.container--institucional__wrapper-terms-of-use--content .listItem::before {
+  content: counter(list-counter) ". ";
+  margin-right: 10px;
+  line-height: 1.5;
 }
