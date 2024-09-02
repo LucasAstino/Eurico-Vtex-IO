@@ -2618,10 +2618,9 @@ esutils@^2.0.2:
   resolved "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-"eurico.agenciafg-custom@https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.14+build1721948870/public/@types/eurico.agenciafg-custom":
-  version "0.0.14"
-  resolved "https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.14+build1721948870/public/@types/eurico.agenciafg-custom"
-  integrity sha512-egK/hoIT378UhP78sL5xyxFKqrIq1rqaWW2qo4/wJE7wJWVOOQqGSnDc32PsycbMuDzOSpM5Ze65SBYPr4pI9g==
+"eurico.agenciafg-custom@https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.16+build1725126738/public/@types/eurico.agenciafg-custom":
+  version "0.0.16"
+  resolved "https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.16+build1725126738/public/@types/eurico.agenciafg-custom#f98f3ebd7dd6129084754463909187dd4292c634"
 
 exec-sh@^0.3.2:
   version "0.3.6"
@@ -5283,30 +5282,30 @@ verror@1.10.0:
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context"
   integrity sha512-nd9noja+Rxk1WcS9die0ZB0lhzlYuDBeyzQAdXDkQmEPiZds2jiPNfxefMSJdnh6cgbpUQ4mgQBhhe4m4SD5bA==
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime":
-  version "8.134.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime"
-  integrity sha512-lehqsIn8JPh8smXTCCRkgs/8ZJzsZKL0lfd6flq79Itr97tq9toYMXgtsuj9zfh3Mq2lgXCUhc8sPPCzCL5zVA==
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.8/public/@types/vtex.render-runtime":
+  version "8.134.8"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.8/public/@types/vtex.render-runtime"
+  integrity sha512-suGE4AOfzK8zCtRNoWk11B4RX4BYcTnUgobcP2DTpQtqWmtyU9ShRZMeg/yesvtn90mqFmwx7Jy67729dCrbvQ==
 
-"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.61.0/public/@types/vtex.search-graphql":
-  version "0.61.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.61.0/public/@types/vtex.search-graphql"
-  integrity sha512-pEb9YGEoCXeIOzhKyjJNoWnReflkAXkaCWnODPod7ptz1YHOKHR9M0OdcyvrbYMcEg0ItjkJvJrLmJ40pYubPA==
+"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.62.0/public/@types/vtex.search-graphql":
+  version "0.62.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.62.0/public/@types/vtex.search-graphql"
+  integrity sha512-XxWfB8SJRVRCMZjW7tn4sv/+ZiRBLQ8RiuHzQfnsVYepDtJ4b/ErAApsdsBsK/WlhuWH73rOwspKEt3c4MPSEA==
 
 "vtex.search-page-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-page-context@0.2.0/public/@types/vtex.search-page-context":
   version "0.2.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-page-context@0.2.0/public/@types/vtex.search-page-context"
   integrity sha512-/stdnTpY8PYyIIzdC9rXwjQsyuBmNSRz/Qj2GSASugkfZNpyzT64KIxmE6rUpOKlFXu2ErkY8/jaHWSdpuZc/g==
 
-"vtex.store-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.96.0/public/@types/vtex.store-resources":
-  version "0.96.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.96.0/public/@types/vtex.store-resources"
-  integrity sha512-jT2+0CxymTGCj2LS5Oc1KdSHCbxSAnI9U0GlLGWmSFWX+2VwahamXsNK75mZV1Wi1bRuaEWN6haAqmxQQ70MDw==
+"vtex.store-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.98.0/public/@types/vtex.store-resources":
+  version "0.98.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.98.0/public/@types/vtex.store-resources"
+  integrity sha512-Epuqj8rAaVjVdhRjJFaJOhW8QPpxm5Fr0hIY2FhuJgBg5f1x1bfx0lvOd1RqSbaKeXUVXOZaNjRFiTC5MfzmHg==
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide":
-  version "9.146.9"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide"
-  integrity sha512-m0goQx6BF9Ne2DfLRdoqJf0NRMfs1kIogbpL4ZQ/3l1UDvVVMT/oqiw7OcMCDMH8YX08h8HV+h98fopqR+y+8A==
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.13/public/@types/vtex.styleguide":
+  version "9.146.13"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.13/public/@types/vtex.styleguide"
+  integrity sha512-gCNWoq3CasRcIhDNZzo5kRaMpFcBY71L6JCPA/tqktYeHmh1PS2qP45+y7PLDANgP13o1Fu72HeHOh1VUEcNoA==
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

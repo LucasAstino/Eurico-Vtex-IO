@@ -14,7 +14,7 @@ export const productDescription = () => {
 
   const {handles} = useCssHandles(HANDLES_DESCRIPTION)
 
-  console.log(useProduct())
+  console.log(useProduct(),'produto')
   const { product } = useProduct() || {};
 
   const description = product?.description ?? 'Descrição não disponível';

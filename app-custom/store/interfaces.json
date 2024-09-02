@@ -31,5 +31,8 @@
   },
   "fg-keepBuying":{
     "component":"KeepBuying"
+  },
+  "fg-Parallax":{
+    "component":"Parallax"
   }
 }
