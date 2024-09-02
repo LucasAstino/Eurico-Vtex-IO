@@ -75,7 +75,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/44?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/44?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "44",
             "text": "44"
@@ -86,7 +86,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/45?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/45?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "45",
             "text": "45"
@@ -97,7 +97,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/46?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/46?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "46",
             "text": "46"
@@ -108,7 +108,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/47?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/47?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "47",
             "text": "47"
@@ -119,7 +119,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/48?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/48?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "48",
             "text": "48"
@@ -130,7 +130,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/49?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/49?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "49",
             "text": "49"
@@ -141,7 +141,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/50?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/masculino/50?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "50",
             "text": "50"
@@ -188,7 +188,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino?O=OrderByReleaseDateDESC",
+            "href": "/masculino?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Todas as novidades",
             "text": "Todas as novidades"
@@ -199,7 +199,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/sapatenis?O=OrderByReleaseDateDESC",
+            "href": "/masculino/sapatenis?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Sapatênis",
             "text": "Sapatênis"
@@ -210,7 +210,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/Tênis/Casual?map=c,c,specificationFilter_20&O=OrderByReleaseDateDESC",
+            "href": "/masculino/Tênis/Casual?map=c,c,specificationFilter_20&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tênis Casual",
             "text": "Tênis Casual"
@@ -221,7 +221,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/Tênis/Esportivo?map=c,c,specificationFilter_20&O=OrderByReleaseDateDESC",
+            "href": "/masculino/Tênis/Esportivo?map=c,c,specificationFilter_20&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tênis Esportivo",
             "text": "Tênis Esportivo"
@@ -232,7 +232,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/bota?O=OrderByReleaseDateDESC",
+            "href": "/masculino/bota?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Bota",
             "text": "Bota"
@@ -243,7 +243,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/social?O=OrderByReleaseDateDESC",
+            "href": "/masculino/social?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Social",
             "text": "Social"
@@ -254,7 +254,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/casual?O=OrderByReleaseDateDESC",
+            "href": "/masculino/casual?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Casual",
             "text": "Casual"
@@ -265,7 +265,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/chuteira?O=OrderByReleaseDateDESC",
+            "href": "/masculino/chuteira?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Chuteira",
             "text": "Chuteira"
@@ -276,7 +276,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/sandalias-e-chinelos?O=OrderByReleaseDateDESC",
+            "href": "/masculino/sandalias-e-chinelos?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Sandálias e Chinelos",
             "text": "Sandálias e Chinelos"
@@ -322,7 +322,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/129?O=OrderByReleaseDateDESC",
+            "href": "/129?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Nike",
             "text": "Nike"
@@ -333,7 +333,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/adidas?map=c,b&O=OrderByReleaseDateDESC",
+            "href": "/masculino/adidas?map=c,b&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Adidas",
             "text": "Adidas"
@@ -344,7 +344,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/tenis/fila?O=OrderByReleaseDateDESC",
+            "href": "/masculino/tenis/fila?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Fila",
             "text": "Fila"
@@ -355,7 +355,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/tenis/new-balance?O=OrderByReleaseDateDESC",
+            "href": "/masculino/tenis/new-balance?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "New Balance",
             "text": "New Balance"
@@ -366,7 +366,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/skechers?map=c,b&O=OrderByReleaseDateDESC",
+            "href": "/masculino/skechers?map=c,b&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Skechers",
             "text": "Skechers"
@@ -377,7 +377,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/olympikus?O=OrderByReleaseDateDESC",
+            "href": "/masculino/olympikus?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Olympikus",
             "text": "Olympikus"
@@ -388,7 +388,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/all-star?O=OrderByReleaseDateDESC",
+            "href": "/masculino/all-star?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Converse",
             "text": "Converse"
@@ -399,7 +399,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/bull-terrier?O=OrderByReleaseDateDESC",
+            "href": "/masculino/bull-terrier?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Bull Terrier",
             "text": "Bull Terrier"
@@ -410,7 +410,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/anatomic-gel?O=OrderByReleaseDateDESC",
+            "href": "/masculino/anatomic-gel?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Anatomic Gel",
             "text": "Anatomic Gel"
@@ -421,7 +421,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/havaianas?O=OrderByReleaseDateDESC",
+            "href": "/masculino/havaianas?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Havaianas",
             "text": "Havaianas"
@@ -432,7 +432,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/masculino/Eurico%20Basics?map=c,specificationFilter_20&O=OrderByReleaseDateDESC",
+            "href": "/masculino/Eurico%20Basics?map=c,specificationFilter_20&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Eurico Basics",
             "text": "Eurico Basics"
@@ -454,7 +454,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/acessorios/meia-masculina?O=OrderByReleaseDateDESC",
+            "href": "/acessorios/meia-masculina?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Meias e Acessórios",
             "text": "Meias e Acessórios"

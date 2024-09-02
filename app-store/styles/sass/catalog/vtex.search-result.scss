@@ -213,6 +213,9 @@
   .filterAvailable {
     display: flex;
     position: relative;
+    :first-child{
+      width: 100%;
+    }
 
     @include tablet{
       border-bottom: 1px solid #d9d9d9;
@@ -235,7 +238,7 @@
     }
 
     .filterTitle {
-      width: 12em;
+      width: 100%;
     }
 
     &.filterIsOpen {

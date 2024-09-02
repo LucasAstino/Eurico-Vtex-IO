@@ -255,6 +255,9 @@
           font-size: 12px;
         }
       }
+      :global(.vtex__highlight)[data-highlight-name="Linha Raízes"] {
+        display: none;
+      }
     }
   }
 }
