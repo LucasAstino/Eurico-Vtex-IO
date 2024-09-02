@@ -1,6 +1,9 @@
 .product-identifier--productReference {
   font-size: 12px;
   letter-spacing: 1px;
+  @include mobile{
+    font-weight: 300;
+  }
 
   &::before{
     content: "Ref";

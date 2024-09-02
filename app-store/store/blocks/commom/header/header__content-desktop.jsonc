@@ -20,7 +20,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.row#category-menu",
       "search-bar",
-      "flex-layout.row#header__icons",
+      "flex-layout.row#header__icons-sticky",
       "flex-layout.col#spacer"
     ]
   },
@@ -50,6 +50,15 @@
       "preventVerticalStretch": true
     },
     "children": ["login", "minicart.v2#header__minicart"]
+  },
+  "flex-layout.row#header__icons-sticky": {
+    "props": {
+      "blockClass": "header__icons",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": ["login", "minicart.v2#header__minicart-sticky"]
   },
   "flex-layout.col#logo-desktop": {
     "props": {

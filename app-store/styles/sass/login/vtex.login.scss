@@ -367,6 +367,7 @@
 // css do copmponente de review, esta nesse arquivo devido a bug da vtex..
 
 :global(.vtex-reviews-and-ratings-3-x-container){
+  margin:0;
   margin-bottom: 50px;
 }
 
@@ -374,6 +375,9 @@
   display: flex;
   align-items: baseline;
   gap: 10px;
+  @include mobile{
+    font-weight: 300;
+  }
 
   &::before {
     content: "Média de avaliações:";

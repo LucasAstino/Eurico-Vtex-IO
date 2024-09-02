@@ -3,6 +3,15 @@
     "title": "Mini carrinho de compras",
     "children": ["minicart-base-content"],
     "props": {
+      "blockClass": "header__minicart",
+      "customPixelEventName": "addToCart"
+      // "customPixelEventId": "addToCart"
+    }
+  },
+  "minicart.v2#header__minicart-sticky": {
+    "title": "Mini carrinho de compras",
+    "children": ["minicart-base-content"],
+    "props": {
       "blockClass": "header__minicart"
     }
   },
@@ -161,7 +170,7 @@
   "minicart-checkout-button": {
     "title": "Botão de finalização do mini carrinho",
     "props": {
-      "finishShoppingButtonLink": "/checkout/#/orderform"
+      "finishShoppingButtonLink": "/checkout/#/cart"
     }
   },
   //MINICART VAZIO

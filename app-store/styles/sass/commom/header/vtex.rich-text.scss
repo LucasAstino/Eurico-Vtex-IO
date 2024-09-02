@@ -56,6 +56,9 @@
     -ms-flex-align: center;
     align-items: center;
     width: 75px;
+    .link--seeMore{
+      text-decoration: none;
+    }
     &::after {
       position: absolute;
       content: ">";

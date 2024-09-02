@@ -2,7 +2,7 @@
   "flex-layout.col#footer__links-selos": {
     "title": "Coluna de Selos e Redes Sociais no Rodapé",
     "children": [
-      "rich-text#footer__titulo--selo",
+      "rich-text#footer__titulo--social",
       "flex-layout.row#footer__links-selos--row-01",
       "rich-text#footer__titulo--selo",
       "flex-layout.row#footer__links-selos--row-02"
@@ -40,10 +40,17 @@
       "image#selo-03"
     ]
   },
+  "rich-text#footer__titulo--social": {
+    "title": "Título das Redes Sociais e Selos",
+    "props": {
+      "text": "Nossas Redes Sociais",
+      "blockClass": "footer__column--title"
+    }
+  },
   "rich-text#footer__titulo--selo": {
     "title": "Título das Redes Sociais e Selos",
     "props": {
-      "text": "NOSSAS REDES SOCIAIS",
+      "text": "Segurança",
       "blockClass": "footer__column--title"
     }
   },

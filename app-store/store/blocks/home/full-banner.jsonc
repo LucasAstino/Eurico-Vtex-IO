@@ -31,7 +31,7 @@
         "stopOnHouver": true
       },
       "showNavigationArrows": "mobileOnly",
-      "showPaginationDots":"never",
+      "showPaginationDots":"desktopOnly",
       "blockClass": "carrossel"
     }
   }

@@ -30,7 +30,7 @@
   }
 }
 
-.listPrice--product-list-price__pdp{
+.listPrice--product-list-price__pdp {
   color: #606060;
   font-size: 12px;
   font-weight: 600;
@@ -46,4 +46,29 @@
   color: #606060;
   font-size: 14px;
   font-weight: 600;
+}
+.installmentsListContainer--payment__methods {
+  display: flex;
+  flex-direction: column;
+
+  .installments {
+    padding: 10px;
+    letter-spacing: 0.3px;
+    vertical-align: baseline;
+    font-weight: 300;
+    font-size: 14px;
+    
+    &:first-child {
+      font-size: 0;
+      .installments-bold {
+        font-size: 14px;
+        &::after{
+        content: " à vista";
+        }
+        &:first-child {
+          display: none;
+        }
+      }
+    }
+  }
 }

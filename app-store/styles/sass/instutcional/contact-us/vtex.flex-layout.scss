@@ -27,7 +27,9 @@
         }
       }
       &--contact-us__store-right{
-        padding-left: 30px;
+        @include desktop{
+          padding-left: 30px;
+        }
       }
     }
   }

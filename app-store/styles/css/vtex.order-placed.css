@@ -1,0 +1,6 @@
+.section--notices .noticesList .noticeListItem {
+  display: none;
+}
+.section--notices .noticesList .noticeListItem:last-child {
+  display: block;
+}

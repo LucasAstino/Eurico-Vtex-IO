@@ -51,7 +51,7 @@
     "title": "Imagem da Agência no Copyright",
     "props": {
       "maxWidth": "140px",
-      "src": "assets/images/footer/logo-agencia.png",
+      "src": "assets/images/footer/fg.webp",
       "blockClass": "agencia"
     }
   },

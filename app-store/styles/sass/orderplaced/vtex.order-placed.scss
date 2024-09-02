@@ -1,0 +1,10 @@
+.section--notices{
+    .noticesList{
+        .noticeListItem{
+            display: none;
+            &:last-child{
+                display: block;
+            }
+        }
+    }
+}

@@ -6,6 +6,7 @@
   "header-layout.desktop": {
     "title": "Desktop",
     "children": [
+      "fg-Parallax",
       "slider-layout#header__tipbar",
       "flex-layout.row#header__content",
       "flex-layout.row#category-menu",
@@ -16,7 +17,7 @@
   "header-layout.mobile": {
     "title": "Mobile",
     "children": [
-
+      "fg-Parallax",
       "slider-layout#header__tipbar",
       "sticky-layout#header__content-mobile",
       "search-bar#header__search"

@@ -64,7 +64,7 @@
     "title": "Coluna direita da segunda área de banners",
     "props": {
       "width": "49%",
-      "blockClass": "col-right"
+      "blockClass": ["col-right","parallax"]
     },
     "children": [
       "image#secund-area-banners-banner-3",

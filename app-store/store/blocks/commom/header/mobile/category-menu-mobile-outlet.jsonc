@@ -12,7 +12,8 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "outlet",
-        "text": "outlet"
+        "text": "outlet",
+        "href": "/outlet"
       }
     }
   }

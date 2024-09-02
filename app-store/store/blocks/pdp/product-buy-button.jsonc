@@ -5,10 +5,26 @@
     },
     "children": ["add-to-cart-button#buy__buttom-pdp"]
   },
+  "flex-layout.row#buy__buttom-pdp--buyFast": {
+    "props": {
+      "blockClass": "buy__button-pdp"
+    },
+    "children": ["fg-addToCart_buyFast"]
+  },
   "add-to-cart-button#buy__buttom-pdp": {
     "props": {
       "blockClass":"buy__buttom-pdp",
-      "text": "Comprar"
+      "text": "Comprar",
+      "onClickBehavior": "add-to-cart"
+      
+    }
+  },
+  "add-to-cart-button#buy__buttom-pdp-pdp--buyFast": {
+    "props": {
+      "blockClass":"buy__buttom-pdp",
+      "text": "Comprar",
+      "onClickBehavior": "add-to-cart"
+      
     }
   }
 }

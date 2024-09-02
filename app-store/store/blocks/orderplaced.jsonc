@@ -1,13 +1,11 @@
 {
   "order-placed": {
-    "blocks": ["op-header", "op-order"]
+    "blocks": [ "op-header","op-order"]
   },
   "op-header": {
     "children": [
-      "op-section#confirmation",
-      "op-section#notices",
-      "op-summary-section",
-      "op-bank-invoice-section"
+      "rich-text#op-help"
+      
     ]
   },
   "op-section#confirmation": {
@@ -19,8 +17,25 @@
     "children": [
       "op-confirmation-icon",
       "op-confirmation-title",
+      // "rich-text#op-confirmation-title",
+      "op-order-datetime",
+      // "rich-text#progress",
       "op-confirmation-message",
-      "flex-layout.row#confirmation-buttons"
+      // "op-bank-invoice-section",
+      "op-summary-section",
+      // "flex-layout.row#confirmation-buttons",
+      "op-section#notices"
+    ]
+  },
+  "op-section#custumer": {
+    "props": {
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "rich-text#op-data",
+      "op-order-customer"
     ]
   },
   "flex-layout.row#confirmation-buttons": {
@@ -48,14 +63,18 @@
   // each order section
   "op-order": {
     "children": [
+      "op-section#confirmation",
       "flex-layout.row#order-header",
       "op-order-split-notice",
-      "op-order-customer",
+     "op-section#custumer",
+      "rich-text#op-payment",
       "op-section#payments",
+      "rich-text#op-resume",
+      "op-order-total",
       "op-section#pickup-packages",
       "op-section#delivery-packages",
       "op-order-takeaway-packages",
-      "op-order-total"
+      "op-order-options#mobile"
     ]
   },
   // each order header
@@ -72,7 +91,7 @@
     ]
   },
   "flex-layout.col#order-header-info": {
-    "children": ["op-order-number", "op-order-datetime", "op-order-seller"]
+    "children": ["op-order-number"]
   },
   "flex-layout.col#order-header-options": {
     "children": ["responsive-layout.desktop#order-options-desktop"]
@@ -92,7 +111,7 @@
   },
   // bottom of top section of order header
   "responsive-layout.mobile#order-options-mobile": {
-    "children": ["op-order-options#mobile"]
+    "children": []
   },
   "op-order-options#mobile": {
     "props": {
@@ -111,5 +130,28 @@
       "name": "deliveryPackages"
     },
     "children": ["op-order-delivery-packages"]
+  },
+  "rich-text#op-payment": {
+    "props": {
+      "text": "PAGAMENTO"
+    }
+  },
+  "rich-text#op-help": {
+    "props": {
+      "blockClass":"op-help",
+      "text": "Dúvidas sobre o produto escolhido? Nossa equipe pode te auxiliar: [(11) 94557-7834](https://wa.me/5511945577834)"
+    }
+  },
+  "rich-text#op-resume": {
+    "props": {
+      "blockClass":"op-help",
+      "text": "RESUMO"
+    }
+  },
+  "rich-text#op-data": {
+    "props": {
+      "blockClass":"op-order",
+      "text": "DADOS PESSOAIS"
+    }
   }
 }
