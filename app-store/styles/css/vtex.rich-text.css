@@ -329,6 +329,10 @@
   font-weight: 700;
 }
 
+.container--content-seo-category {
+  width: 80%;
+  margin: 0 auto 25px auto;
+}
 .container--content-seo-category .heading {
   color: #000;
   font-size: 18px;
@@ -827,16 +831,6 @@
   color: #fff;
 }
 
-.container--institucional__wrapper-faq--col-text {
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  justify-content: center;
-}
-.container--institucional__wrapper-faq--col-text .paragraph {
-  line-height: 29px;
-}
-
 .container--exchanges-and-returns .list {
   list-style: none;
   padding: 0;
@@ -845,6 +839,16 @@
 .container--exchanges-and-returns .listItem::before {
   content: "-";
   margin-right: 10px;
+}
+
+.container--institucional__wrapper-faq--col-text {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.container--institucional__wrapper-faq--col-text .paragraph {
+  line-height: 29px;
 }
 
 .container--fidelity__text {
@@ -880,6 +884,22 @@
 }
 .container--fidelity__text .list .listItem::before {
   content: "-";
+}
+
+.container--payment-methods {
+  counter-reset: list-counter;
+}
+.container--payment-methods .listOrdered {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+}
+.container--payment-methods .listOrdered .listItem {
+  counter-increment: list-counter;
+}
+.container--payment-methods .listOrdered .listItem::before {
+  content: counter(list-counter) ". ";
+  margin-right: 10px;
 }
 
 .container--history__title .heading {
@@ -950,22 +970,6 @@
   .container--history__content-text {
     width: 70% !important;
   }
-}
-
-.container--payment-methods {
-  counter-reset: list-counter;
-}
-.container--payment-methods .listOrdered {
-  list-style: none;
-  padding: 0;
-  font-weight: 300;
-}
-.container--payment-methods .listOrdered .listItem {
-  counter-increment: list-counter;
-}
-.container--payment-methods .listOrdered .listItem::before {
-  content: counter(list-counter) ". ";
-  margin-right: 10px;
 }
 
 .container--institucional__wrapper-privacy-policies--content .paragraph {
