@@ -33,6 +33,7 @@
   display: -webkit-box;
   font-size: 12px;
   -webkit-text-stroke: 0.2px;
+  text-align: left;
 }
 @media (max-width: 768px) {
   .container .clearLink .element .nameContainer .productBrand {

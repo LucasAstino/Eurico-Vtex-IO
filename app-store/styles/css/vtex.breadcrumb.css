@@ -15,3 +15,8 @@
 .container .caretIcon {
   color: #161615;
 }
+.container .term {
+  letter-spacing: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}

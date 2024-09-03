@@ -1,0 +1,133 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+.menuLinks {
+  .menuLink {
+    border: 1px solid #ccc;
+    margin: 0;
+    border-top: 0;
+    display: flex;
+    gap: 5px;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    &::before {
+      content: "\f08b";
+      width: 15px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &::before {
+    content: "MENU";
+    font-size: 18px;
+    color: #ab8663;
+    text-transform: uppercase;
+    text-align: left;
+    height: 30px;
+    width: 100%;
+    display: block;
+    // line-height: 40px;
+    border-bottom: 2px solid #ccc;
+  }
+
+  :global(.vtex-account_menu-link) {
+    border: 1px solid #ccc;
+    margin: 0;
+    border-top: 0;
+    display: flex;
+    gap: 5px;
+    &::before {
+      font: normal normal normal 14px / 1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  :first-child {
+    :first-child {
+      :global(.vtex-account_menu-link) {
+        &:global(.b--action-primary) {
+          border-color: #ccc;
+        }
+        &::before {
+          content: "\f2be";
+          width: 15px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    :nth-child(2) {
+      :global(.vtex-account_menu-link) {
+        &::before {
+          content: "\f041";
+          width: 15px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    :nth-child(3) {
+      :global(.vtex-account_menu-link) {
+        &::before {
+          content: "\f07a";
+          width: 15px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    :nth-child(5) {
+      :global(.vtex-account_menu-link) {
+        &::before {
+          content: "\f084";
+          width: 15px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.menu{
+  @include tablet{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+:global(.vtex-account__page) {
+  :global(.vtex-pageHeader__container){
+    padding: 0.9rem 2rem;
+  }
+  :global(.vtex-pageHeader__title) {
+    color: #ab8663;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    &::before {
+      font: normal normal normal 25px / 1 FontAwesome;
+      content: "\f007";
+    }
+  }
+  :global(.vtex-button) {
+    color: #ab8663;
+    text-decoration: none;
+    padding: 4px 10px;
+    display: inline-block;
+    line-height: 30px;
+    border: 1px solid #ab8663;
+    font-weight: 700;
+    margin-bottom: 2px;
+    margin-top: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    &:hover {
+      background-color: #ab8663 !important;
+      color: white;
+    }
+  }
+}
