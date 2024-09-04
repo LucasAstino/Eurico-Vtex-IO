@@ -38,17 +38,17 @@
       "op-order-customer"
     ]
   },
-  "flex-layout.row#confirmation-buttons": {
-    "props": {
-      "blockClass": "confirmationButtons",
-      "marginTop": 8,
-      "marginBottom": 8,
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
-    },
-    "children": ["flex-layout.col#confirmation-buttons"]
-  },
+  // "flex-layout.row#confirmation-buttons": {
+  //   "props": {
+  //     "blockClass": "confirmationButtons",
+  //     "marginTop": 8,
+  //     "marginBottom": 8,
+  //     "horizontalAlign": "center",
+  //     "preventHorizontalStretch": true,
+  //     "preserveLayoutOnMobile": true
+  //   },
+  //   "children": ["flex-layout.col#confirmation-buttons"]
+  // },
   "flex-layout.col#confirmation-buttons": {
     "children": ["op-print-button"]
   },
@@ -66,11 +66,7 @@
       "op-section#confirmation",
       "flex-layout.row#order-header",
       "op-order-split-notice",
-     "op-section#custumer",
-      "rich-text#op-payment",
-      "op-section#payments",
-      "rich-text#op-resume",
-      "op-order-total",
+      "op-section#custumesAndPayment",
       "op-section#pickup-packages",
       "op-section#delivery-packages",
       "op-order-takeaway-packages",
@@ -100,11 +96,29 @@
     "children": ["op-order-options"]
   },
   // payment section
+  "op-section#custumesAndPayment": {
+    "props": {
+      "name": "custumesAndPayment"
+    },
+    "children": [
+      "op-section#custumer","op-section#payments","op-section#resume"
+    ]
+  },
+  "op-section#resume": {
+    "props": {
+      "name": "resume"
+    },
+    "children": [
+      "rich-text#op-resume",
+      "op-order-total"
+    ]
+  },
   "op-section#payments": {
     "props": {
       "name": "paymentMethods"
     },
     "children": [
+      "rich-text#op-payment",
       "op-order-payment",
       "responsive-layout.mobile#order-options-mobile"
     ]
@@ -144,7 +158,7 @@
   },
   "rich-text#op-resume": {
     "props": {
-      "blockClass":"op-help",
+      "blockClass":"op-resume",
       "text": "RESUMO"
     }
   },

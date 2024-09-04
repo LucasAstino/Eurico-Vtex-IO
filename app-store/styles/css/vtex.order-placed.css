@@ -4,3 +4,46 @@
 .section--notices .noticesList .noticeListItem:last-child {
   display: block;
 }
+
+.orderPlacedWrapper :global(.vtex-rich-text-0-x-container--op-help) {
+  justify-content: center;
+  display: flex;
+}
+.orderPlacedWrapper :global(.vtex-rich-text-0-x-container--op-help) :global(.vtex-rich-text-0-x-paragraph--op-help) {
+  text-align: center;
+}
+@media (max-width: 1025px) {
+  .orderPlacedWrapper .noticeListItem :global(.vtex-button) {
+    display: grid;
+  }
+}
+@media (min-width: 1025px) {
+  .orderPlacedWrapper .section--custumesAndPayment {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1025px) {
+  .orderPlacedWrapper .section--confirmation,
+  .orderPlacedWrapper .section--paymentMethods,
+  .orderPlacedWrapper .section--resume {
+    margin: 0;
+  }
+}
+.orderPlacedWrapper .orderPaymentWrapper :global(.vtex-button) {
+  display: none;
+}
+.orderPlacedWrapper .totalListWrapper {
+  display: block;
+}
+.orderPlacedWrapper .orderOptionsWrapper:first-child {
+  display: none;
+}
+.orderPlacedWrapper .orderOptionsWrapper :global(.vtex-button) {
+  background-color: black;
+  color: white;
+}
+.orderPlacedWrapper .orderDatetime {
+  text-align: center;
+  display: block;
+}
