@@ -26,6 +26,7 @@
     }
   }
   &__formSubmit {
+    all: unset;
     width: 50%;
     max-width: 200px;
     height: 45px;
@@ -34,10 +35,12 @@
     text-align: center;
     background-color: #fff;
     margin: 0 20px;
-    padding: 15px 0;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    /* padding: 15px 0; */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     display: block;
     border: none;
+    -webkit-appearance: none;
+    font-family: sans-serif;
     @include mobile{
       width: 100%;
       margin: 0 auto 20px;
