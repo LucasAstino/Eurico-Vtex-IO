@@ -886,22 +886,6 @@
   content: "-";
 }
 
-.container--payment-methods {
-  counter-reset: list-counter;
-}
-.container--payment-methods .listOrdered {
-  list-style: none;
-  padding: 0;
-  font-weight: 300;
-}
-.container--payment-methods .listOrdered .listItem {
-  counter-increment: list-counter;
-}
-.container--payment-methods .listOrdered .listItem::before {
-  content: counter(list-counter) ". ";
-  margin-right: 10px;
-}
-
 .container--history__title .heading {
   padding: 30px 0 15px;
   font-size: 33px;
@@ -970,6 +954,22 @@
   .container--history__content-text {
     width: 70% !important;
   }
+}
+
+.container--payment-methods {
+  counter-reset: list-counter;
+}
+.container--payment-methods .listOrdered {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+}
+.container--payment-methods .listOrdered .listItem {
+  counter-increment: list-counter;
+}
+.container--payment-methods .listOrdered .listItem::before {
+  content: counter(list-counter) ". ";
+  margin-right: 10px;
 }
 
 .container--institucional__wrapper-privacy-policies--content .paragraph {
