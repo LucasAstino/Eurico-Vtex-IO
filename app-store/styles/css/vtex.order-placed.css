@@ -23,12 +23,35 @@
     justify-content: space-between;
   }
 }
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListName::before {
+  content: "Nome: ";
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListEmail::before {
+  content: "Email: ";
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListDocument::before {
+  content: "Doc: ";
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListPhone::before {
+  content: "Tel: ";
+}
 @media (min-width: 1025px) {
   .orderPlacedWrapper .section--confirmation,
   .orderPlacedWrapper .section--paymentMethods,
   .orderPlacedWrapper .section--resume {
     margin: 0;
   }
+}
+.orderPlacedWrapper .section--resume .totalListWrapper .totalList {
+  width: 100%;
+  margin: 0;
+}
+.orderPlacedWrapper .section--resume .totalListItem {
+  gap: 10px;
+}
+.orderPlacedWrapper .section--resume .totalListItem .totalListItemLabel, .orderPlacedWrapper .section--resume .totalListItem .totalListItemValue {
+  color: #727273;
+  font-size: 16px;
 }
 .orderPlacedWrapper .orderPaymentWrapper :global(.vtex-button) {
   display: none;
