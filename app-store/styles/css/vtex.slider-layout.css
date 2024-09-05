@@ -53,6 +53,10 @@
 .sliderLayoutContainer--carrossel .sliderLeftArrow::after {
   rotate: 180deg;
 }
+.sliderLayoutContainer--carrossel .imageElement--carrossel {
+  width: 100vw !important;
+  max-width: 1920px;
+}
 .sliderLayoutContainer--header__tipbar {
   -webkit-box-shadow: 5px 5px 5px #f7f7f7;
   box-shadow: 5px 5px 5px #f7f7f7;

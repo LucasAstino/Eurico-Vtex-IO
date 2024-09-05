@@ -64,6 +64,10 @@
         rotate: 180deg;
       }
     }
+    .imageElement--carrossel{
+      width: 100vw !important;
+      max-width: 1920px;
+    }
   }
   &--header__tipbar {
     -webkit-box-shadow: 5px 5px 5px #f7f7f7;
