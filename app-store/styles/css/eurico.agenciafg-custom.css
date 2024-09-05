@@ -468,6 +468,11 @@
   flex-direction: column;
   padding: 10px 30px;
 }
+@media (max-width: 1025px) {
+  .popup-depoimento__container {
+    width: 100%;
+  }
+}
 
 .popup-depoimento__container .popup-depoimento__title {
   display: -webkit-box;
@@ -514,6 +519,12 @@
   font-size: 10px;
   margin: 9px 0px 5px 140px;
   cursor: pointer;
+}
+@media (max-width: 1025px) {
+  .e-popup__form-submit {
+    display: block;
+    margin: auto;
+  }
 }
 
 .popup-depoimento__close {
