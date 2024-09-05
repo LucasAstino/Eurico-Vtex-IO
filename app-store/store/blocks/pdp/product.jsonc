@@ -148,6 +148,7 @@
 
   "sku-selector#pdp": {
     "props": {
+      "initialSelection": "empty",
       "blockClass": "sku-selector__pdp"
     }
   },
