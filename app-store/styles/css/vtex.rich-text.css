@@ -739,6 +739,34 @@
   }
 }
 
+@media (max-width: 1025px) {
+  .container--depositions__title {
+    justify-content: center;
+  }
+}
+.container--depositions__title .heading {
+  text-transform: uppercase;
+  color: #22201F;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 30px;
+}
+.container--new-testimonial__trigger {
+  justify-content: end;
+  width: fit-content;
+}
+.container--new-testimonial__trigger .paragraph {
+  cursor: pointer;
+  position: relative;
+  background: #626e3f;
+  padding: 13px 60px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .container--whatsapp .wrapper {
   font-style: normal;
   font-weight: 700;
@@ -801,34 +829,6 @@
   background-image: url(assets/icons/whatsapp.svg);
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-@media (max-width: 1025px) {
-  .container--depositions__title {
-    justify-content: center;
-  }
-}
-.container--depositions__title .heading {
-  text-transform: uppercase;
-  color: #22201F;
-  font-weight: bold;
-  font-size: 30px;
-  margin: 0 30px;
-}
-.container--new-testimonial__trigger {
-  justify-content: end;
-  width: fit-content;
-}
-.container--new-testimonial__trigger .paragraph {
-  cursor: pointer;
-  position: relative;
-  background: #626e3f;
-  padding: 13px 60px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
 }
 
 .container--exchanges-and-returns .list {
