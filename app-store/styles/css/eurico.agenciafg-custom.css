@@ -523,7 +523,7 @@
 @media (max-width: 1025px) {
   .e-popup__form-submit {
     display: block;
-    margin: auto;
+    margin: auto !important;
   }
 }
 

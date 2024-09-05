@@ -270,7 +270,7 @@
   cursor: pointer;
   @include tablet{
     display: block;
-    margin: auto;
+    margin: auto !important;
   }
 }
 .popup-depoimento__close {
