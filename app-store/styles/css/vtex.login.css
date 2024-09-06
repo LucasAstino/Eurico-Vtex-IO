@@ -288,6 +288,14 @@
   color: black;
 }
 
+.accountOptions :global(.vtex-button):hover {
+  color: white !important;
+}
+
+.loginOptionsContainer .googleOptionBtn :global(.vtex-button):hover {
+  color: white !important;
+}
+
 :global(.vtex-reviews-and-ratings-3-x-container) {
   margin: 0;
   margin-bottom: 50px;

@@ -364,6 +364,24 @@
   }
 }
 
+.accountOptions{
+  :global(.vtex-button){
+    &:hover{
+      color: white !important;
+    }
+  }
+}
+
+.loginOptionsContainer{
+  .googleOptionBtn{
+    :global(.vtex-button){
+      &:hover{
+        color: white !important;
+      }
+    }
+  }
+}
+
 // css do copmponente de review, esta nesse arquivo devido a bug da vtex..
 
 :global(.vtex-reviews-and-ratings-3-x-container) {
@@ -519,3 +537,5 @@
 :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage) {
   display: none;
 }
+
+
