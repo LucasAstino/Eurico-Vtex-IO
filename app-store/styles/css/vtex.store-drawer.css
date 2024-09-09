@@ -1,3 +1,17 @@
+.openIconContainer--menu__drawer {
+  padding: 0;
+}
+.openIconContainer--menu__drawer::after {
+  content: "";
+  background-image: url("assets/icons/header/drawer.svg");
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+.openIconContainer--menu__drawer .menuIcon {
+  display: none;
+}
+
 .openIconContainer--search__filter {
   display: flex;
   align-items: center;
@@ -32,20 +46,6 @@
   will-change: transform !important;
   perspective: 1px !important;
   translate: 0, 0 !important;
-}
-
-.openIconContainer--menu__drawer {
-  padding: 0;
-}
-.openIconContainer--menu__drawer::after {
-  content: "";
-  background-image: url("assets/icons/header/drawer.svg");
-  width: 35px;
-  height: 35px;
-  display: block;
-}
-.openIconContainer--menu__drawer .menuIcon {
-  display: none;
 }
 
 .drawerContent {

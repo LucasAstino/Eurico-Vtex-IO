@@ -13,6 +13,9 @@
 .minicartContainer .openIconContainer--minicart {
   padding: 0.75em 0;
 }
+.minicartContainer .openIconContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
 .minicartContainer .minicartQuantityBadge {
   width: 10px;
   height: 10px;

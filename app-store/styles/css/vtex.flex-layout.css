@@ -520,26 +520,6 @@
   }
 }
 
-.flexRow--selling-prices__category {
-  width: fit-content !important;
-}
-.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
-  width: fit-content;
-  justify-content: flex-start;
-}
-.flexRow--shelf__category-price .flexRowContent {
-  flex-wrap: wrap;
-}
-@media (max-width: 1025px) {
-  .flexRow--shelf__category-price .flexRowContent {
-    flex-direction: column;
-    display: flex;
-  }
-  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
-    display: contents;
-  }
-}
-
 .flexRow--footer__newsletter {
   background-color: #f2f2f2;
   padding: 50px 80px 0;
@@ -728,6 +708,26 @@
   flex-direction: column;
 }
 
+.flexRow--selling-prices__category {
+  width: fit-content !important;
+}
+.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
+  width: fit-content;
+  justify-content: flex-start;
+}
+.flexRow--shelf__category-price .flexRowContent {
+  flex-wrap: wrap;
+}
+@media (max-width: 1025px) {
+  .flexRow--shelf__category-price .flexRowContent {
+    flex-direction: column;
+    display: flex;
+  }
+  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
+    display: contents;
+  }
+}
+
 .flexRow--about-us-row {
   max-width: 1208px;
   padding: 0 10px;
@@ -765,6 +765,35 @@
   }
 }
 
+.flexRow--whatsapp__background {
+  background-color: #ededed;
+  height: 100vh;
+}
+.flexRow--whatsapp {
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  max-width: 441px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.flexRow--whatsapp .flexRowContent--whatsapp {
+  flex-direction: column;
+  gap: 20px;
+}
+.flexRow--whatsapp .flexRowContent--whatsapp .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRow--whatsapp .flexRowContent--whatsapp .stretchChildrenWidth .flexCol {
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #e9e9e9;
+  border-radius: 7px;
+}
+
 .flexRow--contact-us {
   max-width: 1208px;
   padding: 0 10px;
@@ -795,35 +824,6 @@
   .flexRow--contact-us__store .flexCol--contact-us__store-right {
     padding-left: 30px;
   }
-}
-
-.flexRow--whatsapp__background {
-  background-color: #ededed;
-  height: 100vh;
-}
-.flexRow--whatsapp {
-  padding: 20px 40px;
-  background: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 18px;
-  max-width: 441px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 45px;
-  margin-bottom: 40px;
-}
-.flexRow--whatsapp .flexRowContent--whatsapp {
-  flex-direction: column;
-  gap: 20px;
-}
-.flexRow--whatsapp .flexRowContent--whatsapp .stretchChildrenWidth {
-  width: 100% !important;
-}
-.flexRow--whatsapp .flexRowContent--whatsapp .stretchChildrenWidth .flexCol {
-  padding: 20px;
-  background: #f9f9f9;
-  border: 1px solid #e9e9e9;
-  border-radius: 7px;
 }
 
 .flexRow--depositions__header {

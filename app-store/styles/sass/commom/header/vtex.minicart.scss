@@ -18,6 +18,14 @@
     padding: .75em 0;
   }
 
+  .openIconContainer{
+    :global(.vtex-button){
+      &:hover{
+        background-color: transparent;
+      }
+  }
+  }
+
   .minicartQuantityBadge{
     width: 10px;
     height: 10px;
