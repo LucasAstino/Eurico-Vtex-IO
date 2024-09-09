@@ -5,7 +5,8 @@
       "condition-layout.product#availability",
       "__fold__",
       "sticky-layout.stack-container#buy-fast-pdp",
-     "product-reviews"
+     "product-reviews",
+     "fg-limit-buy-fast"
     ]
   },
 

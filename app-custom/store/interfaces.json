@@ -32,6 +32,9 @@
   "fg-keepBuying":{
     "component":"KeepBuying"
   },
+  "fg-limit-buy-fast":{
+    "component":"limit-buy-fast"
+  },
   "fg-Parallax":{
     "component":"Parallax"
   }
