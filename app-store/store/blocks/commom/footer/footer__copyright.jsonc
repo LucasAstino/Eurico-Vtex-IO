@@ -65,7 +65,7 @@
       "src": "assets/icons/footer/vtex.svg",
       "blockClass": "vtex-copyright" ,
       "link": {
-        "url": "https://www.vtex.com.br",
+        "url": "https://vtex.com/pt-br/",
         "openNewTab": true
       }
     }
