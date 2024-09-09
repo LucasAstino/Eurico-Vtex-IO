@@ -1,3 +1,3 @@
-import {headCustom} from "./components/Helmet";
+import {headCustom} from "./components/Helmet/index";
 
 export default headCustom
