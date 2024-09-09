@@ -54,7 +54,8 @@
       "src": "assets/images/footer/fg.webp",
       "blockClass": "agencia",
       "link": {
-        "url": "https://agenciafg.com.br/"
+        "url": "https://agenciafg.com.br/",
+        "openNewTab": true
       }
     }
   },
@@ -64,7 +65,8 @@
       "src": "assets/icons/footer/vtex.svg",
       "blockClass": "vtex-copyright" ,
       "link": {
-        "url": "https://www.vtex.com.br"
+        "url": "https://www.vtex.com.br",
+        "openNewTab": true
       }
     }
   },
