@@ -140,3 +140,16 @@
     }
   }
 }
+
+:global(.vtex-my-orders-app-3-x-orderBody) {
+  :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    span {
+      font-size: 0;
+      &::before{
+        content: "Solicitar Troca ou Devolução";
+        display: block;
+        font-size: 14px;
+      }
+    }
+  }
+}

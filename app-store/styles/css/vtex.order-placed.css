@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .section--notices .noticesList .noticeListItem {
   display: none;
 }
@@ -69,6 +70,14 @@
 .orderPlacedWrapper .orderDatetime {
   text-align: center;
   display: block;
+}
+.orderPlacedWrapper .updateOrderButton :global(.vtex-button__label) {
+  font-size: 0;
+}
+.orderPlacedWrapper .updateOrderButton :global(.vtex-button__label)::before {
+  content: "Solicitar Troca ou Devolução";
+  display: block;
+  font-size: 16px;
 }
 .orderPlacedWrapper .cancelOrderButton {
   display: none;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 .menuLinks .menuLink {
   border: 1px solid #ccc;
@@ -107,4 +108,13 @@
 }
 :global(.vtex-account__page) :global(.vtex-account__order-details) ul li:last-child {
   display: none;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-cancelBtn) span {
+  font-size: 0;
+}
+:global(.vtex-my-orders-app-3-x-orderBody) :global(.vtex-my-orders-app-3-x-cancelBtn) span::before {
+  content: "Solicitar Troca ou Devolução";
+  display: block;
+  font-size: 14px;
 }
