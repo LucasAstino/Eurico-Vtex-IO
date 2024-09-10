@@ -92,15 +92,15 @@
   }
 }
 
-.menu{
-  @include tablet{
+.menu {
+  @include tablet {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 :global(.vtex-account__page) {
-  :global(.vtex-pageHeader__container){
+  :global(.vtex-pageHeader__container) {
     padding: 0.9rem 2rem;
   }
   :global(.vtex-pageHeader__title) {
@@ -128,6 +128,15 @@
     &:hover {
       background-color: #ab8663 !important;
       color: white;
+    }
+  }
+  :global(.vtex-account__order-details) {
+    ul {
+      li {
+        &:last-child {
+          display: none;
+        }
+      }
     }
   }
 }

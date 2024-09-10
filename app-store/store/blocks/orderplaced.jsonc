@@ -70,7 +70,8 @@
       "op-section#pickup-packages",
       "op-section#delivery-packages",
       "op-order-takeaway-packages",
-      "op-order-options#mobile"
+      "op-order-options#mobile",
+       "fg-troca-facil"
     ]
   },
   // each order header

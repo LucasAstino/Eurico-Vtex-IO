@@ -5,7 +5,7 @@
   },
 
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": ["my-account","fg-troca-facil"],
     "parent": {
       "challenge": "challenge.profile"
     }

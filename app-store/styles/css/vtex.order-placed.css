@@ -70,3 +70,6 @@
   text-align: center;
   display: block;
 }
+.orderPlacedWrapper .cancelOrderButton {
+  display: none;
+}

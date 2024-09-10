@@ -97,23 +97,6 @@
   display: none;
 }
 
-.savings--flag__price-savings {
-  background: #c00018;
-  color: #fff;
-  display: flex;
-  font-family: Lato;
-  font-size: 12px;
-  font-weight: 600;
-  height: 26px;
-  justify-content: center;
-  letter-spacing: 0.3px;
-  max-width: 120px;
-  text-transform: uppercase;
-  width: 120px;
-  gap: 5px;
-  align-items: center;
-}
-
 .sellingPrice--shelf__category {
   border-right: 1px solid black;
   color: #161615;
@@ -168,4 +151,21 @@
     font-size: 14px;
     margin-top: 5px;
   }
+}
+
+.savings--flag__price-savings {
+  background: #c00018;
+  color: #fff;
+  display: flex;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 600;
+  height: 26px;
+  justify-content: center;
+  letter-spacing: 0.3px;
+  max-width: 120px;
+  text-transform: uppercase;
+  width: 120px;
+  gap: 5px;
+  align-items: center;
 }

@@ -105,3 +105,6 @@
   background-color: #ab8663 !important;
   color: white;
 }
+:global(.vtex-account__page) :global(.vtex-account__order-details) ul li:last-child {
+  display: none;
+}

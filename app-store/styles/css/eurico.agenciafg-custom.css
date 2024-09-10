@@ -108,47 +108,6 @@
   display: block;
 }
 
-.product__description-container .product__description-title {
-  color: #000;
-  font-size: 14px;
-  font-weight: 600;
-}
-@media (max-width: 768px) {
-  .product__description-container .product__description-title {
-    font-weight: 400;
-  }
-}
-.product__description-container .product__description {
-  color: #161615;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.3px;
-}
-@media (min-width: 1025px) {
-  .product__description-container .product__description {
-    white-space: pre-wrap;
-  }
-}
-@media (max-width: 768px) {
-  .product__description-container .product__description {
-    font-weight: 300;
-  }
-}
-.product__description-container .product__toggle-button--description {
-  letter-spacing: 0.3px;
-  vertical-align: baseline;
-  font-family: Lato, sans-serif;
-  all: unset;
-  text-decoration: underline;
-  color: #161615;
-  font-size: 14px;
-  font-weight: 400;
-  -webkit-text-stroke: 0.2px;
-}
-.product__description-container .product__toggle-button--description:hover {
-  cursor: pointer;
-}
-
 .pagination {
   display: flex;
   justify-content: center;
@@ -221,6 +180,47 @@
   .pagination .itens_pagination .pagination__item {
     line-height: 25px;
   }
+}
+
+.product__description-container .product__description-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .product__description-container .product__description-title {
+    font-weight: 400;
+  }
+}
+.product__description-container .product__description {
+  color: #161615;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+@media (min-width: 1025px) {
+  .product__description-container .product__description {
+    white-space: pre-wrap;
+  }
+}
+@media (max-width: 768px) {
+  .product__description-container .product__description {
+    font-weight: 300;
+  }
+}
+.product__description-container .product__toggle-button--description {
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-family: Lato, sans-serif;
+  all: unset;
+  text-decoration: underline;
+  color: #161615;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-text-stroke: 0.2px;
+}
+.product__description-container .product__toggle-button--description:hover {
+  cursor: pointer;
 }
 
 .similar__products-variants .similar__products-variants--title {
