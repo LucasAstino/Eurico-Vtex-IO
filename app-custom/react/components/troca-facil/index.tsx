@@ -17,7 +17,6 @@ export const troca_facil: React.FC = () => {
               "href",
               "https://eurico.troquefacil.com.br/"
             );
-            (element as HTMLElement).textContent = "Solicitar Troca ou Devolução";
             clearInterval(intervalId);
           }
         }, 500);
@@ -32,7 +31,6 @@ export const troca_facil: React.FC = () => {
                 "href",
                 "https://eurico.troquefacil.com.br/"
               );
-              (e as HTMLElement).textContent = "Solicitar Troca ou Devolução";
             });
             clearInterval(intervalId);
           }
