@@ -6,7 +6,7 @@ export const troca_facil: React.FC = () => {
   useEffect(() => {
     const checkElements = () => {
       const url = window.location.href;
-      
+
       if (url.includes("/account#/orders")) {
         const intervalId = setInterval(() => {
           const element = document.querySelector(
@@ -17,9 +17,10 @@ export const troca_facil: React.FC = () => {
               "href",
               "https://eurico.troquefacil.com.br/"
             );
-            clearInterval(intervalId); 
+            (element as HTMLElement).textContent = "Solicitar Troca ou Devolução";
+            clearInterval(intervalId);
           }
-        }, 500); 
+        }, 500);
       } else if (url.includes("/checkout/orderPlaced/?og")) {
         const intervalId = setInterval(() => {
           const element = document.querySelectorAll(
@@ -31,6 +32,7 @@ export const troca_facil: React.FC = () => {
                 "href",
                 "https://eurico.troquefacil.com.br/"
               );
+              (e as HTMLElement).textContent = "Solicitar Troca ou Devolução";
             });
             clearInterval(intervalId);
           }
@@ -38,18 +40,15 @@ export const troca_facil: React.FC = () => {
       }
     };
 
-   
     const handleUrlChange = () => {
       setCurrentUrl(window.location.href);
       checkElements();
     };
 
-    
     checkElements();
 
-    
     window.addEventListener("popstate", handleUrlChange);
-    window.addEventListener("pushstate", handleUrlChange); 
+    window.addEventListener("pushstate", handleUrlChange);
 
     return () => {
       window.removeEventListener("popstate", handleUrlChange);
