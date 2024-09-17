@@ -9,26 +9,26 @@ export const Troca_facil: React.FC = () => {
 
       if (url.includes("/account#/orders")) {
         const intervalId = setInterval(() => {
-          const element = document.querySelectorAll(
+          const elements = document.querySelectorAll(
             ".vtex-my-orders-app-3-x-cancelBtn"
           );
-          if (element) {
-            element.forEach(e=>{
+          if (elements.length) {
+            elements.forEach((e) => {
               (e as HTMLElement).setAttribute(
                 "href",
                 "https://eurico.troquefacil.com.br/"
               );
-            })
+            });
             clearInterval(intervalId);
           }
         }, 500);
       } else if (url.includes("/checkout/orderPlaced/?og")) {
         const intervalId = setInterval(() => {
-          const element = document.querySelectorAll(
+          const elements = document.querySelectorAll(
             ".vtex-order-placed-2-x-updateOrderButton a"
           );
-          if (element) {
-            element.forEach((e) => {
+          if (elements.length) {
+            elements.forEach((e) => {
               (e as HTMLElement).setAttribute(
                 "href",
                 "https://eurico.troquefacil.com.br/"
@@ -48,11 +48,9 @@ export const Troca_facil: React.FC = () => {
     checkElements();
 
     window.addEventListener("popstate", handleUrlChange);
-    window.addEventListener("pushstate", handleUrlChange);
 
     return () => {
       window.removeEventListener("popstate", handleUrlChange);
-      window.removeEventListener("pushstate", handleUrlChange);
     };
   }, [currentUrl]);
 
