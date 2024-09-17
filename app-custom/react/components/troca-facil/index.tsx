@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export const troca_facil: React.FC = () => {
+export const Troca_facil: React.FC = () => {
   const [currentUrl, setCurrentUrl] = useState<string>(window.location.href);
 
   useEffect(() => {
@@ -9,14 +9,16 @@ export const troca_facil: React.FC = () => {
 
       if (url.includes("/account#/orders")) {
         const intervalId = setInterval(() => {
-          const element = document.querySelector(
+          const element = document.querySelectorAll(
             ".vtex-my-orders-app-3-x-cancelBtn"
           );
           if (element) {
-            (element as HTMLElement).setAttribute(
-              "href",
-              "https://eurico.troquefacil.com.br/"
-            );
+            element.forEach(e=>{
+              (e as HTMLElement).setAttribute(
+                "href",
+                "https://eurico.troquefacil.com.br/"
+              );
+            })
             clearInterval(intervalId);
           }
         }, 500);
