@@ -17,6 +17,9 @@
   "fg-Depositions":{
     "component":"Depositions"
   },
+  "fg-CustomProductRef":{
+    "component":"CustomProductRef"
+  },
   "fg-NewTestimonial":{
     "component":"NewTestimonial"
   },
@@ -36,7 +39,7 @@
     "component":"limit-buy-fast"
   },
   "fg-troca-facil":{
-    "component":"troca-facil"
+    "component":"Troca-facil"
   },
   "fg-Parallax":{
     "component":"Parallax"
