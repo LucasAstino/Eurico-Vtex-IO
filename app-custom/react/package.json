@@ -30,7 +30,6 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-client": "^2.6.8",
-    "eurico.agenciafg-custom": "https://store--eurico.myvtex.com/_v/private/typings/linked/v1/eurico.agenciafg-custom@0.0.16+build1725126738/public/@types/eurico.agenciafg-custom",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.1/public/@types/vtex.css-handles",

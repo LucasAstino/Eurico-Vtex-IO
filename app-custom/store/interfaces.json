@@ -17,6 +17,9 @@
   "fg-Depositions":{
     "component":"Depositions"
   },
+  "fg-CustomProductRef":{
+    "component":"CustomProductRef"
+  },
   "fg-NewTestimonial":{
     "component":"NewTestimonial"
   },
