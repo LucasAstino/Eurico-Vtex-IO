@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export const Troca_facil: React.FC = () => {
+export const TrocaFacil: React.FC = () => {
   const [currentUrl, setCurrentUrl] = useState<string>(window.location.href);
 
   useEffect(() => {

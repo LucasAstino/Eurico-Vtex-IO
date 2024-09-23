@@ -39,7 +39,7 @@
     "component":"limit-buy-fast"
   },
   "fg-troca-facil":{
-    "component":"Troca-facil"
+    "component":"TrocaFacil"
   },
   "fg-Parallax":{
     "component":"Parallax"
