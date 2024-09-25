@@ -26,7 +26,8 @@
         }
       ],
       "Then": "flex-layout.row#product-main",
-      "Else": "flex-layout.row#product-availability"
+      "Else": "flex-layout.row#product-main"
+      // "Else": "flex-layout.row#product-availability"
     }
   },
   "flex-layout.row#product-main": {
