@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { useEffect } from "react";
 
 export const ScriptCommmom: React.FC = () => {
   useEffect(() => {
@@ -53,7 +54,8 @@ export const ScriptCommmom: React.FC = () => {
         });
       });
     }
+    
+    
   }, []);
-
   return null;
 };

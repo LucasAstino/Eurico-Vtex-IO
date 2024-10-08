@@ -11,8 +11,10 @@
   &::before{
     content: "VEJA COMO FICA";
     color: #606060;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
+    line-height: 26px;
+    padding: 0 2px;
     z-index: 9;
   }
 }
@@ -160,6 +162,10 @@
     content: "LINHA PRIME";
     font-size: 12px
   }
+}
+
+.productHighlightText[data-highlight-name="Linha Raízes"]{
+  display: none;
 }
 
 .productHighlightWrapper--collection{

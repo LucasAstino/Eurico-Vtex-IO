@@ -5,25 +5,9 @@
   },
 
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": ["my-account","fg-troca-facil"],
     "parent": {
       "challenge": "challenge.profile"
     }
   }
-
-  // "store.login": {
-  //   "blocks": ["login-content#default"]
-  // },
-
-  // "login-content#default": {
-  //   "props": {
-  //     "isInitialScreenOptionOnly": false,
-  //     "defaultOption": 1,
-  //     "showPasswordVerificationIntoTooltip": true
-  //   }
-  // },
-
-  // "store.product-review-form": {
-  //   "blocks": ["product-review-form"]
-  // }
 }

@@ -288,54 +288,72 @@
   color: black;
 }
 
+.accountOptions :global(.vtex-button):hover {
+  color: white !important;
+}
+
+.loginOptionsContainer .googleOptionBtn :global(.vtex-button):hover {
+  color: white !important;
+}
+
 :global(.vtex-reviews-and-ratings-3-x-container) {
+  margin: 0;
   margin-bottom: 50px;
-  width: fit-content;
-}
-
-:global(.vtex-reviews-and-ratings-3-x-loginLink),
-:global(.vtex-reviews-and-ratings-3-x-writeReviewButton) {
-  max-width: 463px;
   width: 100%;
-  height: 62px;
+  max-width: 100%;
+}
+:global(.vtex-reviews-and-ratings-3-x-container) :global(.vtex-reviews-and-ratings-3-x-loginLink) {
   border: 1px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  text-transform: none;
-  letter-spacing: 0;
+  width: 320px;
+  height: 45px;
   text-decoration: none;
-  color: #000;
-  text-transform: uppercase;
-}
-
-:global(.vtex-reviews-and-ratings-3-x-writeReviewButton) {
+  margin: auto;
   font-size: 0;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease-in-out;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-property: color;
+  transition-duration: 0.3s;
+  position: relative;
 }
-:global(.vtex-reviews-and-ratings-3-x-writeReviewButton)::after {
-  content: "PUBLIQUE SUA OPINIÃO";
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  text-transform: none;
-  letter-spacing: 0;
-  text-decoration: none;
+:global(.vtex-reviews-and-ratings-3-x-container) :global(.vtex-reviews-and-ratings-3-x-loginLink):hover::before {
+  transform: scaleX(1);
+}
+:global(.vtex-reviews-and-ratings-3-x-container) :global(.vtex-reviews-and-ratings-3-x-loginLink):hover::after {
+  color: white;
+}
+:global(.vtex-reviews-and-ratings-3-x-container) :global(.vtex-reviews-and-ratings-3-x-loginLink)::after {
+  content: "Publique sua opinião";
   color: #000;
+  font-size: 13px;
   text-transform: uppercase;
 }
-
-:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-down),
-:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-up) {
-  display: none;
+:global(.vtex-reviews-and-ratings-3-x-container) :global(.vtex-reviews-and-ratings-3-x-loginLink)::before {
+  content: "";
+  background: black;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
   display: flex;
   align-items: baseline;
   gap: 10px;
+}
+@media (max-width: 768px) {
+  :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+    font-weight: 300;
+  }
 }
 :global(.vtex-reviews-and-ratings-3-x-reviewsRating)::before {
   content: "Média de avaliações:";

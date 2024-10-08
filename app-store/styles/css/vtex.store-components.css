@@ -1,3 +1,7 @@
+.imageElement--category-banner {
+  min-height: 150px;
+}
+
 @media (max-width: 768px) {
   .imageElement--third__banner-area--img {
     width: 300px;

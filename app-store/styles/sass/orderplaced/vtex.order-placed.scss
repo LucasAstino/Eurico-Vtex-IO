@@ -1,0 +1,121 @@
+.section--notices {
+  .noticesList {
+    .noticeListItem {
+      display: none;
+      &:last-child {
+        display: block;
+      }
+    }
+  }
+}
+
+.orderPlacedWrapper {
+  :global(.vtex-rich-text-0-x-container--op-help) {
+    justify-content: center;
+    display: flex;
+    :global(.vtex-rich-text-0-x-paragraph--op-help) {
+      text-align: center;
+    }
+  }
+
+  .noticeListItem {
+    :global(.vtex-button) {
+      @include tablet {
+        display: grid;
+      }
+    }
+  }
+
+  .section--custumesAndPayment {
+    @include desktop {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .customerInfoListContainer{
+    .customerInfoListName{
+      &::before{
+        content: "Nome: ";
+      }
+    }
+    .customerInfoListEmail{
+      &::before{
+        content: "Email: ";
+      }
+    }
+    .customerInfoListDocument{
+      &::before{
+        content: "Doc: ";
+      }
+    }
+    .customerInfoListPhone{
+      &::before{
+        content: "Tel: ";
+      }
+    }
+  }
+
+  .section--confirmation,
+  .section--paymentMethods,
+  .section--resume {
+    @include desktop {
+      margin: 0;
+    }
+  }
+  .section--resume{
+    .totalListWrapper{
+      .totalList{
+        width: 100%;
+        margin: 0;
+      }
+    }
+    .totalListItem{
+      gap: 10px;
+      .totalListItemLabel,.totalListItemValue{
+        color: #727273;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .orderPaymentWrapper {
+    :global(.vtex-button) {
+      display: none;
+    }
+  }
+
+  .totalListWrapper {
+    display: block;
+  }
+
+  .orderOptionsWrapper {
+    &:first-child {
+      display: none;
+    }
+    :global(.vtex-button) {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .orderDatetime {
+    text-align: center;
+    display: block;
+  }
+
+  .updateOrderButton{
+    :global(.vtex-button__label){
+      font-size: 0;
+      &::before{
+        content: "Solicitar Troca ou Devolução";
+        display: block;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .cancelOrderButton{
+    display: none;
+  }
+}

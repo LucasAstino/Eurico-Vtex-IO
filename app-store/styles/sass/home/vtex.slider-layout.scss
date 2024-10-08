@@ -62,6 +62,10 @@
         rotate: 180deg;
       }
     }
+    .imageElement--carrossel{
+      width: 100vw !important;
+      max-width: 1920px;
+    }
   }
   &--header__topbar {
     -webkit-box-shadow: 5px 5px 5px #f7f7f7;
@@ -95,7 +99,7 @@
   bottom: 25px;
   margin: 0;
   .paginationDot {
-    &--carousel {
+    &--carrossel {
       border: 1px solid #fff;
       border-radius: 100%;
       font-size: 0;

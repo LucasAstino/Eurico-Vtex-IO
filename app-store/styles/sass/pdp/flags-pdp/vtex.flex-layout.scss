@@ -22,6 +22,7 @@
         align-items: center;
         color: #606060;
         display: flex;
+        background-color: white;
         font-family: Lato;
         font-weight: 600;
         font-size: 12px;
@@ -253,6 +254,9 @@
           content: "LINHA PRIME";
           font-size: 12px;
         }
+      }
+      :global(.vtex__highlight)[data-highlight-name="Linha Raízes"] {
+        display: none;
       }
     }
   }

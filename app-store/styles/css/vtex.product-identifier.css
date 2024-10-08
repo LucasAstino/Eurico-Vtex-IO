@@ -2,6 +2,11 @@
   font-size: 12px;
   letter-spacing: 1px;
 }
+@media (max-width: 768px) {
+  .product-identifier--productReference {
+    font-weight: 300;
+  }
+}
 .product-identifier--productReference::before {
   content: "Ref";
 }

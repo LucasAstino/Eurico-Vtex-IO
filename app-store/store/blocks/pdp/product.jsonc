@@ -5,11 +5,8 @@
       "condition-layout.product#availability",
       "__fold__",
       "sticky-layout.stack-container#buy-fast-pdp",
-      "rich-text#shelf__pdp__title",
-      "list-context.product-list#shelf__pdp",
-      // "product-rating-summary",
-      "rich-text#ratings__title",
-      "product-reviews"
+     "product-reviews",
+     "fg-limit-buy-fast"
     ]
   },
 
@@ -152,6 +149,7 @@
 
   "sku-selector#pdp": {
     "props": {
+      "initialSelection": "empty",
       "blockClass": "sku-selector__pdp"
     }
   },

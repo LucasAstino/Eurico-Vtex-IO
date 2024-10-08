@@ -73,7 +73,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/40?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/feminino/40?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "40",
             "text": "40"
@@ -84,7 +84,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/41?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/feminino/41?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "41",
             "text": "41"
@@ -95,7 +95,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/42?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/feminino/42?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "42",
             "text": "42"
@@ -106,7 +106,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/43?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/feminino/43?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "43",
             "text": "43"
@@ -117,7 +117,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/44?map=c,specificationFilter_30&O=OrderByReleaseDateDESC",
+            "href": "/feminino/44?map=c,specificationFilter_30&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "44",
             "text": "44"
@@ -163,7 +163,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino?O=OrderByReleaseDateDESC",
+            "href": "/feminino?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Todas as novidades",
             "text": "Todas as novidades"
@@ -174,7 +174,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/bota?O=OrderByReleaseDateDESC",
+            "href": "/feminino/bota?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Bota",
             "text": "Bota"
@@ -185,7 +185,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/Bota/Coturno?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "href": "/feminino/Bota/Coturno?map=c,c,specificationFilter_34&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Coturno",
             "text": "Coturno"
@@ -196,7 +196,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/sapatilha?O=OrderByReleaseDateDESC",
+            "href": "/feminino/sapatilha?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Sapatilha",
             "text": "Sapatilha"
@@ -207,18 +207,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/guia-de-medidas",
-            "noFollow": false,
-            "tagTitle": "Guia de medidas",
-            "text": "Guia de medidas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/feminino/Tênis/Casual?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "href": "/feminino/Tênis/Casual?map=c,c,specificationFilter_34&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tênis Casual",
             "text": "Tênis Casual"
@@ -229,7 +218,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/Tênis/Esportivo?map=c,c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "href": "/feminino/Tênis/Esportivo?map=c,c,specificationFilter_34&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tênis Esportivo",
             "text": "Tênis Esportivo"
@@ -240,7 +229,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/sandalia?O=OrderByReleaseDateDESC",
+            "href": "/feminino/sandalia?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Sandália",
             "text": "Sandália"
@@ -251,7 +240,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/mule,tamanco?O=OrderByReleaseDateDESC",
+            "href": "/feminino/mule,tamanco?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Mule e Tamanco",
             "text": "Mule e Tamanco"
@@ -262,7 +251,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/scarpin?O=OrderByReleaseDateDESC",
+            "href": "/feminino/scarpin?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Scarpin",
             "text": "Scarpin"
@@ -273,7 +262,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/mocassim?O=OrderByReleaseDateDESC",
+            "href": "/feminino/mocassim?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Mocassim",
             "text": "Mocassim"
@@ -284,7 +273,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/alpargata?O=OrderByReleaseDateDESC",
+            "href": "/feminino/alpargata?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Alpargata",
             "text": "Alpargata"
@@ -295,7 +284,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/rasteira?O=OrderByReleaseDateDESC",
+            "href": "/feminino/rasteira?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Rasteira",
             "text": "Rasteira"
@@ -306,7 +295,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/chinelo?O=OrderByReleaseDateDESC",
+            "href": "/feminino/chinelo?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Chinelo",
             "text": "Chinelo"
@@ -352,7 +341,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/129?O=OrderByReleaseDateDESC",
+            "href": "/129?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Usaflex",
             "text": "Usaflex"
@@ -363,7 +352,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/nike?O=OrderByReleaseDateDESC",
+            "href": "/feminino/nike?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Nike",
             "text": "Nike"
@@ -374,7 +363,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/Melissa?O=OrderByReleaseDateDESC",
+            "href": "/feminino/Melissa?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Melissa",
             "text": "Melissa"
@@ -385,21 +374,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/303?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "href": "/feminino/303?map=c,productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Linha Prime",
             "text": "Linha Prime"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/institucional/guia-de-medidas",
-            "noFollow": false,
-            "tagTitle": "Guia de medidas",
-            "text": "Guia de medidas"
           }
         },
         {
@@ -418,7 +396,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "href": "/feminino/Eurico%20Basics?map=c,specificationFilter_34&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Eurico Basics",
             "text": "Eurico Basics"
@@ -429,7 +407,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/Confort?map=c,specificationFilter_34&O=OrderByReleaseDateDESC",
+            "href": "/feminino/Confort?map=c,specificationFilter_34&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Confort",
             "text": "Confort"
@@ -440,7 +418,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/havaianas?O=OrderByReleaseDateDESC",
+            "href": "/feminino/havaianas?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Havaianas",
             "text": "Havaianas"
@@ -451,7 +429,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/acessorios/meia-feminina?O=OrderByReleaseDateDESC",
+            "href": "/acessorios/meia-feminina?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Meias e Acessórios",
             "text": "Meias e Acessórios"
@@ -473,7 +451,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/feminino/274?map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "href": "/feminino/274?map=c,productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Veja Como Fica",
             "text": "Veja Como Fica"

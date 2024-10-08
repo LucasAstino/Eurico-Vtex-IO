@@ -1,0 +1,34 @@
+{
+  "store.custom#outlet": {
+    "title": "Outlet",
+    "blocks": ["flex-layout.row#outlet"]
+  },
+
+  "flex-layout.row#outlet": {
+    "title": "Banners",
+    "props": {
+      "blockClass": "outlet"
+    },
+    "children": ["image#outlet__feminine", "image#outlet__masculine"]
+  },
+  "image#outlet__feminine": {
+    "title": "Banner outlet feminino",
+    "props": {
+      "blockClass": "outlet",
+      "src": "assets/images/outlet/landing-outlet-fem.gif",
+      "link": {
+        "url": "/feminino?PS=24&O=OrderByBestDiscountDESC"
+      }
+    }
+  },
+  "image#outlet__masculine": {
+    "title": "Banner outlet masculino",
+    "props": {
+      "blockClass": "outlet",
+      "src": "assets/images/outlet/landing-outlet-masc.gif",
+      "link": {
+        "url": "/masculino?PS=24&O=OrderByBestDiscountDESC"
+      }
+    }
+  }
+}

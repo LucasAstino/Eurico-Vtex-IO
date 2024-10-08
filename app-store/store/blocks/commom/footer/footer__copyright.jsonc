@@ -51,15 +51,23 @@
     "title": "Imagem da Agência no Copyright",
     "props": {
       "maxWidth": "140px",
-      "src": "assets/images/footer/logo-agencia.png",
-      "blockClass": "agencia"
+      "src": "assets/images/footer/fg.webp",
+      "blockClass": "agencia",
+      "link": {
+        "url": "https://agenciafg.com.br/",
+        "openNewTab": true
+      }
     }
   },
   "image#footer__copyright-img-02": {
     "title": "Imagem VTEX no Copyright",
     "props": {
       "src": "assets/icons/footer/vtex.svg",
-      "blockClass": "vtex-copyright"
+      "blockClass": "vtex-copyright" ,
+      "link": {
+        "url": "https://vtex.com/pt-br/",
+        "openNewTab": true
+      }
     }
   },
   "rich-text#footer__copyright-text": {

@@ -62,7 +62,11 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 380,
+      // "height": 390,
+      // "maxHeight": 400,
+      // "width":{
+      //   "mobile": "400"
+      // },
       "hoverImage": {
         "criteria": "label",
         "label": "fotoVira"

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .installments--summary {
   width: fit-content;
   margin: 0 auto;
@@ -70,6 +71,30 @@
   color: #606060;
   font-size: 14px;
   font-weight: 600;
+}
+
+.installmentsListContainer--payment__methods {
+  display: flex;
+  flex-direction: column;
+}
+.installmentsListContainer--payment__methods .installments {
+  padding: 10px;
+  letter-spacing: 0.3px;
+  vertical-align: baseline;
+  font-weight: 300;
+  font-size: 14px;
+}
+.installmentsListContainer--payment__methods .installments:first-child {
+  font-size: 0;
+}
+.installmentsListContainer--payment__methods .installments:first-child .installments-bold {
+  font-size: 14px;
+}
+.installmentsListContainer--payment__methods .installments:first-child .installments-bold::after {
+  content: " à vista";
+}
+.installmentsListContainer--payment__methods .installments:first-child .installments-bold:first-child {
+  display: none;
 }
 
 .sellingPrice--shelf__category {

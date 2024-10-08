@@ -56,10 +56,4 @@
     },
     "children": [ "flex-layout.row#buy__buttom-pdp"]
   }
-
-  // "rich-text#123": {
-  //   "props": {
-  //     "text": "lambeee"
-  //   }
-  // }
 }

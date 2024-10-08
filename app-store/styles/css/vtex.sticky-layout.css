@@ -1,6 +1,9 @@
 .wrapper--buy-fast-pdp--stuck {
   height: 0 !important;
 }
+.wrapper--buy-fast-pdp--stuck .container--buy-fast-pdp:global(.vtex-limit-buy-fast) {
+  display: none;
+}
 
 .wrapper--sticky-header {
   background-color: white !important;

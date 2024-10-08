@@ -60,5 +60,14 @@
   },
   "fg-custom-buy-too": {
     "component": "CustomBuyToo"
+  },
+  "fg-limit-buy-fast":{
+    "component":"limit-buy-fast"
+  },
+  "fg-troca-facil":{
+    "component":"troca-facil"
+  },
+  "fg-Parallax":{
+    "component":"Parallax"
   }
 }

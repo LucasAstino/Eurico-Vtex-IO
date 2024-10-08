@@ -3,6 +3,9 @@
     color: #000;
     font-size: 14px;
     font-weight: 600;
+    @include mobile{
+      font-weight: 400;
+    }
   }
 
   .product__description {
@@ -13,6 +16,9 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.3px;
+    @include mobile{
+      font-weight: 300;
+    }
   }
 
   .product__toggle-button--description {

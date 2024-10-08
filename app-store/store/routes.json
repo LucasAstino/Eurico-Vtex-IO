@@ -50,6 +50,9 @@
   "store.custom#whatsapp": {
     "path": "/institucional/contato/whatsapp"
   },
+  "store.custom#outlet": {
+    "path": "/outlet"
+  },
   "store.custom#contact-us": {
     "path": "/institucional/contato"
   }

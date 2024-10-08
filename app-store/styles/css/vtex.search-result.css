@@ -95,6 +95,7 @@
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.05);
   top: 60px;
   transition: 1s;
+  z-index: 9999;
 }
 
 .filtersWrapper {
@@ -211,6 +212,9 @@
   display: flex;
   position: relative;
 }
+.filtersWrapper .filterAvailable :first-child {
+  width: 100%;
+}
 @media (max-width: 1025px) {
   .filtersWrapper .filterAvailable {
     border-bottom: 1px solid #d9d9d9;
@@ -234,7 +238,7 @@
   }
 }
 .filtersWrapper .filterAvailable .filterTitle {
-  width: 12em;
+  width: 100%;
 }
 .filtersWrapper .filterAvailable.filterIsOpen::after {
   content: "-";

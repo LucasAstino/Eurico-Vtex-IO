@@ -85,17 +85,6 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/institucional/guia-de-medidas",
-            "noFollow": false,
-            "tagTitle": "Guia de Medidas",
-            "text": "Guia de Medidas"
-          }
-        },
-        {
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
             "href": "/institucional/depoimentos",
             "noFollow": false,
             "tagTitle": "Depoimentos",

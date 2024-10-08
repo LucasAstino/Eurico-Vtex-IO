@@ -53,7 +53,11 @@
 .sliderLayoutContainer--carrossel .sliderLeftArrow::after {
   rotate: 180deg;
 }
-.sliderLayoutContainer--header__topbar {
+.sliderLayoutContainer--carrossel .imageElement--carrossel {
+  width: 100vw !important;
+  max-width: 1920px;
+}
+.sliderLayoutContainer--header__tipbar {
   -webkit-box-shadow: 5px 5px 5px #f7f7f7;
   box-shadow: 5px 5px 5px #f7f7f7;
   height: 100%;
@@ -87,7 +91,7 @@
   bottom: 25px;
   margin: 0;
 }
-.paginationDotsContainer .paginationDot--carousel {
+.paginationDotsContainer .paginationDot--carrossel {
   border: 1px solid #fff;
   border-radius: 100%;
   font-size: 0;
@@ -96,7 +100,7 @@
   background: transparent;
   margin: 0 5px;
 }
-.paginationDotsContainer .paginationDot--carousel--isActive {
+.paginationDotsContainer .paginationDot--carrossel--isActive {
   background-color: #fff;
 }
 

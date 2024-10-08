@@ -2,7 +2,7 @@
   "image#category-banner": {
     "title": "Banner categoria",
     "props": {
-      "src": "assets/images/category/banner-principal-desktop-feminino.png",
+      "src": "",
       "blockClass":"category-banner"
     }
   }

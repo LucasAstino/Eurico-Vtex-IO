@@ -125,6 +125,12 @@
 .flexRowContent--secund__area-banners .flexCol {
   width: fit-content;
 }
+.flexRowContent--secund__area-banners .flexCol :global(.vtex-store-components-3-x-imageElement--secund__area-banners--img) {
+  transition: all 0.6s ease-in-out;
+}
+.flexRowContent--secund__area-banners .flexCol :global(.vtex-store-components-3-x-imageElement--secund__area-banners--img):hover {
+  transform: translate(5px, 5px);
+}
 .flexRowContent--secund__area-banners .flexCol .flexColChild {
   width: fit-content;
 }
@@ -148,10 +154,16 @@
     width: 170px;
   }
 }
+.flexRowContent--third__banner-area .flexCol {
+  transition: all 0.6s ease-in-out;
+}
 @media (min-width: 769px) {
   .flexRowContent--third__banner-area .flexCol--translateToTop {
     margin-top: -50px;
   }
+}
+.flexRowContent--third__banner-area .flexCol:hover {
+  transform: translate(5px, 5px);
 }
 .flexRowContent--physical__stories {
   width: 100%;
@@ -275,7 +287,11 @@
 }
 @media (min-width: 768px) {
   .flexCol--col-right {
-    transform: translateY(60px);
+    transform: translateY(200px);
+    transition: all 0.6s ease-in-out;
+  }
+  .flexCol--col-right--is--visible {
+    transform: translateY(60px) !important;
   }
 }
 .flexCol--physical__stories-col {
@@ -317,6 +333,25 @@
   box-shadow: none;
 }
 
+.flexRow--outlet {
+  max-width: 1208px;
+  width: 100%;
+  padding: 50px 30px 80px;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+}
+.flexRow--outlet .stretchChildrenWidth {
+  display: contents;
+}
+@media (max-width: 768px) {
+  .flexRow--outlet .flexRowContent {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  }
+}
+
 .flexRow--product__ratingAndref :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
   display: flex;
   align-items: baseline;
@@ -328,6 +363,11 @@
   font-size: 12px;
   font-weight: 400;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .flexRow--product__ratingAndref :global(.vtex-reviews-and-ratings-3-x-summaryContainer)::after {
+    content: "";
+  }
 }
 .flexRow--product__ratingAndref :global(.vtex-reviews-and-ratings-3-x-summaryButtonContainer) {
   display: none;
@@ -460,7 +500,7 @@
 }
 @media (min-width: 1025px) {
   .flexRow--buy-fast-pdp .flexRowContent--buy-fast-pdp {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 .flexRow--buy-fast-pdp .flexRowContent--buy-fast-pdp .stretchChildrenWidth {
@@ -541,6 +581,26 @@
 @media (max-width: 1024px) {
   .flexRowContent--product-advantages .stretchChildrenWidth::before {
     display: none;
+  }
+}
+
+.flexRow--selling-prices__category {
+  width: fit-content !important;
+}
+.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
+  width: fit-content;
+  justify-content: flex-start;
+}
+.flexRow--shelf__category-price .flexRowContent {
+  flex-wrap: wrap;
+}
+@media (max-width: 1025px) {
+  .flexRow--shelf__category-price .flexRowContent {
+    flex-direction: column;
+    display: flex;
+  }
+  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
+    display: contents;
   }
 }
 
@@ -655,7 +715,6 @@
 .flexRow--footer__links .flexRowContent--footer__links-selos--row {
   display: flex;
   gap: 20px;
-  margin-top: 30px;
 }
 .flexRow--footer__copyright .flexRowContent--footer__copyright {
   width: 90%;
@@ -698,6 +757,7 @@
 .flexRow--flags .flexRowContent--flags :global(.vtex__last-unit) {
   width: 120px;
   align-items: center;
+  background-color: white;
   color: #606060;
   display: flex;
   font-family: Lato;
@@ -844,8 +904,10 @@
     align-items: center;
   }
 }
-.flexRow--contact-us__store .flexCol--contact-us__store-right {
-  padding-left: 30px;
+@media (min-width: 1025px) {
+  .flexRow--contact-us__store .flexCol--contact-us__store-right {
+    padding-left: 30px;
+  }
 }
 
 .flexRow--depositions__header {
@@ -987,6 +1049,7 @@
   align-items: center;
   color: #606060;
   display: flex;
+  background-color: white;
   font-family: Lato;
   font-weight: 600;
   font-size: 12px;
@@ -1204,6 +1267,9 @@
 .flexRow--flags-pdp .flexRowContent--flags-pdp :global(.vtex__highlight)[data-highlight-name=FLAG-Prime]::after {
   content: "LINHA PRIME";
   font-size: 12px;
+}
+.flexRow--flags-pdp .flexRowContent--flags-pdp :global(.vtex__highlight)[data-highlight-name="Linha Raízes"] {
+  display: none;
 }
 
 .flexRow--header-drawer {

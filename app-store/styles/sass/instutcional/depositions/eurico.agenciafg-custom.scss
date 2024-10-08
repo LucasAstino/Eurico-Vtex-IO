@@ -221,6 +221,9 @@
   height: 460px;
   flex-direction: column;
   padding: 10px 30px;
+  @include tablet{
+    width: 100%;
+  }
 }
 .popup-depoimento__container .popup-depoimento__title {
   display: -webkit-box;
@@ -265,6 +268,10 @@
   font-size: 10px;
   margin: 9px 0px 5px 140px;
   cursor: pointer;
+  @include tablet{
+    display: block;
+    margin: auto !important;
+  }
 }
 .popup-depoimento__close {
   display: -webkit-box;

@@ -1,13 +1,11 @@
 {
   "order-placed": {
-    "blocks": ["op-header", "op-order"]
+    "blocks": [ "op-header","op-order"]
   },
   "op-header": {
     "children": [
-      "op-section#confirmation",
-      "op-section#notices",
-      "op-summary-section",
-      "op-bank-invoice-section"
+      "rich-text#op-help"
+      
     ]
   },
   "op-section#confirmation": {
@@ -19,21 +17,38 @@
     "children": [
       "op-confirmation-icon",
       "op-confirmation-title",
+      // "rich-text#op-confirmation-title",
+      "op-order-datetime",
+      // "rich-text#progress",
       "op-confirmation-message",
-      "flex-layout.row#confirmation-buttons"
+      // "op-bank-invoice-section",
+      "op-summary-section",
+      // "flex-layout.row#confirmation-buttons",
+      "op-section#notices"
     ]
   },
-  "flex-layout.row#confirmation-buttons": {
+  "op-section#custumer": {
     "props": {
-      "blockClass": "confirmationButtons",
-      "marginTop": 8,
-      "marginBottom": 8,
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true
     },
-    "children": ["flex-layout.col#confirmation-buttons"]
+    "children": [
+      "rich-text#op-data",
+      "op-order-customer"
+    ]
   },
+  // "flex-layout.row#confirmation-buttons": {
+  //   "props": {
+  //     "blockClass": "confirmationButtons",
+  //     "marginTop": 8,
+  //     "marginBottom": 8,
+  //     "horizontalAlign": "center",
+  //     "preventHorizontalStretch": true,
+  //     "preserveLayoutOnMobile": true
+  //   },
+  //   "children": ["flex-layout.col#confirmation-buttons"]
+  // },
   "flex-layout.col#confirmation-buttons": {
     "children": ["op-print-button"]
   },
@@ -48,14 +63,15 @@
   // each order section
   "op-order": {
     "children": [
+      "op-section#confirmation",
       "flex-layout.row#order-header",
       "op-order-split-notice",
-      "op-order-customer",
-      "op-section#payments",
+      "op-section#custumesAndPayment",
       "op-section#pickup-packages",
       "op-section#delivery-packages",
       "op-order-takeaway-packages",
-      "op-order-total"
+      "op-order-options#mobile",
+       "fg-troca-facil"
     ]
   },
   // each order header
@@ -72,7 +88,7 @@
     ]
   },
   "flex-layout.col#order-header-info": {
-    "children": ["op-order-number", "op-order-datetime", "op-order-seller"]
+    "children": ["op-order-number"]
   },
   "flex-layout.col#order-header-options": {
     "children": ["responsive-layout.desktop#order-options-desktop"]
@@ -81,18 +97,36 @@
     "children": ["op-order-options"]
   },
   // payment section
+  "op-section#custumesAndPayment": {
+    "props": {
+      "name": "custumesAndPayment"
+    },
+    "children": [
+      "op-section#custumer","op-section#payments","op-section#resume"
+    ]
+  },
+  "op-section#resume": {
+    "props": {
+      "name": "resume"
+    },
+    "children": [
+      "rich-text#op-resume",
+      "op-order-total"
+    ]
+  },
   "op-section#payments": {
     "props": {
       "name": "paymentMethods"
     },
     "children": [
+      "rich-text#op-payment",
       "op-order-payment",
       "responsive-layout.mobile#order-options-mobile"
     ]
   },
   // bottom of top section of order header
   "responsive-layout.mobile#order-options-mobile": {
-    "children": ["op-order-options#mobile"]
+    "children": []
   },
   "op-order-options#mobile": {
     "props": {
@@ -111,5 +145,28 @@
       "name": "deliveryPackages"
     },
     "children": ["op-order-delivery-packages"]
+  },
+  "rich-text#op-payment": {
+    "props": {
+      "text": "PAGAMENTO"
+    }
+  },
+  "rich-text#op-help": {
+    "props": {
+      "blockClass":"op-help",
+      "text": "Dúvidas sobre o produto escolhido? Nossa equipe pode te auxiliar: [(11) 98951-7198](https://wa.me/5511989517198)"
+    }
+  },
+  "rich-text#op-resume": {
+    "props": {
+      "blockClass":"op-resume",
+      "text": "RESUMO"
+    }
+  },
+  "rich-text#op-data": {
+    "props": {
+      "blockClass":"op-order",
+      "text": "DADOS PESSOAIS"
+    }
   }
 }

@@ -251,7 +251,7 @@
       "preventVerticalStretch": true,
       "width":"25%"
     },
-    "children": ["rich-text#submenu__title", "flex-layout.row#submenu__forSize"]
+    "children": ["rich-text#submenu__title", "vtex.menu@2.x:menu#forSizes-subSubmenu-feminine"]
   },
   "flex-layout.col#submenu__container--item-04": {
     "children": ["image#category__menu"]
@@ -276,54 +276,6 @@
       "blockClass": "seeMore"
     }
   },
-  "flex-layout.row#submenu__forSize": {
-    "props": {
-      "blockClass": "submenu__forSize",
-      "fullWidth":true
-    },
-    "children": [
-      "rich-text#submenu__forSize--item-1",
-      "rich-text#submenu__forSize--item-2",
-      "rich-text#submenu__forSize--item-3",
-      "rich-text#submenu__forSize--item-4",
-      "rich-text#submenu__forSize--item-5"
-    ]
-  },
-  "rich-text#submenu__forSize--item-1": {
-    "title": "Medidas do submenu",
-    "props": {
-      "text": "40",
-      "blockClass": "submenu__forSize--item"
-    }
-  },
-  "rich-text#submenu__forSize--item-2": {
-    "title": "Medidas do submenu",
-    "props": {
-      "text": "41",
-      "blockClass": "submenu__forSize--item"
-    }
-  },
-  "rich-text#submenu__forSize--item-3": {
-    "title": "Medidas do submenu",
-    "props": {
-      "text": "42",
-      "blockClass": "submenu__forSize--item"
-    }
-  },
-  "rich-text#submenu__forSize--item-4": {
-    "title": "Medidas do submenu",
-    "props": {
-      "text": "43",
-      "blockClass": "submenu__forSize--item"
-    }
-  },
-  "rich-text#submenu__forSize--item-5": {
-    "title": "Medidas do submenu",
-    "props": {
-      "text": "44",
-      "blockClass": "submenu__forSize--item"
-    }
-  },
   "rich-text#submenu__title": {
     "title": "Titulo - submenu",
     "props": {
@@ -340,7 +292,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/outlet",
         "noFollow": false,
         "tagTitle": "Outlet",
         "text": "Outlet"

@@ -1,0 +1,21 @@
+.flexRow {
+  &--outlet {
+    max-width: 1208px;
+    width: 100%;
+    padding: 50px 30px 80px;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+
+    .stretchChildrenWidth {
+      display: contents;
+    }
+    .flexRowContent {
+      @include mobile {
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.section--notices .noticesList .noticeListItem {
+  display: none;
+}
+.section--notices .noticesList .noticeListItem:last-child {
+  display: block;
+}
+
+.orderPlacedWrapper :global(.vtex-rich-text-0-x-container--op-help) {
+  justify-content: center;
+  display: flex;
+}
+.orderPlacedWrapper :global(.vtex-rich-text-0-x-container--op-help) :global(.vtex-rich-text-0-x-paragraph--op-help) {
+  text-align: center;
+}
+@media (max-width: 1025px) {
+  .orderPlacedWrapper .noticeListItem :global(.vtex-button) {
+    display: grid;
+  }
+}
+@media (min-width: 1025px) {
+  .orderPlacedWrapper .section--custumesAndPayment {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListName::before {
+  content: "Nome: ";
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListEmail::before {
+  content: "Email: ";
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListDocument::before {
+  content: "Doc: ";
+}
+.orderPlacedWrapper .customerInfoListContainer .customerInfoListPhone::before {
+  content: "Tel: ";
+}
+@media (min-width: 1025px) {
+  .orderPlacedWrapper .section--confirmation,
+  .orderPlacedWrapper .section--paymentMethods,
+  .orderPlacedWrapper .section--resume {
+    margin: 0;
+  }
+}
+.orderPlacedWrapper .section--resume .totalListWrapper .totalList {
+  width: 100%;
+  margin: 0;
+}
+.orderPlacedWrapper .section--resume .totalListItem {
+  gap: 10px;
+}
+.orderPlacedWrapper .section--resume .totalListItem .totalListItemLabel, .orderPlacedWrapper .section--resume .totalListItem .totalListItemValue {
+  color: #727273;
+  font-size: 16px;
+}
+.orderPlacedWrapper .orderPaymentWrapper :global(.vtex-button) {
+  display: none;
+}
+.orderPlacedWrapper .totalListWrapper {
+  display: block;
+}
+.orderPlacedWrapper .orderOptionsWrapper:first-child {
+  display: none;
+}
+.orderPlacedWrapper .orderOptionsWrapper :global(.vtex-button) {
+  background-color: black;
+  color: white;
+}
+.orderPlacedWrapper .orderDatetime {
+  text-align: center;
+  display: block;
+}
+.orderPlacedWrapper .updateOrderButton :global(.vtex-button__label) {
+  font-size: 0;
+}
+.orderPlacedWrapper .updateOrderButton :global(.vtex-button__label)::before {
+  content: "Solicitar Troca ou Devolução";
+  display: block;
+  font-size: 16px;
+}
+.orderPlacedWrapper .cancelOrderButton {
+  display: none;
+}
