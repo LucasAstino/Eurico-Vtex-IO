@@ -48,7 +48,7 @@
     "props": {
       "blockClass": "product__ratingAndref"
     },
-    "children": ["product-identifier.product", "product-rating-summary"]
+    "children": ["fg-CustomProductRef", "product-rating-summary"]
   },
 
 

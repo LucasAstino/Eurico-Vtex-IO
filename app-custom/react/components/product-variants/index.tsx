@@ -37,9 +37,12 @@ export function SimilarProductsVariants({
   const product = useProduct()
   const productCurrentImg = product?.selectedItem?.images[0].imageUrl
   const productCurrentImgAlt = product?.selectedItem?.images[0].imageText
-  const color = product?.product?.properties?.[1]?.values?.[0] || 'N/A'
+  const colorProperty = product?.product?.properties?.find(property => property.name === 'Cor');
+  const color = colorProperty?.values?.[0] || 'N/A';
   const productContext = useProduct()
   const { route } = useRuntime()
+
+  console.log('here', product);
   const productId =
     productQuery?.product?.productId ?? productContext?.product?.productId
 
