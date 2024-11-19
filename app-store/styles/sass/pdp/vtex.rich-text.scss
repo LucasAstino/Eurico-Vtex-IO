@@ -41,3 +41,43 @@
     }
   }
 }
+
+.wrapper{
+  &--product-advantage {
+    margin-top: 8px !important;
+  }
+}
+
+.paragraph{
+  &--product-advantage {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.4px;
+    text-align: center;
+    color: #606060;
+  }
+
+  &--shelf__pdp__title,
+  &--ratings__title {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  &--ratings__title {
+    margin-bottom: 24px !important;
+
+    &::after {
+      width: 151px;
+      height: 2px;
+      content: "";
+      background-color: #ff0000;
+      display: block;
+      margin-top: 12px;
+    }
+  }
+}
+

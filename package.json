@@ -1,0 +1,26 @@
+{
+  "name": "eurico-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vlink": "concurrently \"yarn v-gulp\" \"cd app-custom && vtex link\" \"cd app-store && vtex link\"",
+    "v-gulp": "cd app-store && gulp storefront"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "globby": "^14.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.72.0"
+  }
+}

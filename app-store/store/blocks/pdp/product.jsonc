@@ -173,8 +173,6 @@
       "flex-layout.row#product__price-pdp",
       "modal-trigger#product-payment-options",
       "product-separator",
-      "fg-product-description",
-      "product-separator",
       "fg-product-variants",
       "sku-selector#pdp",
       "product-assembly-options",
@@ -182,7 +180,53 @@
       "modal-trigger#product__guide-size",
       "flex-layout.row#buy__buttom-pdp",
       "availability-subscriber",
-      "share#default"
+      "fg-product-description",
+      "product-separator",
+      "share#default",
+      "flex-layout.row#product-advantages",
+      "fg-custom-buy-too"
     ]
+  },
+  "rich-text#shelf__pdp__title": {
+    "props": {
+      "text": "QUEM VIU, VIU TAMBÉM",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "blockClass": "shelf__pdp__title"
+    }
+  },
+  "list-context.product-list#shelf__pdp": {
+    "title": "QUEM VIU, VIU TAMBÉM",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf__pdp"],
+    "props": {
+      "blockClass": "shelf__pdp",
+      "category": "26",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf__pdp": {
+    "title": "QUEM VIU, VIU TAMBÉM",
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": ["shelf", "carrossel"]
+    }
+  },
+  "rich-text#ratings__title": {
+    "props": {
+      "text": "AVALIAÇÕES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "blockClass": "ratings__title"
+    }
   }
 }

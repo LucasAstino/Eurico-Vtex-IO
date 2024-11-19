@@ -519,6 +519,47 @@
     padding-left: 40px;
   }
 }
+.flexRow--product-advantages {
+  margin-top: 32px;
+}
+.flexRow--product-advantages .flexRowContent--product-advantages .stretchChildrenWidth {
+  width: fit-content !important;
+}
+
+@media (max-width: 1024px) {
+  .flexRowContent--product-advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 56px;
+    row-gap: 32px;
+  }
+}
+.flexRowContent--product-advantages .stretchChildrenWidth {
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .flexRowContent--product-advantages .stretchChildrenWidth {
+    flex-wrap: wrap;
+  }
+}
+.flexRowContent--product-advantages .stretchChildrenWidth:first-child::before {
+  display: none;
+}
+.flexRowContent--product-advantages .stretchChildrenWidth::before {
+  content: "";
+  width: 1px;
+  height: 67px;
+  background: #EBEBEB;
+  display: flex;
+  margin: 0 24px;
+}
+@media (max-width: 1024px) {
+  .flexRowContent--product-advantages .stretchChildrenWidth::before {
+    display: none;
+  }
+}
 
 .flexRow--selling-prices__category {
   width: fit-content !important;
@@ -728,6 +769,26 @@
   flex-direction: column;
 }
 
+.flexRow--selling-prices__category {
+  width: fit-content !important;
+}
+.flexRow--selling-prices__category .flexRowContent--selling-prices__category {
+  width: fit-content;
+  justify-content: flex-start;
+}
+.flexRow--shelf__category-price .flexRowContent {
+  flex-wrap: wrap;
+}
+@media (max-width: 1025px) {
+  .flexRow--shelf__category-price .flexRowContent {
+    flex-direction: column;
+    display: flex;
+  }
+  .flexRow--shelf__category-price .flexRowContent .stretchChildrenWidth {
+    display: contents;
+  }
+}
+
 .flexRow--about-us-row {
   max-width: 1208px;
   padding: 0 10px;
@@ -791,10 +852,8 @@
     align-items: center;
   }
 }
-@media (min-width: 1025px) {
-  .flexRow--contact-us__store .flexCol--contact-us__store-right {
-    padding-left: 30px;
-  }
+.flexRow--contact-us__store .flexCol--contact-us__store-right {
+  padding-left: 30px;
 }
 
 .flexRow--whatsapp__background {
@@ -870,26 +929,6 @@
   padding: 47px 0px;
 }
 
-.flexRow--institucional__wrapper-guide--answer-first-images {
-  width: 100%;
-}
-@media (max-width: 1025px) {
-  .flexRow--institucional__wrapper-guide--answer-first-images {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.flexRow--institucional__wrapper-guide--answer-first-images .stretchChildrenWidth {
-  display: contents;
-}
-@media (max-width: 1025px) {
-  .flexRow--institucional__wrapper-guide--answer-first-images .flexRowContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 .flexRow--history__content-row {
   max-width: 1208px;
   padding: 0 10px;
@@ -911,6 +950,26 @@
   }
   .flexCol--history__content .flexRow .flexRowContent {
     flex-direction: column;
+  }
+}
+
+.flexRow--institucional__wrapper-guide--answer-first-images {
+  width: 100%;
+}
+@media (max-width: 1025px) {
+  .flexRow--institucional__wrapper-guide--answer-first-images {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.flexRow--institucional__wrapper-guide--answer-first-images .stretchChildrenWidth {
+  display: contents;
+}
+@media (max-width: 1025px) {
+  .flexRow--institucional__wrapper-guide--answer-first-images .flexRowContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -1188,6 +1247,222 @@
   display: none;
 }
 
+.flexRow--about-us-row {
+  max-width: 1208px;
+  padding: 0 10px;
+  margin: auto;
+}
+@media (max-width: 1025px) {
+  .flexRow--about-us-row {
+    padding: 0 30px;
+  }
+}
+
+.flexRow--institucional__wrapper {
+  max-width: 1118px;
+}
+@media (min-width: 1025px) {
+  .flexRow--institucional__wrapper {
+    margin: 100px auto;
+  }
+}
+.flexRow--institucional__wrapper .stretchChildrenWidth {
+  display: contents;
+}
+.flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
+  position: relative;
+}
+@media (min-width: 1025px) {
+  .flexRow--institucional__wrapper .flexCol--institucional__wrapper-left {
+    width: 30%;
+  }
+}
+@media (max-width: 1025px) {
+  .flexRow--institucional__wrapper .flexRowContent--institucional__wrapper {
+    flex-direction: column;
+    padding: 50px 15px 60px;
+  }
+}
+
+.flexRow--contact-us {
+  max-width: 1208px;
+  padding: 0 10px;
+  margin: auto;
+}
+.flexRow--contact-us__store {
+  margin-bottom: 100px;
+}
+.flexRow--contact-us__store .stretchChildrenWidth {
+  display: contents;
+}
+@media (max-width: 768px) {
+  .flexRow--contact-us__store .flexRowContent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.flexRow--contact-us__store .flexCol--contact-us__store-left {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .flexRow--contact-us__store .flexCol--contact-us__store-left {
+    width: 100%;
+    align-items: center;
+  }
+}
+.flexRow--contact-us__store .flexCol--contact-us__store-right {
+  padding-left: 30px;
+}
+
+.flexRow--whatsapp__background {
+  background-color: #ededed;
+  height: 100vh;
+}
+.flexRow--whatsapp {
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  max-width: 441px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.flexRow--whatsapp .flexRowContent--whatsapp {
+  flex-direction: column;
+  gap: 20px;
+}
+.flexRow--whatsapp .flexRowContent--whatsapp .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRow--whatsapp .flexRowContent--whatsapp .stretchChildrenWidth .flexCol {
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #e9e9e9;
+  border-radius: 7px;
+}
+
+.flexRow--depositions__header {
+  max-width: 1208px;
+  padding: 50px 10px 0;
+  margin: auto;
+}
+.flexRow--depositions__header .stretchChildrenWidth {
+  display: contents;
+}
+.flexRow--depositions__header .flexRowContent--depositions__header {
+  justify-content: space-between;
+  display: flex;
+}
+@media (max-width: 1025px) {
+  .flexRow--depositions__header .flexRowContent--depositions__header {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+.flexRow--depositions__content {
+  max-width: 1208px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+.flexRow--depositions__content .stretchChildrenWidth {
+  display: contents;
+}
+
+.flexRow--institucional__wrapper-faq--content .flexRowContent {
+  flex-wrap: wrap;
+}
+.flexRow--institucional__wrapper-faq--content .flexRowContent :global(.vtex-store-link-0-x-link) {
+  width: calc(30% - 20px);
+  margin: 10px;
+  text-decoration: none;
+}
+.flexRow--institucional__wrapper-faq--content .stretchChildrenWidth {
+  display: contents;
+}
+.flexRow--institucional__wrapper-faq--content .flexCol--institucional__wrapper-faq--col {
+  border: 1px solid #000;
+  padding: 47px 0px;
+}
+
+.flexRow--institucional__wrapper-guide--answer-first-images {
+  width: 100%;
+}
+@media (max-width: 1025px) {
+  .flexRow--institucional__wrapper-guide--answer-first-images {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.flexRow--institucional__wrapper-guide--answer-first-images .stretchChildrenWidth {
+  display: contents;
+}
+@media (max-width: 1025px) {
+  .flexRow--institucional__wrapper-guide--answer-first-images .flexRowContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.flexRow--history__content-row {
+  max-width: 1208px;
+  padding: 0 10px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+@media (max-width: 1025px) {
+  .flexRow--history__content-row {
+    padding: 0 30px;
+  }
+}
+.flexRow--history__content-row .flexRowContent .stretchChildrenWidth {
+  display: contents;
+}
+
+@media (max-width: 1025px) {
+  .flexCol--history__content {
+    align-items: center;
+  }
+  .flexCol--history__content .flexRow .flexRowContent {
+    flex-direction: column;
+  }
+}
+
+.flexRow--tips__content-row {
+  max-width: 1208px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+.flexRow--tips__content-row .stretchChildrenWidth {
+  display: contents;
+}
+.flexRow--tips__article-1, .flexRow--tips__article-2 {
+  margin-bottom: 60px;
+}
+@media (max-width: 1025px) {
+  .flexRow--tips__article-1 .flexRowContent, .flexRow--tips__article-2 .flexRowContent {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexCol--tips__article-1-left {
+    width: 70% !important;
+  }
+  .flexCol--tips__article-1-right {
+    width: 30% !important;
+  }
+  .flexCol--tips__article-2-left {
+    width: 30% !important;
+  }
+  .flexCol--tips__article-2-right {
+    width: 70% !important;
+  }
+}
 .flexRow--header-drawer {
   width: 100%;
   height: 128px;

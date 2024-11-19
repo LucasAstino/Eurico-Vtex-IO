@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#product-advantages": {
+    "props": {
+      "blockClass": "product-advantages",
+      "colGap": 0,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#product-advantage-1",
+      "flex-layout.col#product-advantage-2",
+      "flex-layout.col#product-advantage-3",
+      "flex-layout.col#product-advantage-4"
+    ]
+  },
+  "flex-layout.col#product-advantage-1": {
+    "props": {
+      "blockClass": ["product-advantage", "product-advantage-1"],
+      "rowGap": 0,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#product-advantage-1",
+      "rich-text#product-advantage-1"
+    ]
+  },
+  "image#product-advantage-1": {
+    "props": {
+      "src": "https://eurico.vteximg.com.br/arquivos/advantage-1.svg",
+      "maxHeight": 20,
+      "blockClass": ["product-advantage", "product-advantage-1"]
+    }
+  },
+  "rich-text#product-advantage-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PRIMEIRA\n\n TROCA GRÁTIS",
+      "blockClass": ["product-advantage", "product-advantage-1"]
+    }
+  },
+  "flex-layout.col#product-advantage-2": {
+    "props": {
+      "blockClass": ["product-advantage", "product-advantage-2"],
+      "rowGap": 0,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#product-advantage-2",
+      "rich-text#product-advantage-2"
+    ]
+  },
+  "image#product-advantage-2": {
+    "props": {
+      "src": "https://eurico.vteximg.com.br/arquivos/advantage-2.svg",
+      "maxHeight": 20,
+      "blockClass": ["product-advantage", "product-advantage-2"]
+    }
+  },
+  "rich-text#product-advantage-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "COMPRE NO SITE E\n\n RETIRE NAS LOJAS",
+      "blockClass": ["product-advantage", "product-advantage-2"]
+    }
+  },
+  "flex-layout.col#product-advantage-3": {
+    "props": {
+      "blockClass": ["product-advantage", "product-advantage-3"],
+      "rowGap": 0,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#product-advantage-3",
+      "rich-text#product-advantage-3"
+    ]
+  },
+  "image#product-advantage-3": {
+    "props": {
+      "src": "https://eurico.vteximg.com.br/arquivos/advantage-1.svg",
+      "maxHeight": 20,
+      "blockClass": ["product-advantage", "product-advantage-3"]
+    }
+  },
+  "rich-text#product-advantage-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PRIMEIRA \n\n TROCA GRÁTIS",
+      "blockClass": ["product-advantage", "product-advantage-3"]
+    }
+  },
+  "flex-layout.col#product-advantage-4": {
+    "props": {
+      "blockClass": ["product-advantage", "product-advantage-4"],
+      "rowGap": 0,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#product-advantage-4",
+      "rich-text#product-advantage-4"
+    ]
+  },
+  "image#product-advantage-4": {
+    "props": {
+      "src": "https://eurico.vteximg.com.br/arquivos/advantage-2.svg",
+      "maxHeight": 20,
+      "blockClass": ["product-advantage", "product-advantage-4"]
+    }
+  },
+  "rich-text#product-advantage-4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "COMPRE NO SITE E\n\n RETIRE NAS LOJAS",
+      "blockClass": ["product-advantage", "product-advantage-4"]
+    }
+  }
+}
