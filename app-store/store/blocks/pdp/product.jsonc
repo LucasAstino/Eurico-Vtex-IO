@@ -188,7 +188,8 @@
       "fg-product-description",
       "product-separator",
       "share#default",
-      "flex-layout.row#product-advantages"
+      "flex-layout.row#product-advantages",
+      "fg-custom-buy-too"
     ]
   },
   "rich-text#shelf__pdp__title": {
