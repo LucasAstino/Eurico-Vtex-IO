@@ -153,8 +153,6 @@
     }
   }
 
-
-
   &--buy-fast-pdp {
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.16);
     background-color: white;
@@ -225,33 +223,9 @@
   &--product-advantages {
     margin-top: 32px;
   }
-
-  &--product-advantages {
-
-    .flexRowContent {
-      &--product-advantages {
-
-        .stretchChildrenWidth {
-          width: fit-content !important;
-        }
-      }
-    }
-  }
 }
 
 .flexRowContent{
-  &--product-advantages {
-    @media (max-width: 1024px) {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      column-gap: 56px;
-      row-gap: 32px;
-    }
-
-  }
-
   &--product-advantages {
     .stretchChildrenWidth {
       align-items: center;

@@ -108,40 +108,6 @@
   display: block;
 }
 
-.similar__products-variants .similar__products-variants--title {
-  color: #161615;
-  font-size: 14px;
-  font-weight: 600;
-  -webkit-text-stroke: 0.2px;
-}
-.similar__products-variants .similar__products-variants--title .variant-type {
-  margin-left: 5px;
-  color: #161615;
-  font-size: 14px;
-  font-weight: 400;
-}
-.similar__products-variants .similar__products-variants--wrap {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: normal;
-}
-.similar__products-variants .similar__products-variants--wrap .similar__image-container::after {
-  background-color: #d9d9d9;
-  content: "";
-  display: block;
-  height: 2px;
-  margin-top: 10px;
-}
-.similar__products-variants .similar__products-variants--wrap .similar__image-container--current::after {
-  background-color: #c00018;
-}
-.similar__products-variants .similar__products-variants--wrap .similar__image-container .similar__products-variants--img {
-  width: 66px;
-  height: auto;
-}
-
 .pagination {
   display: flex;
   justify-content: center;
@@ -255,6 +221,40 @@
 }
 .product__description-container .product__toggle-button--description:hover {
   cursor: pointer;
+}
+
+.similar__products-variants .similar__products-variants--title {
+  color: #161615;
+  font-size: 14px;
+  font-weight: 600;
+  -webkit-text-stroke: 0.2px;
+}
+.similar__products-variants .similar__products-variants--title .variant-type {
+  margin-left: 5px;
+  color: #161615;
+  font-size: 14px;
+  font-weight: 400;
+}
+.similar__products-variants .similar__products-variants--wrap {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: normal;
+}
+.similar__products-variants .similar__products-variants--wrap .similar__image-container::after {
+  background-color: #d9d9d9;
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 10px;
+}
+.similar__products-variants .similar__products-variants--wrap .similar__image-container--current::after {
+  background-color: #c00018;
+}
+.similar__products-variants .similar__products-variants--wrap .similar__image-container .similar__products-variants--img {
+  width: 66px;
+  height: auto;
 }
 
 .depoimentos__list {

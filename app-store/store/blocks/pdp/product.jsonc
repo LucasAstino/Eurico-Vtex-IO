@@ -6,7 +6,12 @@
       "__fold__",
       "sticky-layout.stack-container#buy-fast-pdp",
      "product-reviews",
-     "fg-limit-buy-fast"
+     "fg-limit-buy-fast",
+      "rich-text#shelf__pdp__title",
+      "list-context.product-list#shelf__pdp",
+      "product-rating-summary",
+      "rich-text#ratings__title",
+      "product-reviews"
     ]
   },
 
@@ -183,8 +188,7 @@
       "fg-product-description",
       "product-separator",
       "share#default",
-      "flex-layout.row#product-advantages",
-      "fg-custom-buy-too"
+      "flex-layout.row#product-advantages"
     ]
   },
   "rich-text#shelf__pdp__title": {

@@ -206,6 +206,69 @@
     line-height: 1.3em;
   }
 }
+.container--product__guide-size--trigger .paragraph {
+  border: none;
+  box-shadow: none;
+  color: #606060;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin: 0;
+  text-align: start;
+  text-decoration: underline;
+}
+.container--product__guide-size--trigger .paragraph:hover {
+  cursor: pointer;
+}
+.container--product-payment-options--trigger .paragraph {
+  align-items: center;
+  color: #606060;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 15px;
+  text-decoration: underline;
+  text-transform: none;
+}
+.container--product-payment-options--trigger .paragraph::before {
+  background-image: url(assets/icons/pdp/pdp-cartao.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 22px;
+  width: 22px;
+}
+
+.paragraph--product-advantage {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.4px;
+  text-align: center;
+  color: #606060;
+  margin-top: 8px !important;
+}
+.paragraph--shelf__pdp__title, .paragraph--ratings__title {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.paragraph--ratings__title {
+  margin-bottom: 24px !important;
+}
+.paragraph--ratings__title::after {
+  width: 151px;
+  height: 2px;
+  content: "";
+  background-color: #ff0000;
+  display: block;
+  margin-top: 12px;
+}
+
 .container--search__not-found__text .heading {
   font-size: 35px;
   font-weight: 500;
@@ -276,72 +339,6 @@
   display: block;
   margin-right: 10px;
   background: 50% no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.519' height='10.805' viewBox='0 0 12.519 10.805'%3E%3Cg data-name='Icon feather-arrow-left' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.25'%3E%3Cpath data-name='Caminho 1768' d='M11.894 5.403H.625'/%3E%3Cpath data-name='Caminho 1769' d='M5.144 9.922L.625 5.403 5.144.884'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-.container--product__guide-size--trigger .paragraph {
-  border: none;
-  box-shadow: none;
-  color: #606060;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: normal;
-  margin: 0;
-  text-align: start;
-  text-decoration: underline;
-}
-.container--product__guide-size--trigger .paragraph:hover {
-  cursor: pointer;
-}
-.container--product-payment-options--trigger .paragraph {
-  align-items: center;
-  color: #606060;
-  cursor: pointer;
-  display: flex;
-  font-size: 12px;
-  font-weight: 400;
-  gap: 15px;
-  text-decoration: underline;
-  text-transform: none;
-}
-.container--product-payment-options--trigger .paragraph::before {
-  background-image: url(assets/icons/pdp/pdp-cartao.png);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  content: "";
-  display: block;
-  height: 22px;
-  width: 22px;
-}
-
-.wrapper--product-advantage {
-  margin-top: 8px !important;
-}
-
-.paragraph--product-advantage {
-  font-family: "Lato", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 14.4px;
-  text-align: center;
-  color: #606060;
-}
-.paragraph--shelf__pdp__title, .paragraph--ratings__title {
-  font-family: "Lato", sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  line-height: 30px;
-  text-align: center;
-}
-.paragraph--ratings__title {
-  margin-bottom: 24px !important;
-}
-.paragraph--ratings__title::after {
-  width: 151px;
-  height: 2px;
-  content: "";
-  background-color: #ff0000;
-  display: block;
-  margin-top: 12px;
 }
 
 .container {
@@ -547,51 +544,6 @@
   font-family: Lato;
 }
 
-.container--about-us__title .heading {
-  font-size: 33px;
-  letter-spacing: 1.5px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: 400;
-  margin-bottom: 33px;
-  margin-top: 35px;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 1025px) {
-  .container--about-us__title {
-    text-align: center;
-    display: inline;
-  }
-}
-.container--about-us-text {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 25px;
-  color: #000;
-  text-align: left;
-}
-.container--about-us-text .paragraph {
-  padding: 15px 35px 15px 0;
-  -webkit-text-stroke: 0.2px;
-}
-@media (max-width: 1025px) {
-  .container--about-us-text .paragraph {
-    padding: 15px 0;
-  }
-}
-.container--about-us-text .heading {
-  font-size: 24px;
-  font-weight: bold;
-}
-@media (max-width: 1025px) {
-  .container--about-us-text {
-    text-align: center;
-    font-size: 13px;
-  }
-}
-
 .container--institucional__wrapper-menu-item {
   text-transform: uppercase;
   font-size: 12px;
@@ -663,6 +615,51 @@
     line-height: 36px;
     color: #000;
     text-transform: uppercase;
+  }
+}
+
+.container--about-us__title .heading {
+  font-size: 33px;
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 33px;
+  margin-top: 35px;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us__title {
+    text-align: center;
+    display: inline;
+  }
+}
+.container--about-us-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #000;
+  text-align: left;
+}
+.container--about-us-text .paragraph {
+  padding: 15px 35px 15px 0;
+  -webkit-text-stroke: 0.2px;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text .paragraph {
+    padding: 15px 0;
+  }
+}
+.container--about-us-text .heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 1025px) {
+  .container--about-us-text {
+    text-align: center;
+    font-size: 13px;
   }
 }
 
@@ -834,14 +831,14 @@
   background-size: contain;
 }
 
-.container--exchanges-and-returns .list {
-  list-style: none;
-  padding: 0;
-  font-weight: 300;
+.container--institucional__wrapper-faq--col-text {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
 }
-.container--exchanges-and-returns .listItem::before {
-  content: "-";
-  margin-right: 10px;
+.container--institucional__wrapper-faq--col-text .paragraph {
+  line-height: 29px;
 }
 
 @media (max-width: 1025px) {
@@ -872,14 +869,14 @@
   color: #fff;
 }
 
-.container--institucional__wrapper-faq--col-text {
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  justify-content: center;
+.container--exchanges-and-returns .list {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
 }
-.container--institucional__wrapper-faq--col-text .paragraph {
-  line-height: 29px;
+.container--exchanges-and-returns .listItem::before {
+  content: "-";
+  margin-right: 10px;
 }
 
 .container--fidelity__text {

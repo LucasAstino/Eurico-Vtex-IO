@@ -42,12 +42,6 @@
   }
 }
 
-.wrapper{
-  &--product-advantage {
-    margin-top: 8px !important;
-  }
-}
-
 .paragraph{
   &--product-advantage {
     font-family: "Lato", sans-serif;
@@ -56,6 +50,7 @@
     line-height: 14.4px;
     text-align: center;
     color: #606060;
+    margin-top: 8px !important;
   }
 
   &--shelf__pdp__title,

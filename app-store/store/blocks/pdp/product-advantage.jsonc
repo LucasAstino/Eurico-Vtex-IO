@@ -35,7 +35,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "PRIMEIRA\n\n TROCA GRÁTIS",
+      "text": "PRIMEIRA TROCA GRÁTIS",
       "blockClass": ["product-advantage", "product-advantage-1"]
     }
   },
@@ -62,7 +62,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "COMPRE NO SITE E\n\n RETIRE NAS LOJAS",
+      "text": "PRIMEIRA TROCA GRÁTIS",
       "blockClass": ["product-advantage", "product-advantage-2"]
     }
   },
@@ -89,7 +89,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "PRIMEIRA \n\n TROCA GRÁTIS",
+      "text": "PRIMEIRA TROCA GRÁTIS",
       "blockClass": ["product-advantage", "product-advantage-3"]
     }
   },
@@ -116,7 +116,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "COMPRE NO SITE E\n\n RETIRE NAS LOJAS",
+      "text": "PRIMEIRA TROCA GRÁTIS",
       "blockClass": ["product-advantage", "product-advantage-4"]
     }
   }
