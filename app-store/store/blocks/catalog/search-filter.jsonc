@@ -10,10 +10,10 @@
       "totalProductsOnMobile": "hide",
       "fullWidthOnMobile": true,
       "navigationTypeOnMobile": "collapsible",
-      "showClearAllFiltersOnDesktop": true
+      "showClearAllFiltersOnDesktop": true,
+      "truncateFilters": true
     }
   },
-
   "flex-layout.row#filter__suggestion": {
     "title": "Sugestão de filtro",
     "props": {
@@ -24,7 +24,6 @@
       "flex-layout.col#filter__suggestion-right"
     ]
   },
-
   "flex-layout.col#filter__suggestion-left": {
     "title": "Sugestão de filtro - Esquerda",
     "props": {
@@ -37,14 +36,12 @@
       "rich-text#filter__suggestion-filter-third"
     ]
   },
-
   "flex-layout.col#filter__suggestion-right": {
     "title": "Sugestão de filtro - Direita",
     "props": {
       "blockClass": "filter__suggestion-right"
     }
   },
-
   "rich-text#filter__suggestion-title": {
     "title": "Título da sugestão de filtros",
     "props": {
@@ -52,7 +49,6 @@
       "text": "Sugestão de filtro:"
     }
   },
-
   "rich-text#filter__suggestion-filter-one": {
     "title": "Primeiro filtro",
     "props": {
@@ -60,7 +56,6 @@
       "text": "[Mini Coleção BOLD](/feminino/360?map=c,productClusterIds&order=OrderByReleaseDateDESC)"
     }
   },
-
   "rich-text#filter__suggestion-filter-secund": {
     "title": "Segundo filtro",
     "props": {
@@ -68,7 +63,6 @@
       "text": "[Saltos Altos](/feminino/Alto?map=c,specificationFilter_28&order=OrderByReleaseDateDESC)"
     }
   },
-
   "rich-text#filter__suggestion-filter-third": {
     "title": "Terceiro filtro",
     "props": {
