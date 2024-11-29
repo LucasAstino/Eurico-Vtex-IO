@@ -33,7 +33,9 @@
       "rich-text#filter__suggestion-title",
       "rich-text#filter__suggestion-filter-one",
       "rich-text#filter__suggestion-filter-secund",
-      "rich-text#filter__suggestion-filter-third"
+      "rich-text#filter__suggestion-filter-third",
+      "rich-text#filter__suggestion-filter-fourth",
+      "rich-text#filter__suggestion-filter-fifth"
     ]
   },
   "flex-layout.col#filter__suggestion-right": {
@@ -67,6 +69,20 @@
     "title": "Terceiro filtro",
     "props": {
       "blockClass": "filter__suggestion-filter-third",
+      "text": "[Linha Confort](/feminino/Confort?map=c,specificationFilter_34&order=OrderByReleaseDateDESC)"
+    }
+  },
+  "rich-text#filter__suggestion-filter-fourth": {
+    "title": "Terceiro filtro",
+    "props": {
+      "blockClass": "filter__suggestion-filter-fourth",
+      "text": "[Linha Confort](/feminino/Confort?map=c,specificationFilter_34&order=OrderByReleaseDateDESC)"
+    }
+  },
+  "rich-text#filter__suggestion-filter-fifth": {
+    "title": "Terceiro filtro",
+    "props": {
+      "blockClass": "filter__suggestion-filter-fifth",
       "text": "[Linha Confort](/feminino/Confort?map=c,specificationFilter_34&order=OrderByReleaseDateDESC)"
     }
   }
