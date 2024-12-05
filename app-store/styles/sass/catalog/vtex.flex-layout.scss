@@ -62,7 +62,7 @@
         gap: 20px;
         align-items: center;
         padding: 20px 0;
-        flex-wrap: wrap;
+
 
         @include tablet {
           width: 100%;
@@ -72,6 +72,10 @@
               flex-basis: 100%;
             }
           }
+        }
+
+        @media (max-width: 768px){
+          flex-wrap: wrap;
         }
       }
       &--filter__suggestion-right {

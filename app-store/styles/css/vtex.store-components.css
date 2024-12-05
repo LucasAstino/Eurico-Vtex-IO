@@ -162,6 +162,66 @@
   max-width: unset;
 }
 
+.imageElement--about-us__fullbanner {
+  width: 100%;
+}
+@media (max-width: 1025px) {
+  .imageElement--about-us__fullbanner {
+    aspect-ratio: 375/180;
+  }
+}
+
+.imageElement--contact-us__fullbanner {
+  width: 100%;
+}
+.imageElement--contact-us__store-img {
+  min-height: 400PX;
+}
+
+.imageElement--institucional__wrapper-faq-img {
+  width: 49px;
+  margin: 0 auto;
+  display: block;
+  height: 49px;
+  margin-bottom: 21px;
+}
+
+.imageElement--institucional__wrapper-guide--answer-first-image {
+  width: 25%;
+}
+@media (max-width: 1025px) {
+  .imageElement--institucional__wrapper-guide--answer-first-image {
+    width: 80%;
+  }
+}
+.imageElement--institucional__wrapper-guide--answer-third-image {
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1025px) {
+  .imageElement--history__content-img {
+    width: 25%;
+    height: fit-content;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .imageElement--history__content-neighborhood--content-img-large {
+    width: 50%;
+    display: block;
+    margin: 40px auto 50px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .imageElement--tips__article-1-img, .imageElement--tips__article-2-img {
+    display: block;
+    margin: auto;
+  }
+}
+
 .imageElement--fixed__whatsapp {
   display: block !important;
   position: fixed;
@@ -246,64 +306,4 @@
 
 .imageElement--banner-categoria {
   margin-top: 20px;
-}
-
-.imageElement--about-us__fullbanner {
-  width: 100%;
-}
-@media (max-width: 1025px) {
-  .imageElement--about-us__fullbanner {
-    aspect-ratio: 375/180;
-  }
-}
-
-.imageElement--contact-us__fullbanner {
-  width: 100%;
-}
-.imageElement--contact-us__store-img {
-  min-height: 400PX;
-}
-
-.imageElement--institucional__wrapper-faq-img {
-  width: 49px;
-  margin: 0 auto;
-  display: block;
-  height: 49px;
-  margin-bottom: 21px;
-}
-
-.imageElement--institucional__wrapper-guide--answer-first-image {
-  width: 25%;
-}
-@media (max-width: 1025px) {
-  .imageElement--institucional__wrapper-guide--answer-first-image {
-    width: 80%;
-  }
-}
-.imageElement--institucional__wrapper-guide--answer-third-image {
-  margin: auto;
-  display: block;
-  margin-bottom: 30px;
-}
-
-@media (min-width: 1025px) {
-  .imageElement--history__content-img {
-    width: 25%;
-    height: fit-content;
-    margin-right: 30px;
-  }
-}
-@media (min-width: 1025px) {
-  .imageElement--history__content-neighborhood--content-img-large {
-    width: 50%;
-    display: block;
-    margin: 40px auto 50px;
-  }
-}
-
-@media (max-width: 1025px) {
-  .imageElement--tips__article-1-img, .imageElement--tips__article-2-img {
-    display: block;
-    margin: auto;
-  }
 }
